@@ -653,6 +653,8 @@
     // ===== FEATURE GALLERY FUNCTIONALITY =====
     const FeatureGallery = {
         galleries: [],
+        autoplayInterval: null,
+        autoplayDelay: 4000, // 4 seconds between slides
         
         init: function() {
             const galleryContainers = document.querySelectorAll('.gallery-container');
@@ -663,6 +665,18 @@
             });
             
             console.log(`✅ ${galleryContainers.length} feature galleries initialized`);
+            
+            // Start autoplay for phone mockup gallery
+            this.startAutoplay();
+            
+            // Pause/resume autoplay when tab visibility changes
+            document.addEventListener('visibilitychange', () => {
+                if (document.hidden) {
+                    this.stopAutoplay();
+                } else {
+                    this.startAutoplay();
+                }
+            });
         },
         
         setupGallery: function(container, index) {
@@ -690,28 +704,50 @@
             
             // Bind event handlers
             if (prevBtn) {
-                prevBtn.addEventListener('click', () => this.prevSlide(index));
+                prevBtn.addEventListener('click', () => {
+                    this.pauseAutoplay();
+                    this.prevSlide(index);
+                });
             }
             
             if (nextBtn) {
-                nextBtn.addEventListener('click', () => this.nextSlide(index));
+                nextBtn.addEventListener('click', () => {
+                    this.pauseAutoplay();
+                    this.nextSlide(index);
+                });
             }
             
             // Indicator clicks
             indicators.forEach((indicator, indicatorIndex) => {
-                indicator.addEventListener('click', () => this.goToSlide(index, indicatorIndex));
+                indicator.addEventListener('click', () => {
+                    this.pauseAutoplay();
+                    this.goToSlide(index, indicatorIndex);
+                });
             });
             
             // Touch support for mobile
             this.setupTouchEvents(gallery, index);
             
+            // Pause autoplay on hover (for phone mockup gallery - index 0)
+            if (index === 0) {
+                container.addEventListener('mouseenter', () => {
+                    this.stopAutoplay();
+                });
+                
+                container.addEventListener('mouseleave', () => {
+                    this.startAutoplay();
+                });
+            }
+            
             // Keyboard navigation
             container.addEventListener('keydown', (e) => {
                 if (e.key === 'ArrowLeft') {
                     e.preventDefault();
+                    this.pauseAutoplay();
                     this.prevSlide(index);
                 } else if (e.key === 'ArrowRight') {
                     e.preventDefault();
+                    this.pauseAutoplay();
                     this.nextSlide(index);
                 }
             });
@@ -751,6 +787,7 @@
                 
                 // Only process horizontal swipes
                 if (Math.abs(deltaX) > minSwipeDistance && Math.abs(deltaX) > deltaY) {
+                    this.pauseAutoplay();
                     if (deltaX > 0) {
                         this.nextSlide(index);
                     } else {
@@ -814,6 +851,36 @@
             setTimeout(() => {
                 gallery.isAnimating = false;
             }, 300);
+        },
+        
+        startAutoplay: function() {
+            if (this.autoplayInterval) return; // Already running
+            
+            this.autoplayInterval = setInterval(() => {
+                // Find the phone mockup gallery (first gallery, index 0)
+                if (this.galleries.length > 0) {
+                    this.nextSlide(0);
+                }
+            }, this.autoplayDelay);
+            
+            console.log('✅ Gallery autoplay started');
+        },
+        
+        stopAutoplay: function() {
+            if (this.autoplayInterval) {
+                clearInterval(this.autoplayInterval);
+                this.autoplayInterval = null;
+                console.log('⏸️ Gallery autoplay stopped');
+            }
+        },
+        
+        pauseAutoplay: function() {
+            this.stopAutoplay();
+            
+            // Resume after 8 seconds of user inactivity
+            setTimeout(() => {
+                this.startAutoplay();
+            }, 8000);
         }
     };
 
