@@ -234,17 +234,50 @@
         </div>
 
         <!-- Footer -->
-        <div class="footer">
-            <div class="footer-content">
-                <p class="footer-copyright" data-i18n="footerCopyright">
-                    © 2024 Exchango. All rights reserved.
-                </p>
-                <p data-i18n="footerMessage">We will do our best to protect user privacy and security.</p>
-                <p data-i18n="policyChanges" style="margin-top: 20px; font-size: 0.9rem; opacity: 0.8;">
-                    This privacy policy may be updated as necessary, and if there are important changes, we will notify you through app updates.
-                </p>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <img src="./assets/app-icon.png" alt="Exchango" class="footer-logo-image">
+                            <span class="footer-brand-name">Exchango</span>
+                        </div>
+                        <p class="footer-tagline" data-i18n="pageSubtitle">User privacy protection is our top priority.</p>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-section">
+                            <h4 data-i18n="footerAbout">About</h4>
+                            <ul>
+                                <li><a href="index.html" data-i18n="footerHome">Home</a></li>
+                                <li><a href="about.html" data-i18n="footerAbout">About</a></li>
+                                <li><a href="#" data-i18n="footerFeatures">Features</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4 data-i18n="footerSupport">Support</h4>
+                            <ul>
+                                <li><a href="about.html" data-i18n="footerContact">Contact</a></li>
+                                <li><a href="privacy_policy.html" data-i18n="footerPrivacy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p class="copyright" data-i18n="footerCopyright">© 2024 Exchango. All rights reserved.</p>
+                    
+                    <!-- Language Selector (Footer) -->
+                    <div class="footer-language">
+                        <a href="?lang=ko" class="footer-lang-btn">한국어</a>
+                        <a href="?lang=en" class="footer-lang-btn">English</a>
+                        <a href="?lang=ja" class="footer-lang-btn">日本語</a>
+                        <a href="?lang=zh" class="footer-lang-btn">中文</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </footer>
     </div>
 
     <script src="./js/common-translations.js"></script>
