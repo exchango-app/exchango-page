@@ -650,11 +650,96 @@
         }
     };
     
+    // ===== PHONE MOCKUP CAROUSEL =====
+    const PhoneMockupCarousel = {
+        container: null,
+        images: [],
+        currentIndex: 0,
+        autoplayInterval: null,
+        autoplayDelay: 4000, // 4 seconds between slides
+        isAnimating: false,
+        
+        init: function() {
+            this.container = document.querySelector('.phone-carousel');
+            if (!this.container) return;
+            
+            this.images = this.container.querySelectorAll('.phone-screenshot');
+            if (this.images.length === 0) return;
+            
+            // Set up initial state
+            this.images.forEach((img, index) => {
+                img.classList.remove('active', 'prev');
+                if (index === 0) {
+                    img.classList.add('active');
+                }
+            });
+            
+            this.startAutoplay();
+            this.setupVisibilityListener();
+            
+            console.log(`✅ Phone mockup carousel initialized with ${this.images.length} images`);
+        },
+        
+        nextSlide: function() {
+            if (this.isAnimating || this.images.length === 0) return;
+            
+            this.isAnimating = true;
+            
+            // Remove active class from current image
+            this.images[this.currentIndex].classList.remove('active');
+            this.images[this.currentIndex].classList.add('prev');
+            
+            // Move to next image (circular)
+            this.currentIndex = (this.currentIndex + 1) % this.images.length;
+            
+            // Add active class to next image
+            this.images[this.currentIndex].classList.add('active');
+            this.images[this.currentIndex].classList.remove('prev');
+            
+            // Clean up after animation
+            setTimeout(() => {
+                this.images.forEach((img, index) => {
+                    if (index !== this.currentIndex) {
+                        img.classList.remove('prev');
+                    }
+                });
+                this.isAnimating = false;
+            }, 600); // Match CSS transition duration
+        },
+        
+        startAutoplay: function() {
+            if (this.autoplayInterval) return; // Already running
+            
+            this.autoplayInterval = setInterval(() => {
+                this.nextSlide();
+            }, this.autoplayDelay);
+            
+            console.log('✅ Phone mockup autoplay started');
+        },
+        
+        stopAutoplay: function() {
+            if (this.autoplayInterval) {
+                clearInterval(this.autoplayInterval);
+                this.autoplayInterval = null;
+                console.log('⏸️ Phone mockup autoplay stopped');
+            }
+        },
+        
+        setupVisibilityListener: function() {
+            // Pause/resume autoplay when tab visibility changes
+            document.addEventListener('visibilitychange', () => {
+                if (document.hidden) {
+                    this.stopAutoplay();
+                } else {
+                    this.startAutoplay();
+                }
+            });
+        }
+    };
+    
     // ===== FEATURE GALLERY FUNCTIONALITY =====
     const FeatureGallery = {
         galleries: [],
-        autoplayInterval: null,
-        autoplayDelay: 4000, // 4 seconds between slides
         
         init: function() {
             const galleryContainers = document.querySelectorAll('.gallery-container');
@@ -665,18 +750,6 @@
             });
             
             console.log(`✅ ${galleryContainers.length} feature galleries initialized`);
-            
-            // Start autoplay for phone mockup gallery
-            this.startAutoplay();
-            
-            // Pause/resume autoplay when tab visibility changes
-            document.addEventListener('visibilitychange', () => {
-                if (document.hidden) {
-                    this.stopAutoplay();
-                } else {
-                    this.startAutoplay();
-                }
-            });
         },
         
         setupGallery: function(container, index) {
@@ -704,50 +777,28 @@
             
             // Bind event handlers
             if (prevBtn) {
-                prevBtn.addEventListener('click', () => {
-                    this.pauseAutoplay();
-                    this.prevSlide(index);
-                });
+                prevBtn.addEventListener('click', () => this.prevSlide(index));
             }
             
             if (nextBtn) {
-                nextBtn.addEventListener('click', () => {
-                    this.pauseAutoplay();
-                    this.nextSlide(index);
-                });
+                nextBtn.addEventListener('click', () => this.nextSlide(index));
             }
             
             // Indicator clicks
             indicators.forEach((indicator, indicatorIndex) => {
-                indicator.addEventListener('click', () => {
-                    this.pauseAutoplay();
-                    this.goToSlide(index, indicatorIndex);
-                });
+                indicator.addEventListener('click', () => this.goToSlide(index, indicatorIndex));
             });
             
             // Touch support for mobile
             this.setupTouchEvents(gallery, index);
             
-            // Pause autoplay on hover (for phone mockup gallery - index 0)
-            if (index === 0) {
-                container.addEventListener('mouseenter', () => {
-                    this.stopAutoplay();
-                });
-                
-                container.addEventListener('mouseleave', () => {
-                    this.startAutoplay();
-                });
-            }
-            
             // Keyboard navigation
             container.addEventListener('keydown', (e) => {
                 if (e.key === 'ArrowLeft') {
                     e.preventDefault();
-                    this.pauseAutoplay();
                     this.prevSlide(index);
                 } else if (e.key === 'ArrowRight') {
                     e.preventDefault();
-                    this.pauseAutoplay();
                     this.nextSlide(index);
                 }
             });
@@ -787,7 +838,6 @@
                 
                 // Only process horizontal swipes
                 if (Math.abs(deltaX) > minSwipeDistance && Math.abs(deltaX) > deltaY) {
-                    this.pauseAutoplay();
                     if (deltaX > 0) {
                         this.nextSlide(index);
                     } else {
@@ -851,36 +901,6 @@
             setTimeout(() => {
                 gallery.isAnimating = false;
             }, 300);
-        },
-        
-        startAutoplay: function() {
-            if (this.autoplayInterval) return; // Already running
-            
-            this.autoplayInterval = setInterval(() => {
-                // Find the phone mockup gallery (first gallery, index 0)
-                if (this.galleries.length > 0) {
-                    this.nextSlide(0);
-                }
-            }, this.autoplayDelay);
-            
-            console.log('✅ Gallery autoplay started');
-        },
-        
-        stopAutoplay: function() {
-            if (this.autoplayInterval) {
-                clearInterval(this.autoplayInterval);
-                this.autoplayInterval = null;
-                console.log('⏸️ Gallery autoplay stopped');
-            }
-        },
-        
-        pauseAutoplay: function() {
-            this.stopAutoplay();
-            
-            // Resume after 8 seconds of user inactivity
-            setTimeout(() => {
-                this.startAutoplay();
-            }, 8000);
         }
     };
 
@@ -902,6 +922,7 @@
                 AccessibilityEnhancer.init();
                 MobileOptimizer.init();
                 FeatureGallery.init();
+                PhoneMockupCarousel.init();
                 
                 this.setupGlobalEventHandlers();
                 this.initialized = true;
