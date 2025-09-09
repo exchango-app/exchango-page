@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title data-i18n="pageTitle">Exchango - 스마트 환율 계산기 앱</title>
+    <meta name="description" content="전 세계 150개 이상의 통화를 지원하는 스마트 환율 계산기 앱. 환율 계산, 정산, 팁 계산, 미니게임까지 한 번에 해결하세요.">
+    <meta name="keywords" content="환율, 계산기, 환율계산, 여행, 정산, 팁계산, currency, exchange rate, calculator">
+    <meta name="author" content="Exchango Team">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Exchango - 스마트 환율 계산기 앱">
+    <meta property="og:description" content="150개 이상의 통화를 지원하는 올인원 환율 계산 앱">
+    <meta property="og:image" content="./assets/app-icon.png">
+    <meta property="og:url" content="https://exchango.app">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Exchango - 스마트 환율 계산기 앱">
+    <meta name="twitter:description" content="150개 이상의 통화를 지원하는 올인원 환율 계산 앱">
+    <meta name="twitter:image" content="./assets/app-icon.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/app-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/app-icon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/index-style.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Skip to content for accessibility -->
+    <a href="#main-content" class="skip-link" data-i18n="skipToContent">메인 콘텐츠로 건너뛰기</a>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <!-- Language Selector -->
+        <div class="language-selector">
+            <a href="?lang=ko" class="lang-btn active">한국어</a>
+            <a href="?lang=en" class="lang-btn">English</a>
+            <a href="?lang=ja" class="lang-btn">日本語</a>
+            <a href="?lang=zh" class="lang-btn">中文</a>
+        </div>
+        
+        <div class="hero-content">
+            <!-- App Icon -->
+            <div class="app-icon">
+                <img src="./assets/app-icon.png" alt="Exchango App Icon" class="app-icon-image">
+            </div>
+            
+            <!-- Hero Text -->
+            <h1 data-i18n="heroTitle">Exchango</h1>
+            <p class="hero-tagline" data-i18n="heroTagline">전 세계를 위한 스마트 환율 계산기</p>
+            <p class="hero-subtitle" data-i18n="heroSubtitle">150개 이상의 통화를 지원하는 올인원 환율 계산 및 정산 앱</p>
+            
+            <!-- Hero Stats -->
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="coins"></i>
+                    </div>
+                    <div class="stat-number" data-i18n="statCurrenciesValue">150+</div>
+                    <div class="stat-label" data-i18n="statCurrencies">지원 통화</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <div class="stat-number" data-i18n="statLanguagesValue">7</div>
+                    <div class="stat-label" data-i18n="statLanguages">지원 언어</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="heart"></i>
+                    </div>
+                    <div class="stat-number" data-i18n="statPriceValue">무료</div>
+                    <div class="stat-label" data-i18n="statPrice">가격</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        
+        <!-- Feature Showcase Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="featuresTitle">스마트한 환율 도구</h2>
+                    <p class="section-subtitle" data-i18n="featuresSubtitle">여행과 비즈니스를 위한 완벽한 환율 계산 솔루션</p>
+                </div>
+                
+                <div class="features-grid">
+                    <!-- 1. Smart Currency Calculator -->
+                    <div class="feature-card">
+                        <div class="feature-image">
+                            <img src="./assets/device/Device_계산기.png" alt="Smart Currency Calculator" class="device-screenshot">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i data-lucide="calculator"></i>
+                            </div>
+                            <h3 data-i18n="calculatorTitle">스마트 환율 계산기</h3>
+                            <p data-i18n="calculatorDesc">직관적인 계산기로 150개 이상의 통화 간 환율을 실시간으로 계산합니다. 수학 연산과 환율 변환이 하나로 통합되어 있어 복잡한 계산도 쉽게 해결할 수 있습니다.</p>
+                            <ul class="feature-list">
+                                <li data-i18n="calculatorFeature1">실시간 환율 데이터</li>
+                                <li data-i18n="calculatorFeature2">양방향 계산 및 스왑</li>
+                                <li data-i18n="calculatorFeature3">계산 히스토리 저장</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 2. Calculation History with Gallery -->
+                    <div class="feature-card">
+                        <div class="feature-gallery">
+                            <div class="gallery-container">
+                                <div class="gallery-track">
+                                    <div class="gallery-item">
+                                        <img src="./assets/device/Device_계산기_히스토리.png" alt="Calculation History" class="device-screenshot">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="./assets/device/Device_계산기_히스토리_캘린더.png" alt="History Calendar" class="device-screenshot">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="./assets/device/Device_계산기_히스토리_캘린더_상세.png" alt="History Calendar Detail" class="device-screenshot">
+                                    </div>
+                                </div>
+                                <div class="gallery-controls">
+                                    <button class="gallery-btn prev" aria-label="Previous image">
+                                        <i data-lucide="chevron-left"></i>
+                                    </button>
+                                    <button class="gallery-btn next" aria-label="Next image">
+                                        <i data-lucide="chevron-right"></i>
+                                    </button>
+                                </div>
+                                <div class="gallery-indicators">
+                                    <span class="indicator active"></span>
+                                    <span class="indicator"></span>
+                                    <span class="indicator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i data-lucide="calendar"></i>
+                            </div>
+                            <h3 data-i18n="historyTitle">계산 히스토리</h3>
+                            <p data-i18n="historyDesc">모든 계산 기록을 체계적으로 관리하세요. 캘린더 뷰와 상세 검색 기능으로 과거 계산 내역을 쉽게 찾아볼 수 있습니다.</p>
+                            <ul class="feature-list">
+                                <li data-i18n="historyFeature1">캘린더 뷰 지원</li>
+                                <li data-i18n="historyFeature2">상세 검색 및 필터</li>
+                                <li data-i18n="historyFeature3">데이터 내보내기</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 3. Settlement Calculator -->
+                    <div class="feature-card">
+                        <div class="feature-image">
+                            <img src="./assets/device/Device_정산.png" alt="Settlement Calculator" class="device-screenshot">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i data-lucide="users"></i>
+                            </div>
+                            <h3 data-i18n="settlementTitle">정산 계산기</h3>
+                            <p data-i18n="settlementDesc">해외여행이나 국제 비즈니스에서 발생하는 다통화 정산을 간단하게 해결하세요. 여러 사람이 각각 다른 통화로 지불한 금액을 공정하게 분할합니다.</p>
+                            <ul class="feature-list">
+                                <li data-i18n="settlementFeature1">다통화 동시 계산</li>
+                                <li data-i18n="settlementFeature2">공정한 비용 분담</li>
+                                <li data-i18n="settlementFeature3">참가자 유연 관리</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 4. Tip Calculator -->
+                    <div class="feature-card">
+                        <div class="feature-image">
+                            <img src="./assets/device/Device_팁.png" alt="Tip Calculator" class="device-screenshot">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i data-lucide="percent"></i>
+                            </div>
+                            <h3 data-i18n="tipTitle">팁 계산기</h3>
+                            <p data-i18n="tipDesc">적절한 팁 비율을 계산하고 인원수별로 분할하세요. 다양한 국가의 팁 문화를 고려한 스마트한 계산 기능을 제공합니다.</p>
+                            <ul class="feature-list">
+                                <li data-i18n="tipFeature1">국가별 팁 비율 가이드</li>
+                                <li data-i18n="tipFeature2">인원별 분할 계산</li>
+                                <li data-i18n="tipFeature3">팁 계산 히스토리</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 5. Today's Rates with Gallery -->
+                    <div class="feature-card">
+                        <div class="feature-gallery">
+                            <div class="gallery-container">
+                                <div class="gallery-track">
+                                    <div class="gallery-item">
+                                        <img src="./assets/device/Device_오늘의환율.png" alt="Today's Exchange Rates" class="device-screenshot">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="./assets/device/Device_오늘의환율_차트.png" alt="Exchange Rate Chart" class="device-screenshot">
+                                    </div>
+                                </div>
+                                <div class="gallery-controls">
+                                    <button class="gallery-btn prev" aria-label="Previous image">
+                                        <i data-lucide="chevron-left"></i>
+                                    </button>
+                                    <button class="gallery-btn next" aria-label="Next image">
+                                        <i data-lucide="chevron-right"></i>
+                                    </button>
+                                </div>
+                                <div class="gallery-indicators">
+                                    <span class="indicator active"></span>
+                                    <span class="indicator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i data-lucide="trending-up"></i>
+                            </div>
+                            <h3 data-i18n="ratesTitle">오늘의 환율</h3>
+                            <p data-i18n="ratesDesc">전 세계 통화의 실시간 환율 정보를 한눈에 확인하세요. 즐겨찾기 기능으로 자주 사용하는 통화를 빠르게 접근할 수 있습니다.</p>
+                            <ul class="feature-list">
+                                <li data-i18n="ratesFeature1">실시간 환율 업데이트</li>
+                                <li data-i18n="ratesFeature2">즐겨찾기 통화 관리</li>
+                                <li data-i18n="ratesFeature3">환율 변동 추이 표시</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 6. Multi-Currency Calculator -->
+                    <div class="feature-card">
+                        <div class="feature-image">
+                            <img src="./assets/device/Device_다중환율.png" alt="Multi-Currency Calculator" class="device-screenshot">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i data-lucide="layers"></i>
+                            </div>
+                            <h3 data-i18n="multiCurrencyTitle">다중 환율 계산기</h3>
+                            <p data-i18n="multiCurrencyDesc">한 번에 여러 통화의 환율을 동시에 확인하고 비교할 수 있습니다. 복잡한 다국가 거래나 여행 계획에 유용한 기능입니다.</p>
+                            <ul class="feature-list">
+                                <li data-i18n="multiCurrencyFeature1">동시 다중 통화 변환</li>
+                                <li data-i18n="multiCurrencyFeature2">통화별 비교 분석</li>
+                                <li data-i18n="multiCurrencyFeature3">즐겨찾기 통화 그룹</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 7. Settings -->
+                    <div class="feature-card">
+                        <div class="feature-image">
+                            <img src="./assets/device/Device_설정.png" alt="App Settings" class="device-screenshot">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i data-lucide="settings"></i>
+                            </div>
+                            <h3 data-i18n="settingsTitle">설정</h3>
+                            <p data-i18n="settingsDesc">개인 취향에 맞게 앱을 설정하세요. 다크/라이트 테마, 언어 설정, 글꼴 크기 조절 등 다양한 커스터마이징 옵션을 제공합니다.</p>
+                            <ul class="feature-list">
+                                <li data-i18n="settingsFeature1">다크/라이트 테마</li>
+                                <li data-i18n="settingsFeature2">7개 언어 지원</li>
+                                <li data-i18n="settingsFeature3">글꼴 크기 조절</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Technical Excellence Section -->
+        <section class="tech-excellence" id="tech">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="techTitle">기술적 우수성</h2>
+                    <p class="section-subtitle" data-i18n="techSubtitle">최신 기술로 구현된 안정적이고 빠른 성능</p>
+                </div>
+                
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i data-lucide="zap"></i>
+                        </div>
+                        <h3 data-i18n="performanceTitle">고성능</h3>
+                        <p data-i18n="performanceDesc">React Native와 TypeScript로 구축되어 iOS와 Android에서 네이티브 수준의 성능을 제공합니다.</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i data-lucide="wifi-off"></i>
+                        </div>
+                        <h3 data-i18n="offlineTitle">오프라인 지원</h3>
+                        <p data-i18n="offlineDesc">인터넷 연결 없이도 기본 계산 기능을 사용할 수 있어 언제 어디서나 신뢰할 수 있습니다.</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i data-lucide="shield"></i>
+                        </div>
+                        <h3 data-i18n="securityTitle">안전한 데이터</h3>
+                        <p data-i18n="securityDesc">모든 데이터는 디바이스에 안전하게 저장되며, 개인정보 보호를 최우선으로 합니다.</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i data-lucide="refresh-cw"></i>
+                        </div>
+                        <h3 data-i18n="updateTitle">자동 업데이트</h3>
+                        <p data-i18n="updateDesc">환율 데이터와 앱 기능이 자동으로 업데이트되어 항상 최신 정보를 유지합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- User Benefits Section -->
+        <section class="benefits" id="benefits">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="benefitsTitle">왜 Exchango를 선택해야 할까요?</h2>
+                    <p class="section-subtitle" data-i18n="benefitsSubtitle">여행자와 비즈니스 전문가들이 선택하는 이유</p>
+                </div>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i data-lucide="plane"></i>
+                        </div>
+                        <h3 data-i18n="travelersTitle">여행자를 위한 필수 앱</h3>
+                        <p data-i18n="travelersDesc">해외여행 중 환율 계산, 팁 계산, 그룹 정산까지 한 번에 해결하세요.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i data-lucide="briefcase"></i>
+                        </div>
+                        <h3 data-i18n="businessTitle">비즈니스 전문가의 도구</h3>
+                        <p data-i18n="businessDesc">국제 거래와 다통화 회계 업무를 효율적으로 처리할 수 있습니다.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i data-lucide="check-circle"></i>
+                        </div>
+                        <h3 data-i18n="reliableTitle">신뢰할 수 있는 정확성</h3>
+                        <p data-i18n="reliableDesc">실시간 환율 데이터와 정확한 계산 알고리즘으로 신뢰할 수 있는 결과를 제공합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Download Section -->
+        <section class="download-section" id="download">
+            <div class="container">
+                <div class="download-content">
+                    <div class="download-text">
+                        <h2 data-i18n="downloadTitle">지금 바로 다운로드하세요</h2>
+                        <p class="download-subtitle" data-i18n="downloadSubtitle">무료로 제공되는 스마트한 환율 계산 솔루션</p>
+                        <p class="download-desc" data-i18n="downloadDesc">150개 이상의 통화를 지원하는 Exchango로 환율 계산을 더 쉽고 정확하게 만들어보세요.</p>
+                        
+                        <div class="download-buttons">
+                            <a href="#" class="download-btn ios">
+                                <i data-lucide="smartphone"></i>
+                                <div class="download-text">
+                                    <span class="download-store">App Store</span>
+                                    <span class="download-action" data-i18n="downloadiOS">iOS 다운로드</span>
+                                </div>
+                            </a>
+                            <a href="#" class="download-btn android">
+                                <i data-lucide="smartphone"></i>
+                                <div class="download-text">
+                                    <span class="download-store">Google Play</span>
+                                    <span class="download-action" data-i18n="downloadAndroid">Android 다운로드</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="download-visual">
+                        <div class="phone-mockup">
+                            <img src="./assets/device/Device_스프린트.png" alt="Exchango App Screenshot" class="phone-screenshot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="./assets/app-icon.png" alt="Exchango" class="footer-logo-image">
+                        <span class="footer-brand-name">Exchango</span>
+                    </div>
+                    <p class="footer-tagline" data-i18n="heroTagline">전 세계를 위한 스마트 환율 계산기</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4 data-i18n="footerAbout">Exchango 소개</h4>
+                        <ul>
+                            <li><a href="about.html" data-i18n="footerAbout">Exchango 소개</a></li>
+                            <li><a href="#features" data-i18n="featuresTitle">주요 기능</a></li>
+                            <li><a href="#download" data-i18n="downloadTitle">다운로드</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 data-i18n="footerSupport">고객 지원</h4>
+                        <ul>
+                            <li><a href="#" data-i18n="footerContact">문의하기</a></li>
+                            <li><a href="privacy_policy.html" data-i18n="footerPrivacy">개인정보처리방침</a></li>
+                            <li><a href="#" data-i18n="footerTerms">이용약관</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright" data-i18n="footerCopyright">© 2024 Exchango. 모든 권리 보유.</p>
+                
+                <!-- Language Selector (Footer) -->
+                <div class="footer-language">
+                    <a href="?lang=ko" class="footer-lang-btn">한국어</a>
+                    <a href="?lang=en" class="footer-lang-btn">English</a>
+                    <a href="?lang=ja" class="footer-lang-btn">日本語</a>
+                    <a href="?lang=zh" class="footer-lang-btn">中文</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top" title="맨 위로 돌아가기">
+        <i data-lucide="arrow-up"></i>
+    </button>
+    
+    <!-- Scripts -->
+    <script src="./js/index-translations.js"></script>
+    <script src="./js/index-script.js"></script>
+    
+    <!-- Initialize Lucide Icons -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+                console.log('✅ Lucide icons initialized');
+            }
+        });
+    </script>
+</body>
+</html>
