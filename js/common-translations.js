@@ -99,7 +99,7 @@
                 techAutoUpdate: "자동 업데이트",
                 techAutoUpdateDesc: "환율 데이터와 앱 기능 자동 업데이트",
                 
-                footerCopyright: "© 2025 Exchango. 모든 권리 보유.",
+                footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
                 footerAbout: "Exchango 소개",
                 footerSupport: "고객 지원",
                 footerContact: "문의하기",
@@ -269,7 +269,7 @@
                 techAutoUpdate: "Auto Update",
                 techAutoUpdateDesc: "Automatic updates for exchange rate data and app features",
                 
-                footerCopyright: "© 2025 Exchango. All rights reserved.",
+                footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
                 footerAbout: "About Exchango",
                 footerSupport: "Support",
                 footerContact: "Contact Us",
@@ -340,7 +340,7 @@
                 contactTitle: "Contact",
                 contactContent: "If you have any questions about this privacy policy, please contact us at the address below.",
                 contactEmail: "exchango.app@gmail.com",
-                footerCopyright: "© 2024 Exchango. All rights reserved.",
+                footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
                 footerMessage: "We will do our best to protect user privacy and security.",
                 policyChanges: "This privacy policy may be updated as necessary, and if there are important changes, we will notify you through app updates."
             }
@@ -426,7 +426,7 @@
                 techSmartCaching: "スマート為替キャッシュ",
                 techOfflineSupport: "オフラインモードサポート",
                 
-                footerCopyright: "© 2025 Exchango. すべての権利を保有。",
+                footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
                 footerAbout: "Exchangoについて",
                 footerSupport: "サポート",
                 footerContact: "お問い合わせ",
@@ -533,7 +533,7 @@
                 techSmartCaching: "智能汇率缓存",
                 techOfflineSupport: "离线模式支持",
                 
-                footerCopyright: "© 2025 Exchango. 版权所有。",
+                footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
                 footerAbout: "关于Exchango",
                 footerSupport: "客户支持",
                 footerContact: "联系我们",

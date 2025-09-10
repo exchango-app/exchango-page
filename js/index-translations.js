@@ -242,7 +242,7 @@
             footerPrivacy: "Privacy Policy",
             footerTerms: "Terms of Service",
             footerContact: "Contact Us",
-            footerCopyright: "© 2024 Exchango. All rights reserved.",
+            footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "Skip to main content",
@@ -365,7 +365,7 @@
             footerPrivacy: "プライバシーポリシー",
             footerTerms: "利用規約",
             footerContact: "お問い合わせ",
-            footerCopyright: "© 2024 Exchango. All rights reserved.",
+            footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "メインコンテンツにスキップ",

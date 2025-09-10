@@ -1120,9 +1120,6 @@ section {
         justify-content: flex-start;
     }
     
-    .footer-bottom {
-        justify-content: space-between;
-    }
 }
 
 @media (min-width: 1024px) {
@@ -1181,10 +1178,6 @@ section {
         max-width: min(90vw, 400px);
     }
     
-    .footer-bottom {
-        flex-direction: column;
-        text-align: center;
-    }
 }
 
 /* ===== ANIMATIONS ===== */
