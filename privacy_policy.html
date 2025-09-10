@@ -3,288 +3,479 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>개인정보 처리방침 - Exchango</title>
-    <script src="./lib/lucide.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title data-i18n="privacy.pageTitle">개인정보처리방침 - Exchango</title>
+    <meta name="description" content="Exchango 앱의 개인정보 보호 정책을 확인하세요. 사용자 개인정보 보호가 우리의 최우선 과제입니다.">
+    <meta name="keywords" content="개인정보처리방침, 개인정보보호, 프라이버시, privacy policy, data protection, exchango">
+    <meta name="author" content="Exchango Team">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="개인정보처리방침 - Exchango">
+    <meta property="og:description" content="Exchango 앱의 개인정보 보호 정책 및 데이터 처리 방식에 대해 알아보세요">
+    <meta property="og:image" content="./assets/app-icon.png">
+    <meta property="og:url" content="https://exchango.app/privacy_policy">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="개인정보처리방침 - Exchango">
+    <meta name="twitter:description" content="Exchango 앱의 개인정보 보호 정책 및 데이터 처리 방식에 대해 알아보세요">
+    <meta name="twitter:image" content="./assets/app-icon.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/app-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/app-icon.png">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/common-style.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 </head>
 <body>
-    <div class="container">
-        <!-- Hero Section -->
-        <div class="hero">
-            <div class="language-selector">
-                <a href="?lang=en" class="lang-btn" data-lang="en" onclick="changeLanguage('en'); return false;">English</a>
-                <a href="?lang=ko" class="lang-btn" data-lang="ko" onclick="changeLanguage('ko'); return false;">한국어</a>
-                <a href="?lang=ja" class="lang-btn" data-lang="ja" onclick="changeLanguage('ja'); return false;">日本語</a>
-                <a href="?lang=zh" class="lang-btn" data-lang="zh" onclick="changeLanguage('zh'); return false;">中文</a>
-            </div>
-            
-            <div class="app-icon" id="app-icon">
+    <!-- Skip to content for accessibility -->
+    <a href="#main-content" class="skip-link" data-i18n="skipToContent">메인 콘텐츠로 건너뛰기</a>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <!-- Language Selector -->
+        <div class="language-selector">
+            <a href="?lang=ko" class="lang-btn active">한국어</a>
+            <a href="?lang=en" class="lang-btn">English</a>
+            <a href="?lang=ja" class="lang-btn">日本語</a>
+            <a href="?lang=zh" class="lang-btn">中文</a>
+        </div>
+        
+        <div class="hero-content">
+            <!-- App Icon -->
+            <div class="app-icon">
                 <img src="./assets/app-icon.png" alt="Exchango App Icon" class="app-icon-image">
             </div>
             
-            <h1 data-i18n="pageTitle">Privacy Policy</h1>
-            <p class="tagline" data-i18n="pageSubtitle">User privacy protection is our top priority.</p>
+            <!-- Hero Text -->
+            <h1 data-i18n="privacy.pageTitle">개인정보처리방침</h1>
+            <p class="hero-tagline" data-i18n="privacy.pageSubtitle">사용자 개인정보 보호가 우리의 최우선 과제입니다.</p>
+            <p class="hero-subtitle" data-i18n="privacy.overviewSubtitle">Exchango의 개인정보 보호 정책 및 데이터 처리 방식에 대한 정보입니다</p>
+            
+            <!-- Privacy Stats -->
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <div class="stat-number" data-i18n="privacy.statPrivacy">100%</div>
+                    <div class="stat-label" data-i18n="privacy.statPrivacyLabel">개인정보 보호</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="hard-drive"></i>
+                    </div>
+                    <div class="stat-number" data-i18n="privacy.statLocal">기기</div>
+                    <div class="stat-label" data-i18n="privacy.statLocalLabel">로컬 저장만</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="eye-off"></i>
+                    </div>
+                    <div class="stat-number" data-i18n="privacy.statNoSale">0</div>
+                    <div class="stat-label" data-i18n="privacy.statNoSaleLabel">데이터 판매</div>
+                </div>
+            </div>
         </div>
-
+    </section>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        
         <!-- Overview Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">1</span>
-                <h2 data-i18n="overviewTitle">Overview</h2>
-                <p class="section-subtitle" data-i18n="overviewSubtitle">
-                    Information about Exchango's privacy policy and data processing methods
-                </p>
-            </div>
-            
-            <p data-i18n="overviewContent">
-                This privacy policy specifies the collection, use, and protection of personal information when using the Exchango currency conversion app.
-                Analytics tools such as Google Firebase Analytics are used for app improvement, and all data is processed anonymously.
-            </p>
-            
-            <div class="highlight-box">
-                <div class="icon"><i data-lucide="shield-check"></i></div>
-                <h3 data-i18n="privacyFirstTitle">Privacy-First Design</h3>
-                <p data-i18n="privacyFirstContent">
-                    Exchango is designed with privacy protection as a priority. User data is stored only on the device,
-                    and personal identification information is not collected, stored, or transmitted to external servers.
-                </p>
-            </div>
-        </div>
-
-        <!-- Privacy Principles Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">2</span>
-                <h2 data-i18n="principlesTitle">Privacy Protection Principles</h2>
-                <p class="section-subtitle" data-i18n="principlesSubtitle">
-                    Core privacy protection principles we maintain
-                </p>
-            </div>
-
-            <div class="privacy-grid">
-                <div class="privacy-card">
-                    <div class="privacy-icon"><i data-lucide="hard-drive"></i></div>
-                    <h3 data-i18n="principle1Title">Local Storage Only</h3>
-                    <p data-i18n="principle1Content">All data is stored only on the user's device. External storage or cloud synchronization is not supported.</p>
-                </div>
-                <div class="privacy-card">
-                    <div class="privacy-icon"><i data-lucide="bar-chart-3"></i></div>
-                    <h3 data-i18n="principle2Title">Anonymous Analytics Only</h3>
-                    <p data-i18n="principle2Content">Personal identification information is not collected, only anonymized usage statistics for app improvement are collected.</p>
-                </div>
-                <div class="privacy-card">
-                    <div class="privacy-icon"><i data-lucide="shield"></i></div>
-                    <h3 data-i18n="principle3Title">Security Design</h3>
-                    <p data-i18n="principle3Content">Designed with security technologies applied to protect user information.</p>
-                </div>
-                <div class="privacy-card">
-                    <div class="privacy-icon"><i data-lucide="eye"></i></div>
-                    <h3 data-i18n="principle4Title">Transparency</h3>
-                    <p data-i18n="principle4Content">Maintains reliability by transparently disclosing data processing methods.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Data We Don't Collect Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">3</span>
-                <h2 data-i18n="noCollectTitle">Information We Don't Collect</h2>
-                <p class="section-subtitle" data-i18n="noCollectSubtitle">
-                    Clearly informing you about information we absolutely do not collect
-                </p>
-            </div>
-            
-            <p data-i18n="noCollectContent">Exchango does not collect the following information:</p>
-            <ul id="no-collect-list">
-                <li>개인 식별 정보 (이름, 이메일, 전화번호)</li>
-                <li>금융 계좌 정보 또는 거래 내역</li>
-                <li>정확한 위치 데이터 또는 GPS 좌표</li>
-                <li>개별 기기 식별자 또는 광고 ID</li>
-                <li>연락처 목록 또는 소셜 미디어 정보</li>
-                <li>생체 데이터 또는 인증 자격 증명</li>
-                <li>개인 식별 가능한 정보(PII)의 모든 형태</li>
-            </ul>
-        </div>
-
-        <!-- Data We May Collect Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">4</span>
-                <h2 data-i18n="mayCollectTitle">Anonymous Data We May Collect</h2>
-                <p class="section-subtitle" data-i18n="mayCollectSubtitle">
-                    Information about anonymized data that may be collected for app improvement
-                </p>
-            </div>
-            
-            <p data-i18n="mayCollectContent">The following anonymized data may be collected for app improvement:</p>
-            <ul id="may-collect-list">
-                <li><strong>앱 사용 통계:</strong> 어떤 기능이 자주 사용되는지, 화면 조회 횟수 등</li>
-                <li><strong>기기 정보:</strong> 기기 유형, 운영체제 버전 (개인 식별 불가)</li>
-                <li><strong>오류 보고서:</strong> 앱 개선을 위한 기술적 오류 정보</li>
-                <li><strong>일반적인 사용 패턴:</strong> 기능별 사용 빈도, 성능 데이터</li>
-                <li><strong>지역 정보:</strong> 기본 통화 설정을 위한 일반적인 국가/지역 정보</li>
-            </ul>
-            
-            <div class="highlight-box">
-                <div class="icon"><i data-lucide="search"></i></div>
-                <h3 data-i18n="analyticsTitle">Google Analytics Usage</h3>
-                <p data-i18n="analyticsContent">
-                    Anonymous data is collected through Google Firebase Analytics for app performance and user experience improvement. You can optionally opt out of analytics data collection in device settings.
-                </p>
-            </div>
-        </div>
-
-        <!-- Local Data Storage Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">5</span>
-                <h2 data-i18n="localStorageTitle">Local Data Storage</h2>
-                <p class="section-subtitle" data-i18n="localStorageSubtitle">
-                    Information about data stored only on the device for app functionality
-                </p>
-            </div>
-            
-            <p data-i18n="localStorageContent">
-                The following data is stored on the device for app functionality:
-            </p>
-            <ul id="local-storage-list">
-                <li><strong>앱 환경설정:</strong> 선택한 기준 통화, 언어 설정, 테마 설정</li>
-                <li><strong>환율 캐시:</strong> 오프라인 기능을 위해 임시로 캐시된 환율</li>
-                <li><strong>통화 이력:</strong> 빠른 접근을 위한 최근 사용한 통화 쌍</li>
-                <li><strong>앱 설정:</strong> 표시 설정 및 알림 설정</li>
-            </ul>
-            
-            <div class="highlight-box">
-                <div class="icon"><i data-lucide="smartphone"></i></div>
-                <h3 data-i18n="deviceOnlyTitle">Device-Only Storage</h3>
-                <p data-i18n="deviceOnlyContent">
-                    All data is securely stored in the device's secure storage. Data does not leave the device and is not synchronized with external services. All stored data is permanently deleted when the app is uninstalled.
-                </p>
-            </div>
-        </div>
-
-        <!-- Data Sharing Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">6</span>
-                <h2 data-i18n="dataSharingTitle">Data Sharing and Third-Party Services</h2>
-                <p class="section-subtitle" data-i18n="dataSharingSubtitle">
-                    Information about analytics data processing and third-party service usage
-                </p>
-            </div>
-            
-            <p data-i18n="dataSharingContent">Exchango shares data in the following ways:</p>
-            <ul id="data-sharing-list">
-                <li><strong>Firebase Analytics:</strong> 익명화된 앱 사용 통계 및 성능 데이터</li>
-                <li><strong>환율 데이터 제공업체:</strong> 환율 정보 요청 시 표준 웹 요청 정보</li>
-                <li><strong>오류 보고 서비스:</strong> 앱 안정성 개선을 위한 기술적 오류 정보</li>
-            </ul>
-            
-            <div class="highlight-box">
-                <div class="icon"><i data-lucide="scale"></i></div>
-                <h3 data-i18n="noSaleTitle">We Never Sell</h3>
-                <p data-i18n="noSaleContent">
-                    Personal information is not sold to third parties and is not used for advertising purposes. All collected analytics data is used solely for app improvement purposes.
-                </p>
-            </div>
-        </div>
-
-        <!-- User Rights Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">7</span>
-                <h2 data-i18n="userRightsTitle">Your Rights</h2>
-                <p class="section-subtitle" data-i18n="userRightsSubtitle">
-                    Information about your rights related to personal information
-                </p>
-            </div>
-            
-            <p data-i18n="userRightsContent">Exchango users have the following rights:</p>
-            <ul id="user-rights-list">
-                <li><strong>분석 거부 권리:</strong> 기기 설정에서 분석 데이터 수집을 거부할 수 있습니다</li>
-                <li><strong>데이터 삭제 권리:</strong> 앱 삭제 시 모든 로컬 데이터가 완전히 제거됩니다</li>
-                <li><strong>정보 요청 권리:</strong> 데이터 처리에 대한 정보를 언제든 요청할 수 있습니다</li>
-                <li><strong>투명성 권리:</strong> 모든 데이터 처리에 대해 명확히 알 권리가 있습니다</li>
-            </ul>
-            
-            <div class="privacy-grid">
-                <div class="privacy-card">
-                    <div class="privacy-icon"><i data-lucide="smartphone"></i></div>
-                    <h3 data-i18n="analyticsOptOutTitle">How to Opt Out of Analytics</h3>
-                    <p data-i18n="analyticsOptOutContent">Device Settings → Privacy → Analytics & Improvements can be disabled</p>
-                </div>
-                <div class="privacy-card">
-                    <div class="privacy-icon"><i data-lucide="trash-2"></i></div>
-                    <h3 data-i18n="dataDeleteTitle">Complete Data Deletion</h3>
-                    <p data-i18n="dataDeleteContent">All stored data is permanently deleted when the app is uninstalled</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Contact Section -->
-        <div class="contact-section">
-            <div class="contact-content">
-                <h3 data-i18n="contactTitle">Contact</h3>
-                <p data-i18n="contactContent">
-                    If you have any questions about this privacy policy, please contact us at the address below.
-                </p>
-                <a href="mailto:exchango.app@gmail.com" class="contact-email">exchango.app@gmail.com</a>
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <footer class="footer" id="footer">
+        <section class="features" id="overview">
             <div class="container">
-                <div class="footer-content">
-                    <div class="footer-brand">
-                        <div class="footer-logo">
-                            <img src="./assets/app-icon.png" alt="Exchango" class="footer-logo-image">
-                            <span class="footer-brand-name">Exchango</span>
+                <div class="section-header">
+                    <h2 data-i18n="privacy.overviewTitle">개요</h2>
+                    <p class="section-subtitle" data-i18n="privacy.overviewSubtitle">Exchango의 개인정보 보호 정책 및 데이터 처리 방식에 대한 정보입니다</p>
+                </div>
+                
+                <p data-i18n="privacy.overviewContent">
+                    이 개인정보 처리방침은 Exchango 환율 변환 앱 사용 시 개인정보의 수집, 사용, 보호 방식을 명시합니다. 
+                    앱 개선을 위해 Google Firebase Analytics 등 분석 도구를 사용하며, 모든 데이터는 익명으로 처리됩니다.
+                </p>
+                
+                <div class="highlight-box">
+                    <div class="icon"><i data-lucide="shield-check"></i></div>
+                    <h3 data-i18n="privacy.privacyFirstTitle">개인정보 보호 우선 설계</h3>
+                    <p data-i18n="privacy.privacyFirstContent">
+                        Exchango는 개인정보 보호를 우선으로 설계되었습니다. 사용자 데이터는 기기에만 저장되며, 
+                        개인식별정보는 외부 서버에 수집, 저장, 전송되지 않습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Privacy Principles Section -->
+        <section class="features" id="principles">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="privacy.principlesTitle">개인정보 보호 원칙</h2>
+                    <p class="section-subtitle" data-i18n="privacy.principlesSubtitle">저희가 유지하는 핵심 개인정보 보호 원칙들입니다</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="hard-drive"></i>
                         </div>
-                        <p class="footer-tagline" data-i18n="pageSubtitle">User privacy protection is our top priority.</p>
+                        <h3 data-i18n="privacy.principle1Title">로컬 저장만</h3>
+                        <p data-i18n="privacy.principle1Content">
+                            모든 데이터는 사용자 기기에만 저장됩니다. 외부 저장소나 클라우드 동기화는 지원하지 않습니다.
+                        </p>
                     </div>
                     
-                    <div class="footer-links">
-                        <div class="footer-section">
-                            <h4 data-i18n="footerAbout">About</h4>
-                            <ul>
-                                <li><a href="index.html" data-i18n="footerHome">Home</a></li>
-                                <li><a href="about.html" data-i18n="footerAbout">About</a></li>
-                                <li><a href="#" data-i18n="footerFeatures">Features</a></li>
-                            </ul>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="bar-chart-3"></i>
                         </div>
-                        
-                        <div class="footer-section">
-                            <h4 data-i18n="footerSupport">Support</h4>
-                            <ul>
-                                <li><a href="about.html" data-i18n="footerContact">Contact</a></li>
-                                <li><a href="privacy_policy.html" data-i18n="footerPrivacy">Privacy Policy</a></li>
-                            </ul>
+                        <h3 data-i18n="privacy.principle2Title">익명 분석 데이터만</h3>
+                        <p data-i18n="privacy.principle2Content">
+                            개인식별정보는 수집하지 않으며, 앱 개선을 위한 익명화된 사용 통계만 수집합니다.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="shield"></i>
                         </div>
+                        <h3 data-i18n="privacy.principle3Title">보안 설계</h3>
+                        <p data-i18n="privacy.principle3Content">
+                            사용자 정보 보호를 위해 보안 기술을 적용해 설계되었습니다.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="eye"></i>
+                        </div>
+                        <h3 data-i18n="privacy.principle4Title">투명성</h3>
+                        <p data-i18n="privacy.principle4Content">
+                            데이터 처리 방식을 투명하게 공개하여 신뢰성을 유지합니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Data We Don't Collect Section -->
+        <section class="features" id="no-collect">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="privacy.noCollectTitle">수집하지 않는 정보</h2>
+                    <p class="section-subtitle" data-i18n="privacy.noCollectSubtitle">저희가 절대 수집하지 않는 정보들을 명확히 알려드립니다</p>
+                </div>
+                
+                <p data-i18n="privacy.noCollectContent">Exchango는 다음 정보들을 수집하지 않습니다:</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="user-x"></i>
+                        </div>
+                        <h3>개인 식별 정보</h3>
+                        <p>이름, 이메일, 전화번호 등 개인을 식별할 수 있는 모든 정보</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="credit-card"></i>
+                        </div>
+                        <h3>금융 정보</h3>
+                        <p>금융 계좌 정보, 거래 내역, 신용카드 정보</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <h3>위치 데이터</h3>
+                        <p>정확한 위치 데이터, GPS 좌표</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="smartphone"></i>
+                        </div>
+                        <h3>기기 식별자</h3>
+                        <p>개별 기기 식별자, 광고 ID</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Data We May Collect Section -->
+        <section class="features" id="may-collect">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="privacy.mayCollectTitle">수집할 수 있는 익명 데이터</h2>
+                    <p class="section-subtitle" data-i18n="privacy.mayCollectSubtitle">앱 개선을 위해 수집할 수 있는 익명화된 데이터에 대해 알려드립니다</p>
+                </div>
+                
+                <p data-i18n="privacy.mayCollectContent">앱 개선을 위해 다음 익명화된 데이터를 수집할 수 있습니다:</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="activity"></i>
+                        </div>
+                        <h3>앱 사용 통계</h3>
+                        <p>어떤 기능이 자주 사용되는지, 화면 조회 횟수 등</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="smartphone"></i>
+                        </div>
+                        <h3>기기 정보</h3>
+                        <p>기기 유형, 운영체제 버전 (개인 식별 불가)</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="bug"></i>
+                        </div>
+                        <h3>오류 보고서</h3>
+                        <p>앱 개선을 위한 기술적 오류 정보</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="bar-chart"></i>
+                        </div>
+                        <h3>성능 데이터</h3>
+                        <p>기능별 사용 빈도, 성능 데이터</p>
                     </div>
                 </div>
                 
-                <div class="footer-bottom">
-                    <p class="copyright" data-i18n="footerCopyright">© 2024 Exchango. All rights reserved.</p>
+                <div class="highlight-box">
+                    <div class="icon"><i data-lucide="search"></i></div>
+                    <h3 data-i18n="privacy.analyticsTitle">Google Analytics 사용</h3>
+                    <p data-i18n="privacy.analyticsContent">
+                        Google Firebase Analytics를 통해 앱 성능 및 사용자 경험 개선을 위한 익명 데이터를 수집합니다. 
+                        기기 설정에서 분석 데이터 수집을 선택적으로 거부할 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Local Data Storage Section -->
+        <section class="features" id="local-storage">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="privacy.localStorageTitle">로컬 데이터 저장</h2>
+                    <p class="section-subtitle" data-i18n="privacy.localStorageSubtitle">앱 기능을 위해 기기에만 저장되는 데이터에 대해 알려드립니다</p>
+                </div>
+                
+                <p data-i18n="privacy.localStorageContent">앱 기능을 위해 다음 데이터를 기기에만 저장합니다:</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="settings"></i>
+                        </div>
+                        <h3>앱 환경설정</h3>
+                        <p>선택한 기준 통화, 언어 설정, 테마 설정</p>
+                    </div>
                     
-                    <!-- Language Selector (Footer) -->
-                    <div class="footer-language">
-                        <a href="?lang=ko" class="footer-lang-btn">한국어</a>
-                        <a href="?lang=en" class="footer-lang-btn">English</a>
-                        <a href="?lang=ja" class="footer-lang-btn">日本語</a>
-                        <a href="?lang=zh" class="footer-lang-btn">中文</a>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="database"></i>
+                        </div>
+                        <h3>환율 캐시</h3>
+                        <p>오프라인 기능을 위해 임시로 캐시된 환율</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="history"></i>
+                        </div>
+                        <h3>통화 이력</h3>
+                        <p>빠른 접근을 위한 최근 사용한 통화 쌍</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="sliders"></i>
+                        </div>
+                        <h3>앱 설정</h3>
+                        <p>표시 설정 및 알림 설정</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-box">
+                    <div class="icon"><i data-lucide="smartphone"></i></div>
+                    <h3 data-i18n="privacy.deviceOnlyTitle">기기 전용 저장</h3>
+                    <p data-i18n="privacy.deviceOnlyContent">
+                        모든 데이터는 기기의 보안 저장소에 안전하게 보관됩니다. 데이터는 기기를 벗어나지 않으며, 
+                        외부 서비스와 동기화되지 않습니다. 앱 삭제 시 저장된 모든 데이터가 영구적으로 제거됩니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- User Rights Section -->
+        <section class="features" id="user-rights">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="privacy.userRightsTitle">여러분의 권리</h2>
+                    <p class="section-subtitle" data-i18n="privacy.userRightsSubtitle">개인정보와 관련된 여러분의 권리를 알려드립니다</p>
+                </div>
+                
+                <p data-i18n="privacy.userRightsContent">Exchango 사용자는 다음 권리를 갖습니다:</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="shield-off"></i>
+                        </div>
+                        <h3>분석 거부 권리</h3>
+                        <p>기기 설정에서 분석 데이터 수집을 거부할 수 있습니다</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="trash-2"></i>
+                        </div>
+                        <h3>데이터 삭제 권리</h3>
+                        <p>앱 삭제 시 모든 로컬 데이터가 완전히 제거됩니다</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="info"></i>
+                        </div>
+                        <h3>정보 요청 권리</h3>
+                        <p>데이터 처리에 대한 정보를 언제든 요청할 수 있습니다</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="eye"></i>
+                        </div>
+                        <h3>투명성 권리</h3>
+                        <p>모든 데이터 처리에 대해 명확히 알 권리가 있습니다</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-box">
+                    <div class="icon"><i data-lucide="scale"></i></div>
+                    <h3 data-i18n="privacy.noSaleTitle">절대 판매하지 않아요</h3>
+                    <p data-i18n="privacy.noSaleContent">
+                        개인정보는 제3자에게 판매하지 않으며, 광고 목적으로 사용하지 않습니다. 
+                        수집되는 모든 분석 데이터는 오직 앱 개선 목적으로만 사용됩니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section class="tech-excellence" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="privacy.contactTitle">문의 사항</h2>
+                    <p class="section-subtitle" data-i18n="privacy.contactContent">
+                        개인정보 처리방침에 대한 문의 사항이 있으시면 아래 연락처로 연락주시기 바랍니다.
+                    </p>
+                </div>
+                
+                <div class="contact-section">
+                    <a href="mailto:exchango.app@gmail.com" class="contact-email" data-i18n="privacy.contactEmail">exchango.app@gmail.com</a>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="./assets/app-icon.png" alt="Exchango" class="footer-logo-image">
+                        <span class="footer-brand-name">Exchango</span>
+                    </div>
+                    <p class="footer-tagline" data-i18n="privacy.pageSubtitle">사용자 개인정보 보호가 우리의 최우선 과제입니다.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4 data-i18n="footerAbout">소개</h4>
+                        <ul>
+                            <li><a href="index.html" data-i18n="footerHome">홈</a></li>
+                            <li><a href="about.html" data-i18n="footerAbout">소개</a></li>
+                            <li><a href="#" data-i18n="footerFeatures">주요 기능</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 data-i18n="footerSupport">고객 지원</h4>
+                        <ul>
+                            <li><a href="about.html" data-i18n="footerContact">문의하기</a></li>
+                            <li><a href="privacy_policy.html" data-i18n="footerPrivacy">개인정보처리방침</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </footer>
-    </div>
-
+            
+            <div class="footer-bottom">
+                <p class="copyright" data-i18n="privacy.footerCopyright">© 2024 Exchango. 모든 권리 보유.</p>
+                
+                <!-- Language Selector (Footer) -->
+                <div class="footer-language">
+                    <a href="?lang=ko" class="footer-lang-btn">한국어</a>
+                    <a href="?lang=en" class="footer-lang-btn">English</a>
+                    <a href="?lang=ja" class="footer-lang-btn">日본語</a>
+                    <a href="?lang=zh" class="footer-lang-btn">中文</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top" title="맨 위로 돌아가기">
+        <i data-lucide="arrow-up"></i>
+    </button>
+    
+    <!-- Scripts -->
     <script src="./js/common-translations.js"></script>
-
     <script>
-        // Initialize Lucide icons
-        lucide.createIcons();
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize Lucide icons
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+                console.log('✅ Lucide icons initialized');
+            }
+            
+            // Initialize translations
+            if (typeof window.initializeTranslations === 'function') {
+                window.initializeTranslations();
+                console.log('✅ Translations initialized');
+            }
+            
+            // Back to top button functionality
+            const backToTop = document.getElementById('backToTop');
+            if (backToTop) {
+                window.addEventListener('scroll', function() {
+                    if (window.pageYOffset > 300) {
+                        backToTop.classList.add('visible');
+                    } else {
+                        backToTop.classList.remove('visible');
+                    }
+                });
+                
+                backToTop.addEventListener('click', function() {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            }
+        });
     </script>
 </body>
 </html>

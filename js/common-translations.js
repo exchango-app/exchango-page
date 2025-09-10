@@ -79,12 +79,20 @@
                 feature7Item4: "글씨 크기 설정",
                 
                 // Technology
-                techReactNative: "크로스 플랫폼 네이티브 성능",
-                techTypeScript: "안정적인 타입 시스템",
-                techAsyncStorage: "로컬 데이터 영구 저장",
-                techI18next: "다국어 지원 시스템",
-                techSmartCaching: "스마트 환율 캐싱",
-                techOfflineSupport: "오프라인 모드 지원",
+                techReactNative: "React Native",
+                techReactNativeDesc: "크로스 플랫폼 네이티브 성능",
+                techTypeScript: "TypeScript",
+                techTypeScriptDesc: "안정적인 타입 시스템",
+                techAsyncStorage: "AsyncStorage",
+                techAsyncStorageDesc: "로컬 데이터 영구 저장",
+                techI18next: "i18next",
+                techI18nextDesc: "다국어 지원 시스템",
+                techSmartCaching: "Smart Caching",
+                techSmartCachingDesc: "스마트 환율 캐싱",
+                techOfflineSupport: "오프라인 지원",
+                techOfflineSupportDesc: "오프라인 모드 지원",
+                techSecurity: "보안",
+                techSecurityDesc: "안전한 데이터 보호",
                 
                 footerCopyright: "© 2025 Exchango. 모든 권리 보유."
             },
