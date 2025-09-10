@@ -945,3 +945,93 @@ body {
     padding: 0 var(--space-sm);
     font-size: clamp(0.8rem, 2vw, 1rem) !important;
 }
+
+/* ===== PRIVACY POLICY STYLING ===== */
+.privacy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-lg);
+    margin-top: var(--space-lg);
+}
+
+.privacy-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: var(--space-lg);
+    text-align: center;
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.privacy-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+}
+
+.privacy-card .privacy-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
+    border-radius: 50%;
+    margin: 0 auto var(--space-md);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.privacy-card h3 {
+    text-align: center;
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid #ddd;
+    color: #1a1a2e;
+    font-size: 1.1rem;
+}
+
+.privacy-card p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* Privacy policy lists styling */
+#no-collect-list,
+#may-collect-list,
+#local-storage-list,
+#data-sharing-list,
+#user-rights-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-lg) 0;
+}
+
+#no-collect-list li,
+#may-collect-list li,
+#local-storage-list li,
+#data-sharing-list li,
+#user-rights-list li {
+    margin-bottom: var(--space-sm);
+    padding: var(--space-md);
+    padding-left: 30px;
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    position: relative;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+#no-collect-list li::before,
+#may-collect-list li::before,
+#local-storage-list li::before,
+#data-sharing-list li::before,
+#user-rights-list li::before {
+    content: '•';
+    position: absolute;
+    left: var(--space-md);
+    color: var(--primary-blue);
+    font-weight: bold;
+}
