@@ -99,7 +99,11 @@
                 techAutoUpdate: "자동 업데이트",
                 techAutoUpdateDesc: "환율 데이터와 앱 기능 자동 업데이트",
                 
-                footerCopyright: "© 2025 Exchango. 모든 권리 보유."
+                footerCopyright: "© 2025 Exchango. 모든 권리 보유.",
+                footerAbout: "Exchango 소개",
+                footerSupport: "고객 지원",
+                footerContact: "문의하기",
+                footerPrivacy: "개인정보처리방침"
             },
             
             // ==== PRIVACY POLICY PAGE ====
@@ -265,7 +269,11 @@
                 techAutoUpdate: "Auto Update",
                 techAutoUpdateDesc: "Automatic updates for exchange rate data and app features",
                 
-                footerCopyright: "© 2025 Exchango. All rights reserved."
+                footerCopyright: "© 2025 Exchango. All rights reserved.",
+                footerAbout: "About Exchango",
+                footerSupport: "Support",
+                footerContact: "Contact Us",
+                footerPrivacy: "Privacy Policy"
             },
             
             // ==== PRIVACY POLICY PAGE ====
@@ -418,7 +426,11 @@
                 techSmartCaching: "スマート為替キャッシュ",
                 techOfflineSupport: "オフラインモードサポート",
                 
-                footerCopyright: "© 2025 Exchango. すべての権利を保有。"
+                footerCopyright: "© 2025 Exchango. すべての権利を保有。",
+                footerAbout: "Exchangoについて",
+                footerSupport: "サポート",
+                footerContact: "お問い合わせ",
+                footerPrivacy: "プライバシーポリシー"
             },
             
             // ==== PRIVACY POLICY PAGE ====
@@ -521,7 +533,11 @@
                 techSmartCaching: "智能汇率缓存",
                 techOfflineSupport: "离线模式支持",
                 
-                footerCopyright: "© 2025 Exchango. 版权所有。"
+                footerCopyright: "© 2025 Exchango. 版权所有。",
+                footerAbout: "关于Exchango",
+                footerSupport: "客户支持",
+                footerContact: "联系我们",
+                footerPrivacy: "隐私政策"
             },
             
             // ==== PRIVACY POLICY PAGE ====
