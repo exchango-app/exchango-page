@@ -399,17 +399,10 @@
                     
                     <div class="footer-links">
                         <div class="footer-section">
-                            <h4 data-i18n="footerAbout">Exchango 소개</h4>
-                            <ul>
-                                <li><a href="index.html" data-i18n="footerAbout">Exchango 소개</a></li>
-                                <li><a href="about.html" data-i18n="footerContact">문의하기</a></li>
-                            </ul>
-                        </div>
-                        
-                        <div class="footer-section">
                             <h4 data-i18n="footerSupport">고객 지원</h4>
                             <ul>
                                 <li><a href="privacy_policy.html" data-i18n="footerPrivacy">개인정보처리방침</a></li>
+                                <li><a href="#" data-i18n="footerContact" id="contact-link">문의하기</a></li>
                             </ul>
                         </div>
                     </div>
@@ -420,8 +413,8 @@
                     
                     <!-- Language Selector (Footer) -->
                     <div class="footer-language">
-                        <a href="?lang=ko" class="footer-lang-btn">한국어</a>
                         <a href="?lang=en" class="footer-lang-btn">English</a>
+                        <a href="?lang=ko" class="footer-lang-btn">한국어</a>
                         <a href="?lang=ja" class="footer-lang-btn">日본語</a>
                         <a href="?lang=zh" class="footer-lang-btn">中文</a>
                     </div>
@@ -439,6 +432,52 @@
     <script>
         // Initialize Lucide icons
         lucide.createIcons();
+        
+        // Get current language from URL or default to Korean
+        function getCurrentLanguage() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const langFromUrl = urlParams.get('lang');
+            const langFromStorage = localStorage.getItem('exchango-language');
+            const detectedLang = langFromUrl || langFromStorage || 'ko';
+            const supportedLanguages = ['ko', 'en', 'ja', 'zh'];
+            return supportedLanguages.includes(detectedLang) ? detectedLang : 'ko';
+        }
+        
+        // Contact email multilingual support
+        function setupContactEmail() {
+            const contactLink = document.getElementById('contact-link');
+            if (!contactLink) return;
+            
+            contactLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const currentLang = getCurrentLanguage();
+                const emailContent = {
+                    ko: {
+                        subject: 'Exchango 문의',
+                        body: '문의사항을 아래에 작성해 주시면 빠른 시일 내에 답변드리겠습니다.%0D%0A%0D%0A[문의 내용]:%0D%0A%0D%0A%0D%0A감사합니다.'
+                    },
+                    en: {
+                        subject: 'Exchango Inquiry',
+                        body: 'Please write your inquiry below and we will respond as soon as possible.%0D%0A%0D%0A[Inquiry Content]:%0D%0A%0D%0A%0D%0AThank you.'
+                    },
+                    ja: {
+                        subject: 'Exchango お問い合わせ',
+                        body: 'お問い合わせ内容を以下にご記入いただければ、お早めにご回答いたします。%0D%0A%0D%0A[お問い合わせ内容]:%0D%0A%0D%0A%0D%0Aありがとうございます。'
+                    },
+                    zh: {
+                        subject: 'Exchango 咨询',
+                        body: '请在下方填写您的咨询内容，我们将尽快回复。%0D%0A%0D%0A[咨询内容]:%0D%0A%0D%0A%0D%0A谢谢。'
+                    }
+                };
+                
+                const content = emailContent[currentLang] || emailContent.ko;
+                window.location.href = `mailto:exchango.app@gmail.com?subject=${encodeURIComponent(content.subject)}&body=${content.body}`;
+            });
+        }
+        
+        // Setup contact email when page loads
+        document.addEventListener('DOMContentLoaded', setupContactEmail);
     </script>
 </body>
 </html>
