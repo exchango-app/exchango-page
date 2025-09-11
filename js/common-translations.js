@@ -107,73 +107,110 @@
             },
             
             // ==== PRIVACY POLICY PAGE ====
-            privacy: {
-                title: "개인정보 처리방침 - Exchango",
-                pageTitle: "개인정보 처리방침",
-                pageSubtitle: "사용자 개인정보 보호가 우리의 최우선입니다.",
-                
-                // Section 1: Overview
-                overviewTitle: "개요",
-                overviewSubtitle: "Exchango의 개인정보 보호 정책 및 데이터 처리 방식에 대한 정보입니다",
-                overviewContent: "이 개인정보 처리방침은 Exchango 환율 변환 앱 사용 시 개인정보의 수집, 사용, 보호 방식을 명시합니다. 앱 개선을 위해 Google Firebase Analytics 등 분석 도구를 사용하며, 모든 데이터는 익명으로 처리됩니다.",
-                privacyFirstTitle: "개인정보 보호 우선 설계",
-                privacyFirstContent: "Exchango는 개인정보 보호를 우선으로 설계되었습니다. 사용자 데이터는 기기에만 저장되며, 개인식별정보는 외부 서버에 수집, 저장, 전송되지 않습니다.",
-                
-                // Section 2: Privacy Principles
-                principlesTitle: "개인정보 보호 원칙",
-                principlesSubtitle: "저희가 유지하는 핵심 개인정보 보호 원칙들입니다",
-                principle1Title: "로컬 저장만",
-                principle1Content: "모든 데이터는 사용자 기기에만 저장됩니다. 외부 저장소나 클라우드 동기화는 지원하지 않습니다.",
-                principle2Title: "익명 분석 데이터만",
-                principle2Content: "개인식별정보는 수집하지 않으며, 앱 개선을 위한 익명화된 사용 통계만 수집합니다.",
-                principle3Title: "보안 설계",
-                principle3Content: "사용자 정보 보호를 위해 보안 기술을 적용해 설계되었습니다.",
-                principle4Title: "투명성",
-                principle4Content: "데이터 처리 방식을 투명하게 공개하여 신뢰성을 유지합니다.",
-                
-                // Section 3: Data We Don't Collect
-                noCollectTitle: "수집하지 않는 정보",
-                noCollectSubtitle: "저희가 절대 수집하지 않는 정보들을 명확히 알려드립니다",
-                noCollectContent: "Exchango는 다음 정보들을 수집하지 않습니다:",
-                
-                // Section 4: Data We May Collect
-                mayCollectTitle: "수집할 수 있는 익명 데이터",
-                mayCollectSubtitle: "앱 개선을 위해 수집할 수 있는 익명화된 데이터에 대해 알려드립니다",
-                mayCollectContent: "앱 개선을 위해 다음 익명화된 데이터를 수집할 수 있습니다:",
-                analyticsTitle: "Google Analytics 사용",
-                analyticsContent: "Google Firebase Analytics를 통해 앱 성능 및 사용자 경험 개선을 위한 익명 데이터를 수집합니다. 기기 설정에서 분석 데이터 수집을 선택적으로 거부할 수 있습니다.",
-                
-                // Section 5: Local Data Storage
-                localStorageTitle: "로컬 데이터 저장",
-                localStorageSubtitle: "앱 기능을 위해 기기에만 저장되는 데이터에 대해 알려드립니다",
-                localStorageContent: "앱 기능을 위해 다음 데이터를 기기에만 저장합니다:",
-                deviceOnlyTitle: "기기 전용 저장",
-                deviceOnlyContent: "모든 데이터는 기기의 보안 저장소에 안전하게 보관됩니다. 데이터는 기기를 벗어나지 않으며, 외부 서비스와 동기화되지 않습니다. 앱 삭제 시 저장된 모든 데이터가 영구적으로 제거됩니다.",
-                
-                // Section 6: Data Sharing
-                dataSharingTitle: "데이터 공유 및 제3자 서비스",
-                dataSharingSubtitle: "분석 데이터 처리 및 제3자 서비스 사용에 대해 알려드립니다",
-                dataSharingContent: "Exchango는 다음과 같은 방식으로 데이터를 공유합니다:",
-                noSaleTitle: "절대 판매하지 않아요",
-                noSaleContent: "개인정보는 제3자에게 판매하지 않으며, 광고 목적으로 사용하지 않습니다. 수집되는 모든 분석 데이터는 오직 앱 개선 목적으로만 사용됩니다.",
-                
-                // Section 7: User Rights
-                userRightsTitle: "여러분의 권리",
-                userRightsSubtitle: "개인정보와 관련된 여러분의 권리를 알려드립니다",
-                userRightsContent: "Exchango 사용자는 다음 권리를 갖습니다:",
-                analyticsOptOutTitle: "분석 거부 방법",
-                analyticsOptOutContent: "기기 설정 → 개인정보 보호 → 분석 및 개선 사항에서 비활성화 가능",
-                dataDeleteTitle: "완전한 데이터 삭제",
-                dataDeleteContent: "앱을 삭제하면 저장된 모든 데이터가 영구적으로 제거됩니다",
-                
-                // Contact & Footer
-                contactTitle: "문의 사항",
-                contactContent: "개인정보 처리방침에 대한 문의 사항이 있으시면 아래 연락처로 연락주시기 바랍니다.",
-                contactEmail: "exchango.app@gmail.com",
-                footerCopyright: "© 2024 Exchango. 모든 권리 보유.",
-                footerMessage: "사용자 개인정보 보호와 보안을 위해 최선을 다하겠습니다.",
-                policyChanges: "이 개인정보 처리방침은 필요에 따라 업데이트될 수 있으며, 중요한 변경사항이 있을 경우 앱 업데이트를 통해 알려드립니다."
-            }
+            privacyTitle: "개인정보처리방침",
+            privacySubtitle: "귀하의 개인정보는 안전하게 보호됩니다",
+            statSecure: "보안 우선",
+            statPrivate: "개인정보 보호",
+            statTransparent: "투명한 정책",
+            
+            // Section 1: Introduction
+            privacySection1Title: "소개",
+            privacySection1Subtitle: "Exchango 서비스 이용을 위한 개인정보 처리 정책",
+            privacyIntroTitle: "개인정보처리방침 안내",
+            privacyIntroDesc: "Exchango는 이용자의 개인정보를 중요시하며, 개인정보보호법 및 관련 법령을 준수합니다. 본 개인정보처리방침은 Exchango가 제공하는 환율 계산기 앱 서비스(이하 \"서비스\")와 관련하여 이용자의 개인정보가 어떻게 수집, 이용, 보호되는지를 설명합니다.",
+            privacyIntroItem1: "시행일: 2024년 1월 1일",
+            privacyIntroItem2: "최종 수정일: 2024년 12월 1일",
+            privacyIntroItem3: "문의: exchango.app@gmail.com",
+            
+            // Section 2: Information We Collect
+            privacySection2Title: "수집하는 정보",
+            privacySection2Subtitle: "서비스 제공을 위해 최소한의 정보만을 수집합니다",
+            privacyCollect1Title: "기기 정보 (버그 제보 시)",
+            privacyCollect1Desc: "Exchango는 일상적인 사용 중에는 기기 정보를 수집하지 않습니다. 단, 사용자가 버그를 제보할 때 문제 해결을 위해 기기 유형, 운영체제 버전, 앱 버전 등의 기술적 정보가 포함될 수 있습니다.",
+            privacyCollect1Item1: "버그 제보 시에만 기기 정보 제공",
+            privacyCollect1Item2: "자동 수집이 아닌 사용자 제공 방식",
+            privacyCollect1Item3: "문제 해결 목적으로만 사용",
+            privacyCollect2Title: "사용자 설정",
+            privacyCollect2Desc: "개인화된 서비스 제공을 위해 사용자가 직접 설정한 정보를 기기 내부에 저장합니다. 이 정보는 서버로 전송되지 않으며, 오직 사용자의 기기에만 보관됩니다.",
+            privacyCollect2Item1: "선호 언어 설정",
+            privacyCollect2Item2: "기준 통화 설정",
+            privacyCollect2Item3: "즐겨찾기 통화 목록",
+            privacyCollect3Title: "사용 기록",
+            privacyCollect3Desc: "환율 계산, 팁 계산, 정산 기록 등의 사용 내역을 기기에 저장하여 편리한 재사용을 가능하게 합니다. 모든 기록은 로컬에만 저장되며 외부로 전송되지 않습니다.",
+            privacyCollect3Item1: "환율 계산 히스토리",
+            privacyCollect3Item2: "팁 계산 기록",
+            privacyCollect3Item3: "정산 내역",
+            
+            // Section 3: How We Use Information
+            privacySection3Title: "정보 사용 방법",
+            privacySection3Subtitle: "수집된 정보는 서비스 제공과 개선에만 사용됩니다",
+            privacyUseTitle: "정보 활용 목적",
+            privacyUseDesc: "Exchango는 수집한 정보를 다음과 같은 목적으로만 사용합니다:",
+            privacyUseItem1: "실시간 환율 정보 제공 및 정확한 환율 계산",
+            privacyUseItem2: "오프라인 모드에서의 서비스 제공",
+            privacyUseItem3: "사용자 맞춤형 인터페이스 제공",
+            privacyUseItem4: "앱 성능 최적화 및 버그 수정",
+            privacyUseItem5: "서비스 품질 개선 및 새로운 기능 개발",
+            
+            // Section 4: Data Storage & Security
+            privacySection4Title: "데이터 저장 및 보안",
+            privacySection4Subtitle: "업계 표준 보안 조치로 정보를 안전하게 보호합니다",
+            privacySecurity1Title: "로컬 저장",
+            privacySecurity1Desc: "모든 개인 설정과 사용 기록은 사용자의 기기에만 저장됩니다. 외부 서버로 전송되지 않으며, 앱을 삭제하면 모든 데이터가 완전히 제거됩니다.",
+            privacySecurity1Item1: "기기 내부 안전한 저장소 사용",
+            privacySecurity1Item2: "외부 서버 전송 없음",
+            privacySecurity1Item3: "앱 삭제 시 완전 삭제",
+            privacySecurity2Title: "보안 조치",
+            privacySecurity2Desc: "API 통신 시 암호화된 연결(HTTPS)을 사용하며, 시간 기반 토큰 인증으로 무단 접근을 방지합니다. 모든 통신은 보안 프로토콜을 준수합니다.",
+            privacySecurity2Item1: "HTTPS 암호화 통신",
+            privacySecurity2Item2: "시간 기반 토큰 인증",
+            privacySecurity2Item3: "CDN을 통한 안전한 데이터 전송",
+            
+            // Section 5: Third-Party Services
+            privacySection5Title: "제3자 서비스",
+            privacySection5Subtitle: "환율 데이터 제공을 위한 최소한의 외부 서비스만 사용합니다",
+            privacyThirdPartyTitle: "외부 서비스 사용",
+            privacyThirdPartyDesc: "Exchango는 정확한 환율 정보 제공을 위해 신뢰할 수 있는 외부 서비스를 통해 환율 데이터를 제공받습니다:",
+            privacyThirdPartyItem1: "실시간 환율 데이터 API 활용",
+            privacyThirdPartyItem2: "보안 프로토콜을 통한 안전한 데이터 전송",
+            privacyThirdPartyItem3: "개인정보는 제3자와 공유되지 않습니다",
+            privacyThirdPartyItem4: "오직 환율 데이터 요청만 전송됩니다",
+            
+            // Section 6: User Rights
+            privacySection6Title: "이용자의 권리",
+            privacySection6Subtitle: "귀하는 언제든지 자신의 정보를 관리할 수 있습니다",
+            privacyRights1Title: "정보 열람권",
+            privacyRights1Desc: "앱 설정에서 저장된 모든 개인 설정과 사용 기록을 확인할 수 있습니다. 모든 데이터는 투명하게 표시되며 언제든지 확인 가능합니다.",
+            privacyRights2Title: "정보 삭제권",
+            privacyRights2Desc: "앱 설정에서 계산 기록, 즐겨찾기, 사용 내역을 선택적으로 삭제하거나 앱을 삭제하여 모든 데이터를 완전히 제거할 수 있습니다.",
+            privacyRights3Title: "서비스 중단권",
+            privacyRights3Desc: "언제든지 앱 사용을 중단할 수 있으며, 앱 삭제 시 모든 로컬 데이터가 자동으로 삭제됩니다. 별도의 탈퇴 절차가 필요하지 않습니다.",
+            privacyRights4Title: "문의 및 신고",
+            privacyRights4Desc: "개인정보 관련 문의사항이나 우려사항이 있으시면 언제든지 exchango.app@gmail.com으로 연락주시기 바랍니다.",
+            
+            // Section 7: Children's Privacy
+            privacySection7Title: "아동의 개인정보 보호",
+            privacySection7Subtitle: "만 14세 미만 아동의 개인정보를 수집하지 않습니다",
+            privacyChildrenTitle: "아동 보호 정책",
+            privacyChildrenDesc: "Exchango는 모든 연령의 사용자가 안전하게 사용할 수 있도록 설계되었습니다. 앱에서 생성되는 모든 데이터(계산 기록, 설정 등)는 사용자의 기기에만 저장되며, 외부 서버로 전송되지 않습니다. 만 14세 미만 아동이 사용하더라도 개인식별정보는 수집되지 않으며, 모든 데이터는 로컬에만 보관됩니다. 부모님께서는 안심하고 자녀가 앱을 사용하도록 허용하실 수 있습니다.",
+            
+            // Section 8: Policy Updates
+            privacySection8Title: "개인정보처리방침 변경",
+            privacySection8Subtitle: "정책 변경 시 사전에 공지합니다",
+            privacyUpdateTitle: "변경 사항 안내",
+            privacyUpdateDesc: "본 개인정보처리방침은 법령이나 서비스의 변경사항을 반영하기 위해 수정될 수 있습니다. 중요한 변경사항이 있을 경우, 앱 내 공지사항을 통해 최소 7일 전에 사전 고지합니다. 변경된 개인정보처리방침은 고지된 시행일부터 효력이 발생합니다.",
+            privacyUpdateItem1: "변경 7일 전 사전 공지",
+            privacyUpdateItem2: "앱 내 공지사항 게시",
+            privacyUpdateItem3: "중요 변경 시 별도 동의 요청",
+            
+            // Section 9: Contact
+            privacySection9Title: "연락처",
+            privacySection9Subtitle: "개인정보 관련 문의사항이 있으시면 연락주세요",
+            privacyContactTitle: "문의하기",
+            privacyContactDesc: "개인정보처리방침에 대한 문의사항, 개인정보 관련 불만사항, 또는 기타 의견이 있으시면 아래 연락처로 문의해 주시기 바랍니다. 신속하고 성실하게 답변드리겠습니다.",
+            privacyContactEmail: "이메일: exchango.app@gmail.com",
+            privacyContactWebsite: "웹사이트: https://exchango.app",
+            privacyContactResponse: "응답 시간: 영업일 기준 48시간 이내"
         },
         
         en: {
@@ -277,73 +314,110 @@
             },
             
             // ==== PRIVACY POLICY PAGE ====
-            privacy: {
-                title: "Privacy Policy - Exchango",
-                pageTitle: "Privacy Policy",
-                pageSubtitle: "User privacy protection is our top priority.",
-                
-                // Section 1: Overview
-                overviewTitle: "Overview",
-                overviewSubtitle: "Information about Exchango's privacy policy and data processing methods",
-                overviewContent: "This privacy policy specifies the collection, use, and protection of personal information when using the Exchango currency conversion app. Analytics tools such as Google Firebase Analytics are used for app improvement, and all data is processed anonymously.",
-                privacyFirstTitle: "Privacy-First Design",
-                privacyFirstContent: "Exchango is designed with privacy protection as a priority. User data is stored only on the device, and personal identification information is not collected, stored, or transmitted to external servers.",
-                
-                // Section 2: Privacy Principles
-                principlesTitle: "Privacy Protection Principles",
-                principlesSubtitle: "Core privacy protection principles we maintain",
-                principle1Title: "Local Storage Only",
-                principle1Content: "All data is stored only on the user's device. External storage or cloud synchronization is not supported.",
-                principle2Title: "Anonymous Analytics Only",
-                principle2Content: "Personal identification information is not collected, only anonymized usage statistics for app improvement are collected.",
-                principle3Title: "Security Design",
-                principle3Content: "Designed with security technologies applied to protect user information.",
-                principle4Title: "Transparency",
-                principle4Content: "Maintains reliability by transparently disclosing data processing methods.",
-                
-                // Section 3: Data We Don't Collect
-                noCollectTitle: "Information We Don't Collect",
-                noCollectSubtitle: "Clearly informing you about information we absolutely do not collect",
-                noCollectContent: "Exchango does not collect the following information:",
-                
-                // Section 4: Data We May Collect
-                mayCollectTitle: "Anonymous Data We May Collect",
-                mayCollectSubtitle: "Information about anonymized data that may be collected for app improvement",
-                mayCollectContent: "The following anonymized data may be collected for app improvement:",
-                analyticsTitle: "Google Analytics Usage",
-                analyticsContent: "Anonymous data is collected through Google Firebase Analytics for app performance and user experience improvement. You can optionally opt out of analytics data collection in device settings.",
-                
-                // Section 5: Local Data Storage
-                localStorageTitle: "Local Data Storage",
-                localStorageSubtitle: "Information about data stored only on the device for app functionality",
-                localStorageContent: "The following data is stored on the device for app functionality:",
-                deviceOnlyTitle: "Device-Only Storage",
-                deviceOnlyContent: "All data is securely stored in the device's secure storage. Data does not leave the device and is not synchronized with external services. All stored data is permanently deleted when the app is uninstalled.",
-                
-                // Section 6: Data Sharing
-                dataSharingTitle: "Data Sharing and Third-Party Services",
-                dataSharingSubtitle: "Information about analytics data processing and third-party service usage",
-                dataSharingContent: "Exchango shares data in the following ways:",
-                noSaleTitle: "We Never Sell",
-                noSaleContent: "Personal information is not sold to third parties and is not used for advertising purposes. All collected analytics data is used solely for app improvement purposes.",
-                
-                // Section 7: User Rights
-                userRightsTitle: "Your Rights",
-                userRightsSubtitle: "Information about your rights related to personal information",
-                userRightsContent: "Exchango users have the following rights:",
-                analyticsOptOutTitle: "How to Opt Out of Analytics",
-                analyticsOptOutContent: "Device Settings → Privacy → Analytics & Improvements can be disabled",
-                dataDeleteTitle: "Complete Data Deletion",
-                dataDeleteContent: "All stored data is permanently deleted when the app is uninstalled",
-                
-                // Contact & Footer
-                contactTitle: "Contact",
-                contactContent: "If you have any questions about this privacy policy, please contact us at the address below.",
-                contactEmail: "exchango.app@gmail.com",
-                footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
-                footerMessage: "We will do our best to protect user privacy and security.",
-                policyChanges: "This privacy policy may be updated as necessary, and if there are important changes, we will notify you through app updates."
-            }
+            privacyTitle: "Privacy Policy",
+            privacySubtitle: "Your privacy is safely protected",
+            statSecure: "Security First",
+            statPrivate: "Privacy Protection",
+            statTransparent: "Transparent Policy",
+            
+            // Section 1: Introduction
+            privacySection1Title: "Introduction",
+            privacySection1Subtitle: "Privacy Policy for Exchango Service",
+            privacyIntroTitle: "Privacy Policy Notice",
+            privacyIntroDesc: "Exchango values user privacy and complies with privacy laws and regulations. This privacy policy explains how user information is collected, used, and protected in connection with the Exchango currency calculator app service (the 'Service').",
+            privacyIntroItem1: "Effective Date: January 1, 2024",
+            privacyIntroItem2: "Last Updated: December 1, 2024",
+            privacyIntroItem3: "Contact: exchango.app@gmail.com",
+            
+            // Section 2: Information We Collect
+            privacySection2Title: "Information We Collect",
+            privacySection2Subtitle: "We collect only minimal information necessary for service provision",
+            privacyCollect1Title: "Device Information (When Reporting Bugs)",
+            privacyCollect1Desc: "Exchango does not collect device information during normal use. However, when users report bugs, technical information such as device type, OS version, and app version may be included to help resolve issues.",
+            privacyCollect1Item1: "Device information provided only when reporting bugs",
+            privacyCollect1Item2: "User-provided, not automatically collected",
+            privacyCollect1Item3: "Used only for troubleshooting purposes",
+            privacyCollect2Title: "User Settings",
+            privacyCollect2Desc: "User-configured settings are stored on the device to provide personalized service. This information is not transmitted to servers and is kept only on the user's device.",
+            privacyCollect2Item1: "Language preferences",
+            privacyCollect2Item2: "Base currency settings",
+            privacyCollect2Item3: "Favorite currency list",
+            privacyCollect3Title: "Usage History",
+            privacyCollect3Desc: "Exchange rate calculations, tip calculations, and settlement records are stored on the device for convenient reuse. All records are stored locally and not transmitted externally.",
+            privacyCollect3Item1: "Exchange rate calculation history",
+            privacyCollect3Item2: "Tip calculation records",
+            privacyCollect3Item3: "Settlement history",
+            
+            // Section 3: How We Use Information
+            privacySection3Title: "How We Use Information",
+            privacySection3Subtitle: "Collected information is used only for service provision and improvement",
+            privacyUseTitle: "Purpose of Information Use",
+            privacyUseDesc: "Exchango uses collected information only for the following purposes:",
+            privacyUseItem1: "Providing real-time exchange rate information and accurate currency calculations",
+            privacyUseItem2: "Providing service in offline mode",
+            privacyUseItem3: "Providing customized user interface",
+            privacyUseItem4: "App performance optimization and bug fixes",
+            privacyUseItem5: "Service quality improvement and new feature development",
+            
+            // Section 4: Data Storage & Security
+            privacySection4Title: "Data Storage & Security",
+            privacySection4Subtitle: "We protect information safely with industry-standard security measures",
+            privacySecurity1Title: "Local Storage",
+            privacySecurity1Desc: "All personal settings and usage records are stored only on the user's device. They are not transmitted to external servers, and all data is completely removed when the app is deleted.",
+            privacySecurity1Item1: "Use of secure storage inside device",
+            privacySecurity1Item2: "No external server transmission",
+            privacySecurity1Item3: "Complete deletion when app is uninstalled",
+            privacySecurity2Title: "Security Measures",
+            privacySecurity2Desc: "We use encrypted connections (HTTPS) for API communication and prevent unauthorized access with time-based token authentication. All communications comply with security protocols.",
+            privacySecurity2Item1: "HTTPS encrypted communication",
+            privacySecurity2Item2: "Time-based token authentication",
+            privacySecurity2Item3: "Secure data transmission through CDN",
+            
+            // Section 5: Third-Party Services
+            privacySection5Title: "Third-Party Services",
+            privacySection5Subtitle: "We use only minimal external services for exchange rate data provision",
+            privacyThirdPartyTitle: "Use of External Services",
+            privacyThirdPartyDesc: "Exchango receives exchange rate data through reliable external services to provide accurate exchange rate information:",
+            privacyThirdPartyItem1: "Real-time exchange rate data API utilization",
+            privacyThirdPartyItem2: "Secure data transmission through security protocols",
+            privacyThirdPartyItem3: "Personal information is not shared with third parties",
+            privacyThirdPartyItem4: "Only exchange rate data requests are transmitted",
+            
+            // Section 6: User Rights
+            privacySection6Title: "Your Rights",
+            privacySection6Subtitle: "You can manage your information at any time",
+            privacyRights1Title: "Right to Access",
+            privacyRights1Desc: "You can view all saved personal settings and usage history in the app settings. All data is displayed transparently and can be checked at any time.",
+            privacyRights2Title: "Right to Delete",
+            privacyRights2Desc: "You can selectively delete calculation history, favorites, and usage history in the app settings, or completely remove all data by deleting the app.",
+            privacyRights3Title: "Right to Stop Service",
+            privacyRights3Desc: "You can stop using the app at any time, and all local data is automatically deleted when the app is deleted. No separate withdrawal process is required.",
+            privacyRights4Title: "Inquiries and Reports",
+            privacyRights4Desc: "If you have any questions or concerns about privacy, please contact us at exchango.app@gmail.com.",
+            
+            // Section 7: Children's Privacy
+            privacySection7Title: "Children's Privacy Protection",
+            privacySection7Subtitle: "We do not collect personal information from children under 14",
+            privacyChildrenTitle: "Child Protection Policy",
+            privacyChildrenDesc: "Exchango is designed to be safely used by users of all ages. All data generated in the app (calculation records, settings, etc.) is stored only on the user's device and is not transmitted to external servers. Even if children under 14 use the app, no personally identifiable information is collected, and all data is stored locally only. Parents can safely allow their children to use the app.",
+            
+            // Section 8: Policy Updates
+            privacySection8Title: "Privacy Policy Changes",
+            privacySection8Subtitle: "We will notify you in advance of policy changes",
+            privacyUpdateTitle: "Change Notification",
+            privacyUpdateDesc: "This privacy policy may be revised to reflect changes in laws or services. In case of significant changes, we will notify you at least 7 days in advance through in-app notifications. The revised privacy policy will be effective from the announced date.",
+            privacyUpdateItem1: "7-day advance notice for changes",
+            privacyUpdateItem2: "In-app notification posting",
+            privacyUpdateItem3: "Separate consent request for significant changes",
+            
+            // Section 9: Contact
+            privacySection9Title: "Contact",
+            privacySection9Subtitle: "Please contact us if you have any privacy-related questions",
+            privacyContactTitle: "Contact Us",
+            privacyContactDesc: "If you have any questions about this privacy policy, privacy-related complaints, or other feedback, please contact us at the address below. We will respond promptly and sincerely.",
+            privacyContactEmail: "Email: exchango.app@gmail.com",
+            privacyContactWebsite: "Website: https://exchango.app",
+            privacyContactResponse: "Response time: Within 48 business hours"
         },
         
         ja: {
@@ -434,23 +508,110 @@
             },
             
             // ==== PRIVACY POLICY PAGE ====
-            privacy: {
-                title: "プライバシーポリシー - Exchango",
-                pageTitle: "プライバシーポリシー",
-                pageSubtitle: "ユーザーのプライバシー保護が私たちの最優先事項です。",
-                
-                overviewTitle: "概要",
-                overviewSubtitle: "Exchangoのプライバシーポリシーとデータ処理方法について",
-                overviewContent: "このプライバシーポリシーは、Exchango通貨変換アプリの使用時における個人情報の収集、使用、保護の方法を明示しています。アプリ改善のためにGoogle Firebase Analyticsなどの分析ツールを使用し、すべてのデータは匿名で処理されます。",
-                privacyFirstTitle: "プライバシー優先設計",
-                privacyFirstContent: "Exchangoはプライバシー保護を優先して設計されています。ユーザーデータはデバイスにのみ保存され、個人識別情報は外部サーバーに収集、保存、送信されません。",
-                
-                contactTitle: "お問い合わせ",
-                contactContent: "このプライバシーポリシーについてご質問がございましたら、下記連絡先までお問い合わせください。",
-                contactEmail: "exchango.app@gmail.com",
-                footerCopyright: "© 2024 Exchango. すべての権利を保有。",
-                footerMessage: "ユーザーのプライバシー保護とセキュリティのために最善を尽くします。"
-            }
+            privacyTitle: "プライバシーポリシー",
+            privacySubtitle: "あなたのプライバシーは安全に保護されています",
+            statSecure: "セキュリティ優先",
+            statPrivate: "プライバシー保護",
+            statTransparent: "透明なポリシー",
+            
+            // Section 1: Introduction
+            privacySection1Title: "はじめに",
+            privacySection1Subtitle: "Exchangoサービス利用のためのプライバシーポリシー",
+            privacyIntroTitle: "プライバシーポリシーのご案内",
+            privacyIntroDesc: "Exchangoはユーザーのプライバシーを重視し、プライバシー法および関連法令を遵守します。本プライバシーポリシーは、Exchango為替計算アプリサービス（以下「サービス」）に関連して、ユーザーのプライバシーがどのように収集、使用、保護されるかを説明します。",
+            privacyIntroItem1: "施行日：2024年1月1日",
+            privacyIntroItem2: "最終更新日：2024年12月1日",
+            privacyIntroItem3: "お問い合わせ：exchango.app@gmail.com",
+            
+            // Section 2: Information We Collect
+            privacySection2Title: "収集する情報",
+            privacySection2Subtitle: "サービス提供のため最小限の情報のみを収集します",
+            privacyCollect1Title: "デバイス情報（バグ報告時）",
+            privacyCollect1Desc: "Exchangoは通常使用中にデバイス情報を収集しません。ただし、ユーザーがバグを報告する際、問題解決のためにデバイスタイプ、OSバージョン、アプリバージョンなどの技術的情報が含まれることがあります。",
+            privacyCollect1Item1: "バグ報告時のみデバイス情報提供",
+            privacyCollect1Item2: "自動収集ではなくユーザー提供方式",
+            privacyCollect1Item3: "問題解決目的でのみ使用",
+            privacyCollect2Title: "ユーザー設定",
+            privacyCollect2Desc: "パーソナライズされたサービス提供のため、ユーザーが直接設定した情報をデバイス内部に保存します。この情報はサーバーに送信されず、ユーザーのデバイスにのみ保管されます。",
+            privacyCollect2Item1: "言語設定",
+            privacyCollect2Item2: "基準通貨設定",
+            privacyCollect2Item3: "お気に入り通貨リスト",
+            privacyCollect3Title: "使用履歴",
+            privacyCollect3Desc: "為替計算、チップ計算、精算記録などの使用履歴をデバイスに保存し、便利な再利用を可能にします。すべての記録はローカルにのみ保存され、外部に送信されません。",
+            privacyCollect3Item1: "為替計算履歴",
+            privacyCollect3Item2: "チップ計算記録",
+            privacyCollect3Item3: "精算履歴",
+            
+            // Section 3: How We Use Information
+            privacySection3Title: "情報の使用方法",
+            privacySection3Subtitle: "収集された情報はサービス提供と改善のみに使用されます",
+            privacyUseTitle: "情報活用目的",
+            privacyUseDesc: "Exchangoは収集した情報を次の目的でのみ使用します：",
+            privacyUseItem1: "リアルタイム為替情報提供と正確な為替計算",
+            privacyUseItem2: "オフラインモードでのサービス提供",
+            privacyUseItem3: "ユーザーカスタマイズインターフェース提供",
+            privacyUseItem4: "アプリパフォーマンス最適化とバグ修正",
+            privacyUseItem5: "サービス品質改善と新機能開発",
+            
+            // Section 4: Data Storage & Security
+            privacySection4Title: "データ保存とセキュリティ",
+            privacySection4Subtitle: "業界標準のセキュリティ対策で情報を安全に保護します",
+            privacySecurity1Title: "ローカル保存",
+            privacySecurity1Desc: "すべての個人設定と使用記録はユーザーのデバイスにのみ保存されます。外部サーバーに送信されず、アプリを削除するとすべてのデータが完全に削除されます。",
+            privacySecurity1Item1: "デバイス内部の安全な保存領域使用",
+            privacySecurity1Item2: "外部サーバー送信なし",
+            privacySecurity1Item3: "アプリ削除時に完全削除",
+            privacySecurity2Title: "セキュリティ対策",
+            privacySecurity2Desc: "API通信時に暗号化された接続（HTTPS）を使用し、時間ベースのトークン認証で不正アクセスを防止します。すべての通信はセキュリティプロトコルに準拠します。",
+            privacySecurity2Item1: "HTTPS暗号化通信",
+            privacySecurity2Item2: "時間ベーストークン認証",
+            privacySecurity2Item3: "CDNを通じた安全なデータ送信",
+            
+            // Section 5: Third-Party Services
+            privacySection5Title: "第三者サービス",
+            privacySection5Subtitle: "為替データ提供のための最小限の外部サービスのみ使用します",
+            privacyThirdPartyTitle: "外部サービス使用",
+            privacyThirdPartyDesc: "Exchangoは正確な為替情報提供のため、信頼できる外部サービスを通じて為替データの提供を受けています：",
+            privacyThirdPartyItem1: "リアルタイム為替データAPI活用",
+            privacyThirdPartyItem2: "セキュリティプロトコルを通じた安全なデータ送信",
+            privacyThirdPartyItem3: "個人情報は第三者と共有されません",
+            privacyThirdPartyItem4: "為替データリクエストのみ送信されます",
+            
+            // Section 6: User Rights
+            privacySection6Title: "ユーザーの権利",
+            privacySection6Subtitle: "いつでも自分の情報を管理できます",
+            privacyRights1Title: "情報閲覧権",
+            privacyRights1Desc: "アプリ設定で保存されたすべての個人設定と使用記録を確認できます。すべてのデータは透明に表示され、いつでも確認可能です。",
+            privacyRights2Title: "情報削除権",
+            privacyRights2Desc: "アプリ設定で計算履歴、お気に入り、使用履歴を選択的に削除したり、アプリを削除してすべてのデータを完全に削除できます。",
+            privacyRights3Title: "サービス中断権",
+            privacyRights3Desc: "いつでもアプリの使用を中断でき、アプリ削除時にすべてのローカルデータが自動的に削除されます。別途の退会手続きは必要ありません。",
+            privacyRights4Title: "お問い合わせと報告",
+            privacyRights4Desc: "プライバシー関連のお問い合わせや懸念事項がございましたら、いつでもexchango.app@gmail.comまでご連絡ください。",
+            
+            // Section 7: Children's Privacy
+            privacySection7Title: "児童のプライバシー保護",
+            privacySection7Subtitle: "14歳未満の児童の個人情報は収集しません",
+            privacyChildrenTitle: "児童保護ポリシー",
+            privacyChildrenDesc: "Exchangoはすべての年齢のユーザーが安全に使用できるよう設計されています。アプリで生成されるすべてのデータ（計算記録、設定など）はユーザーのデバイスにのみ保存され、外部サーバーに送信されません。14歳未満の児童が使用しても個人識別情報は収集されず、すべてのデータはローカルにのみ保管されます。保護者の方は安心してお子様がアプリを使用することを許可できます。",
+            
+            // Section 8: Policy Updates
+            privacySection8Title: "プライバシーポリシーの変更",
+            privacySection8Subtitle: "ポリシー変更時は事前にお知らせします",
+            privacyUpdateTitle: "変更事項のご案内",
+            privacyUpdateDesc: "本プライバシーポリシーは法令やサービスの変更事項を反映するため修正されることがあります。重要な変更事項がある場合、アプリ内お知らせを通じて最低7日前に事前告知します。変更されたプライバシーポリシーは告知された施行日から効力が発生します。",
+            privacyUpdateItem1: "変更7日前の事前告知",
+            privacyUpdateItem2: "アプリ内お知らせ掲載",
+            privacyUpdateItem3: "重要変更時の別途同意要請",
+            
+            // Section 9: Contact
+            privacySection9Title: "連絡先",
+            privacySection9Subtitle: "プライバシー関連のお問い合わせはご連絡ください",
+            privacyContactTitle: "お問い合わせ",
+            privacyContactDesc: "プライバシーポリシーに関するお問い合わせ、プライバシー関連の苦情、その他のご意見がございましたら、下記連絡先までお問い合わせください。迅速かつ誠実にお答えいたします。",
+            privacyContactEmail: "メール：exchango.app@gmail.com",
+            privacyContactWebsite: "ウェブサイト：https://exchango.app",
+            privacyContactResponse: "応答時間：営業日基準48時間以内"
         },
         
         zh: {
@@ -541,23 +702,110 @@
             },
             
             // ==== PRIVACY POLICY PAGE ====
-            privacy: {
-                title: "隐私政策 - Exchango",
-                pageTitle: "隐私政策",
-                pageSubtitle: "用户隐私保护是我们的最高优先级。",
-                
-                overviewTitle: "概述",
-                overviewSubtitle: "关于Exchango隐私政策和数据处理方式的信息",
-                overviewContent: "此隐私政策明确了在使用Exchango货币转换应用时个人信息的收集、使用和保护方式。为了应用改进使用Google Firebase Analytics等分析工具，所有数据都经过匿名化处理。",
-                privacyFirstTitle: "隐私优先设计",
-                privacyFirstContent: "Exchango采用隐私保护优先设计。用户数据仅存储在设备上，个人识别信息不会被收集、存储或传输到外部服务器。",
-                
-                contactTitle: "联系我们",
-                contactContent: "如果您对此隐私政策有任何问题，请通过以下地址联系我们。",
-                contactEmail: "exchango.app@gmail.com",
-                footerCopyright: "© 2024 Exchango. 版权所有。",
-                footerMessage: "我们将尽最大努力保护用户隐私和安全。"
-            }
+            privacyTitle: "隐私政策",
+            privacySubtitle: "您的隐私受到安全保护",
+            statSecure: "安全优先",
+            statPrivate: "隐私保护",
+            statTransparent: "透明政策",
+            
+            // Section 1: Introduction
+            privacySection1Title: "简介",
+            privacySection1Subtitle: "Exchango服务使用的隐私政策",
+            privacyIntroTitle: "隐私政策说明",
+            privacyIntroDesc: "Exchango重视用户隐私，遵守隐私法及相关法规。本隐私政策说明了与Exchango汇率计算器应用服务（以下简称"服务"）相关的用户隐私如何被收集、使用和保护。",
+            privacyIntroItem1: "生效日期：2024年1月1日",
+            privacyIntroItem2: "最后更新：2024年12月1日",
+            privacyIntroItem3: "联系方式：exchango.app@gmail.com",
+            
+            // Section 2: Information We Collect
+            privacySection2Title: "收集的信息",
+            privacySection2Subtitle: "仅收集提供服务所需的最少信息",
+            privacyCollect1Title: "设备信息（报告错误时）",
+            privacyCollect1Desc: "Exchango在正常使用期间不收集设备信息。但是，当用户报告错误时，可能包含设备类型、操作系统版本、应用版本等技术信息以帮助解决问题。",
+            privacyCollect1Item1: "仅在报告错误时提供设备信息",
+            privacyCollect1Item2: "用户提供方式，非自动收集",
+            privacyCollect1Item3: "仅用于问题解决目的",
+            privacyCollect2Title: "用户设置",
+            privacyCollect2Desc: "为提供个性化服务，用户直接设置的信息存储在设备内部。此信息不会传输到服务器，仅保存在用户设备上。",
+            privacyCollect2Item1: "语言偏好设置",
+            privacyCollect2Item2: "基准货币设置",
+            privacyCollect2Item3: "收藏货币列表",
+            privacyCollect3Title: "使用记录",
+            privacyCollect3Desc: "汇率计算、小费计算、结算记录等使用历史存储在设备上，方便重复使用。所有记录仅存储在本地，不向外部传输。",
+            privacyCollect3Item1: "汇率计算历史",
+            privacyCollect3Item2: "小费计算记录",
+            privacyCollect3Item3: "结算历史",
+            
+            // Section 3: How We Use Information
+            privacySection3Title: "信息使用方式",
+            privacySection3Subtitle: "收集的信息仅用于服务提供和改进",
+            privacyUseTitle: "信息使用目的",
+            privacyUseDesc: "Exchango仅将收集的信息用于以下目的：",
+            privacyUseItem1: "提供实时汇率信息和准确的汇率计算",
+            privacyUseItem2: "在离线模式下提供服务",
+            privacyUseItem3: "提供用户定制界面",
+            privacyUseItem4: "应用性能优化和错误修复",
+            privacyUseItem5: "服务质量改进和新功能开发",
+            
+            // Section 4: Data Storage & Security
+            privacySection4Title: "数据存储与安全",
+            privacySection4Subtitle: "通过行业标准安全措施安全保护信息",
+            privacySecurity1Title: "本地存储",
+            privacySecurity1Desc: "所有个人设置和使用记录仅存储在用户设备上。不会传输到外部服务器，删除应用时所有数据将完全删除。",
+            privacySecurity1Item1: "使用设备内部安全存储区",
+            privacySecurity1Item2: "无外部服务器传输",
+            privacySecurity1Item3: "卸载应用时完全删除",
+            privacySecurity2Title: "安全措施",
+            privacySecurity2Desc: "API通信时使用加密连接（HTTPS），通过基于时间的令牌认证防止未授权访问。所有通信遵守安全协议。",
+            privacySecurity2Item1: "HTTPS加密通信",
+            privacySecurity2Item2: "基于时间的令牌认证",
+            privacySecurity2Item3: "通过CDN安全传输数据",
+            
+            // Section 5: Third-Party Services
+            privacySection5Title: "第三方服务",
+            privacySection5Subtitle: "仅使用提供汇率数据所需的最少外部服务",
+            privacyThirdPartyTitle: "外部服务使用",
+            privacyThirdPartyDesc: "Exchango通过可靠的外部服务获取汇率数据，以提供准确的汇率信息：",
+            privacyThirdPartyItem1: "实时汇率数据API利用",
+            privacyThirdPartyItem2: "通过安全协议安全传输数据",
+            privacyThirdPartyItem3: "个人信息不与第三方共享",
+            privacyThirdPartyItem4: "仅传输汇率数据请求",
+            
+            // Section 6: User Rights
+            privacySection6Title: "用户权利",
+            privacySection6Subtitle: "您可以随时管理自己的信息",
+            privacyRights1Title: "信息查看权",
+            privacyRights1Desc: "您可以在应用设置中查看所有保存的个人设置和使用记录。所有数据透明显示，随时可查。",
+            privacyRights2Title: "信息删除权",
+            privacyRights2Desc: "您可以在应用设置中选择性删除计算历史、收藏、使用记录，或通过删除应用完全删除所有数据。",
+            privacyRights3Title: "服务中止权",
+            privacyRights3Desc: "您可以随时停止使用应用，删除应用时所有本地数据将自动删除。无需单独的退出程序。",
+            privacyRights4Title: "咨询和举报",
+            privacyRights4Desc: "如有隐私相关问题或疑虑，请随时联系exchango.app@gmail.com。",
+            
+            // Section 7: Children's Privacy
+            privacySection7Title: "儿童隐私保护",
+            privacySection7Subtitle: "不收集14岁以下儿童的个人信息",
+            privacyChildrenTitle: "儿童保护政策",
+            privacyChildrenDesc: "Exchango设计为所有年龄用户都能安全使用。应用中生成的所有数据（计算记录、设置等）仅存储在用户设备上，不会传输到外部服务器。即使14岁以下儿童使用，也不会收集个人识别信息，所有数据仅保存在本地。家长可以放心让孩子使用应用。",
+            
+            // Section 8: Policy Updates
+            privacySection8Title: "隐私政策变更",
+            privacySection8Subtitle: "政策变更时会提前通知",
+            privacyUpdateTitle: "变更事项通知",
+            privacyUpdateDesc: "本隐私政策可能会修改以反映法律或服务的变更。如有重要变更，将通过应用内通知至少提前7天告知。修改后的隐私政策从公告的生效日期开始生效。",
+            privacyUpdateItem1: "变更前7天提前通知",
+            privacyUpdateItem2: "应用内通知发布",
+            privacyUpdateItem3: "重要变更时要求单独同意",
+            
+            // Section 9: Contact
+            privacySection9Title: "联系方式",
+            privacySection9Subtitle: "如有隐私相关问题请联系我们",
+            privacyContactTitle: "联系我们",
+            privacyContactDesc: "如对隐私政策有疑问、隐私相关投诉或其他意见，请通过以下联系方式与我们联系。我们将迅速、诚恳地回复。",
+            privacyContactEmail: "邮箱：exchango.app@gmail.com",
+            privacyContactWebsite: "网站：https://exchango.app",
+            privacyContactResponse: "响应时间：工作日48小时内"
         }
     };
 
@@ -641,12 +889,20 @@
     // Get current page type
     function getPageType() {
         const path = window.location.pathname;
-        if (path.includes('privacy')) {
+        const filename = path.split('/').pop() || '';
+        
+        console.log('🔍 Current path:', path);
+        console.log('🔍 Filename:', filename);
+        
+        if (filename.includes('privacy') || path.includes('privacy')) {
+            console.log('📄 Page type: privacy');
             return 'privacy';
-        } else if (path.includes('about')) {
+        } else if (filename.includes('about') || path.includes('about')) {
+            console.log('📄 Page type: about');
             return 'about';
         } else {
             // Default to about for index or other pages
+            console.log('📄 Page type: about (default)');
             return 'about';
         }
     }
@@ -686,7 +942,20 @@
     // Get translation object for current language and page
     function getTranslations(lang, pageType) {
         const langTranslations = translations[lang] || translations.ko;
-        return langTranslations[pageType] || langTranslations.about;
+        
+        // For privacy page, return all privacy-related translations directly
+        if (pageType === 'privacy') {
+            // Return the entire langTranslations object since privacy translations are at the root level
+            return langTranslations;
+        }
+        
+        // For about page, check if translations are nested or flat
+        if (langTranslations[pageType]) {
+            return langTranslations[pageType];
+        }
+        
+        // If not nested, return the entire translation object (for backward compatibility)
+        return langTranslations;
     }
 
     // Apply text considering HTML content
@@ -718,12 +987,21 @@
         
         // Update all elements with data-i18n attributes
         const elementsWithI18n = document.querySelectorAll('[data-i18n]');
+        let translatedCount = 0;
+        let missingCount = 0;
+        
         elementsWithI18n.forEach(element => {
             const key = element.getAttribute('data-i18n');
             if (t[key]) {
                 applyText(element, t[key]);
+                translatedCount++;
+            } else {
+                console.warn(`⚠️ Missing translation for key: ${key}`);
+                missingCount++;
             }
         });
+        
+        console.log(`📊 Translation stats: ${translatedCount} applied, ${missingCount} missing`);
 
         // Handle special cases for privacy policy lists
         if (pageType === 'privacy' && privacyLists[currentLang]) {
