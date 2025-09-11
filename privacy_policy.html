@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Privacy Policy - Exchango</title>
     <script src="./lib/lucide.js"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/app-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/app-icon.png">
+
     <link rel="stylesheet" href="./css/common-style.css">
 </head>
 <body>
@@ -401,39 +406,6 @@
             </div>
         </div>
 
-        <!-- Contact Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">8</span>
-                <h2 data-i18n="privacySection9Title">연락처</h2>
-                <p class="section-subtitle" data-i18n="privacySection9Subtitle">
-                    개인정보 관련 문의사항이 있으시면 연락주세요
-                </p>
-            </div>
-
-            <div class="highlight-box">
-                <div class="icon"><i data-lucide="message-circle"></i></div>
-                <h3 data-i18n="privacyContactTitle">문의하기</h3>
-                <p data-i18n="privacyContactDesc">
-                    개인정보처리방침에 대한 문의사항, 개인정보 관련 불만사항, 또는 기타 의견이 있으시면 
-                    아래 연락처로 문의해 주시기 바랍니다. 신속하고 성실하게 답변드리겠습니다.
-                </p>
-                <div class="feature-details">
-                    <div class="feature-detail-item">
-                        <span class="detail-check"><i data-lucide="mail"></i></span>
-                        <span data-i18n="privacyContactEmail">이메일: exchango.app@gmail.com</span>
-                    </div>
-                    <div class="feature-detail-item">
-                        <span class="detail-check"><i data-lucide="globe"></i></span>
-                        <span data-i18n="privacyContactWebsite">웹사이트: https://exchango.app</span>
-                    </div>
-                    <div class="feature-detail-item">
-                        <span class="detail-check"><i data-lucide="clock"></i></span>
-                        <span data-i18n="privacyContactResponse">응답 시간: 영업일 기준 48시간 이내</span>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Footer -->
         <footer class="footer" id="footer">
@@ -452,15 +424,13 @@
                             <h4 data-i18n="footerSupport">고객 지원</h4>
                             <ul>
                                 <li><a href="about.html" data-i18n="footerAbout">서비스 소개</a></li>
-                                <li><a href="privacy_policy.html" data-i18n="footerPrivacy">개인정보처리방침</a></li>
-                                <li><a href="#" data-i18n="footerContact" id="contact-link">문의하기</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 
                 <div class="footer-bottom">
-                    <p class="copyright" data-i18n="footerCopyright">© 2024 Exchango. 모든 권리 보유.</p>
+                    <p class="copyright" data-i18n="footerCopyright">Copyright © 2025 Exchango All rights reserved.</p>
                     
                     <!-- Language Selector (Footer) -->
                     <div class="footer-language">
@@ -494,8 +464,12 @@
                     const href = this.getAttribute('href');
                     const lang = href.split('lang=')[1];
                     if (lang) {
-                        // Change the URL and reload to apply language
-                        window.location.href = window.location.pathname + '?lang=' + lang;
+                        // Store language preference
+                        localStorage.setItem('exchango-language', lang);
+                        
+                        // Navigate to new URL with language parameter
+                        const newUrl = window.location.pathname + '?lang=' + lang;
+                        window.location.href = newUrl;
                     }
                 });
             });
@@ -511,43 +485,10 @@
             return supportedLanguages.includes(detectedLang) ? detectedLang : 'ko';
         }
         
-        // Contact email multilingual support
-        function setupContactEmail() {
-            const contactLink = document.getElementById('contact-link');
-            if (!contactLink) return;
-            
-            contactLink.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const currentLang = getCurrentLanguage();
-                const emailContent = {
-                    ko: {
-                        subject: 'Exchango 개인정보 관련 문의',
-                        body: '개인정보 관련 문의사항을 아래에 작성해 주시면 빠른 시일 내에 답변드리겠습니다.%0D%0A%0D%0A[문의 내용]:%0D%0A%0D%0A%0D%0A감사합니다.'
-                    },
-                    en: {
-                        subject: 'Exchango Privacy Inquiry',
-                        body: 'Please write your privacy-related inquiry below and we will respond as soon as possible.%0D%0A%0D%0A[Inquiry Content]:%0D%0A%0D%0A%0D%0AThank you.'
-                    },
-                    ja: {
-                        subject: 'Exchango プライバシーに関するお問い合わせ',
-                        body: 'プライバシーに関するお問い合わせ内容を以下にご記入いただければ、お早めにご回答いたします。%0D%0A%0D%0A[お問い合わせ内容]:%0D%0A%0D%0A%0D%0Aありがとうございます。'
-                    },
-                    zh: {
-                        subject: 'Exchango 隐私咨询',
-                        body: '请在下方填写您的隐私相关咨询内容，我们将尽快回复。%0D%0A%0D%0A[咨询内容]:%0D%0A%0D%0A%0D%0A谢谢。'
-                    }
-                };
-                
-                const content = emailContent[currentLang] || emailContent.ko;
-                window.location.href = `mailto:exchango.app@gmail.com?subject=${encodeURIComponent(content.subject)}&body=${content.body}`;
-            });
-        }
         
         // Setup everything when page loads
         document.addEventListener('DOMContentLoaded', function() {
             setupLanguageHandlers();
-            setupContactEmail();
         });
     </script>
 </body>

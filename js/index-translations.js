@@ -119,7 +119,7 @@
             footerPrivacy: "개인정보처리방침",
             footerTerms: "이용약관",
             footerAboutPage: "Exchango 소개",
-            footerCopyright: "© 2024 Exchango. 모든 권리 보유.",
+            footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "메인 콘텐츠로 건너뛰기",

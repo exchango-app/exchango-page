@@ -210,7 +210,13 @@
             privacyContactDesc: "개인정보처리방침에 대한 문의사항, 개인정보 관련 불만사항, 또는 기타 의견이 있으시면 아래 연락처로 문의해 주시기 바랍니다. 신속하고 성실하게 답변드리겠습니다.",
             privacyContactEmail: "이메일: exchango.app@gmail.com",
             privacyContactWebsite: "웹사이트: https://exchango.app",
-            privacyContactResponse: "응답 시간: 영업일 기준 48시간 이내"
+            privacyContactResponse: "응답 시간: 영업일 기준 48시간 이내",
+            
+            // Footer translations for privacy page
+            heroTagline: "전 세계를 위한 스마트 환율 계산기",
+            footerSupport: "고객 지원",
+            footerAbout: "서비스 소개",
+            footerCopyright: "Copyright © 2025 Exchango All rights reserved."
         },
         
         en: {
@@ -417,7 +423,13 @@
             privacyContactDesc: "If you have any questions about this privacy policy, privacy-related complaints, or other feedback, please contact us at the address below. We will respond promptly and sincerely.",
             privacyContactEmail: "Email: exchango.app@gmail.com",
             privacyContactWebsite: "Website: https://exchango.app",
-            privacyContactResponse: "Response time: Within 48 business hours"
+            privacyContactResponse: "Response time: Within 48 business hours",
+            
+            // Footer translations for privacy page
+            heroTagline: "Your Global Currency Companion!",
+            footerSupport: "Support",
+            footerAbout: "About Service",
+            footerCopyright: "Copyright © 2025 Exchango All rights reserved."
         },
         
         ja: {
@@ -611,7 +623,13 @@
             privacyContactDesc: "プライバシーポリシーに関するお問い合わせ、プライバシー関連の苦情、その他のご意見がございましたら、下記連絡先までお問い合わせください。迅速かつ誠実にお答えいたします。",
             privacyContactEmail: "メール：exchango.app@gmail.com",
             privacyContactWebsite: "ウェブサイト：https://exchango.app",
-            privacyContactResponse: "応答時間：営業日基準48時間以内"
+            privacyContactResponse: "応答時間：営業日基準48時間以内",
+            
+            // Footer translations for privacy page
+            heroTagline: "世界のためのスマート通貨計算機",
+            footerSupport: "サポート",
+            footerAbout: "サービス紹介",
+            footerCopyright: "Copyright © 2025 Exchango All rights reserved."
         },
         
         zh: {
@@ -805,7 +823,13 @@
             privacyContactDesc: "如对隐私政策有疑问、隐私相关投诉或其他意见，请通过以下联系方式与我们联系。我们将迅速、诚恳地回复。",
             privacyContactEmail: "邮箱：exchango.app@gmail.com",
             privacyContactWebsite: "网站：https://exchango.app",
-            privacyContactResponse: "响应时间：工作日48小时内"
+            privacyContactResponse: "响应时间：工作日48小时内",
+            
+            // Footer translations for privacy page
+            heroTagline: "全球智能汇率计算器",
+            footerSupport: "客户支持",
+            footerAbout: "服务介绍",
+            footerCopyright: "Copyright © 2025 Exchango All rights reserved."
         }
     };
 
