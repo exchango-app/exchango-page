@@ -118,7 +118,7 @@
             footerSupport: "고객 지원",
             footerPrivacy: "개인정보처리방침",
             footerTerms: "이용약관",
-            footerContact: "문의하기",
+            footerAboutPage: "Exchango 소개",
             footerCopyright: "© 2024 Exchango. 모든 권리 보유.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
@@ -241,7 +241,7 @@
             footerSupport: "Customer Support",
             footerPrivacy: "Privacy Policy",
             footerTerms: "Terms of Service",
-            footerContact: "Contact Us",
+            footerAboutPage: "About Exchango",
             footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
@@ -364,7 +364,7 @@
             footerSupport: "カスタマーサポート",
             footerPrivacy: "プライバシーポリシー",
             footerTerms: "利用規約",
-            footerContact: "お問い合わせ",
+            footerAboutPage: "Exchangoについて",
             footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
@@ -487,7 +487,7 @@
             footerSupport: "客户支持",
             footerPrivacy: "隐私政策",
             footerTerms: "服务条款",
-            footerContact: "联系我们",
+            footerAboutPage: "关于Exchango",
             footerCopyright: "© 2024 Exchango. 保留所有权利。",
             
             // ==== ACCESSIBILITY & NAVIGATION ====

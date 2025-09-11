@@ -712,7 +712,7 @@
             privacySection1Title: "简介",
             privacySection1Subtitle: "Exchango服务使用的隐私政策",
             privacyIntroTitle: "隐私政策说明",
-            privacyIntroDesc: "Exchango重视用户隐私，遵守隐私法及相关法规。本隐私政策说明了与Exchango汇率计算器应用服务（以下简称"服务"）相关的用户隐私如何被收集、使用和保护。",
+            privacyIntroDesc: "Exchango重视用户隐私，遵守隐私法及相关法规。本隐私政策说明了与Exchango汇率计算器应用服务（以下简称\"服务\"）相关的用户隐私如何被收集、使用和保护。",
             privacyIntroItem1: "生效日期：2024年1月1日",
             privacyIntroItem2: "最后更新：2024年12月1日",
             privacyIntroItem3: "联系方式：exchango.app@gmail.com",

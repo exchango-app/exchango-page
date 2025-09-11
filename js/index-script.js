@@ -8,7 +8,7 @@
     const CONFIG = {
         scrollThreshold: 100,
         animationDuration: 300,
-        intersectionThreshold: 0.5,
+        intersectionThreshold: 0.1,
         debounceDelay: 100,
         features: {
             backToTop: true,
@@ -174,7 +174,7 @@
         setupIntersectionObserver: function() {
             const options = {
                 threshold: CONFIG.intersectionThreshold,
-                rootMargin: '0px 0px 20px 0px'
+                rootMargin: '0px 0px 50px 0px'
             };
             
             this.observer = new IntersectionObserver((entries) => {
@@ -200,16 +200,20 @@
                 // Add initial state
                 element.style.opacity = '0';
                 element.style.transform = 'translateY(30px)';
-                element.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
+                element.style.transition = `opacity 0.6s ease ${Math.min(index * 0.08, 0.5)}s, transform 0.6s ease ${Math.min(index * 0.08, 0.5)}s`;
                 
                 this.observer.observe(element);
             });
         },
         
         animateElement: function(element) {
+            // Double requestAnimationFrame for smoother animation
             requestAnimationFrame(() => {
-                element.style.opacity = '1';
-                element.style.transform = 'translateY(0)';
+                requestAnimationFrame(() => {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                    element.classList.add('animate-in');
+                });
             });
         },
         
