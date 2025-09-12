@@ -1,24 +1,24 @@
-// Enhanced universal translation system for Exchango website
+// Enhanced universal translation system for Exchango FX website
 (function() {
     'use strict';
     
-    console.log('🚀 Universal Exchango translation system started');
+    console.log('🚀 Universal Exchango FX translation system started');
     
     // Complete translation data for all pages
     const translations = {
         ko: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "About Exchango - Smart Currency Converter",
-                heroTitle: "Exchango",
+                title: "About Exchango FX - Smart Currency Converter",
+                heroTitle: "Exchango FX",
                 heroTagline: "당신의 스마트 환율 파트너!",
                 statCurrencies: "지원 통화",
                 statLanguages: "지원 언어",
                 statFree: "무료",
-                sectionTitle1: "Exchango란?",
+                sectionTitle1: "Exchango FX란?",
                 sectionSubtitle1: "복잡한 환율 계산을 간단하고 직관적으로 만들어주는 스마트 환율 계산기입니다",
                 smartCalculatorTitle: "스마트하고 직관적",
-                smartCalculatorDesc: "Exchango는 복잡한 환율 계산을 간단하고 직관적인 작업으로 변환합니다. 여행자, 비즈니스 전문가, 다양한 통화를 다루는 모든 사람들을 위해 설계되었습니다.",
+                smartCalculatorDesc: "Exchango FX는 복잡한 환율 계산을 간단하고 직관적인 작업으로 변환합니다. 여행자, 비즈니스 전문가, 다양한 통화를 다루는 모든 사람들을 위해 설계되었습니다.",
                 sectionTitle2: "지원 통화",
                 sectionSubtitle2: "전 세계 150개 이상의 다양한 통화를 지원합니다",
                 sectionTitle3: "주요 기능",
@@ -99,8 +99,8 @@
                 techAutoUpdate: "자동 업데이트",
                 techAutoUpdateDesc: "환율 데이터와 앱 기능 자동 업데이트",
                 
-                footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
-                footerAbout: "Exchango 소개",
+                footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
+                footerAbout: "Exchango FX 소개",
                 footerSupport: "고객 지원",
                 footerContact: "문의하기",
                 footerPrivacy: "개인정보처리방침"
@@ -115,9 +115,9 @@
             
             // Section 1: Introduction
             privacySection1Title: "소개",
-            privacySection1Subtitle: "Exchango 서비스 이용을 위한 개인정보 처리 정책",
+            privacySection1Subtitle: "Exchango FX 서비스 이용을 위한 개인정보 처리 정책",
             privacyIntroTitle: "개인정보처리방침 안내",
-            privacyIntroDesc: "Exchango는 이용자의 개인정보를 중요시하며, 개인정보보호법 및 관련 법령을 준수합니다. 본 개인정보처리방침은 Exchango가 제공하는 환율 계산기 앱 서비스(이하 \"서비스\")와 관련하여 이용자의 개인정보가 어떻게 수집, 이용, 보호되는지를 설명합니다.",
+            privacyIntroDesc: "Exchango FX는 이용자의 개인정보를 중요시하며, 개인정보보호법 및 관련 법령을 준수합니다. 본 개인정보처리방침은 Exchango FX가 제공하는 환율 계산기 앱 서비스(이하 \"서비스\")와 관련하여 이용자의 개인정보가 어떻게 수집, 이용, 보호되는지를 설명합니다.",
             privacyIntroItem1: "시행일: 2024년 1월 1일",
             privacyIntroItem2: "최종 수정일: 2024년 12월 1일",
             privacyIntroItem3: "문의: exchango.app@gmail.com",
@@ -126,7 +126,7 @@
             privacySection2Title: "수집하는 정보",
             privacySection2Subtitle: "서비스 제공을 위해 최소한의 정보만을 수집합니다",
             privacyCollect1Title: "기기 정보 (버그 제보 시)",
-            privacyCollect1Desc: "Exchango는 일상적인 사용 중에는 기기 정보를 수집하지 않습니다. 단, 사용자가 버그를 제보할 때 문제 해결을 위해 기기 유형, 운영체제 버전, 앱 버전 등의 기술적 정보가 포함될 수 있습니다.",
+            privacyCollect1Desc: "Exchango FX는 일상적인 사용 중에는 기기 정보를 수집하지 않습니다. 단, 사용자가 버그를 제보할 때 문제 해결을 위해 기기 유형, 운영체제 버전, 앱 버전 등의 기술적 정보가 포함될 수 있습니다.",
             privacyCollect1Item1: "버그 제보 시에만 기기 정보 제공",
             privacyCollect1Item2: "자동 수집이 아닌 사용자 제공 방식",
             privacyCollect1Item3: "문제 해결 목적으로만 사용",
@@ -145,7 +145,7 @@
             privacySection3Title: "정보 사용 방법",
             privacySection3Subtitle: "수집된 정보는 서비스 제공과 개선에만 사용됩니다",
             privacyUseTitle: "정보 활용 목적",
-            privacyUseDesc: "Exchango는 수집한 정보를 다음과 같은 목적으로만 사용합니다:",
+            privacyUseDesc: "Exchango FX는 수집한 정보를 다음과 같은 목적으로만 사용합니다:",
             privacyUseItem1: "실시간 환율 정보 제공 및 정확한 환율 계산",
             privacyUseItem2: "오프라인 모드에서의 서비스 제공",
             privacyUseItem3: "사용자 맞춤형 인터페이스 제공",
@@ -170,7 +170,7 @@
             privacySection5Title: "제3자 서비스",
             privacySection5Subtitle: "환율 데이터 제공을 위한 최소한의 외부 서비스만 사용합니다",
             privacyThirdPartyTitle: "외부 서비스 사용",
-            privacyThirdPartyDesc: "Exchango는 정확한 환율 정보 제공을 위해 신뢰할 수 있는 외부 서비스를 통해 환율 데이터를 제공받습니다:",
+            privacyThirdPartyDesc: "Exchango FX는 정확한 환율 정보 제공을 위해 신뢰할 수 있는 외부 서비스를 통해 환율 데이터를 제공받습니다:",
             privacyThirdPartyItem1: "실시간 환율 데이터 API 활용",
             privacyThirdPartyItem2: "보안 프로토콜을 통한 안전한 데이터 전송",
             privacyThirdPartyItem3: "개인정보는 제3자와 공유되지 않습니다",
@@ -192,7 +192,7 @@
             privacySection7Title: "아동의 개인정보 보호",
             privacySection7Subtitle: "만 14세 미만 아동의 개인정보를 수집하지 않습니다",
             privacyChildrenTitle: "아동 보호 정책",
-            privacyChildrenDesc: "Exchango는 모든 연령의 사용자가 안전하게 사용할 수 있도록 설계되었습니다. 앱에서 생성되는 모든 데이터(계산 기록, 설정 등)는 사용자의 기기에만 저장되며, 외부 서버로 전송되지 않습니다. 만 14세 미만 아동이 사용하더라도 개인식별정보는 수집되지 않으며, 모든 데이터는 로컬에만 보관됩니다. 부모님께서는 안심하고 자녀가 앱을 사용하도록 허용하실 수 있습니다.",
+            privacyChildrenDesc: "Exchango FX는 모든 연령의 사용자가 안전하게 사용할 수 있도록 설계되었습니다. 앱에서 생성되는 모든 데이터(계산 기록, 설정 등)는 사용자의 기기에만 저장되며, 외부 서버로 전송되지 않습니다. 만 14세 미만 아동이 사용하더라도 개인식별정보는 수집되지 않으며, 모든 데이터는 로컬에만 보관됩니다. 부모님께서는 안심하고 자녀가 앱을 사용하도록 허용하실 수 있습니다.",
             
             // Section 8: Policy Updates
             privacySection8Title: "개인정보처리방침 변경",
@@ -216,22 +216,22 @@
             heroTagline: "전 세계를 위한 스마트 환율 계산기",
             footerSupport: "고객 지원",
             footerAbout: "서비스 소개",
-            footerCopyright: "Copyright © 2025 Exchango All rights reserved."
+            footerCopyright: "Copyright © 2025 Exchango FX All rights reserved."
         },
         
         en: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "About Exchango - Smart Currency Converter",
-                heroTitle: "Exchango",
+                title: "About Exchango FX - Smart Currency Converter",
+                heroTitle: "Exchango FX",
                 heroTagline: "Your Global Currency Companion!",
                 statCurrencies: "Supported Currencies",
                 statLanguages: "Supported Languages",
                 statFree: "Free",
-                sectionTitle1: "What is Exchango?",
+                sectionTitle1: "What is Exchango FX?",
                 sectionSubtitle1: "A smart currency calculator that makes complex currency calculations simple and intuitive",
                 smartCalculatorTitle: "Smart & Intuitive",
-                smartCalculatorDesc: "Exchango transforms complex currency calculations into simple, intuitive operations. Designed for travelers, business professionals, and anyone dealing with multiple currencies.",
+                smartCalculatorDesc: "Exchango FX transforms complex currency calculations into simple, intuitive operations. Designed for travelers, business professionals, and anyone dealing with multiple currencies.",
                 sectionTitle2: "Supported Currencies",
                 sectionSubtitle2: "Support for over 150 different currencies worldwide",
                 sectionTitle3: "Main Features",
@@ -312,8 +312,8 @@
                 techAutoUpdate: "Auto Update",
                 techAutoUpdateDesc: "Automatic updates for exchange rate data and app features",
                 
-                footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
-                footerAbout: "About Exchango",
+                footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
+                footerAbout: "About Exchango FX",
                 footerSupport: "Support",
                 footerContact: "Contact Us",
                 footerPrivacy: "Privacy Policy"
@@ -328,9 +328,9 @@
             
             // Section 1: Introduction
             privacySection1Title: "Introduction",
-            privacySection1Subtitle: "Privacy Policy for Exchango Service",
+            privacySection1Subtitle: "Privacy Policy for Exchango FX Service",
             privacyIntroTitle: "Privacy Policy Notice",
-            privacyIntroDesc: "Exchango values user privacy and complies with privacy laws and regulations. This privacy policy explains how user information is collected, used, and protected in connection with the Exchango currency calculator app service (the 'Service').",
+            privacyIntroDesc: "Exchango FX values user privacy and complies with privacy laws and regulations. This privacy policy explains how user information is collected, used, and protected in connection with the Exchango FX currency calculator app service (the 'Service').",
             privacyIntroItem1: "Effective Date: January 1, 2024",
             privacyIntroItem2: "Last Updated: December 1, 2024",
             privacyIntroItem3: "Contact: exchango.app@gmail.com",
@@ -339,7 +339,7 @@
             privacySection2Title: "Information We Collect",
             privacySection2Subtitle: "We collect only minimal information necessary for service provision",
             privacyCollect1Title: "Device Information (When Reporting Bugs)",
-            privacyCollect1Desc: "Exchango does not collect device information during normal use. However, when users report bugs, technical information such as device type, OS version, and app version may be included to help resolve issues.",
+            privacyCollect1Desc: "Exchango FX does not collect device information during normal use. However, when users report bugs, technical information such as device type, OS version, and app version may be included to help resolve issues.",
             privacyCollect1Item1: "Device information provided only when reporting bugs",
             privacyCollect1Item2: "User-provided, not automatically collected",
             privacyCollect1Item3: "Used only for troubleshooting purposes",
@@ -358,7 +358,7 @@
             privacySection3Title: "How We Use Information",
             privacySection3Subtitle: "Collected information is used only for service provision and improvement",
             privacyUseTitle: "Purpose of Information Use",
-            privacyUseDesc: "Exchango uses collected information only for the following purposes:",
+            privacyUseDesc: "Exchango FX uses collected information only for the following purposes:",
             privacyUseItem1: "Providing real-time exchange rate information and accurate currency calculations",
             privacyUseItem2: "Providing service in offline mode",
             privacyUseItem3: "Providing customized user interface",
@@ -383,7 +383,7 @@
             privacySection5Title: "Third-Party Services",
             privacySection5Subtitle: "We use only minimal external services for exchange rate data provision",
             privacyThirdPartyTitle: "Use of External Services",
-            privacyThirdPartyDesc: "Exchango receives exchange rate data through reliable external services to provide accurate exchange rate information:",
+            privacyThirdPartyDesc: "Exchango FX receives exchange rate data through reliable external services to provide accurate exchange rate information:",
             privacyThirdPartyItem1: "Real-time exchange rate data API utilization",
             privacyThirdPartyItem2: "Secure data transmission through security protocols",
             privacyThirdPartyItem3: "Personal information is not shared with third parties",
@@ -405,7 +405,7 @@
             privacySection7Title: "Children's Privacy Protection",
             privacySection7Subtitle: "We do not collect personal information from children under 14",
             privacyChildrenTitle: "Child Protection Policy",
-            privacyChildrenDesc: "Exchango is designed to be safely used by users of all ages. All data generated in the app (calculation records, settings, etc.) is stored only on the user's device and is not transmitted to external servers. Even if children under 14 use the app, no personally identifiable information is collected, and all data is stored locally only. Parents can safely allow their children to use the app.",
+            privacyChildrenDesc: "Exchango FX is designed to be safely used by users of all ages. All data generated in the app (calculation records, settings, etc.) is stored only on the user's device and is not transmitted to external servers. Even if children under 14 use the app, no personally identifiable information is collected, and all data is stored locally only. Parents can safely allow their children to use the app.",
             
             // Section 8: Policy Updates
             privacySection8Title: "Privacy Policy Changes",
@@ -429,22 +429,22 @@
             heroTagline: "Your Global Currency Companion!",
             footerSupport: "Support",
             footerAbout: "About Service",
-            footerCopyright: "Copyright © 2025 Exchango All rights reserved."
+            footerCopyright: "Copyright © 2025 Exchango FX All rights reserved."
         },
         
         ja: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "Exchangoについて - スマート通貨変換",
-                heroTitle: "Exchango",
+                title: "Exchango FXについて - スマート通貨変換",
+                heroTitle: "Exchango FX",
                 heroTagline: "あなたの為替パートナー！",
                 statCurrencies: "サポート通貨",
                 statLanguages: "サポート言語",
                 statFree: "無料",
-                sectionTitle1: "Exchangoとは？",
+                sectionTitle1: "Exchango FXとは？",
                 sectionSubtitle1: "複雑な通貨計算をシンプルで直感的にするスマート通貨計算機",
                 smartCalculatorTitle: "スマート＆直感的",
-                smartCalculatorDesc: "Exchangoは複雑な通貨計算をシンプルで直感的な操作に変換します。旅行者、ビジネス専門家、複数通貨を扱う全ての人のために設計されています。",
+                smartCalculatorDesc: "Exchango FXは複雑な通貨計算をシンプルで直感的な操作に変換します。旅行者、ビジネス専門家、複数通貨を扱う全ての人のために設計されています。",
                 sectionTitle2: "サポート通貨",
                 sectionSubtitle2: "世界150以上の様々な通貨をサポート",
                 sectionTitle3: "主な機能",
@@ -512,8 +512,8 @@
                 techSmartCaching: "スマート為替キャッシュ",
                 techOfflineSupport: "オフラインモードサポート",
                 
-                footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
-                footerAbout: "Exchangoについて",
+                footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
+                footerAbout: "Exchango FXについて",
                 footerSupport: "サポート",
                 footerContact: "お問い合わせ",
                 footerPrivacy: "プライバシーポリシー"
@@ -528,9 +528,9 @@
             
             // Section 1: Introduction
             privacySection1Title: "はじめに",
-            privacySection1Subtitle: "Exchangoサービス利用のためのプライバシーポリシー",
+            privacySection1Subtitle: "Exchango FXサービス利用のためのプライバシーポリシー",
             privacyIntroTitle: "プライバシーポリシーのご案内",
-            privacyIntroDesc: "Exchangoはユーザーのプライバシーを重視し、プライバシー法および関連法令を遵守します。本プライバシーポリシーは、Exchango為替計算アプリサービス（以下「サービス」）に関連して、ユーザーのプライバシーがどのように収集、使用、保護されるかを説明します。",
+            privacyIntroDesc: "Exchango FXはユーザーのプライバシーを重視し、プライバシー法および関連法令を遵守します。本プライバシーポリシーは、Exchango FX為替計算アプリサービス（以下「サービス」）に関連して、ユーザーのプライバシーがどのように収集、使用、保護されるかを説明します。",
             privacyIntroItem1: "施行日：2024年1月1日",
             privacyIntroItem2: "最終更新日：2024年12月1日",
             privacyIntroItem3: "お問い合わせ：exchango.app@gmail.com",
@@ -539,7 +539,7 @@
             privacySection2Title: "収集する情報",
             privacySection2Subtitle: "サービス提供のため最小限の情報のみを収集します",
             privacyCollect1Title: "デバイス情報（バグ報告時）",
-            privacyCollect1Desc: "Exchangoは通常使用中にデバイス情報を収集しません。ただし、ユーザーがバグを報告する際、問題解決のためにデバイスタイプ、OSバージョン、アプリバージョンなどの技術的情報が含まれることがあります。",
+            privacyCollect1Desc: "Exchango FXは通常使用中にデバイス情報を収集しません。ただし、ユーザーがバグを報告する際、問題解決のためにデバイスタイプ、OSバージョン、アプリバージョンなどの技術的情報が含まれることがあります。",
             privacyCollect1Item1: "バグ報告時のみデバイス情報提供",
             privacyCollect1Item2: "自動収集ではなくユーザー提供方式",
             privacyCollect1Item3: "問題解決目的でのみ使用",
@@ -558,7 +558,7 @@
             privacySection3Title: "情報の使用方法",
             privacySection3Subtitle: "収集された情報はサービス提供と改善のみに使用されます",
             privacyUseTitle: "情報活用目的",
-            privacyUseDesc: "Exchangoは収集した情報を次の目的でのみ使用します：",
+            privacyUseDesc: "Exchango FXは収集した情報を次の目的でのみ使用します：",
             privacyUseItem1: "リアルタイム為替情報提供と正確な為替計算",
             privacyUseItem2: "オフラインモードでのサービス提供",
             privacyUseItem3: "ユーザーカスタマイズインターフェース提供",
@@ -583,7 +583,7 @@
             privacySection5Title: "第三者サービス",
             privacySection5Subtitle: "為替データ提供のための最小限の外部サービスのみ使用します",
             privacyThirdPartyTitle: "外部サービス使用",
-            privacyThirdPartyDesc: "Exchangoは正確な為替情報提供のため、信頼できる外部サービスを通じて為替データの提供を受けています：",
+            privacyThirdPartyDesc: "Exchango FXは正確な為替情報提供のため、信頼できる外部サービスを通じて為替データの提供を受けています：",
             privacyThirdPartyItem1: "リアルタイム為替データAPI活用",
             privacyThirdPartyItem2: "セキュリティプロトコルを通じた安全なデータ送信",
             privacyThirdPartyItem3: "個人情報は第三者と共有されません",
@@ -605,7 +605,7 @@
             privacySection7Title: "児童のプライバシー保護",
             privacySection7Subtitle: "14歳未満の児童の個人情報は収集しません",
             privacyChildrenTitle: "児童保護ポリシー",
-            privacyChildrenDesc: "Exchangoはすべての年齢のユーザーが安全に使用できるよう設計されています。アプリで生成されるすべてのデータ（計算記録、設定など）はユーザーのデバイスにのみ保存され、外部サーバーに送信されません。14歳未満の児童が使用しても個人識別情報は収集されず、すべてのデータはローカルにのみ保管されます。保護者の方は安心してお子様がアプリを使用することを許可できます。",
+            privacyChildrenDesc: "Exchango FXはすべての年齢のユーザーが安全に使用できるよう設計されています。アプリで生成されるすべてのデータ（計算記録、設定など）はユーザーのデバイスにのみ保存され、外部サーバーに送信されません。14歳未満の児童が使用しても個人識別情報は収集されず、すべてのデータはローカルにのみ保管されます。保護者の方は安心してお子様がアプリを使用することを許可できます。",
             
             // Section 8: Policy Updates
             privacySection8Title: "プライバシーポリシーの変更",
@@ -635,16 +635,16 @@
         zh: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "关于Exchango - 智能货币转换器",
-                heroTitle: "Exchango",
+                title: "关于Exchango FX - 智能货币转换器",
+                heroTitle: "Exchango FX",
                 heroTagline: "您的汇率伙伴！",
                 statCurrencies: "支持货币",
                 statLanguages: "支持语言",
                 statFree: "免费",
-                sectionTitle1: "什么是Exchango？",
+                sectionTitle1: "什么是Exchango FX？",
                 sectionSubtitle1: "让复杂货币计算变得简单直观的智能货币计算器",
                 smartCalculatorTitle: "智能直观",
-                smartCalculatorDesc: "Exchango将复杂的货币计算转换为简单直观的操作。专为旅行者、商业专家和处理多种货币的任何人设计。",
+                smartCalculatorDesc: "Exchango FX将复杂的货币计算转换为简单直观的操作。专为旅行者、商业专家和处理多种货币的任何人设计。",
                 sectionTitle2: "支持货币",
                 sectionSubtitle2: "支持全球150多种不同货币",
                 sectionTitle3: "主要功能",
@@ -712,8 +712,8 @@
                 techSmartCaching: "智能汇率缓存",
                 techOfflineSupport: "离线模式支持",
                 
-                footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
-                footerAbout: "关于Exchango",
+                footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
+                footerAbout: "关于Exchango FX",
                 footerSupport: "客户支持",
                 footerContact: "联系我们",
                 footerPrivacy: "隐私政策"
@@ -728,9 +728,9 @@
             
             // Section 1: Introduction
             privacySection1Title: "简介",
-            privacySection1Subtitle: "Exchango服务使用的隐私政策",
+            privacySection1Subtitle: "Exchango FX服务使用的隐私政策",
             privacyIntroTitle: "隐私政策说明",
-            privacyIntroDesc: "Exchango重视用户隐私，遵守隐私法及相关法规。本隐私政策说明了与Exchango汇率计算器应用服务（以下简称\"服务\"）相关的用户隐私如何被收集、使用和保护。",
+            privacyIntroDesc: "Exchango FX重视用户隐私，遵守隐私法及相关法规。本隐私政策说明了与Exchango FX汇率计算器应用服务（以下简称\"服务\"）相关的用户隐私如何被收集、使用和保护。",
             privacyIntroItem1: "生效日期：2024年1月1日",
             privacyIntroItem2: "最后更新：2024年12月1日",
             privacyIntroItem3: "联系方式：exchango.app@gmail.com",
@@ -739,7 +739,7 @@
             privacySection2Title: "收集的信息",
             privacySection2Subtitle: "仅收集提供服务所需的最少信息",
             privacyCollect1Title: "设备信息（报告错误时）",
-            privacyCollect1Desc: "Exchango在正常使用期间不收集设备信息。但是，当用户报告错误时，可能包含设备类型、操作系统版本、应用版本等技术信息以帮助解决问题。",
+            privacyCollect1Desc: "Exchango FX在正常使用期间不收集设备信息。但是，当用户报告错误时，可能包含设备类型、操作系统版本、应用版本等技术信息以帮助解决问题。",
             privacyCollect1Item1: "仅在报告错误时提供设备信息",
             privacyCollect1Item2: "用户提供方式，非自动收集",
             privacyCollect1Item3: "仅用于问题解决目的",
@@ -758,7 +758,7 @@
             privacySection3Title: "信息使用方式",
             privacySection3Subtitle: "收集的信息仅用于服务提供和改进",
             privacyUseTitle: "信息使用目的",
-            privacyUseDesc: "Exchango仅将收集的信息用于以下目的：",
+            privacyUseDesc: "Exchango FX仅将收集的信息用于以下目的：",
             privacyUseItem1: "提供实时汇率信息和准确的汇率计算",
             privacyUseItem2: "在离线模式下提供服务",
             privacyUseItem3: "提供用户定制界面",
@@ -783,7 +783,7 @@
             privacySection5Title: "第三方服务",
             privacySection5Subtitle: "仅使用提供汇率数据所需的最少外部服务",
             privacyThirdPartyTitle: "外部服务使用",
-            privacyThirdPartyDesc: "Exchango通过可靠的外部服务获取汇率数据，以提供准确的汇率信息：",
+            privacyThirdPartyDesc: "Exchango FX通过可靠的外部服务获取汇率数据，以提供准确的汇率信息：",
             privacyThirdPartyItem1: "实时汇率数据API利用",
             privacyThirdPartyItem2: "通过安全协议安全传输数据",
             privacyThirdPartyItem3: "个人信息不与第三方共享",
@@ -805,7 +805,7 @@
             privacySection7Title: "儿童隐私保护",
             privacySection7Subtitle: "不收集14岁以下儿童的个人信息",
             privacyChildrenTitle: "儿童保护政策",
-            privacyChildrenDesc: "Exchango设计为所有年龄用户都能安全使用。应用中生成的所有数据（计算记录、设置等）仅存储在用户设备上，不会传输到外部服务器。即使14岁以下儿童使用，也不会收集个人识别信息，所有数据仅保存在本地。家长可以放心让孩子使用应用。",
+            privacyChildrenDesc: "Exchango FX设计为所有年龄用户都能安全使用。应用中生成的所有数据（计算记录、设置等）仅存储在用户设备上，不会传输到外部服务器。即使14岁以下儿童使用，也不会收集个人识别信息，所有数据仅保存在本地。家长可以放心让孩子使用应用。",
             
             // Section 8: Policy Updates
             privacySection8Title: "隐私政策变更",
@@ -1126,7 +1126,7 @@
     function init() {
         const currentLang = setCurrentLanguage();
         const pageType = getPageType();
-        console.log(`🚀 Universal Exchango translation system initialized with language: ${currentLang} for ${pageType} page`);
+        console.log(`🚀 Universal Exchango FX translation system initialized with language: ${currentLang} for ${pageType} page`);
         applyTranslations();
     }
 

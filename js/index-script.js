@@ -1,8 +1,8 @@
-// Exchango Index Page - Interactive Functionality & Performance Optimizations
+// Exchango FX Index Page - Interactive Functionality & Performance Optimizations
 (function() {
     'use strict';
     
-    console.log('🚀 Exchango index page scripts initializing...');
+    console.log('🚀 Exchango FX index page scripts initializing...');
     
     // ===== CONFIGURATION & CONSTANTS =====
     const CONFIG = {
@@ -931,15 +931,15 @@
                 this.setupGlobalEventHandlers();
                 this.initialized = true;
                 
-                console.log('🎉 Exchango index page fully initialized!');
+                console.log('🎉 Exchango FX index page fully initialized!');
                 
                 // Announce to screen reader
                 if (window.announceToScreenReader) {
-                    window.announceToScreenReader('Exchango app page loaded successfully');
+                    window.announceToScreenReader('Exchango FX app page loaded successfully');
                 }
                 
             } catch (error) {
-                console.error('❌ Error initializing Exchango app:', error);
+                console.error('❌ Error initializing Exchango FX app:', error);
             }
         },
         
@@ -992,6 +992,6 @@
     // Export to global scope for debugging
     window.ExchangoApp = ExchangoApp;
     
-    console.log('📜 Exchango index scripts loaded');
+    console.log('📜 Exchango FX index scripts loaded');
     
 })();

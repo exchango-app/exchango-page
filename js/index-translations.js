@@ -1,15 +1,15 @@
-// Comprehensive translation system for Exchango app introduction page (index.html)
+// Comprehensive translation system for Exchango FX app introduction page (index.html)
 (function() {
     'use strict';
     
-    console.log('🌐 Exchango index page translation system initialized');
+    console.log('🌐 Exchango FX index page translation system initialized');
     
     // Complete translation data for index.html
     const translations = {
         ko: {
             // ==== HERO SECTION ====
-            pageTitle: "Exchango - 스마트 환율 계산기 앱",
-            heroTitle: "Exchango",
+            pageTitle: "Exchango FX - 스마트 환율 계산기 앱",
+            heroTitle: "Exchango FX",
             heroTagline: "전 세계를 위한 스마트 환율 계산기",
             heroSubtitle: "150개 이상의 통화를 지원하는 올인원 환율 계산 및 정산 앱",
             
@@ -96,7 +96,7 @@
             updateDesc: "환율 데이터와 앱 기능이 자동으로 업데이트되어 항상 최신 정보를 유지합니다.",
             
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "왜 Exchango를 선택해야 할까요?",
+            benefitsTitle: "왜 Exchango FX를 선택해야 할까요?",
             benefitsSubtitle: "여행자와 비즈니스 전문가들이 선택하는 이유",
             
             travelersTitle: "여행자를 위한 필수 앱",
@@ -111,15 +111,15 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "지금 바로 다운로드하세요",
             downloadSubtitle: "무료로 제공되는 스마트한 환율 계산 솔루션",
-            downloadDesc: "150개 이상의 통화를 지원하는 Exchango로 환율 계산을 더 쉽고 정확하게 만들어보세요.",
+            downloadDesc: "150개 이상의 통화를 지원하는 Exchango FX로 환율 계산을 더 쉽고 정확하게 만들어보세요.",
             
             // ==== FOOTER SECTION ====
-            footerAbout: "Exchango 소개",
+            footerAbout: "Exchango FX 소개",
             footerSupport: "고객 지원",
             footerPrivacy: "개인정보처리방침",
             footerTerms: "이용약관",
-            footerAboutPage: "Exchango 소개",
-            footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
+            footerAboutPage: "Exchango FX 소개",
+            footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "메인 콘텐츠로 건너뛰기",
@@ -131,8 +131,8 @@
         
         en: {
             // ==== HERO SECTION ====
-            pageTitle: "Exchango - Smart Currency Converter App",
-            heroTitle: "Exchango",
+            pageTitle: "Exchango FX - Smart Currency Converter App",
+            heroTitle: "Exchango FX",
             heroTagline: "Smart Currency Converter for the World",
             heroSubtitle: "All-in-one currency conversion and settlement app supporting 150+ currencies",
             
@@ -219,7 +219,7 @@
             updateDesc: "Exchange rate data and app features are automatically updated to maintain the latest information.",
             
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "Why Choose Exchango?",
+            benefitsTitle: "Why Choose Exchango FX?",
             benefitsSubtitle: "Reasons why travelers and business professionals choose us",
             
             travelersTitle: "Essential App for Travelers",
@@ -234,15 +234,15 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "Download Now",
             downloadSubtitle: "Smart currency calculation solution provided free of charge",
-            downloadDesc: "Make currency calculations easier and more accurate with Exchango supporting 150+ currencies.",
+            downloadDesc: "Make currency calculations easier and more accurate with Exchango FX supporting 150+ currencies.",
             
             // ==== FOOTER SECTION ====
-            footerAbout: "About Exchango",
+            footerAbout: "About Exchango FX",
             footerSupport: "Customer Support",
             footerPrivacy: "Privacy Policy",
             footerTerms: "Terms of Service",
-            footerAboutPage: "About Exchango",
-            footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
+            footerAboutPage: "About Exchango FX",
+            footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "Skip to main content",
@@ -254,8 +254,8 @@
         
         ja: {
             // ==== HERO SECTION ====
-            pageTitle: "Exchango - スマート為替計算機アプリ",
-            heroTitle: "Exchango",
+            pageTitle: "Exchango FX - スマート為替計算機アプリ",
+            heroTitle: "Exchango FX",
             heroTagline: "世界のためのスマート為替計算機",
             heroSubtitle: "150以上の通貨をサポートするオールインワン為替計算・精算アプリ",
             
@@ -342,7 +342,7 @@
             updateDesc: "為替データとアプリ機能が自動的に更新され、常に最新情報を維持します。",
             
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "なぜExchangoを選ぶべきか？",
+            benefitsTitle: "なぜExchango FXを選ぶべきか？",
             benefitsSubtitle: "旅行者とビジネス専門家が選ぶ理由",
             
             travelersTitle: "旅行者のための必須アプリ",
@@ -357,15 +357,15 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "今すぐダウンロード",
             downloadSubtitle: "無料で提供されるスマートな為替計算ソリューション",
-            downloadDesc: "150以上の通貨をサポートするExchangoで為替計算をより簡単で正確にしましょう。",
+            downloadDesc: "150以上の通貨をサポートするExchango FXで為替計算をより簡単で正確にしましょう。",
             
             // ==== FOOTER SECTION ====
-            footerAbout: "Exchangoについて",
+            footerAbout: "Exchango FXについて",
             footerSupport: "カスタマーサポート",
             footerPrivacy: "プライバシーポリシー",
             footerTerms: "利用規約",
-            footerAboutPage: "Exchangoについて",
-            footerCopyright: "Copyright © 2025 Exchango All rights reserved.",
+            footerAboutPage: "Exchango FXについて",
+            footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "メインコンテンツにスキップ",
@@ -377,8 +377,8 @@
         
         zh: {
             // ==== HERO SECTION ====
-            pageTitle: "Exchango - 智能汇率计算器应用",
-            heroTitle: "Exchango",
+            pageTitle: "Exchango FX - 智能汇率计算器应用",
+            heroTitle: "Exchango FX",
             heroTagline: "全球智能汇率计算器",
             heroSubtitle: "支持150多种货币的一站式汇率计算和结算应用",
             
@@ -465,7 +465,7 @@
             updateDesc: "汇率数据和应用功能自动更新，始终保持最新信息。",
             
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "为什么选择Exchango？",
+            benefitsTitle: "为什么选择Exchango FX？",
             benefitsSubtitle: "旅行者和商务专业人士选择我们的理由",
             
             travelersTitle: "旅行者的必备应用",
@@ -480,15 +480,15 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "立即下载",
             downloadSubtitle: "免费提供的智能汇率计算解决方案",
-            downloadDesc: "使用支持150多种货币的Exchango让汇率计算更简单、更准确。",
+            downloadDesc: "使用支持150多种货币的Exchango FX让汇率计算更简单、更准确。",
             
             // ==== FOOTER SECTION ====
-            footerAbout: "关于Exchango",
+            footerAbout: "关于Exchango FX",
             footerSupport: "客户支持",
             footerPrivacy: "隐私政策",
             footerTerms: "服务条款",
-            footerAboutPage: "关于Exchango",
-            footerCopyright: "© 2024 Exchango. 保留所有权利。",
+            footerAboutPage: "关于Exchango FX",
+            footerCopyright: "© 2024 Exchango FX. 保留所有权利。",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "跳转到主要内容",
@@ -569,6 +569,6 @@
     // Auto-initialize
     initializeTranslations();
     
-    console.log('🚀 Exchango index translations system ready');
+    console.log('🚀 Exchango FX index translations system ready');
     
 })();
