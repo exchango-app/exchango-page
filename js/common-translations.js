@@ -82,7 +82,7 @@
                 feature8Title: "각종 설정",
                 feature8Desc: "개인의 사용 패턴과 환경에 맞게 앱을 맞춤 설정할 수 있습니다. 기준 통화, 언어, 테마 등 다양한 옵션을 제공하여 최적의 사용자 경험을 제공합니다.",
                 feature8Item1: "기준 통화 설정",
-                feature8Item2: "언어 설정 (7개 언어 지원)",
+                feature8Item2: "언어 설정 (14개 언어 지원)",
                 feature8Item3: "테마 설정 (라이트/다크)",
                 
                 // Technology
@@ -295,7 +295,7 @@
                 feature8Title: "Various Settings",
                 feature8Desc: "Customize the app according to your personal usage patterns and environment. Various options including base currency, language, and theme provide an optimal user experience.",
                 feature8Item1: "Base currency settings",
-                feature8Item2: "Language settings (7 languages support)",
+                feature8Item2: "Language settings (14 languages support)",
                 feature8Item3: "Theme settings (Light/Dark)",
                 
                 // Technology
@@ -497,20 +497,31 @@
                 feature6Item2: "カラフルなルーレットゲーム",
                 feature6Item3: "カスタム項目設定",
                 
-                feature7Title: "7. 各種設定",
-                feature7Desc: "個人の使用パターンと環境に合わせてアプリをカスタム設定できます。基準通貨、言語、テーマ、文字サイズなど様々なオプションを提供し、最適なユーザー体験を提供します。",
-                feature7Item1: "基準通貨設定",
-                feature7Item2: "言語設定（7言語サポート）",
-                feature7Item3: "テーマ設定（ライト/ダーク）",
-                feature7Item4: "文字サイズ設定",
+                feature7Title: "6. ゲーム（あみだくじ＆ルーレット）",
+                feature7Desc: "友達と一緒に様々な決定を下せる楽しいゲーム機能です。旅行先選択、昼食メニュー決定、チーム分けなど日常的な選択の悩みをエキサイティングなゲームで解決しましょう。",
+                feature7Item1: "クラシックあみだくじゲーム",
+                feature7Item2: "カラフルなルーレットゲーム",
+                feature7Item3: "カスタム項目設定",
+                
+                feature8Title: "7. 各種設定",
+                feature8Desc: "個人の使用パターンと環境に合わせてアプリをカスタム設定できます。基準通貨、言語、テーマなど様々なオプションを提供し、最適なユーザー体験を提供します。",
+                feature8Item1: "基準通貨設定",
+                feature8Item2: "言語設定（14言語サポート）",
+                feature8Item3: "テーマ設定（ライト/ダーク）",
                 
                 // Technology
-                techReactNative: "クロスプラットフォームネイティブ性能",
-                techTypeScript: "安定したタイプシステム",
-                techAsyncStorage: "ローカルデータ永続保存",
-                techI18next: "多言語サポートシステム",
-                techSmartCaching: "スマート為替キャッシュ",
-                techOfflineSupport: "オフラインモードサポート",
+                techHighPerformance: "高性能",
+                techHighPerformanceDesc: "クロスプラットフォームネイティブ性能で高速計算速度",
+                techSecureStorage: "安全なデータ保存",
+                techSecureStorageDesc: "プライバシー保護のためのローカルデータ永続保存",
+                techMultilingual: "多言語サポート",
+                techMultilingualDesc: "14言語をサポートするグローバルユーザーインターフェース",
+                techSmartCaching: "スマートキャッシング",
+                techSmartCachingDesc: "迅速なアクセスのためのインテリジェント為替データキャッシング",
+                techOfflineSupport: "オフラインサポート",
+                techOfflineSupportDesc: "ネットワーク接続なしで基本機能利用可能",
+                techAutoUpdate: "自動更新",
+                techAutoUpdateDesc: "為替データとアプリ機能の自動更新",
                 
                 footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
                 footerAbout: "Exchango FXについて",
@@ -697,20 +708,31 @@
                 feature6Item2: "多彩轮盘游戏",
                 feature6Item3: "自定义项目设置",
                 
-                feature7Title: "7. 各种设置",
-                feature7Desc: "根据个人使用模式和环境自定义应用。提供基准货币、语言、主题、字体大小等多种选项，提供最佳用户体验。",
-                feature7Item1: "基准货币设置",
-                feature7Item2: "语言设置（支持7种语言）",
-                feature7Item3: "主题设置（浅色/深色）",
-                feature7Item4: "字体大小设置",
+                feature7Title: "6. 游戏（阶梯游戏和轮盘）",
+                feature7Desc: "与朋友一起做各种决定的有趣游戏功能。通过刺激的游戏解决选择旅行目的地、决定午餐菜单、分组等日常选择烦恼。",
+                feature7Item1: "经典阶梯游戏",
+                feature7Item2: "多彩轮盘游戏",
+                feature7Item3: "自定义项目设置",
+                
+                feature8Title: "7. 各种设置",
+                feature8Desc: "根据个人使用模式和环境自定义应用。提供基准货币、语言、主题等多种选项，提供最佳用户体验。",
+                feature8Item1: "基准货币设置",
+                feature8Item2: "语言设置（支持14种语言）",
+                feature8Item3: "主题设置（浅色/深色）",
                 
                 // Technology
-                techReactNative: "跨平台原生性能",
-                techTypeScript: "稳定的类型系统",
-                techAsyncStorage: "本地数据永久存储",
-                techI18next: "多语言支持系统",
-                techSmartCaching: "智能汇率缓存",
-                techOfflineSupport: "离线模式支持",
+                techHighPerformance: "高性能",
+                techHighPerformanceDesc: "跨平台原生性能，快速计算速度",
+                techSecureStorage: "安全数据存储",
+                techSecureStorageDesc: "本地数据永久存储，保护隐私",
+                techMultilingual: "多语言支持",
+                techMultilingualDesc: "支持14种语言的全球用户界面",
+                techSmartCaching: "智能缓存",
+                techSmartCachingDesc: "智能汇率数据缓存，快速访问",
+                techOfflineSupport: "离线支持",
+                techOfflineSupportDesc: "无网络连接时可使用基本功能",
+                techAutoUpdate: "自动更新",
+                techAutoUpdateDesc: "汇率数据和应用功能自动更新",
                 
                 footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
                 footerAbout: "关于Exchango FX",
@@ -830,6 +852,435 @@
             footerSupport: "客户支持",
             footerAbout: "服务介绍",
             footerCopyright: "Copyright © 2025 Exchango All rights reserved."
+        },
+        
+        // Arabic
+        ar: {
+            // ==== ABOUT PAGE ====
+            about: {
+                title: "حول Exchango FX - محول العملة الذكي",
+                heroTitle: "Exchango FX",
+                heroTagline: "شريكك الذكي في أسعار الصرف!",
+                statCurrencies: "العملات المدعومة",
+                statLanguages: "اللغات المدعومة",
+                statFree: "مجاني",
+                sectionTitle1: "ما هو Exchango FX؟",
+                sectionSubtitle1: "حاسبة عملة ذكية تجعل حسابات العملة المعقدة بسيطة وبديهية",
+                smartCalculatorTitle: "ذكي وبديهي",
+                smartCalculatorDesc: "يحول Exchango FX حسابات العملة المعقدة إلى عمليات بسيطة وبديهية. مصمم للمسافرين ومحترفي الأعمال وأي شخص يتعامل مع عملات متعددة.",
+                sectionTitle2: "العملات المدعومة",
+                sectionSubtitle2: "دعم أكثر من 150 عملة مختلفة حول العالم",
+                sectionTitle3: "الميزات الرئيسية",
+                sectionSubtitle3: "يوفر حسابات عملة متنوعة وميزات الراحة",
+                sectionTitle4: "الميزات التقنية",
+                sectionSubtitle4: "أداء مستقر وسريع مطبق بأحدث التقنيات",
+                performanceTitle: "أداء عالي",
+                performanceDesc: "مبني بتقنيات الهاتف المحمول الحديثة لتوفير أداء مستقر وسريع على منصات iOS و Android. التخزين المؤقت الذكي والدعم غير المتصل يضمن التشغيل الموثوق في أي حالة شبكة.",
+                
+                // Currency categories
+                categoryMajor: "العملات الرئيسية",
+                categoryMajorDesc: "العملات الرائدة التي تقود الاقتصاد العالمي",
+                categoryAsia: "العملات الآسيوية",
+                categoryAsiaDesc: "عملات متنوعة من البلدان الآسيوية",
+                categoryOther: "عملات إقليمية أخرى",
+                categoryOtherDesc: "عملات أمريكا اللاتينية وأفريقيا وأوقيانوسيا",
+                
+                // Feature cards
+                feature1Title: "الوضع غير المتصل",
+                feature1Desc: "استخدام ميزات حساب العملة الأساسية حتى بدون اتصال بالإنترنت. يتم تخزين بيانات أسعار الصرف المحدثة مؤخراً على الجهاز لتوفير نتائج حساب موثوقة في أي وقت.",
+                feature1Item1: "الحسابات الأساسية متاحة بدون اتصال بالإنترنت",
+                feature1Item2: "تخزين تلقائي لأحدث بيانات أسعار الصرف",
+                feature1Item3: "عرض حالة عدم الاتصال والإرشاد",
+                
+                feature2Title: "حاسبة العملة",
+                feature2Desc: "حاسبة عملة ذكية بديهية يمكن لأي شخص استخدامها بسهولة. تدعم أكثر من 150 عملة وتوفر نتائج حساب دقيقة باستخدام معلومات أسعار الصرف.",
+                feature2Item1: "تحديثات تلقائية لبيانات أسعار الصرف",
+                feature2Item2: "حساب ثنائي الاتجاه ووظيفة المبادلة",
+                feature2Item3: "ميزة تاريخ حساب العملة",
+                
+                feature3Title: "وظيفة التسوية",
+                feature3Desc: "حل التسويات متعددة العملات المعقدة من السفر الخارجي أو الأعمال الدولية دفعة واحدة. يحسب تلقائياً المبالغ المدفوعة من قبل عدة أشخاص بعملات مختلفة لتوفير نتائج تسوية عادلة.",
+                feature3Item1: "حساب تقاسم التكلفة العادل لكل مشارك",
+                feature3Item2: "دعم التسوية المختلطة متعددة العملات",
+                feature3Item3: "ميزة تاريخ التسوية",
+                
+                feature4Title: "حاسبة الإكرامية",
+                feature4Desc: "احسب الإكراميات بسهولة ودقة للمطاعم وسيارات الأجرة وصناعات الخدمات. يعكس ثقافات ونسب الإكرامية لبلدان مختلفة لحساب الإكراميات المناسبة، ويدعم أيضاً حسابات التقسيم وفقاً لعدد الأشخاص.",
+                feature4Item1: "انعكاس ثقافة الإكرامية الإقليمية",
+                feature4Item2: "حساب تقسيم الإكرامية لكل شخص",
+                feature4Item3: "ميزة تاريخ حساب الإكرامية",
+                
+                feature5Title: "أسعار الصرف اليوم",
+                feature5Desc: "احصل على معلومات أسعار الصرف في الوقت الفعلي وحالة التقلب للعملات الرئيسية في العالم لمحة واحدة. يتم عرض بيانات أسعار الصرف من خلال الرسوم البيانية البصرية للتحقق البديهي.",
+                feature5Item1: "مخطط حالة أسعار الصرف المقدم",
+                feature5Item2: "عرض التقلب اليومي والاتجاه",
+                feature5Item3: "إدارة وظيفة المفضلة",
+                
+                feature6Title: "حاسبة متعددة العملات",
+                feature6Desc: "ميزة قوية تتيح لك مقارنة عملات متعددة في وقت واحد بإدخال واحد. على سبيل المثال، يمكنك رؤية كم يساوي 1000 دولار أمريكي بالوون الكوري والين الياباني واليورو على شاشة واحدة في آن واحد.",
+                feature6Item1: "حساب متعدد العملات في وقت واحد",
+                feature6Item2: "تحليل مقارنة العملة",
+                feature6Item3: "إدارة وظيفة المفضلة",
+                
+                feature7Title: "الألعاب (السلم والروليت)",
+                feature7Desc: "ميزات ألعاب ممتعة تتيح لك اتخاذ قرارات مختلفة مع الأصدقاء. حل معضلات الاختيار اليومية مثل اختيار وجهات السفر وتقرير قوائم الغداء أو تقسيمات الفريق من خلال ألعاب مثيرة.",
+                feature7Item1: "لعبة السلم الكلاسيكية",
+                feature7Item2: "لعبة روليت ملونة",
+                feature7Item3: "إعدادات عنصر مخصص",
+                
+                feature8Title: "إعدادات متنوعة",
+                feature8Desc: "تخصيص التطبيق وفقاً لأنماط الاستخدام الشخصية والبيئة. توفر خيارات متنوعة بما في ذلك العملة الأساسية واللغة والموضوع تجربة مستخدم مثلى.",
+                feature8Item1: "إعدادات العملة الأساسية",
+                feature8Item2: "إعدادات اللغة (دعم 14 لغة)",
+                feature8Item3: "إعدادات الموضوع (فاتح/داكن)",
+                
+                // Technology
+                techHighPerformance: "أداء عالي",
+                techHighPerformanceDesc: "أداء أصلي عبر المنصات لسرعة حساب سريعة",
+                techSecureStorage: "تخزين البيانات الآمن",
+                techSecureStorageDesc: "تخزين البيانات المحلية الدائم لحماية الخصوصية",
+                techMultilingual: "دعم متعدد اللغات",
+                techMultilingualDesc: "واجهة مستخدم عالمية تدعم 14 لغة",
+                techSmartCaching: "التخزين المؤقت الذكي",
+                techSmartCachingDesc: "تخزين مؤقت ذكي لبيانات أسعار الصرف للوصول السريع",
+                techOfflineSupport: "الدعم غير المتصل",
+                techOfflineSupportDesc: "الوظائف الأساسية متاحة بدون اتصال شبكة",
+                techAutoUpdate: "التحديث التلقائي",
+                techAutoUpdateDesc: "تحديثات تلقائية لبيانات أسعار الصرف وميزات التطبيق",
+                
+                footerCopyright: "حقوق الطبع والنشر © 2025 Exchango FX. جميع الحقوق محفوظة.",
+                footerAbout: "حول Exchango FX",
+                footerSupport: "الدعم",
+                footerContact: "اتصل بنا",
+                footerPrivacy: "سياسة الخصوصية"
+            },
+            
+            // ==== PRIVACY POLICY PAGE ====
+            privacyTitle: "سياسة الخصوصية",
+            privacySubtitle: "خصوصيتك محمية بأمان",
+            statSecure: "الأمان أولاً",
+            statPrivate: "حماية الخصوصية",
+            statTransparent: "سياسة شفافة",
+            
+            // Section 1: Introduction
+            privacySection1Title: "مقدمة",
+            privacySection1Subtitle: "سياسة الخصوصية لخدمة Exchango FX",
+            privacyIntroTitle: "إشعار سياسة الخصوصية",
+            privacyIntroDesc: "تقدر Exchango FX خصوصية المستخدم وتمتثل لقوانين ولوائح الخصوصية. تشرح سياسة الخصوصية هذه كيفية جمع واستخدام وحماية معلومات المستخدم فيما يتعلق بخدمة تطبيق حاسبة العملة Exchango FX (\"الخدمة\").",
+            privacyIntroItem1: "تاريخ السريان: 1 يناير 2024",
+            privacyIntroItem2: "آخر تحديث: 1 ديسمبر 2024",
+            privacyIntroItem3: "الاتصال: exchango.app@gmail.com",
+            
+            // Footer translations for privacy page
+            heroTagline: "رفيقك العالمي للعملة!",
+            footerSupport: "الدعم",
+            footerAbout: "حول الخدمة",
+            footerCopyright: "حقوق الطبع والنشر © 2025 Exchango FX. جميع الحقوق محفوظة."
+        },
+        
+        // German
+        de: {
+            // ==== ABOUT PAGE ====
+            about: {
+                title: "Über Exchango FX - Intelligenter Währungskonverter",
+                heroTitle: "Exchango FX",
+                heroTagline: "Ihr intelligenter Wechselkurs-Partner!",
+                statCurrencies: "Unterstützte Währungen",
+                statLanguages: "Unterstützte Sprachen",
+                statFree: "Kostenlos",
+                sectionTitle1: "Was ist Exchango FX?",
+                sectionSubtitle1: "Ein intelligenter Währungsrechner, der komplexe Währungsberechnungen einfach und intuitiv macht",
+                smartCalculatorTitle: "Intelligent und intuitiv",
+                smartCalculatorDesc: "Exchango FX verwandelt komplexe Währungsberechnungen in einfache, intuitive Operationen. Entwickelt für Reisende, Geschäftsprofis und alle, die mit mehreren Währungen arbeiten.",
+                sectionTitle2: "Unterstützte Währungen",
+                sectionSubtitle2: "Unterstützung für über 150 verschiedene Währungen weltweit",
+                sectionTitle3: "Hauptfunktionen",
+                sectionSubtitle3: "Bietet verschiedene Währungsberechnungen und Komfortfunktionen",
+                sectionTitle4: "Technische Eigenschaften",
+                sectionSubtitle4: "Stabile und schnelle Leistung mit modernster Technologie implementiert",
+                performanceTitle: "Hohe Leistung",
+                performanceDesc: "Mit modernen Mobiltechnologien entwickelt, um stabile und schnelle Leistung auf iOS- und Android-Plattformen zu bieten. Intelligentes Caching und Offline-Unterstützung gewährleisten zuverlässigen Betrieb unter allen Netzwerkbedingungen.",
+                
+                footerCopyright: "Copyright © 2025 Exchango FX. Alle Rechte vorbehalten.",
+                footerAbout: "Über Exchango FX",
+                footerSupport: "Support",
+                footerContact: "Kontakt",
+                footerPrivacy: "Datenschutzrichtlinie"
+            },
+            
+            // ==== PRIVACY POLICY PAGE ====
+            privacyTitle: "Datenschutzrichtlinie",
+            privacySubtitle: "Ihre Privatsphäre ist sicher geschützt",
+            
+            // Footer translations for privacy page
+            heroTagline: "Ihr globaler Währungsbegleiter!",
+            footerSupport: "Support",
+            footerAbout: "Über den Service",
+            footerCopyright: "Copyright © 2025 Exchango FX. Alle Rechte vorbehalten."
+        },
+        
+        // Spanish
+        es: {
+            // ==== ABOUT PAGE ====
+            about: {
+                title: "Acerca de Exchango FX - Conversor de Moneda Inteligente",
+                heroTitle: "Exchango FX",
+                heroTagline: "¡Tu compañero inteligente de tipos de cambio!",
+                statCurrencies: "Monedas Soportadas",
+                statLanguages: "Idiomas Soportados",
+                statFree: "Gratis",
+                sectionTitle1: "¿Qué es Exchango FX?",
+                sectionSubtitle1: "Una calculadora de moneda inteligente que hace que los cálculos de moneda complejos sean simples e intuitivos",
+                smartCalculatorTitle: "Inteligente e intuitivo",
+                smartCalculatorDesc: "Exchango FX transforma cálculos de moneda complejos en operaciones simples e intuitivas. Diseñado para viajeros, profesionales de negocios y cualquiera que maneje múltiples monedas.",
+                
+                footerCopyright: "Copyright © 2025 Exchango FX. Todos los derechos reservados.",
+                footerAbout: "Acerca de Exchango FX",
+                footerSupport: "Soporte",
+                footerContact: "Contáctanos",
+                footerPrivacy: "Política de Privacidad"
+            },
+            
+            // ==== PRIVACY POLICY PAGE ====
+            privacyTitle: "Política de Privacidad",
+            privacySubtitle: "Tu privacidad está protegida de forma segura",
+            
+            // Footer translations for privacy page
+            heroTagline: "¡Tu Compañero Global de Moneda!",
+            footerSupport: "Soporte",
+            footerAbout: "Acerca del Servicio",
+            footerCopyright: "Copyright © 2025 Exchango FX. Todos los derechos reservados."
+        },
+        
+        // French
+        fr: {
+            // ==== ABOUT PAGE ====
+            about: {
+                title: "À propos d'Exchango FX - Convertisseur de Devise Intelligent",
+                heroTitle: "Exchango FX",
+                heroTagline: "Votre partenaire intelligent des taux de change !",
+                statCurrencies: "Devises Supportées",
+                statLanguages: "Langues Supportées",
+                statFree: "Gratuit",
+                sectionTitle1: "Qu'est-ce qu'Exchango FX ?",
+                sectionSubtitle1: "Une calculatrice de devise intelligente qui rend les calculs de devise complexes simples et intuitifs",
+                smartCalculatorTitle: "Intelligent et intuitif",
+                smartCalculatorDesc: "Exchango FX transforme les calculs de devise complexes en opérations simples et intuitives. Conçu pour les voyageurs, les professionnels et toute personne traitant plusieurs devises.",
+                
+                footerCopyright: "Copyright © 2025 Exchango FX. Tous droits réservés.",
+                footerAbout: "À propos d'Exchango FX",
+                footerSupport: "Support",
+                footerContact: "Nous contacter",
+                footerPrivacy: "Politique de confidentialité"
+            },
+            
+            // ==== PRIVACY POLICY PAGE ====
+            privacyTitle: "Politique de confidentialité",
+            privacySubtitle: "Votre vie privée est protégée en toute sécurité",
+            
+            // Footer translations for privacy page
+            heroTagline: "Votre Compagnon Mondial de Devise !",
+            footerSupport: "Support",
+            footerAbout: "À propos du Service",
+            footerCopyright: "Copyright © 2025 Exchango FX. Tous droits réservés."
+        },
+        
+        // Hindi
+        hi: {
+            // ==== ABOUT PAGE ====
+            about: {
+                title: "Exchango FX के बारे में - स्मार्ट करेंसी कन्वर्टर",
+                heroTitle: "Exchango FX",
+                heroTagline: "आपका स्मार्ट एक्सचेंज रेट पार्टनर!",
+                statCurrencies: "समर्थित मुद्राएं",
+                statLanguages: "समर्थित भाषाएं",
+                statFree: "मुफ्त",
+                sectionTitle1: "Exchango FX क्या है?",
+                sectionSubtitle1: "एक स्मार्ट करेंसी कैलकुलेटर जो जटिल करेंसी गणना को सरल और सहज बनाता है",
+                smartCalculatorTitle: "स्मार्ट और सहज",
+                smartCalculatorDesc: "Exchango FX जटिल करेंसी गणना को सरल, सहज संचालन में बदल देता है। यात्रियों, व्यावसायिक पेशेवरों और कई मुद्राओं से निपटने वाले किसी भी व्यक्ति के लिए डिज़ाइन किया गया।",
+                
+                footerCopyright: "कॉपीराइट © 2025 Exchango FX। सभी अधिकार सुरक्षित।",
+                footerAbout: "Exchango FX के बारे में",
+                footerSupport: "सहायता",
+                footerContact: "संपर्क करें",
+                footerPrivacy: "गोपनीयता नीति"
+            },
+            
+            // ==== PRIVACY POLICY PAGE ====
+            privacyTitle: "गोपनीयता नीति",
+            privacySubtitle: "आपकी गोपनीयता सुरक्षित रूप से संरक्षित है",
+            
+            // Footer translations for privacy page
+            heroTagline: "आपका वैश्विक करेंसी साथी!",
+            footerSupport: "सहायता",
+            footerAbout: "सेवा के बारे में",
+            footerCopyright: "कॉपीराइट © 2025 Exchango FX। सभी अधिकार सुरक्षित।"
+        },
+        
+        // Italian
+        it: {
+            // ==== ABOUT PAGE ====
+            about: {
+                title: "Informazioni su Exchango FX - Convertitore di Valuta Intelligente",
+                heroTitle: "Exchango FX",
+                heroTagline: "Il tuo partner intelligente per i tassi di cambio!",
+                statCurrencies: "Valute Supportate",
+                statLanguages: "Lingue Supportate",
+                statFree: "Gratuito",
+                sectionTitle1: "Cos'è Exchango FX?",
+                sectionSubtitle1: "Una calcolatrice di valuta intelligente che rende i calcoli di valuta complessi semplici e intuitivi",
+                smartCalculatorTitle: "Intelligente e intuitivo",
+                smartCalculatorDesc: "Exchango FX trasforma i calcoli di valuta complessi in operazioni semplici e intuitive. Progettato per viaggiatori, professionisti aziendali e chiunque abbia a che fare con valute multiple.",
+                
+                footerCopyright: "Copyright © 2025 Exchango FX. Tutti i diritti riservati.",
+                footerAbout: "Informazioni su Exchango FX",
+                footerSupport: "Supporto",
+                footerContact: "Contattaci",
+                footerPrivacy: "Informativa sulla privacy"
+            },
+            
+            // ==== PRIVACY POLICY PAGE ====
+            privacyTitle: "Informativa sulla privacy",
+            privacySubtitle: "La tua privacy è protetta in modo sicuro",
+            
+            // Footer translations for privacy page
+            heroTagline: "Il Tuo Compagno Globale di Valuta!",
+            footerSupport: "Supporto",
+            footerAbout: "Informazioni sul Servizio",
+            footerCopyright: "Copyright © 2025 Exchango FX. Tutti i diritti riservati."
+        },
+        
+        // Portuguese
+        pt: {
+            // ==== ABOUT PAGE ====
+            about: {
+                title: "Sobre Exchango FX - Conversor de Moeda Inteligente",
+                heroTitle: "Exchango FX",
+                heroTagline: "Seu parceiro inteligente de taxas de câmbio!",
+                statCurrencies: "Moedas Suportadas",
+                statLanguages: "Idiomas Suportados",
+                statFree: "Grátis",
+                sectionTitle1: "O que é Exchango FX?",
+                sectionSubtitle1: "Uma calculadora de moeda inteligente que torna cálculos de moeda complexos simples e intuitivos",
+                smartCalculatorTitle: "Inteligente e intuitivo",
+                smartCalculatorDesc: "Exchango FX transforma cálculos de moeda complexos em operações simples e intuitivas. Projetado para viajantes, profissionais de negócios e qualquer pessoa que lide com múltiplas moedas.",
+                
+                footerCopyright: "Copyright © 2025 Exchango FX. Todos os direitos reservados.",
+                footerAbout: "Sobre Exchango FX",
+                footerSupport: "Suporte",
+                footerContact: "Entre em contato",
+                footerPrivacy: "Política de Privacidade"
+            },
+            
+            // ==== PRIVACY POLICY PAGE ====
+            privacyTitle: "Política de Privacidade",
+            privacySubtitle: "Sua privacidade está protegida com segurança",
+            
+            // Footer translations for privacy page
+            heroTagline: "Seu Companheiro Global de Moeda!",
+            footerSupport: "Suporte",
+            footerAbout: "Sobre o Serviço",
+            footerCopyright: "Copyright © 2025 Exchango FX. Todos os direitos reservados."
+        },
+        
+        // Russian
+        ru: {
+            // ==== ABOUT PAGE ====
+            about: {
+                title: "О Exchango FX - Умный Конвертер Валют",
+                heroTitle: "Exchango FX",
+                heroTagline: "Ваш умный партнер по обменным курсам!",
+                statCurrencies: "Поддерживаемые Валюты",
+                statLanguages: "Поддерживаемые Языки",
+                statFree: "Бесплатно",
+                sectionTitle1: "Что такое Exchango FX?",
+                sectionSubtitle1: "Умный калькулятор валют, который делает сложные расчеты валют простыми и интуитивными",
+                smartCalculatorTitle: "Умный и интуитивный",
+                smartCalculatorDesc: "Exchango FX превращает сложные расчеты валют в простые, интуитивные операции. Разработан для путешественников, бизнес-профессионалов и всех, кто имеет дело с несколькими валютами.",
+                
+                footerCopyright: "Авторские права © 2025 Exchango FX. Все права защищены.",
+                footerAbout: "О Exchango FX",
+                footerSupport: "Поддержка",
+                footerContact: "Связаться с нами",
+                footerPrivacy: "Политика конфиденциальности"
+            },
+            
+            // ==== PRIVACY POLICY PAGE ====
+            privacyTitle: "Политика конфиденциальности",
+            privacySubtitle: "Ваша конфиденциальность надежно защищена",
+            
+            // Footer translations for privacy page
+            heroTagline: "Ваш Глобальный Валютный Компаньон!",
+            footerSupport: "Поддержка",
+            footerAbout: "О Сервисе",
+            footerCopyright: "Авторские права © 2025 Exchango FX. Все права защищены."
+        },
+        
+        // Thai
+        th: {
+            // ==== ABOUT PAGE ====
+            about: {
+                title: "เกี่ยวกับ Exchango FX - ตัวแปลงสกุลเงินอัจฉริยะ",
+                heroTitle: "Exchango FX",
+                heroTagline: "พาร์ทเนอร์อัตราแลกเปลี่ยนอัจฉริยะของคุณ!",
+                statCurrencies: "สกุลเงินที่รองรับ",
+                statLanguages: "ภาษาที่รองรับ",
+                statFree: "ฟรี",
+                sectionTitle1: "Exchango FX คืออะไร?",
+                sectionSubtitle1: "เครื่องคิดเลขสกุลเงินอัจฉริยะที่ทำให้การคำนวณสกุลเงินที่ซับซ้อนเป็นเรื่องง่ายและใช้งานง่าย",
+                smartCalculatorTitle: "อัจฉริยะและใช้งานง่าย",
+                smartCalculatorDesc: "Exchango FX เปลี่ยนการคำนวณสกุลเงินที่ซับซ้อนให้เป็นการดำเนินการที่ง่ายและใช้งานง่าย ออกแบบมาสำหรับนักเดินทาง ผู้เชี่ยวชาญทางธุรกิจ และทุกคนที่ต้องจัดการกับสกุลเงินหลายสกุล",
+                
+                footerCopyright: "ลิขสิทธิ์ © 2025 Exchango FX สงวนลิขสิทธิ์",
+                footerAbout: "เกี่ยวกับ Exchango FX",
+                footerSupport: "การสนับสนุน",
+                footerContact: "ติดต่อเรา",
+                footerPrivacy: "นโยบายความเป็นส่วนตัว"
+            },
+            
+            // ==== PRIVACY POLICY PAGE ====
+            privacyTitle: "นโยบายความเป็นส่วนตัว",
+            privacySubtitle: "ความเป็นส่วนตัวของคุณได้รับการป้องกันอย่างปลอดภัย",
+            
+            // Footer translations for privacy page
+            heroTagline: "เพื่อนร่วมทางสกุลเงินโลกของคุณ!",
+            footerSupport: "การสนับสนุน",
+            footerAbout: "เกี่ยวกับบริการ",
+            footerCopyright: "ลิขสิทธิ์ © 2025 Exchango FX สงวนลิขสิทธิ์"
+        },
+        
+        // Turkish
+        tr: {
+            // ==== ABOUT PAGE ====
+            about: {
+                title: "Exchango FX Hakkında - Akıllı Döviz Dönüştürücü",
+                heroTitle: "Exchango FX",
+                heroTagline: "Akıllı döviz kuru ortağınız!",
+                statCurrencies: "Desteklenen Para Birimleri",
+                statLanguages: "Desteklenen Diller",
+                statFree: "Ücretsiz",
+                sectionTitle1: "Exchango FX Nedir?",
+                sectionSubtitle1: "Karmaşık döviz hesaplamalarını basit ve sezgisel hale getiren akıllı bir döviz hesaplayıcısı",
+                smartCalculatorTitle: "Akıllı ve sezgisel",
+                smartCalculatorDesc: "Exchango FX karmaşık döviz hesaplamalarını basit, sezgisel işlemlere dönüştürür. Gezginler, iş profesyonelleri ve birden fazla para birimiyle uğraşan herkes için tasarlanmıştır.",
+                
+                footerCopyright: "Telif Hakkı © 2025 Exchango FX. Tüm hakları saklıdır.",
+                footerAbout: "Exchango FX Hakkında",
+                footerSupport: "Destek",
+                footerContact: "Bize Ulaşın",
+                footerPrivacy: "Gizlilik Politikası"
+            },
+            
+            // ==== PRIVACY POLICY PAGE ====
+            privacyTitle: "Gizlilik Politikası",
+            privacySubtitle: "Gizliliğiniz güvenli bir şekilde korunuyor",
+            
+            // Footer translations for privacy page
+            heroTagline: "Küresel Para Birimi Arkadaşınız!",
+            footerSupport: "Destek",
+            footerAbout: "Hizmet Hakkında",
+            footerCopyright: "Telif Hakkı © 2025 Exchango FX. Tüm hakları saklıdır."
         }
     };
 
@@ -908,7 +1359,7 @@
     };
 
     // Supported languages
-    const supportedLanguages = ['ko', 'en', 'ja', 'zh'];
+    const supportedLanguages = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'it', 'ja', 'ko', 'pt', 'ru', 'th', 'tr', 'zh'];
 
     // Get current page type
     function getPageType() {

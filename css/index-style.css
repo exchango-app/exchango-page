@@ -180,56 +180,174 @@ p {
     pointer-events: none;
 }
 
-/* Language Selector */
-.language-selector {
+/* Language Selector Dropdown */
+.language-selector-dropdown {
     position: absolute;
-    top: var(--space-md);
+    top: calc(var(--space-md) + var(--space-sm));
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
-    gap: var(--space-xs);
-    flex-wrap: nowrap;
-    white-space: nowrap;
-    max-width: 95vw;
-    z-index: 10;
-    justify-content: center;
-    overflow-x: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    padding: 4px 0;
+    z-index: 1000;
 }
 
-.language-selector::-webkit-scrollbar {
-    display: none;
-}
-
-.lang-btn {
-    padding: clamp(10px, 2vw, 14px) clamp(12px, 3vw, 18px);
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: var(--radius-lg);
-    cursor: pointer;
-    font-size: clamp(0.8rem, 2vw, 0.95rem);
-    text-decoration: none;
-    color: white;
-    font-weight: var(--font-weight-medium);
-    transition: var(--transition-fast);
-    flex-shrink: 0;
-    white-space: nowrap;
-    line-height: 1.2;
+.language-dropdown-btn {
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: var(--space-xs);
+    padding: clamp(10px, 2.5vw, 14px) clamp(14px, 3.5vw, 18px);
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: clamp(20px, 4vw, 30px);
+    color: white;
+    font-size: clamp(0.85rem, 2.2vw, 0.95rem);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    white-space: nowrap;
+    min-width: clamp(120px, 25vw, 160px);
 }
 
-.lang-btn:hover,
-.lang-btn.active {
-    background: white;
+.language-dropdown-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-1px);
+}
+
+.language-dropdown-btn.active {
+    background: rgba(255, 255, 255, 0.9);
     color: var(--primary-blue);
-    border-color: white;
-    transform: translateY(-2px);
-    /*box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);*/
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.current-language {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    flex: 1;
+}
+
+.language-icon {
+    width: clamp(16px, 4vw, 18px);
+    height: clamp(16px, 4vw, 18px);
+}
+
+.dropdown-arrow {
+    width: clamp(14px, 3.5vw, 16px);
+    height: clamp(14px, 3.5vw, 16px);
+    transition: transform var(--transition-normal);
+}
+
+.language-dropdown-btn[aria-expanded="true"] .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+.language-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-10px);
+    background: rgba(28, 28, 30, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: clamp(12px, 3vw, 16px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-normal);
+    min-width: clamp(180px, 35vw, 220px);
+    overflow: hidden;
+}
+
+.language-dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+.language-option {
+    display: flex;
+    align-items: center;
+    gap: clamp(8px, 2vw, 12px);
+    padding: clamp(12px, 3vw, 16px) clamp(16px, 4vw, 20px);
+    color: white;
+    text-decoration: none;
+    font-size: clamp(0.9rem, 2.2vw, 1rem);
+    font-weight: var(--font-weight-normal);
+    transition: background-color var(--transition-fast);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.language-option:last-child {
+    border-bottom: none;
+}
+
+.language-option:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.language-option.active {
+    background: rgba(0, 122, 255, 0.2);
+    color: var(--primary-blue-light);
+    font-weight: var(--font-weight-medium);
+}
+
+.language-option .flag {
+    font-size: clamp(16px, 4vw, 18px);
+    line-height: 1;
+}
+
+.language-option .native {
+    font-size: clamp(0.75rem, 1.8vw, 0.85rem);
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: auto;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+    .language-selector-dropdown {
+        top: calc(var(--space-sm) + var(--space-xs));
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .language-dropdown-btn {
+        padding: 8px 12px;
+        min-width: 100px;
+        font-size: 0.8rem;
+    }
+    
+    .language-dropdown-menu {
+        min-width: 160px;
+    }
+    
+    .language-option {
+        padding: 10px 14px;
+        font-size: 0.85rem;
+    }
+    
+    .language-option .native {
+        font-size: 0.7rem;
+    }
+}
+
+/* Desktop optimizations */
+@media (min-width: 1200px) {
+    .language-dropdown-btn {
+        padding: 14px 20px;
+        min-width: 180px;
+        font-size: 1rem;
+    }
+    
+    .language-dropdown-menu {
+        min-width: 240px;
+    }
+    
+    .language-option {
+        padding: 16px 22px;
+        font-size: 1rem;
+    }
 }
 
 /* Hero Content */
@@ -1210,8 +1328,31 @@ section {
     }
 }
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Price loading spinner */
+.price-loading {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spin-icon {
+    animation: spin 1s linear infinite;
+    opacity: 0.7;
+}
+
 .hero-content {
-    animation: fadeInUp 0.8s ease-out;
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: backwards;
+    animation-delay: 0.2s;
 }
 
 .stat-card:hover .stat-icon {
@@ -1221,18 +1362,9 @@ section {
 /* ===== SCROLL ANIMATION IMPROVEMENTS ===== */
 /* Improved animation classes for smoother scroll animations */
 .animate-in {
-    animation: slideInFromBottom 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-}
-
-@keyframes slideInFromBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    /* Animation handled by JavaScript for better performance */
+    opacity: 1 !important;
+    transform: translateY(0) !important;
 }
 
 /* Enhanced will-change for smooth animations */

@@ -162,6 +162,8 @@
     const ScrollAnimations = {
         observer: null,
         animated: new Set(),
+        animationQueue: [],
+        isProcessing: false,
         
         init: function() {
             if (!CONFIG.features.scrollAnimations || utils.prefersReducedMotion()) return;
@@ -174,16 +176,17 @@
         setupIntersectionObserver: function() {
             const options = {
                 threshold: CONFIG.intersectionThreshold,
-                rootMargin: '0px 0px 50px 0px'
+                rootMargin: '0px 0px -50px 0px' // Trigger slightly later for smoother experience
             };
             
             this.observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting && !this.animated.has(entry.target)) {
-                        this.animateElement(entry.target);
-                        this.animated.add(entry.target);
-                    }
-                });
+                const visibleEntries = entries.filter(entry => 
+                    entry.isIntersecting && !this.animated.has(entry.target)
+                );
+                
+                if (visibleEntries.length > 0) {
+                    this.queueAnimations(visibleEntries);
+                }
             }, options);
         },
         
@@ -196,24 +199,70 @@
                 .section-header
             `);
             
-            elementsToAnimate.forEach((element, index) => {
-                // Add initial state
+            elementsToAnimate.forEach((element) => {
+                // Add initial state with will-change for better performance
                 element.style.opacity = '0';
-                element.style.transform = 'translateY(30px)';
-                element.style.transition = `opacity 0.6s ease ${Math.min(index * 0.08, 0.5)}s, transform 0.6s ease ${Math.min(index * 0.08, 0.5)}s`;
+                element.style.transform = 'translateY(20px)';
+                element.style.willChange = 'opacity, transform';
                 
                 this.observer.observe(element);
             });
         },
         
-        animateElement: function(element) {
-            // Double requestAnimationFrame for smoother animation
+        queueAnimations: function(entries) {
+            // Sort entries by their position on the page
+            const sortedEntries = entries.sort((a, b) => {
+                const rectA = a.target.getBoundingClientRect();
+                const rectB = b.target.getBoundingClientRect();
+                return rectA.top - rectB.top;
+            });
+            
+            sortedEntries.forEach(entry => {
+                if (!this.animated.has(entry.target)) {
+                    this.animationQueue.push(entry.target);
+                    this.animated.add(entry.target);
+                }
+            });
+            
+            if (!this.isProcessing) {
+                this.processAnimationQueue();
+            }
+        },
+        
+        processAnimationQueue: function() {
+            if (this.animationQueue.length === 0) {
+                this.isProcessing = false;
+                return;
+            }
+            
+            this.isProcessing = true;
+            const element = this.animationQueue.shift();
+            
+            // Use requestAnimationFrame for smooth animation timing
             requestAnimationFrame(() => {
-                requestAnimationFrame(() => {
-                    element.style.opacity = '1';
-                    element.style.transform = 'translateY(0)';
-                    element.classList.add('animate-in');
-                });
+                this.animateElement(element);
+                
+                // Process next element after a small delay for staggered effect
+                setTimeout(() => {
+                    this.processAnimationQueue();
+                }, 60); // 60ms between animations for smooth stagger
+            });
+        },
+        
+        animateElement: function(element) {
+            // Set transition with easing for smooth animation
+            element.style.transition = 'opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1), transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)';
+            
+            // Trigger the animation
+            requestAnimationFrame(() => {
+                element.style.opacity = '1';
+                element.style.transform = 'translateY(0)';
+                element.classList.add('animate-in');
+                
+                // Clean up will-change after animation
+                setTimeout(() => {
+                    element.style.willChange = 'auto';
+                }, 600);
             });
         },
         
@@ -221,6 +270,8 @@
             if (this.observer) {
                 this.observer.disconnect();
             }
+            this.animationQueue = [];
+            this.isProcessing = false;
         }
     };
     
@@ -279,6 +330,170 @@
         }
     };
     
+    // ===== LANGUAGE DROPDOWN FUNCTIONALITY =====
+    const LanguageDropdown = {
+        dropdown: null,
+        button: null,
+        menu: null,
+        isOpen: false,
+        
+        init: function() {
+            this.dropdown = document.querySelector('.language-selector-dropdown');
+            this.button = document.getElementById('languageDropdownBtn');
+            this.menu = document.getElementById('languageDropdownMenu');
+            
+            if (!this.dropdown || !this.button || !this.menu) return;
+            
+            this.bindEvents();
+            this.updateCurrentLanguage();
+            console.log('✅ Language dropdown initialized');
+        },
+        
+        bindEvents: function() {
+            // Button click handler
+            this.button.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                this.toggle();
+            });
+            
+            // Language option click handlers
+            const languageOptions = this.menu.querySelectorAll('.language-option');
+            languageOptions.forEach(option => {
+                option.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const lang = option.getAttribute('data-lang');
+                    this.selectLanguage(lang, option);
+                });
+            });
+            
+            // Close dropdown when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!this.dropdown.contains(e.target) && this.isOpen) {
+                    this.close();
+                }
+            });
+            
+            // Keyboard navigation
+            this.button.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    this.toggle();
+                } else if (e.key === 'Escape' && this.isOpen) {
+                    this.close();
+                }
+            });
+            
+            // Menu keyboard navigation
+            this.menu.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    this.close();
+                    this.button.focus();
+                }
+            });
+        },
+        
+        toggle: function() {
+            if (this.isOpen) {
+                this.close();
+            } else {
+                this.open();
+            }
+        },
+        
+        open: function() {
+            this.menu.classList.add('show');
+            this.button.setAttribute('aria-expanded', 'true');
+            this.button.classList.add('active');
+            this.isOpen = true;
+            
+            // Focus first option for keyboard navigation
+            const firstOption = this.menu.querySelector('.language-option');
+            if (firstOption) {
+                setTimeout(() => firstOption.focus(), 100);
+            }
+        },
+        
+        close: function() {
+            this.menu.classList.remove('show');
+            this.button.setAttribute('aria-expanded', 'false');
+            this.button.classList.remove('active');
+            this.isOpen = false;
+        },
+        
+        selectLanguage: function(lang, optionElement) {
+            // Update active state
+            this.menu.querySelectorAll('.language-option').forEach(opt => {
+                opt.classList.remove('active');
+            });
+            optionElement.classList.add('active');
+            
+            // Update button text
+            const textSpan = optionElement.querySelector('span:not(.flag):not(.native)');
+            
+            if (textSpan) {
+                const currentLanguageSpan = this.button.querySelector('.language-text');
+                if (currentLanguageSpan) {
+                    currentLanguageSpan.textContent = textSpan.textContent;
+                }
+            }
+            
+            // Close dropdown
+            this.close();
+            
+            // Trigger language change with smooth transition
+            this.changeLanguage(lang);
+        },
+        
+        changeLanguage: function(lang) {
+            // Add loading state
+            const currentLanguageSpan = this.button.querySelector('.language-text');
+            
+            // Show loading indicator
+            if (currentLanguageSpan) {
+                currentLanguageSpan.style.opacity = '0.6';
+            }
+            
+            // Update URL and reload translations
+            const newUrl = new URL(window.location);
+            newUrl.searchParams.set('lang', lang);
+            
+            // Navigate to new URL with smooth transition
+            setTimeout(() => {
+                window.location.href = newUrl.toString();
+            }, 150);
+        },
+        
+        updateCurrentLanguage: function() {
+            const currentLang = this.getCurrentLanguage();
+            const currentOption = this.menu.querySelector(`[data-lang="${currentLang}"]`);
+            
+            if (currentOption) {
+                // Update active state
+                this.menu.querySelectorAll('.language-option').forEach(opt => {
+                    opt.classList.remove('active');
+                });
+                currentOption.classList.add('active');
+                
+                // Update button text
+                const textSpan = currentOption.querySelector('span:not(.flag):not(.native)');
+                if (textSpan) {
+                    const currentLanguageSpan = this.button.querySelector('.language-text');
+                    if (currentLanguageSpan) {
+                        currentLanguageSpan.textContent = textSpan.textContent;
+                    }
+                }
+            }
+        },
+        
+        getCurrentLanguage: function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const lang = urlParams.get('lang');
+            const supportedLanguages = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'it', 'ja', 'ko', 'pt', 'ru', 'th', 'tr', 'zh'];
+            return supportedLanguages.includes(lang) ? lang : 'ko';
+        }
+    };
+    
     // ===== LANGUAGE SWITCHING ENHANCEMENT =====
     const LanguageSwitcher = {
         currentLang: 'ko',
@@ -295,7 +510,7 @@
         getCurrentLanguage: function() {
             const urlParams = new URLSearchParams(window.location.search);
             const lang = urlParams.get('lang');
-            return ['ko', 'en', 'ja', 'zh'].includes(lang) ? lang : 'ko';
+            return ['ar', 'de', 'en', 'es', 'fr', 'hi', 'it', 'ja', 'ko', 'pt', 'ru', 'th', 'tr', 'zh'].includes(lang) ? lang : 'ko';
         },
         
         bindLanguageEvents: function() {
@@ -741,6 +956,91 @@
         }
     };
     
+    // ===== DYNAMIC PRICE DISPLAY =====
+    const PriceDisplay = {
+        element: null,
+        retryCount: 0,
+        maxRetries: 3,
+        
+        init: function() {
+            this.element = document.getElementById('priceDisplay');
+            if (!this.element) return;
+            
+            this.fetchPriceData();
+            console.log('✅ Dynamic price display initialized');
+        },
+        
+        fetchPriceData: function() {
+            // Simulate API call to get pricing information
+            // In production, this would be a real API endpoint
+            setTimeout(() => {
+                this.simulatePriceCheck();
+            }, 1000);
+        },
+        
+        simulatePriceCheck: function() {
+            // Simulate checking app store pricing
+            // This could be replaced with actual API calls to app store APIs
+            const currentLang = window.ExchangoIndexTranslations?.getCurrentLanguage?.() || 'ko';
+            const priceData = {
+                ko: '무료',
+                en: 'Free',
+                ja: '無料',
+                zh: '免费'
+            };
+            
+            // Simulate occasional special offers
+            const isSpecialOffer = Math.random() > 0.95; // 5% chance
+            
+            if (isSpecialOffer) {
+                this.displayPrice(priceData[currentLang] + ' 🎉');
+            } else {
+                this.displayPrice(priceData[currentLang]);
+            }
+        },
+        
+        displayPrice: function(price) {
+            if (!this.element) return;
+            
+            // Fade out loading spinner
+            const loadingElement = this.element.querySelector('.price-loading');
+            if (loadingElement) {
+                loadingElement.style.opacity = '0';
+                setTimeout(() => {
+                    loadingElement.style.display = 'none';
+                }, 300);
+            }
+            
+            // Update price text with fade-in effect
+            setTimeout(() => {
+                this.element.innerHTML = price;
+                this.element.style.opacity = '0';
+                requestAnimationFrame(() => {
+                    this.element.style.transition = 'opacity 0.3s ease-in-out';
+                    this.element.style.opacity = '1';
+                });
+            }, 350);
+        },
+        
+        handleError: function() {
+            if (this.retryCount < this.maxRetries) {
+                this.retryCount++;
+                console.log(`🔄 Retrying price fetch... (${this.retryCount}/${this.maxRetries})`);
+                setTimeout(() => this.fetchPriceData(), 2000 * this.retryCount);
+            } else {
+                // Fallback to static price
+                const currentLang = window.ExchangoIndexTranslations?.getCurrentLanguage?.() || 'ko';
+                const fallbackPrices = {
+                    ko: '무료',
+                    en: 'Free',
+                    ja: '無料',
+                    zh: '免费'
+                };
+                this.displayPrice(fallbackPrices[currentLang]);
+            }
+        }
+    };
+    
     // ===== FEATURE GALLERY FUNCTIONALITY =====
     const FeatureGallery = {
         galleries: [],
@@ -920,8 +1220,10 @@
                 BackToTop.init();
                 ScrollAnimations.init();
                 SmoothNavigation.init();
+                LanguageDropdown.init();
                 LanguageSwitcher.init();
                 LazyLoader.init();
+                PriceDisplay.init();
                 PerformanceMonitor.init();
                 AccessibilityEnhancer.init();
                 MobileOptimizer.init();

@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title data-i18n="pageTitle">Exchango FX - 스마트 환율 계산기 앱</title>
+    <title data-i18n="pageTitle">Exchango FX - Your Global Currency Companion!</title>
     <meta name="description" content="전 세계 150개 이상의 통화를 지원하는 스마트 환율 계산기 앱. 환율 계산, 정산, 팁 계산, 미니게임까지 한 번에 해결하세요.">
     <meta name="keywords" content="환율, 계산기, 환율계산, 여행, 정산, 팁계산, currency, exchange rate, calculator">
     <meta name="author" content="Exchango FX Team">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Exchango FX - 스마트 환율 계산기 앱">
+    <meta property="og:title" content="Exchango FX - Your Global Currency Companion!">
     <meta property="og:description" content="150개 이상의 통화를 지원하는 올인원 환율 계산 앱">
     <meta property="og:image" content="./assets/app-icon.png">
     <meta property="og:url" content="https://exchango.app">
@@ -18,7 +18,7 @@
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Exchango FX - 스마트 환율 계산기 앱">
+    <meta name="twitter:title" content="Exchango FX - Your Global Currency Companion!">
     <meta name="twitter:description" content="150개 이상의 통화를 지원하는 올인원 환율 계산 앱">
     <meta name="twitter:image" content="./assets/app-icon.png">
     
@@ -38,12 +38,87 @@
     
     <!-- Hero Section -->
     <section class="hero" id="hero">
-        <!-- Language Selector -->
-        <div class="language-selector">
-            <a href="?lang=en" class="lang-btn">English</a>
-            <a href="?lang=ko" class="lang-btn active">한국어</a>
-            <a href="?lang=ja" class="lang-btn">日本語</a>
-            <a href="?lang=zh" class="lang-btn">中文</a>
+        <!-- Language Selector Dropdown -->
+        <div class="language-selector-dropdown">
+            <button class="language-dropdown-btn" id="languageDropdownBtn" aria-label="Select Language" aria-expanded="false">
+                <span class="current-language">
+                    <i data-lucide="globe" class="language-icon"></i>
+                    <span class="language-text">한국어</span>
+                </span>
+                <i data-lucide="chevron-down" class="dropdown-arrow"></i>
+            </button>
+            <div class="language-dropdown-menu" id="languageDropdownMenu" role="menu">
+                <a href="?lang=ar" class="language-option" data-lang="ar" role="menuitem">
+                    <span class="flag">🇸🇦</span>
+                    <span>العربية</span>
+                    <span class="native">Arabic</span>
+                </a>
+                <a href="?lang=de" class="language-option" data-lang="de" role="menuitem">
+                    <span class="flag">🇩🇪</span>
+                    <span>Deutsch</span>
+                    <span class="native">German</span>
+                </a>
+                <a href="?lang=en" class="language-option" data-lang="en" role="menuitem">
+                    <span class="flag">🇺🇸</span>
+                    <span>English</span>
+                    <span class="native">English</span>
+                </a>
+                <a href="?lang=es" class="language-option" data-lang="es" role="menuitem">
+                    <span class="flag">🇪🇸</span>
+                    <span>Español</span>
+                    <span class="native">Spanish</span>
+                </a>
+                <a href="?lang=fr" class="language-option" data-lang="fr" role="menuitem">
+                    <span class="flag">🇫🇷</span>
+                    <span>Français</span>
+                    <span class="native">French</span>
+                </a>
+                <a href="?lang=hi" class="language-option" data-lang="hi" role="menuitem">
+                    <span class="flag">🇮🇳</span>
+                    <span>हिन्दी</span>
+                    <span class="native">Hindi</span>
+                </a>
+                <a href="?lang=it" class="language-option" data-lang="it" role="menuitem">
+                    <span class="flag">🇮🇹</span>
+                    <span>Italiano</span>
+                    <span class="native">Italian</span>
+                </a>
+                <a href="?lang=ja" class="language-option" data-lang="ja" role="menuitem">
+                    <span class="flag">🇯🇵</span>
+                    <span>日本語</span>
+                    <span class="native">Japanese</span>
+                </a>
+                <a href="?lang=ko" class="language-option active" data-lang="ko" role="menuitem">
+                    <span class="flag">🇰🇷</span>
+                    <span>한국어</span>
+                    <span class="native">Korean</span>
+                </a>
+                <a href="?lang=pt" class="language-option" data-lang="pt" role="menuitem">
+                    <span class="flag">🇧🇷</span>
+                    <span>Português</span>
+                    <span class="native">Portuguese</span>
+                </a>
+                <a href="?lang=ru" class="language-option" data-lang="ru" role="menuitem">
+                    <span class="flag">🇷🇺</span>
+                    <span>Русский</span>
+                    <span class="native">Russian</span>
+                </a>
+                <a href="?lang=th" class="language-option" data-lang="th" role="menuitem">
+                    <span class="flag">🇹🇭</span>
+                    <span>ไทย</span>
+                    <span class="native">Thai</span>
+                </a>
+                <a href="?lang=tr" class="language-option" data-lang="tr" role="menuitem">
+                    <span class="flag">🇹🇷</span>
+                    <span>Türkçe</span>
+                    <span class="native">Turkish</span>
+                </a>
+                <a href="?lang=zh" class="language-option" data-lang="zh" role="menuitem">
+                    <span class="flag">🇨🇳</span>
+                    <span>中文</span>
+                    <span class="native">Chinese</span>
+                </a>
+            </div>
         </div>
         
         <div class="hero-content">
@@ -70,14 +145,18 @@
                     <div class="stat-icon">
                         <i data-lucide="globe"></i>
                     </div>
-                    <div class="stat-number" data-i18n="statLanguagesValue">7</div>
+                    <div class="stat-number" data-i18n="statLanguagesValue">14</div>
                     <div class="stat-label" data-i18n="statLanguages">지원 언어</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon">
                         <i data-lucide="heart"></i>
                     </div>
-                    <div class="stat-number" data-i18n="statPriceValue">무료</div>
+                    <div class="stat-number" id="priceDisplay" data-i18n="statPriceValue">
+                        <span class="price-loading">
+                            <i data-lucide="loader-2" class="spin-icon"></i>
+                        </span>
+                    </div>
                     <div class="stat-label" data-i18n="statPrice">가격</div>
                 </div>
             </div>
@@ -269,7 +348,7 @@
                             <p data-i18n="settingsDesc">개인 취향에 맞게 앱을 설정하세요. 다크/라이트 테마, 언어 설정, 글꼴 크기 조절 등 다양한 커스터마이징 옵션을 제공합니다.</p>
                             <ul class="feature-list">
                                 <li data-i18n="settingsFeature1">다크/라이트 테마</li>
-                                <li data-i18n="settingsFeature2">7개 언어 지원</li>
+                                <li data-i18n="settingsFeature2">14개 언어 지원</li>
                                 <li data-i18n="settingsFeature3">글꼴 크기 조절</li>
                             </ul>
                         </div>
@@ -436,14 +515,6 @@
             
             <div class="footer-bottom">
                 <p class="copyright" data-i18n="footerCopyright">Copyright © 2025 Exchango FX All rights reserved.</p>
-                
-                <!-- Language Selector (Footer) -->
-                <div class="footer-language">
-                    <a href="?lang=ko" class="footer-lang-btn">한국어</a>
-                    <a href="?lang=en" class="footer-lang-btn">English</a>
-                    <a href="?lang=ja" class="footer-lang-btn">日本語</a>
-                    <a href="?lang=zh" class="footer-lang-btn">中文</a>
-                </div>
             </div>
         </div>
     </footer>

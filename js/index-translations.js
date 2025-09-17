@@ -17,7 +17,7 @@
             statCurrencies: "지원 통화",
             statCurrenciesValue: "150+",
             statLanguages: "지원 언어",
-            statLanguagesValue: "7",
+            statLanguagesValue: "14",
             statPrice: "가격",
             statPriceValue: "무료",
             
@@ -76,7 +76,7 @@
             settingsTitle: "설정",
             settingsDesc: "개인 취향에 맞게 앱을 설정하세요. 다크/라이트 테마, 언어 설정, 글꼴 크기 조절 등 다양한 커스터마이징 옵션을 제공합니다.",
             settingsFeature1: "다크/라이트 테마",
-            settingsFeature2: "7개 언어 지원",
+            settingsFeature2: "14개 언어 지원",
             settingsFeature3: "글꼴 크기 조절",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
@@ -140,7 +140,7 @@
             statCurrencies: "Currencies",
             statCurrenciesValue: "150+",
             statLanguages: "Languages",
-            statLanguagesValue: "7",
+            statLanguagesValue: "14",
             statPrice: "Price",
             statPriceValue: "Free",
             
@@ -199,7 +199,7 @@
             settingsTitle: "Settings",
             settingsDesc: "Customize the app to your personal preferences. Various customization options including dark/light theme, language settings, and font size adjustment.",
             settingsFeature1: "Dark/Light theme",
-            settingsFeature2: "7 language support",
+            settingsFeature2: "14 language support",
             settingsFeature3: "Font size adjustment",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
@@ -263,7 +263,7 @@
             statCurrencies: "サポート通貨",
             statCurrenciesValue: "150+",
             statLanguages: "対応言語",
-            statLanguagesValue: "7",
+            statLanguagesValue: "14",
             statPrice: "価格",
             statPriceValue: "無料",
             
@@ -322,7 +322,7 @@
             settingsTitle: "設定",
             settingsDesc: "お好みに合わせてアプリをカスタマイズしてください。ダーク/ライトテーマ、言語設定、フォントサイズ調整など様々なカスタマイズオプションを提供します。",
             settingsFeature1: "ダーク/ライトテーマ",
-            settingsFeature2: "7言語サポート",
+            settingsFeature2: "14言語サポート",
             settingsFeature3: "フォントサイズ調整",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
@@ -386,7 +386,7 @@
             statCurrencies: "支持货币",
             statCurrenciesValue: "150+",
             statLanguages: "支持语言",
-            statLanguagesValue: "7",
+            statLanguagesValue: "14",
             statPrice: "价格",
             statPriceValue: "免费",
             
@@ -445,7 +445,7 @@
             settingsTitle: "设置",
             settingsDesc: "根据个人喜好自定义应用。提供包括深色/浅色主题、语言设置、字体大小调节等各种自定义选项。",
             settingsFeature1: "深色/浅色主题",
-            settingsFeature2: "7种语言支持",
+            settingsFeature2: "14种语言支持",
             settingsFeature3: "字体大小调节",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
@@ -496,11 +496,635 @@
             closeModal: "关闭模态框",
             nextSlide: "下一张幻灯片",
             previousSlide: "上一张幻灯片",
+        },
+        
+        // Arabic
+        ar: {
+            pageTitle: "Exchango FX - تطبيق محول العملات الذكي",
+            heroTitle: "Exchango FX",
+            heroTagline: "محول العملات الذكي للعالم",
+            heroSubtitle: "تطبيق شامل لتحويل وتسوية العملات يدعم أكثر من 150 عملة",
+            
+            statCurrencies: "العملات المدعومة",
+            statCurrenciesValue: "150+",
+            statLanguages: "اللغات المدعومة", 
+            statLanguagesValue: "14",
+            statPrice: "السعر",
+            statPriceValue: "مجاني",
+            
+            downloadiOS: "تحميل لنظام iOS",
+            downloadAndroid: "تحميل لنظام Android",
+            learnMore: "اعرف المزيد",
+            
+            featuresTitle: "أدوات العملات الذكية",
+            featuresSubtitle: "حل شامل لحساب العملات للسفر والأعمال",
+            
+            calculatorTitle: "حاسبة العملات الذكية",
+            calculatorDesc: "احسب أسعار الصرف بين أكثر من 150 عملة في الوقت الفعلي باستخدام حاسبة بديهية.",
+            calculatorFeature1: "بيانات أسعار الصرف المباشرة",
+            calculatorFeature2: "حساب ثنائي الاتجاه والتبديل",
+            calculatorFeature3: "حفظ تاريخ الحسابات",
+            
+            ratesTitle: "أسعار اليوم",
+            ratesDesc: "تحقق من معلومات أسعار الصرف المباشرة للعملات العالمية في لمحة.",
+            ratesFeature1: "تحديث أسعار الصرف المباشر",
+            ratesFeature2: "إدارة العملات المفضلة",
+            ratesFeature3: "عرض اتجاه أسعار الصرف",
+            
+            settlementTitle: "حاسبة التسوية",
+            settlementDesc: "حل تسويات العملات المتعددة من السفر الدولي أو الأعمال بسهولة.",
+            settlementFeature1: "حساب عملات متعددة متزامن",
+            settlementFeature2: "مشاركة عادلة للتكاليف",
+            settlementFeature3: "إدارة مرنة للمشاركين",
+            
+            tipTitle: "حاسبة الإكرامية",
+            tipDesc: "احسب نسب الإكرامية المناسبة وقسمها حسب عدد الأشخاص.",
+            tipFeature1: "دليل معدلات الإكرامية حسب البلد",
+            tipFeature2: "حساب التقسيم لكل شخص",
+            tipFeature3: "تاريخ حساب الإكرامية",
+            
+            historyTitle: "تاريخ الحسابات",
+            historyDesc: "إدارة جميع سجلات الحسابات بشكل منهجي.",
+            historyFeature1: "دعم عرض التقويم",
+            historyFeature2: "بحث مفصل ومرشحات",
+            historyFeature3: "تصدير البيانات",
+            
+            multiCurrencyTitle: "حاسبة العملات المتعددة",
+            multiCurrencyDesc: "عرض ومقارنة أسعار الصرف لعملات متعددة في نفس الوقت.",
+            multiCurrencyFeature1: "تحويل عملات متعددة متزامن",
+            multiCurrencyFeature2: "تحليل مقارنة العملات",
+            multiCurrencyFeature3: "مجموعات العملات المفضلة",
+            
+            settingsTitle: "الإعدادات",
+            settingsDesc: "خصص التطبيق حسب تفضيلاتك الشخصية.",
+            settingsFeature1: "السمة الداكنة/الفاتحة",
+            settingsFeature2: "دعم 14 لغة",
+            settingsFeature3: "تعديل حجم الخط",
+            
+            techTitle: "التميز التقني",
+            techSubtitle: "أداء موثوق وسريع مبني بأحدث التقنيات",
+            
+            performanceTitle: "أداء عالي",
+            performanceDesc: "مبني باستخدام React Native و TypeScript لتوفير أداء بمستوى الأصلي على منصتي iOS و Android.",
+            
+            offlineTitle: "دعم غير متصل",
+            offlineDesc: "استخدم وظائف الحساب الأساسية حتى بدون اتصال بالإنترنت.",
+            
+            securityTitle: "بيانات آمنة",
+            securityDesc: "جميع البيانات مخزنة بأمان على جهازك مع حماية الخصوصية كأولوية قصوى.",
+            
+            updateTitle: "تحديثات تلقائية",
+            updateDesc: "بيانات أسعار الصرف وميزات التطبيق تُحدث تلقائياً للحفاظ على أحدث المعلومات.",
+            
+            benefitsTitle: "لماذا تختار Exchango FX؟",
+            benefitsSubtitle: "الأسباب التي تجعل المسافرين ومحترفي الأعمال يختاروننا",
+            
+            travelersTitle: "تطبيق أساسي للمسافرين",
+            travelersDesc: "حل تحويل العملات وحساب الإكراميات وتسويات المجموعات في مرة واحدة أثناء السفر الدولي.",
+            
+            businessTitle: "أداة لمحترفي الأعمال",
+            businessDesc: "التعامل بكفاءة مع المعاملات الدولية ومهام المحاسبة متعددة العملات.",
+            
+            reliableTitle: "دقة موثوقة",
+            reliableDesc: "يوفر نتائج موثوقة ببيانات أسعار الصرف المباشرة وخوارزميات حساب دقيقة.",
+            
+            downloadTitle: "حمل الآن",
+            downloadSubtitle: "حل حساب العملات الذكي المقدم مجاناً",
+            downloadDesc: "اجعل حسابات العملات أسهل وأكثر دقة مع Exchango FX الذي يدعم أكثر من 150 عملة.",
+            
+            footerAbout: "حول Exchango FX",
+            footerSupport: "دعم العملاء",
+            footerPrivacy: "سياسة الخصوصية",
+            footerTerms: "شروط الخدمة",
+            footerAboutPage: "حول Exchango FX",
+            footerCopyright: "© 2025 Exchango FX. جميع الحقوق محفوظة.",
+            
+            skipToContent: "انتقل إلى المحتوى الرئيسي",
+            backToTop: "العودة إلى الأعلى",
+            closeModal: "إغلاق النافذة المنبثقة",
+            nextSlide: "الشريحة التالية",
+            previousSlide: "الشريحة السابقة",
+        },
+        
+        // German
+        de: {
+            pageTitle: "Exchango FX - Intelligente Währungsrechner-App",
+            heroTitle: "Exchango FX",
+            heroTagline: "Intelligenter Währungsrechner für die Welt",
+            heroSubtitle: "All-in-One Währungsumrechnung und Abrechnungs-App mit Unterstützung für 150+ Währungen",
+            
+            statCurrencies: "Unterstützte Währungen",
+            statCurrenciesValue: "150+",
+            statLanguages: "Unterstützte Sprachen",
+            statLanguagesValue: "14",
+            statPrice: "Preis",
+            statPriceValue: "Kostenlos",
+            
+            downloadiOS: "Für iOS herunterladen",
+            downloadAndroid: "Für Android herunterladen",
+            learnMore: "Mehr erfahren",
+            
+            featuresTitle: "Intelligente Währungstools",
+            featuresSubtitle: "Komplette Währungsberechnungslösung für Reisen und Geschäfte",
+            
+            calculatorTitle: "Intelligenter Währungsrechner",
+            calculatorDesc: "Berechnen Sie Wechselkurse zwischen 150+ Währungen in Echtzeit mit einem intuitiven Rechner.",
+            calculatorFeature1: "Echtzeit-Wechselkursdaten",
+            calculatorFeature2: "Bidirektionale Berechnung & Tausch",
+            calculatorFeature3: "Berechnungsverlauf speichern",
+            
+            ratesTitle: "Heutige Kurse",
+            ratesDesc: "Überprüfen Sie Echtzeit-Wechselkursinformationen für Währungen weltweit auf einen Blick.",
+            ratesFeature1: "Echtzeit-Kursupdate",
+            ratesFeature2: "Favoritenwährungsverwaltung",
+            ratesFeature3: "Wechselkurstrendanzeige",
+            
+            settlementTitle: "Abrechnungsrechner",
+            settlementDesc: "Lösen Sie Mehrwährungsabrechnungen von internationalen Reisen oder Geschäften einfach.",
+            settlementFeature1: "Gleichzeitige Mehrwährungsberechnung",
+            settlementFeature2: "Faire Kostenteilung",
+            settlementFeature3: "Flexible Teilnehmerverwaltung",
+            
+            tipTitle: "Trinkgeldrechner",
+            tipDesc: "Berechnen Sie angemessene Trinkgeldsätze und teilen Sie sie nach Personenanzahl auf.",
+            tipFeature1: "Länderspezifischer Trinkgeldsatz-Leitfaden",
+            tipFeature2: "Pro-Person-Aufteilungsberechnung",
+            tipFeature3: "Trinkgeldberechnungsverlauf",
+            
+            historyTitle: "Berechnungsverlauf",
+            historyDesc: "Verwalten Sie alle Berechnungsaufzeichnungen systematisch.",
+            historyFeature1: "Kalenderansicht-Unterstützung",
+            historyFeature2: "Detaillierte Suche & Filter",
+            historyFeature3: "Datenexport",
+            
+            multiCurrencyTitle: "Mehrwährungsrechner",
+            multiCurrencyDesc: "Anzeigen und Vergleichen von Wechselkursen für mehrere Währungen gleichzeitig.",
+            multiCurrencyFeature1: "Gleichzeitige Mehrwährungsumrechnung",
+            multiCurrencyFeature2: "Währungsvergleichsanalyse",
+            multiCurrencyFeature3: "Favoritenwährungsgruppen",
+            
+            settingsTitle: "Einstellungen",
+            settingsDesc: "Passen Sie die App an Ihre persönlichen Vorlieben an.",
+            settingsFeature1: "Dunkles/Helles Theme",
+            settingsFeature2: "14 Sprachen Unterstützung",
+            settingsFeature3: "Schriftgrößenanpassung",
+            
+            techTitle: "Technische Exzellenz",
+            techSubtitle: "Zuverlässige und schnelle Leistung mit modernster Technologie",
+            
+            performanceTitle: "Hohe Leistung",
+            performanceDesc: "Erstellt mit React Native und TypeScript für native Leistung auf iOS und Android Plattformen.",
+            
+            offlineTitle: "Offline-Unterstützung",
+            offlineDesc: "Nutzen Sie grundlegende Berechnungsfunktionen auch ohne Internetverbindung.",
+            
+            securityTitle: "Sichere Daten",
+            securityDesc: "Alle Daten werden sicher auf Ihrem Gerät gespeichert mit Datenschutz als oberste Priorität.",
+            
+            updateTitle: "Automatische Updates",
+            updateDesc: "Wechselkursdaten und App-Features werden automatisch aktualisiert um die neuesten Informationen zu erhalten.",
+            
+            benefitsTitle: "Warum Exchango FX wählen?",
+            benefitsSubtitle: "Gründe, warum Reisende und Geschäftsprofis uns wählen",
+            
+            travelersTitle: "Unverzichtbare App für Reisende",
+            travelersDesc: "Lösen Sie Währungsumrechnung, Trinkgeldberechnung und Gruppenabrechnungen auf einmal während internationaler Reisen.",
+            
+            businessTitle: "Tool für Geschäftsprofis",
+            businessDesc: "Effiziente Abwicklung internationaler Transaktionen und Mehrwährungs-Buchhaltungsaufgaben.",
+            
+            reliableTitle: "Vertrauenswürdige Genauigkeit",
+            reliableDesc: "Bietet zuverlässige Ergebnisse mit Echtzeit-Wechselkursdaten und präzisen Berechnungsalgorithmen.",
+            
+            downloadTitle: "Jetzt herunterladen",
+            downloadSubtitle: "Intelligente Währungsberechnungslösung kostenlos bereitgestellt",
+            downloadDesc: "Machen Sie Währungsberechnungen einfacher und genauer mit Exchango FX, das 150+ Währungen unterstützt.",
+            
+            footerAbout: "Über Exchango FX",
+            footerSupport: "Kundensupport",
+            footerPrivacy: "Datenschutzrichtlinie",
+            footerTerms: "Nutzungsbedingungen",
+            footerAboutPage: "Über Exchango FX",
+            footerCopyright: "© 2025 Exchango FX. Alle Rechte vorbehalten.",
+            
+            skipToContent: "Zum Hauptinhalt springen",
+            backToTop: "Nach oben",
+            closeModal: "Modal schließen",
+            nextSlide: "Nächste Folie",
+            previousSlide: "Vorherige Folie",
+        },
+        
+        // Spanish
+        es: {
+            pageTitle: "Exchango FX - Aplicación Inteligente de Conversión de Monedas",
+            heroTitle: "Exchango FX",
+            heroTagline: "Conversor de Monedas Inteligente para el Mundo",
+            heroSubtitle: "Aplicación todo en uno de conversión y liquidación de monedas compatible con más de 150 monedas",
+            
+            statCurrencies: "Monedas Compatibles",
+            statCurrenciesValue: "150+",
+            statLanguages: "Idiomas Compatibles",
+            statLanguagesValue: "14",
+            statPrice: "Precio",
+            statPriceValue: "Gratis",
+            
+            downloadiOS: "Descargar para iOS",
+            downloadAndroid: "Descargar para Android",
+            learnMore: "Saber Más",
+            
+            featuresTitle: "Herramientas de Moneda Inteligentes",
+            featuresSubtitle: "Solución completa de cálculo de monedas para viajes y negocios",
+            
+            calculatorTitle: "Calculadora de Monedas Inteligente",
+            calculatorDesc: "Calcule tipos de cambio entre más de 150 monedas en tiempo real con una calculadora intuitiva.",
+            calculatorFeature1: "Datos de tipo de cambio en tiempo real",
+            calculatorFeature2: "Cálculo bidireccional e intercambio",
+            calculatorFeature3: "Almacenamiento del historial de cálculos",
+            
+            ratesTitle: "Tipos de Hoy",
+            ratesDesc: "Verifique la información de tipos de cambio en tiempo real para monedas mundiales de un vistazo.",
+            ratesFeature1: "Actualización de tipos en tiempo real",
+            ratesFeature2: "Gestión de monedas favoritas",
+            ratesFeature3: "Visualización de tendencias de tipos de cambio",
+            
+            settlementTitle: "Calculadora de Liquidación",
+            settlementDesc: "Resuelva fácilmente liquidaciones multi-moneda de viajes internacionales o negocios.",
+            settlementFeature1: "Cálculo simultáneo de múltiples monedas",
+            settlementFeature2: "Reparto justo de costos",
+            settlementFeature3: "Gestión flexible de participantes",
+            
+            tipTitle: "Calculadora de Propinas",
+            tipDesc: "Calcule porcentajes de propina apropiados y divídalos por número de personas.",
+            tipFeature1: "Guía de tasas de propina por país",
+            tipFeature2: "Cálculo de división por persona",
+            tipFeature3: "Historial de cálculo de propinas",
+            
+            historyTitle: "Historial de Cálculos",
+            historyDesc: "Gestione todos los registros de cálculos sistemáticamente.",
+            historyFeature1: "Soporte de vista de calendario",
+            historyFeature2: "Búsqueda detallada y filtros",
+            historyFeature3: "Exportación de datos",
+            
+            multiCurrencyTitle: "Calculadora Multi-Moneda",
+            multiCurrencyDesc: "Vea y compare tipos de cambio para múltiples monedas simultáneamente.",
+            multiCurrencyFeature1: "Conversión simultánea de múltiples monedas",
+            multiCurrencyFeature2: "Análisis de comparación de monedas",
+            multiCurrencyFeature3: "Grupos de monedas favoritas",
+            
+            settingsTitle: "Configuración",
+            settingsDesc: "Personalice la aplicación según sus preferencias personales.",
+            settingsFeature1: "Tema Oscuro/Claro",
+            settingsFeature2: "Soporte para 14 idiomas",
+            settingsFeature3: "Ajuste del tamaño de fuente",
+            
+            techTitle: "Excelencia Técnica",
+            techSubtitle: "Rendimiento confiable y rápido construido con tecnología de vanguardia",
+            
+            performanceTitle: "Alto Rendimiento",
+            performanceDesc: "Construido con React Native y TypeScript para proporcionar rendimiento nativo en plataformas iOS y Android.",
+            
+            offlineTitle: "Soporte Sin Conexión",
+            offlineDesc: "Use funciones básicas de cálculo incluso sin conexión a internet.",
+            
+            securityTitle: "Datos Seguros",
+            securityDesc: "Todos los datos se almacenan de forma segura en su dispositivo con la protección de privacidad como máxima prioridad.",
+            
+            updateTitle: "Actualizaciones Automáticas",
+            updateDesc: "Los datos de tipos de cambio y las características de la aplicación se actualizan automáticamente para mantener la información más reciente.",
+            
+            benefitsTitle: "¿Por qué elegir Exchango FX?",
+            benefitsSubtitle: "Razones por las que viajeros y profesionales de negocios nos eligen",
+            
+            travelersTitle: "Aplicación Esencial para Viajeros",
+            travelersDesc: "Resuelva conversión de monedas, cálculo de propinas y liquidaciones de grupo de una vez durante viajes internacionales.",
+            
+            businessTitle: "Herramienta para Profesionales de Negocios",
+            businessDesc: "Manejo eficiente de transacciones internacionales y tareas de contabilidad multi-moneda.",
+            
+            reliableTitle: "Precisión Confiable",
+            reliableDesc: "Proporciona resultados confiables con datos de tipos de cambio en tiempo real y algoritmos de cálculo precisos.",
+            
+            downloadTitle: "Descargar Ahora",
+            downloadSubtitle: "Solución inteligente de cálculo de monedas proporcionada gratuitamente",
+            downloadDesc: "Haga los cálculos de monedas más fáciles y precisos con Exchango FX que soporta más de 150 monedas.",
+            
+            footerAbout: "Acerca de Exchango FX",
+            footerSupport: "Soporte al Cliente",
+            footerPrivacy: "Política de Privacidad",
+            footerTerms: "Términos de Servicio",
+            footerAboutPage: "Acerca de Exchango FX",
+            footerCopyright: "© 2025 Exchango FX. Todos los derechos reservados.",
+            
+            skipToContent: "Saltar al contenido principal",
+            backToTop: "Volver arriba",
+            closeModal: "Cerrar modal",
+            nextSlide: "Siguiente diapositiva",
+            previousSlide: "Diapositiva anterior",
+        },
+        
+        // French
+        fr: {
+            pageTitle: "Exchango FX - Application Intelligente de Conversion de Devises",
+            heroTitle: "Exchango FX",
+            heroTagline: "Convertisseur de Devises Intelligent pour le Monde",
+            heroSubtitle: "Application tout-en-un de conversion et de règlement de devises prenant en charge plus de 150 devises",
+            
+            statCurrencies: "Devises Prises en Charge",
+            statCurrenciesValue: "150+",
+            statLanguages: "Langues Prises en Charge",
+            statLanguagesValue: "14",
+            statPrice: "Prix",
+            statPriceValue: "Gratuit",
+            
+            downloadiOS: "Télécharger pour iOS",
+            downloadAndroid: "Télécharger pour Android",
+            learnMore: "En Savoir Plus",
+            
+            featuresTitle: "Outils de Devises Intelligents",
+            featuresSubtitle: "Solution complète de calcul de devises pour les voyages et les affaires",
+            
+            calculatorTitle: "Calculatrice de Devises Intelligente",
+            calculatorDesc: "Calculez les taux de change entre plus de 150 devises en temps réel avec une calculatrice intuitive.",
+            calculatorFeature1: "Données de taux de change en temps réel",
+            calculatorFeature2: "Calcul bidirectionnel et échange",
+            calculatorFeature3: "Stockage de l'historique des calculs",
+            
+            ratesTitle: "Taux d'Aujourd'hui",
+            ratesDesc: "Vérifiez les informations de taux de change en temps réel pour les devises mondiales en un coup d'œil.",
+            ratesFeature1: "Mise à jour des taux en temps réel",
+            ratesFeature2: "Gestion des devises favorites",
+            ratesFeature3: "Affichage des tendances des taux de change",
+            
+            settlementTitle: "Calculatrice de Règlement",
+            settlementDesc: "Résolvez facilement les règlements multi-devises des voyages internationaux ou des affaires.",
+            settlementFeature1: "Calcul simultané de plusieurs devises",
+            settlementFeature2: "Partage équitable des coûts",
+            settlementFeature3: "Gestion flexible des participants",
+            
+            tipTitle: "Calculatrice de Pourboires",
+            tipDesc: "Calculez les pourcentages de pourboire appropriés et divisez-les par nombre de personnes.",
+            tipFeature1: "Guide des taux de pourboire par pays",
+            tipFeature2: "Calcul de division par personne",
+            tipFeature3: "Historique de calcul des pourboires",
+            
+            historyTitle: "Historique des Calculs",
+            historyDesc: "Gérez tous les enregistrements de calculs de manière systématique.",
+            historyFeature1: "Support de vue calendrier",
+            historyFeature2: "Recherche détaillée et filtres",
+            historyFeature3: "Exportation de données",
+            
+            multiCurrencyTitle: "Calculatrice Multi-Devises",
+            multiCurrencyDesc: "Affichez et comparez les taux de change pour plusieurs devises simultanément.",
+            multiCurrencyFeature1: "Conversion simultanée de plusieurs devises",
+            multiCurrencyFeature2: "Analyse de comparaison de devises",
+            multiCurrencyFeature3: "Groupes de devises favorites",
+            
+            settingsTitle: "Paramètres",
+            settingsDesc: "Personnalisez l'application selon vos préférences personnelles.",
+            settingsFeature1: "Thème Sombre/Clair",
+            settingsFeature2: "Support de 14 langues",
+            settingsFeature3: "Ajustement de la taille de police",
+            
+            techTitle: "Excellence Technique",
+            techSubtitle: "Performance fiable et rapide construite avec une technologie de pointe",
+            
+            performanceTitle: "Haute Performance",
+            performanceDesc: "Construit avec React Native et TypeScript pour fournir une performance native sur les plateformes iOS et Android.",
+            
+            offlineTitle: "Support Hors Ligne",
+            offlineDesc: "Utilisez les fonctions de calcul de base même sans connexion internet.",
+            
+            securityTitle: "Données Sécurisées",
+            securityDesc: "Toutes les données sont stockées en sécurité sur votre appareil avec la protection de la vie privée comme priorité absolue.",
+            
+            updateTitle: "Mises à Jour Automatiques",
+            updateDesc: "Les données de taux de change et les fonctionnalités de l'application sont automatiquement mises à jour pour maintenir les informations les plus récentes.",
+            
+            benefitsTitle: "Pourquoi choisir Exchango FX ?",
+            benefitsSubtitle: "Raisons pour lesquelles les voyageurs et professionnels d'affaires nous choisissent",
+            
+            travelersTitle: "Application Essentielle pour les Voyageurs",
+            travelersDesc: "Résolvez la conversion de devises, le calcul de pourboires et les règlements de groupe en une fois pendant les voyages internationaux.",
+            
+            businessTitle: "Outil pour les Professionnels d'Affaires",
+            businessDesc: "Gestion efficace des transactions internationales et des tâches de comptabilité multi-devises.",
+            
+            reliableTitle: "Précision Fiable",
+            reliableDesc: "Fournit des résultats fiables avec des données de taux de change en temps réel et des algorithmes de calcul précis.",
+            
+            downloadTitle: "Télécharger Maintenant",
+            downloadSubtitle: "Solution intelligente de calcul de devises fournie gratuitement",
+            downloadDesc: "Rendez les calculs de devises plus faciles et plus précis avec Exchango FX qui prend en charge plus de 150 devises.",
+            
+            footerAbout: "À Propos d'Exchango FX",
+            footerSupport: "Support Client",
+            footerPrivacy: "Politique de Confidentialité",
+            footerTerms: "Conditions de Service",
+            footerAboutPage: "À Propos d'Exchango FX",
+            footerCopyright: "© 2025 Exchango FX. Tous droits réservés.",
+            
+            skipToContent: "Aller au contenu principal",
+            backToTop: "Retour en haut",
+            closeModal: "Fermer la modal",
+            nextSlide: "Diapositive suivante",
+            previousSlide: "Diapositive précédente",
+        },
+        
+        // Hindi
+        hi: {
+            pageTitle: "Exchango FX - स्मार्ट करेंसी कन्वर्टर ऐप",
+            heroTitle: "Exchango FX",
+            heroTagline: "दुनिया के लिए स्मार्ट करेंसी कन्वर्टर",
+            heroSubtitle: "150+ मुद्राओं का समर्थन करने वाला ऑल-इन-वन करेंसी कन्वर्जन और सेटलमेंट ऐप",
+            
+            statCurrencies: "समर्थित मुद्राएं",
+            statCurrenciesValue: "150+",
+            statLanguages: "समर्थित भाषाएं",
+            statLanguagesValue: "14",
+            statPrice: "मूल्य",
+            statPriceValue: "मुफ्त",
+            
+            downloadiOS: "iOS के लिए डाउनलोड करें",
+            downloadAndroid: "Android के लिए डाउनलोड करें",
+            learnMore: "और जानें",
+            
+            featuresTitle: "स्मार्ट करेंसी टूल्स",
+            featuresSubtitle: "यात्रा और व्यापार के लिए पूर्ण करेंसी गणना समाधान",
+            
+            calculatorTitle: "स्मार्ट करेंसी कैलकुलेटर",
+            calculatorDesc: "सहज कैलकुलेटर के साथ 150+ मुद्राओं के बीच रियल-टाइम एक्सचेंज दरों की गणना करें।",
+            calculatorFeature1: "रियल-टाइम एक्सचेंज दर डेटा",
+            calculatorFeature2: "द्विदिशीय गणना और अदला-बदली",
+            calculatorFeature3: "गणना इतिहास संग्रहण",
+            
+            footerCopyright: "© 2025 Exchango FX. सभी अधिकार सुरक्षित।",
+            skipToContent: "मुख्य सामग्री पर जाएं",
+            backToTop: "वापस ऊपर जाएं"
+        },
+        
+        // Italian
+        it: {
+            pageTitle: "Exchango FX - App Intelligente di Conversione Valute",
+            heroTitle: "Exchango FX",
+            heroTagline: "Convertitore di Valute Intelligente per il Mondo",
+            heroSubtitle: "App tutto-in-uno di conversione e regolamento valute che supporta oltre 150 valute",
+            
+            statCurrencies: "Valute Supportate",
+            statCurrenciesValue: "150+",
+            statLanguages: "Lingue Supportate",
+            statLanguagesValue: "14",
+            statPrice: "Prezzo",
+            statPriceValue: "Gratuito",
+            
+            downloadiOS: "Scarica per iOS",
+            downloadAndroid: "Scarica per Android",
+            learnMore: "Scopri di Più",
+            
+            featuresTitle: "Strumenti di Valuta Intelligenti",
+            featuresSubtitle: "Soluzione completa di calcolo valute per viaggi e affari",
+            
+            calculatorTitle: "Calcolatrice di Valute Intelligente",
+            calculatorDesc: "Calcola i tassi di cambio tra oltre 150 valute in tempo reale con una calcolatrice intuitiva.",
+            calculatorFeature1: "Dati di tasso di cambio in tempo reale",
+            calculatorFeature2: "Calcolo bidirezionale e scambio",
+            calculatorFeature3: "Archiviazione cronologia calcoli",
+            
+            footerCopyright: "© 2025 Exchango FX. Tutti i diritti riservati.",
+            skipToContent: "Vai al contenuto principale",
+            backToTop: "Torna in alto"
+        },
+        
+        // Portuguese
+        pt: {
+            pageTitle: "Exchango FX - App Inteligente de Conversão de Moedas",
+            heroTitle: "Exchango FX",
+            heroTagline: "Conversor de Moedas Inteligente para o Mundo",
+            heroSubtitle: "App tudo-em-um de conversão e liquidação de moedas com suporte para mais de 150 moedas",
+            
+            statCurrencies: "Moedas Suportadas",
+            statCurrenciesValue: "150+",
+            statLanguages: "Idiomas Suportados",
+            statLanguagesValue: "14",
+            statPrice: "Preço",
+            statPriceValue: "Grátis",
+            
+            downloadiOS: "Baixar para iOS",
+            downloadAndroid: "Baixar para Android",
+            learnMore: "Saiba Mais",
+            
+            featuresTitle: "Ferramentas de Moeda Inteligentes",
+            featuresSubtitle: "Solução completa de cálculo de moedas para viagens e negócios",
+            
+            calculatorTitle: "Calculadora de Moedas Inteligente",
+            calculatorDesc: "Calcule taxas de câmbio entre mais de 150 moedas em tempo real com uma calculadora intuitiva.",
+            calculatorFeature1: "Dados de taxa de câmbio em tempo real",
+            calculatorFeature2: "Cálculo bidirecional e troca",
+            calculatorFeature3: "Armazenamento do histórico de cálculos",
+            
+            footerCopyright: "© 2025 Exchango FX. Todos os direitos reservados.",
+            skipToContent: "Pular para o conteúdo principal",
+            backToTop: "Voltar ao topo"
+        },
+        
+        // Russian
+        ru: {
+            pageTitle: "Exchango FX - Умное Приложение Конвертера Валют",
+            heroTitle: "Exchango FX",
+            heroTagline: "Умный Конвертер Валют для Мира",
+            heroSubtitle: "Универсальное приложение конверсии и расчета валют с поддержкой более 150 валют",
+            
+            statCurrencies: "Поддерживаемые Валюты",
+            statCurrenciesValue: "150+",
+            statLanguages: "Поддерживаемые Языки",
+            statLanguagesValue: "14",
+            statPrice: "Цена",
+            statPriceValue: "Бесплатно",
+            
+            downloadiOS: "Скачать для iOS",
+            downloadAndroid: "Скачать для Android",
+            learnMore: "Узнать Больше",
+            
+            featuresTitle: "Умные Валютные Инструменты",
+            featuresSubtitle: "Полное решение для расчета валют для путешествий и бизнеса",
+            
+            calculatorTitle: "Умный Валютный Калькулятор",
+            calculatorDesc: "Рассчитывайте обменные курсы между более чем 150 валютами в реальном времени с интуитивным калькулятором.",
+            calculatorFeature1: "Данные обменного курса в реальном времени",
+            calculatorFeature2: "Двунаправленный расчет и обмен",
+            calculatorFeature3: "Хранение истории расчетов",
+            
+            footerCopyright: "© 2025 Exchango FX. Все права защищены.",
+            skipToContent: "Перейти к основному содержимому",
+            backToTop: "Вернуться наверх"
+        },
+        
+        // Thai
+        th: {
+            pageTitle: "Exchango FX - แอปแปลงสกุลเงินอัจฉริยะ",
+            heroTitle: "Exchango FX",
+            heroTagline: "ตัวแปลงสกุลเงินอัจฉริยะสำหรับโลก",
+            heroSubtitle: "แอปแปลงและชำระเงินสกุลเงินครบวงจรที่รองรับสกุลเงินกว่า 150 สกุล",
+            
+            statCurrencies: "สกุลเงินที่รองรับ",
+            statCurrenciesValue: "150+",
+            statLanguages: "ภาษาที่รองรับ",
+            statLanguagesValue: "14",
+            statPrice: "ราคา",
+            statPriceValue: "ฟรี",
+            
+            downloadiOS: "ดาวน์โหลดสำหรับ iOS",
+            downloadAndroid: "ดาวน์โหลดสำหรับ Android",
+            learnMore: "เรียนรู้เพิ่มเติม",
+            
+            featuresTitle: "เครื่องมือสกุลเงินอัจฉริยะ",
+            featuresSubtitle: "โซลูชันการคำนวณสกุลเงินที่สมบูรณ์สำหรับการเดินทางและธุรกิจ",
+            
+            calculatorTitle: "เครื่องคิดเลขสกุลเงินอัจฉริยะ",
+            calculatorDesc: "คำนวณอัตราแลกเปลี่ยนระหว่างสกุลเงินกว่า 150 สกุลแบบเรียลไทม์ด้วยเครื่องคิดเลขที่ใช้งานง่าย",
+            calculatorFeature1: "ข้อมูลอัตราแลกเปลี่ยนแบบเรียลไทม์",
+            calculatorFeature2: "การคำนวณแบบสองทิศทางและการสลับ",
+            calculatorFeature3: "การจัดเก็บประวัติการคำนวณ",
+            
+            footerCopyright: "© 2025 Exchango FX สงวนลิขสิทธิ์",
+            skipToContent: "ข้ามไปยังเนื้อหาหลัก",
+            backToTop: "กลับไปด้านบน"
+        },
+        
+        // Turkish
+        tr: {
+            pageTitle: "Exchango FX - Akıllı Döviz Dönüştürücü Uygulaması",
+            heroTitle: "Exchango FX",
+            heroTagline: "Dünya için Akıllı Döviz Dönüştürücü",
+            heroSubtitle: "150+ para birimini destekleyen hepsi-bir-arada döviz dönüştürme ve ödeme uygulaması",
+            
+            statCurrencies: "Desteklenen Para Birimleri",
+            statCurrenciesValue: "150+",
+            statLanguages: "Desteklenen Diller",
+            statLanguagesValue: "14",
+            statPrice: "Fiyat",
+            statPriceValue: "Ücretsiz",
+            
+            downloadiOS: "iOS için İndir",
+            downloadAndroid: "Android için İndir",
+            learnMore: "Daha Fazla Öğren",
+            
+            featuresTitle: "Akıllı Döviz Araçları",
+            featuresSubtitle: "Seyahat ve iş için eksiksiz döviz hesaplama çözümü",
+            
+            calculatorTitle: "Akıllı Döviz Hesaplayıcısı",
+            calculatorDesc: "Sezgisel hesaplayıcı ile 150+ para birimi arasında gerçek zamanlı döviz kurlarını hesaplayın.",
+            calculatorFeature1: "Gerçek zamanlı döviz kuru verileri",
+            calculatorFeature2: "Çift yönlü hesaplama ve değişim",
+            calculatorFeature3: "Hesaplama geçmişi depolama",
+            
+            footerCopyright: "© 2025 Exchango FX. Tüm hakları saklıdır.",
+            skipToContent: "Ana içeriğe atla",
+            backToTop: "Başa dön"
         }
     };
     
-    // Supported languages
-    const supportedLanguages = ['ko', 'en', 'ja', 'zh'];
+    // Supported languages  
+    const supportedLanguages = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'it', 'ja', 'ko', 'pt', 'ru', 'th', 'tr', 'zh'];
     const defaultLanguage = 'ko';
     
     // Get current language from URL parameter or default
