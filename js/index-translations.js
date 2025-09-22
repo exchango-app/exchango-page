@@ -112,6 +112,7 @@
             downloadTitle: "지금 바로 다운로드하세요",
             downloadSubtitle: "무료로 제공되는 스마트한 환율 계산 솔루션",
             downloadDesc: "150개 이상의 통화를 지원하는 Exchango FX로 환율 계산을 더 쉽고 정확하게 만들어보세요.",
+            comingSoon: "출시 예정",
             
             // ==== FOOTER SECTION ====
             footerAbout: "Exchango FX 소개",
@@ -235,6 +236,7 @@
             downloadTitle: "Download Now",
             downloadSubtitle: "Smart currency calculation solution provided free of charge",
             downloadDesc: "Make currency calculations easier and more accurate with Exchango FX supporting 150+ currencies.",
+            comingSoon: "Coming Soon",
             
             // ==== FOOTER SECTION ====
             footerAbout: "About Exchango FX",
@@ -358,6 +360,7 @@
             downloadTitle: "今すぐダウンロード",
             downloadSubtitle: "無料で提供されるスマートな為替計算ソリューション",
             downloadDesc: "150以上の通貨をサポートするExchango FXで為替計算をより簡単で正確にしましょう。",
+            comingSoon: "近日公開",
             
             // ==== FOOTER SECTION ====
             footerAbout: "Exchango FXについて",
@@ -481,6 +484,7 @@
             downloadTitle: "立即下载",
             downloadSubtitle: "免费提供的智能汇率计算解决方案",
             downloadDesc: "使用支持150多种货币的Exchango FX让汇率计算更简单、更准确。",
+            comingSoon: "即将推出",
             
             // ==== FOOTER SECTION ====
             footerAbout: "关于Exchango FX",
@@ -591,6 +595,7 @@
             downloadTitle: "حمل الآن",
             downloadSubtitle: "حل حساب العملات الذكي المقدم مجاناً",
             downloadDesc: "اجعل حسابات العملات أسهل وأكثر دقة مع Exchango FX الذي يدعم أكثر من 150 عملة.",
+            comingSoon: "قريباً",
             
             footerAbout: "حول Exchango FX",
             footerSupport: "دعم العملاء",
@@ -699,6 +704,7 @@
             downloadTitle: "Jetzt herunterladen",
             downloadSubtitle: "Intelligente Währungsberechnungslösung kostenlos bereitgestellt",
             downloadDesc: "Machen Sie Währungsberechnungen einfacher und genauer mit Exchango FX, das 150+ Währungen unterstützt.",
+            comingSoon: "Demnächst verfügbar",
             
             footerAbout: "Über Exchango FX",
             footerSupport: "Kundensupport",
@@ -807,6 +813,7 @@
             downloadTitle: "Descargar Ahora",
             downloadSubtitle: "Solución inteligente de cálculo de monedas proporcionada gratuitamente",
             downloadDesc: "Haga los cálculos de monedas más fáciles y precisos con Exchango FX que soporta más de 150 monedas.",
+            comingSoon: "Próximamente",
             
             footerAbout: "Acerca de Exchango FX",
             footerSupport: "Soporte al Cliente",
@@ -915,6 +922,7 @@
             downloadTitle: "Télécharger Maintenant",
             downloadSubtitle: "Solution intelligente de calcul de devises fournie gratuitement",
             downloadDesc: "Rendez les calculs de devises plus faciles et plus précis avec Exchango FX qui prend en charge plus de 150 devises.",
+            comingSoon: "Bientôt disponible",
             
             footerAbout: "À Propos d'Exchango FX",
             footerSupport: "Support Client",
@@ -957,6 +965,12 @@
             calculatorFeature2: "द्विदिशीय गणना और अदला-बदली",
             calculatorFeature3: "गणना इतिहास संग्रहण",
             
+            // ==== DOWNLOAD SECTION ====
+            downloadTitle: "अभी डाउनलोड करें",
+            downloadSubtitle: "मुफ्त में प्रदान किया गया स्मार्ट करेंसी गणना समाधान",
+            downloadDesc: "150+ मुद्राओं का समर्थन करने वाले Exchango FX के साथ मुद्रा गणना को आसान और सटीक बनाएं।",
+            comingSoon: "जल्द आ रहा है",
+            
             footerCopyright: "© 2025 Exchango FX. सभी अधिकार सुरक्षित।",
             skipToContent: "मुख्य सामग्री पर जाएं",
             backToTop: "वापस ऊपर जाएं"
@@ -988,6 +1002,12 @@
             calculatorFeature1: "Dati di tasso di cambio in tempo reale",
             calculatorFeature2: "Calcolo bidirezionale e scambio",
             calculatorFeature3: "Archiviazione cronologia calcoli",
+            
+            // ==== DOWNLOAD SECTION ====
+            downloadTitle: "Scarica Ora",
+            downloadSubtitle: "Soluzione intelligente per il calcolo delle valute fornita gratuitamente",
+            downloadDesc: "Rendi i calcoli valutari più facili e precisi con Exchango FX che supporta oltre 150 valute.",
+            comingSoon: "Prossimamente",
             
             footerCopyright: "© 2025 Exchango FX. Tutti i diritti riservati.",
             skipToContent: "Vai al contenuto principale",
@@ -1021,6 +1041,12 @@
             calculatorFeature2: "Cálculo bidirecional e troca",
             calculatorFeature3: "Armazenamento do histórico de cálculos",
             
+            // ==== DOWNLOAD SECTION ====
+            downloadTitle: "Baixar Agora",
+            downloadSubtitle: "Solução inteligente de cálculo de moedas fornecida gratuitamente",
+            downloadDesc: "Torne os cálculos de moeda mais fáceis e precisos com o Exchango FX que suporta mais de 150 moedas.",
+            comingSoon: "Em Breve",
+            
             footerCopyright: "© 2025 Exchango FX. Todos os direitos reservados.",
             skipToContent: "Pular para o conteúdo principal",
             backToTop: "Voltar ao topo"
@@ -1052,6 +1078,12 @@
             calculatorFeature1: "Данные обменного курса в реальном времени",
             calculatorFeature2: "Двунаправленный расчет и обмен",
             calculatorFeature3: "Хранение истории расчетов",
+            
+            // ==== DOWNLOAD SECTION ====
+            downloadTitle: "Скачать сейчас",
+            downloadSubtitle: "Умное решение для расчета валют, предоставляемое бесплатно",
+            downloadDesc: "Сделайте валютные расчеты проще и точнее с Exchango FX, поддерживающим более 150 валют.",
+            comingSoon: "Скоро",
             
             footerCopyright: "© 2025 Exchango FX. Все права защищены.",
             skipToContent: "Перейти к основному содержимому",
@@ -1085,6 +1117,12 @@
             calculatorFeature2: "การคำนวณแบบสองทิศทางและการสลับ",
             calculatorFeature3: "การจัดเก็บประวัติการคำนวณ",
             
+            // ==== DOWNLOAD SECTION ====
+            downloadTitle: "ดาวน์โหลดเดี๋ยวนี้",
+            downloadSubtitle: "โซลูชันคำนวณสกุลเงินอัจฉริยะที่ให้บริการฟรี",
+            downloadDesc: "ทำให้การคำนวณสกุลเงินง่ายและแม่นยำมากขึ้นด้วย Exchango FX ที่รองรับมากกว่า 150 สกุลเงิน",
+            comingSoon: "เร็ว ๆ นี้",
+            
             footerCopyright: "© 2025 Exchango FX สงวนลิขสิทธิ์",
             skipToContent: "ข้ามไปยังเนื้อหาหลัก",
             backToTop: "กลับไปด้านบน"
@@ -1116,6 +1154,12 @@
             calculatorFeature1: "Gerçek zamanlı döviz kuru verileri",
             calculatorFeature2: "Çift yönlü hesaplama ve değişim",
             calculatorFeature3: "Hesaplama geçmişi depolama",
+            
+            // ==== DOWNLOAD SECTION ====
+            downloadTitle: "Şimdi İndir",
+            downloadSubtitle: "Ücretsiz olarak sağlanan akıllı döviz hesaplama çözümü",
+            downloadDesc: "150'den fazla para birimini destekleyen Exchango FX ile döviz hesaplamalarını daha kolay ve doğru hale getirin.",
+            comingSoon: "Yakında",
             
             footerCopyright: "© 2025 Exchango FX. Tüm hakları saklıdır.",
             skipToContent: "Ana içeriğe atla",

@@ -374,7 +374,6 @@ p {
     height: 100%;
     object-fit: cover;
     border-radius: clamp(18px, 4vw, 28px);
-    box-shadow: 0 clamp(15px, 4vw, 30px) clamp(30px, 8vw, 60px) rgba(0, 0, 0, 0.4);
     transition: var(--transition-normal);
 }
 
@@ -1401,6 +1400,33 @@ section {
 .stat-card {
     transform: translateZ(0); /* Force hardware acceleration */
     backface-visibility: hidden;
+}
+
+/* ===== COMING SOON OVERLAY ===== */
+.store-badge.coming-soon {
+    position: relative;
+    cursor: not-allowed;
+    display: inline-block;
+}
+
+.store-badge.coming-soon .store-badge-img {
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+
+.store-badge.coming-soon .coming-soon-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    pointer-events: none;
 }
 
 /* ===== PRINT STYLES ===== */
