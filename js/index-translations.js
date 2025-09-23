@@ -75,9 +75,9 @@
             // Settings Feature
             settingsTitle: "설정",
             settingsDesc: "개인 취향에 맞게 앱을 설정하세요. 다크/라이트 테마, 언어 설정, 글꼴 크기 조절 등 다양한 커스터마이징 옵션을 제공합니다.",
-            settingsFeature1: "다크/라이트 테마",
+            settingsFeature1: "기본 통화 선택",
             settingsFeature2: "14개 언어 지원",
-            settingsFeature3: "글꼴 크기 조절",
+            settingsFeature3: "다크/라이트 테마",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "기술적 우수성",
@@ -199,9 +199,9 @@
             // Settings Feature
             settingsTitle: "Settings",
             settingsDesc: "Customize the app to your personal preferences. Various customization options including dark/light theme, language settings, and font size adjustment.",
-            settingsFeature1: "Dark/Light theme",
+            settingsFeature1: "Default currency selection",
             settingsFeature2: "14 language support",
-            settingsFeature3: "Font size adjustment",
+            settingsFeature3: "Dark/Light theme",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "Technical Excellence",
@@ -323,9 +323,9 @@
             // Settings Feature
             settingsTitle: "設定",
             settingsDesc: "お好みに合わせてアプリをカスタマイズしてください。ダーク/ライトテーマ、言語設定、フォントサイズ調整など様々なカスタマイズオプションを提供します。",
-            settingsFeature1: "ダーク/ライトテーマ",
+            settingsFeature1: "基本通貨選択",
             settingsFeature2: "14言語サポート",
-            settingsFeature3: "フォントサイズ調整",
+            settingsFeature3: "ダーク/ライトテーマ",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "技術的優秀性",
@@ -447,9 +447,9 @@
             // Settings Feature
             settingsTitle: "设置",
             settingsDesc: "根据个人喜好自定义应用。提供包括深色/浅色主题、语言设置、字体大小调节等各种自定义选项。",
-            settingsFeature1: "深色/浅色主题",
+            settingsFeature1: "默认货币选择",
             settingsFeature2: "14种语言支持",
-            settingsFeature3: "字体大小调节",
+            settingsFeature3: "深色/浅色主题",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "技术卓越",

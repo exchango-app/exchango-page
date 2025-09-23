@@ -356,7 +356,7 @@ p {
     position: relative;
     z-index: 2;
     max-width: min(90vw, 1000px);
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 
 .app-icon {
@@ -379,7 +379,6 @@ p {
 
 .app-icon-image:hover {
     transform: translateY(-4px) scale(1.02);
-    box-shadow: 0 clamp(20px, 5vw, 40px) clamp(40px, 10vw, 80px) rgba(0, 0, 0, 0.5);
 }
 
 .hero h1 {
