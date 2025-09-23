@@ -452,7 +452,7 @@
                 sectionTitle4: "技術的特徴",
                 sectionSubtitle4: "最新技術で実装された安定で高速なパフォーマンス",
                 performanceTitle: "高性能",
-                performanceDesc: "iOSとAndroidプラットフォームで最適なパフォーマンスを実現するためReact NativeとTypeScriptで構築。スマートキャッシュとオフラインサポートでどんなネットワーク環境でも信頼できる動作を保証。",
+                performanceDesc: "iOSとAndroidプラットフォームで最適なパフォーマンスを実現するため最新のモバイル技術で構築。スマートキャッシュとオフラインサポートでどんなネットワーク環境でも信頼できる動作を保証。",
                 
                 // Currency categories
                 categoryMajor: "主要通貨",
@@ -663,7 +663,7 @@
                 sectionTitle4: "技术特征",
                 sectionSubtitle4: "采用最新技术实现的稳定快速性能",
                 performanceTitle: "高性能",
-                performanceDesc: "采用React Native和TypeScript构建，为iOS和Android平台提供最佳性能。智能缓存和离线支持确保在任何网络条件下都能可靠运行。",
+                performanceDesc: "采用最新移动技术构建，为iOS和Android平台提供最佳性能。智能缓存和离线支持确保在任何网络条件下都能可靠运行。",
                 
                 // Currency categories
                 categoryMajor: "主要货币",
