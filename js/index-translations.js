@@ -75,16 +75,16 @@
             // Settings Feature
             settingsTitle: "설정",
             settingsDesc: "개인 취향에 맞게 앱을 설정하세요. 다크/라이트 테마, 언어 설정, 글꼴 크기 조절 등 다양한 커스터마이징 옵션을 제공합니다.",
-            settingsFeature1: "다크/라이트 테마",
+            settingsFeature1: "기본 통화 선택",
             settingsFeature2: "14개 언어 지원",
-            settingsFeature3: "글꼴 크기 조절",
+            settingsFeature3: "다크/라이트 테마",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "기술적 우수성",
             techSubtitle: "최신 기술로 구현된 안정적이고 빠른 성능",
             
             performanceTitle: "고성능",
-            performanceDesc: "React Native와 TypeScript로 구축되어 iOS와 Android에서 네이티브 수준의 성능을 제공합니다.",
+            performanceDesc: "최신 모바일 기술로 구축되어 iOS와 Android에서 네이티브 수준의 빠른 성능을 제공합니다.",
             
             offlineTitle: "오프라인 지원",
             offlineDesc: "인터넷 연결 없이도 기본 계산 기능을 사용할 수 있어 언제 어디서나 신뢰할 수 있습니다.",
@@ -199,16 +199,16 @@
             // Settings Feature
             settingsTitle: "Settings",
             settingsDesc: "Customize the app to your personal preferences. Various customization options including dark/light theme, language settings, and font size adjustment.",
-            settingsFeature1: "Dark/Light theme",
+            settingsFeature1: "Default currency selection",
             settingsFeature2: "14 language support",
-            settingsFeature3: "Font size adjustment",
+            settingsFeature3: "Dark/Light theme",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "Technical Excellence",
             techSubtitle: "Reliable and fast performance built with cutting-edge technology",
             
             performanceTitle: "High Performance",
-            performanceDesc: "Built with React Native and TypeScript to provide native-level performance on both iOS and Android platforms.",
+            performanceDesc: "Built with modern mobile technology to provide native-level performance on both iOS and Android platforms.",
             
             offlineTitle: "Offline Support",
             offlineDesc: "Use basic calculation functions even without internet connection, making it reliable anytime, anywhere.",
@@ -323,16 +323,16 @@
             // Settings Feature
             settingsTitle: "設定",
             settingsDesc: "お好みに合わせてアプリをカスタマイズしてください。ダーク/ライトテーマ、言語設定、フォントサイズ調整など様々なカスタマイズオプションを提供します。",
-            settingsFeature1: "ダーク/ライトテーマ",
+            settingsFeature1: "基本通貨選択",
             settingsFeature2: "14言語サポート",
-            settingsFeature3: "フォントサイズ調整",
+            settingsFeature3: "ダーク/ライトテーマ",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "技術的優秀性",
             techSubtitle: "最新技術で実装された安定かつ高速なパフォーマンス",
             
             performanceTitle: "高性能",
-            performanceDesc: "React NativeとTypeScriptで構築され、iOSとAndroidでネイティブレベルのパフォーマンスを提供します。",
+            performanceDesc: "最新のモバイル技術で構築され、iOSとAndroidでネイティブレベルのパフォーマンスを提供します。",
             
             offlineTitle: "オフラインサポート",
             offlineDesc: "インターネット接続なしでも基本計算機能を使用でき、いつでもどこでも信頼できます。",
@@ -447,16 +447,16 @@
             // Settings Feature
             settingsTitle: "设置",
             settingsDesc: "根据个人喜好自定义应用。提供包括深色/浅色主题、语言设置、字体大小调节等各种自定义选项。",
-            settingsFeature1: "深色/浅色主题",
+            settingsFeature1: "默认货币选择",
             settingsFeature2: "14种语言支持",
-            settingsFeature3: "字体大小调节",
+            settingsFeature3: "深色/浅色主题",
             
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "技术卓越",
             techSubtitle: "使用尖端技术实现的稳定快速性能",
             
             performanceTitle: "高性能",
-            performanceDesc: "采用React Native和TypeScript构建，在iOS和Android平台提供原生级性能。",
+            performanceDesc: "采用最新移动技术构建，在iOS和Android平台提供原生级性能。",
             
             offlineTitle: "离线支持",
             offlineDesc: "即使没有互联网连接也能使用基本计算功能，随时随地都可靠。",
@@ -569,7 +569,7 @@
             techSubtitle: "أداء موثوق وسريع مبني بأحدث التقنيات",
             
             performanceTitle: "أداء عالي",
-            performanceDesc: "مبني باستخدام React Native و TypeScript لتوفير أداء بمستوى الأصلي على منصتي iOS و Android.",
+            performanceDesc: "مبني باستخدام أحدث تقنيات الهاتف المحمول لتوفير أداء بمستوى الأصلي على منصتي iOS و Android.",
             
             offlineTitle: "دعم غير متصل",
             offlineDesc: "استخدم وظائف الحساب الأساسية حتى بدون اتصال بالإنترنت.",
@@ -678,7 +678,7 @@
             techSubtitle: "Zuverlässige und schnelle Leistung mit modernster Technologie",
             
             performanceTitle: "Hohe Leistung",
-            performanceDesc: "Erstellt mit React Native und TypeScript für native Leistung auf iOS und Android Plattformen.",
+            performanceDesc: "Erstellt mit modernster Mobiltechnologie für native Leistung auf iOS und Android Plattformen.",
             
             offlineTitle: "Offline-Unterstützung",
             offlineDesc: "Nutzen Sie grundlegende Berechnungsfunktionen auch ohne Internetverbindung.",
@@ -787,7 +787,7 @@
             techSubtitle: "Rendimiento confiable y rápido construido con tecnología de vanguardia",
             
             performanceTitle: "Alto Rendimiento",
-            performanceDesc: "Construido con React Native y TypeScript para proporcionar rendimiento nativo en plataformas iOS y Android.",
+            performanceDesc: "Construido con tecnología móvil moderna para proporcionar rendimiento nativo en plataformas iOS y Android.",
             
             offlineTitle: "Soporte Sin Conexión",
             offlineDesc: "Use funciones básicas de cálculo incluso sin conexión a internet.",
@@ -896,7 +896,7 @@
             techSubtitle: "Performance fiable et rapide construite avec une technologie de pointe",
             
             performanceTitle: "Haute Performance",
-            performanceDesc: "Construit avec React Native et TypeScript pour fournir une performance native sur les plateformes iOS et Android.",
+            performanceDesc: "Construit avec la technologie mobile moderne pour fournir une performance native sur les plateformes iOS et Android.",
             
             offlineTitle: "Support Hors Ligne",
             offlineDesc: "Utilisez les fonctions de calcul de base même sans connexion internet.",
