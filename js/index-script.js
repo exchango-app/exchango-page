@@ -985,8 +985,18 @@
             const priceData = {
                 ko: '무료',
                 en: 'Free',
-                ja: '無料',
-                zh: '免费'
+                ja: '無료',
+                zh: '免费',
+                ar: 'مجاني',
+                de: 'Kostenlos',
+                es: 'Gratis',
+                fr: 'Gratuit',
+                hi: 'मुफ्त',
+                it: 'Gratuito',
+                pt: 'Grátis',
+                ru: 'Бесплатно',
+                th: 'ฟรี',
+                tr: 'Ücretsiz'
             };
             
             // Simulate occasional special offers
@@ -1034,7 +1044,17 @@
                     ko: '무료',
                     en: 'Free',
                     ja: '無料',
-                    zh: '免费'
+                    zh: '免费',
+                    ar: 'مجاني',
+                    de: 'Kostenlos',
+                    es: 'Gratis',
+                    fr: 'Gratuit',
+                    hi: 'मुफ्त',
+                    it: 'Gratuito',
+                    pt: 'Grátis',
+                    ru: 'Бесплатно',
+                    th: 'ฟรี',
+                    tr: 'Ücretsiz'
                 };
                 this.displayPrice(fallbackPrices[currentLang]);
             }
