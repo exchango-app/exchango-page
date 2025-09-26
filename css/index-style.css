@@ -258,6 +258,7 @@ p {
     transition: all var(--transition-normal);
     min-width: clamp(180px, 35vw, 220px);
     overflow: hidden;
+    outline: none; /* 포커스 아웃라인 제거 */
 }
 
 .language-dropdown-menu.show {
@@ -277,6 +278,7 @@ p {
     font-weight: var(--font-weight-normal);
     transition: background-color var(--transition-fast);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    outline: none; /* 포커스 아웃라인 제거 */
 }
 
 .language-option:last-child {
