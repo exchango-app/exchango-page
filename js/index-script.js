@@ -955,112 +955,12 @@
             });
         }
     };
-    
-    // ===== DYNAMIC PRICE DISPLAY =====
-    const PriceDisplay = {
-        element: null,
-        retryCount: 0,
-        maxRetries: 3,
-        
-        init: function() {
-            this.element = document.getElementById('priceDisplay');
-            if (!this.element) return;
-            
-            this.fetchPriceData();
-            console.log('✅ Dynamic price display initialized');
-        },
-        
-        fetchPriceData: function() {
-            // Simulate API call to get pricing information
-            // In production, this would be a real API endpoint
-            setTimeout(() => {
-                this.simulatePriceCheck();
-            }, 1000);
-        },
-        
-        simulatePriceCheck: function() {
-            // Simulate checking app store pricing
-            // This could be replaced with actual API calls to app store APIs
-            const currentLang = window.ExchangoIndexTranslations?.getCurrentLanguage?.() || 'ko';
-            const priceData = {
-                ko: '무료',
-                en: 'Free',
-                ja: '無료',
-                zh: '免费',
-                ar: 'مجاني',
-                de: 'Kostenlos',
-                es: 'Gratis',
-                fr: 'Gratuit',
-                hi: 'मुफ्त',
-                it: 'Gratuito',
-                pt: 'Grátis',
-                ru: 'Бесплатно',
-                th: 'ฟรี',
-                tr: 'Ücretsiz'
-            };
-            
-            // Simulate occasional special offers
-            const isSpecialOffer = Math.random() > 0.95; // 5% chance
-            
-            if (isSpecialOffer) {
-                this.displayPrice(priceData[currentLang] + ' 🎉');
-            } else {
-                this.displayPrice(priceData[currentLang]);
-            }
-        },
-        
-        displayPrice: function(price) {
-            if (!this.element) return;
-            
-            // Fade out loading spinner
-            const loadingElement = this.element.querySelector('.price-loading');
-            if (loadingElement) {
-                loadingElement.style.opacity = '0';
-                setTimeout(() => {
-                    loadingElement.style.display = 'none';
-                }, 300);
-            }
-            
-            // Update price text with fade-in effect
-            setTimeout(() => {
-                this.element.innerHTML = price;
-                this.element.style.opacity = '0';
-                requestAnimationFrame(() => {
-                    this.element.style.transition = 'opacity 0.3s ease-in-out';
-                    this.element.style.opacity = '1';
-                });
-            }, 350);
-        },
-        
-        handleError: function() {
-            if (this.retryCount < this.maxRetries) {
-                this.retryCount++;
-                console.log(`🔄 Retrying price fetch... (${this.retryCount}/${this.maxRetries})`);
-                setTimeout(() => this.fetchPriceData(), 2000 * this.retryCount);
-            } else {
-                // Fallback to static price
-                const currentLang = window.ExchangoIndexTranslations?.getCurrentLanguage?.() || 'ko';
-                const fallbackPrices = {
-                    ko: '무료',
-                    en: 'Free',
-                    ja: '無料',
-                    zh: '免费',
-                    ar: 'مجاني',
-                    de: 'Kostenlos',
-                    es: 'Gratis',
-                    fr: 'Gratuit',
-                    hi: 'मुफ्त',
-                    it: 'Gratuito',
-                    pt: 'Grátis',
-                    ru: 'Бесплатно',
-                    th: 'ฟรี',
-                    tr: 'Ücretsiz'
-                };
-                this.displayPrice(fallbackPrices[currentLang]);
-            }
-        }
-    };
-    
+
+    // ===== PRICE DISPLAY (Static - handled by translation system) =====
+    // Price is now handled by the translation system via data-i18n="statPriceValue"
+    // No dynamic loading needed for static "Free" text
+    // PriceDisplay removed - using translation system instead
+
     // ===== FEATURE GALLERY FUNCTIONALITY =====
     const FeatureGallery = {
         galleries: [],
@@ -1243,7 +1143,6 @@
                 LanguageDropdown.init();
                 LanguageSwitcher.init();
                 LazyLoader.init();
-                PriceDisplay.init();
                 PerformanceMonitor.init();
                 AccessibilityEnhancer.init();
                 MobileOptimizer.init();
