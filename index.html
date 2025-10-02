@@ -12,7 +12,7 @@
     <title data-i18n="pageTitle">Exchango FX - Your Global Currency Companion!</title>
     <meta name="description" content="전 세계 150개 이상의 통화를 지원하는 스마트 환율 계산기 앱. 환율 계산, 정산, 팁 계산, 미니게임까지 한 번에 해결하세요.">
     <meta name="keywords" content="환율, 계산기, 환율계산, 여행, 정산, 팁계산, currency, exchange rate, calculator">
-    <meta name="author" content="Exchango FX Team">
+    <meta name="author" content="Exchango FX">
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Exchango FX - Your Global Currency Companion!">
@@ -40,6 +40,31 @@
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G05HY8WE79"></script>
+
+    <!-- Auto Language Detection and Redirect -->
+    <script>
+        (function() {
+            // URL에 lang 파라미터가 없는 경우에만 실행
+            const urlParams = new URLSearchParams(window.location.search);
+            if (!urlParams.has('lang')) {
+                // 지원하는 언어 목록
+                const supportedLanguages = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'it', 'ja', 'ko', 'pt', 'ru', 'th', 'tr', 'zh'];
+
+                // 브라우저 언어 감지
+                const browserLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+
+                // 언어 코드 추출 (예: 'en-US' -> 'en', 'zh-CN' -> 'zh')
+                const langCode = browserLang.split('-')[0];
+
+                // 지원하는 언어인지 확인, 아니면 'en'으로 기본 설정
+                const selectedLang = supportedLanguages.includes(langCode) ? langCode : 'en';
+
+                // lang 파라미터 추가하여 리다이렉트
+                const newUrl = `${window.location.pathname}?lang=${selectedLang}${window.location.hash}`;
+                window.location.replace(newUrl);
+            }
+        })();
+    </script>
 </head>
 <body>
     <!-- Skip to content for accessibility -->
