@@ -3,4 +3,4 @@ Allow: /
 Disallow: /privacy_policy.html
 Disallow: /about.html
 
-#DaumWebMasterTool:ea27167e7227bd88de981cf7eff7d63ca173294f40a8b2762dc6e07cceb50f68:Dpa2TVr94dDVQXTlJ19VNQ==
+#DaumWebMasterTool:ea27167e7227bd88de981cf7eff7d63ca173294f40a8b2762dc6e07cceb50f68:rp+QviZtqwRKFpwdNmMavg==
