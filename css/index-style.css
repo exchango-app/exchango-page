@@ -912,7 +912,7 @@ section {
 .download-section {
     background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
     position: relative;
-    overflow: hidden;
+    overflow: visible; /* hidden에서 visible로 변경하여 hover 시 이미지가 잘리지 않도록 함 */
 }
 
 .download-section::before {
@@ -924,6 +924,7 @@ section {
     bottom: 0;
     background: radial-gradient(circle at 70% 30%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
     pointer-events: none;
+    z-index: 0; /* 배경 패턴이 가장 뒤에 오도록 설정 */
 }
 
 .download-content {
@@ -933,6 +934,8 @@ section {
     align-items: center;
     position: relative;
     z-index: 2;
+    overflow: visible; /* hover 시 확대된 이미지가 잘리지 않도록 설정 */
+    padding: var(--space-md) 0; /* 상하 여백 추가 */
 }
 
 .download-text {
@@ -1014,12 +1017,16 @@ section {
 
 .download-visual {
     text-align: center;
+    padding: var(--space-lg); /* 충분한 여백 추가 */
+    position: relative;
+    z-index: 1;
 }
 
 .phone-mockup {
     display: inline-block;
     position: relative;
-    overflow: hidden;
+    overflow: visible; /* hidden에서 visible로 변경 */
+    z-index: 2; /* hover 시 다른 요소 위에 표시 */
 }
 
 .phone-carousel {
@@ -1062,8 +1069,9 @@ section {
 }
 
 .phone-mockup:hover .phone-screenshot.active {
-    transform: translateX(0) scale(1.05) rotateY(5deg);
+    transform: translateX(0) scale(1.03) rotateY(3deg);
     /*box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);*/
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ===== FOOTER ===== */
