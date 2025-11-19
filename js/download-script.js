@@ -1,3 +1,5 @@
+console.log('v191125')
+
 // App Store URLs
 const APP_STORE_URL = 'https://apps.apple.com/app/id6752467916';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.exchango';
