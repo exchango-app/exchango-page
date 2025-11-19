@@ -65,8 +65,10 @@ body {
     font-family: var(--font-family);
     background: linear-gradient(180deg, var(--background-primary) 0%, var(--background-secondary) 100%);
     color: var(--text-primary);
-    min-height: 100vh;
-    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: flex;
@@ -379,11 +381,12 @@ body {
 @media (max-width: 640px) {
     body {
         padding: var(--space-sm);
-        min-height: 100vh;
     }
 
     .download-content {
         padding: var(--space-lg) var(--space-md);
+        max-height: 90vh;
+        overflow-y: auto;
     }
 
     .features-preview {

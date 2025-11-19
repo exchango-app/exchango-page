@@ -3,10 +3,10 @@ const APP_STORE_URL = 'https://apps.apple.com/app/id6752467916';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.exchango';
 
 // Auto-redirect delay (milliseconds)
-const REDIRECT_DELAY = 500;
+const REDIRECT_DELAY = 3000;
 
 // Fallback UI display delay (milliseconds)
-const FALLBACK_DELAY = 2000;
+const FALLBACK_DELAY = 5000;
 
 // SessionStorage key for tracking redirect
 const REDIRECT_KEY = 'exchango_redirect_attempted';
@@ -89,7 +89,20 @@ function autoRedirect() {
 
     // Attempt automatic redirect after delay
     setTimeout(() => {
-        window.location.href = storeUrl;
+        // For iOS, try different approach
+        if (platform === 'ios') {
+            // Create a temporary link and click it
+            const link = document.createElement('a');
+            link.href = storeUrl;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        } else {
+            // For Android and Desktop, use standard redirect
+            window.location.href = storeUrl;
+        }
     }, REDIRECT_DELAY);
 
     // Show fallback UI if redirect doesn't work
