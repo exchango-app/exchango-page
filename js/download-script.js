@@ -67,10 +67,14 @@ function autoRedirect() {
     const platform = detectPlatform();
     const storeUrl = getStoreUrl(platform);
 
-    // Set download button URL for fallback
-    const downloadButton = document.getElementById('download-button');
-    if (downloadButton) {
-        downloadButton.href = storeUrl;
+    // Set download button URLs for fallback
+    const downloadButtonIOS = document.getElementById('download-button-ios');
+    const downloadButtonAndroid = document.getElementById('download-button-android');
+    if (downloadButtonIOS) {
+        downloadButtonIOS.href = APP_STORE_URL;
+    }
+    if (downloadButtonAndroid) {
+        downloadButtonAndroid.href = PLAY_STORE_URL;
     }
 
     // Check if redirect has already been attempted in this session
