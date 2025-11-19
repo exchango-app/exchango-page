@@ -65,8 +65,7 @@ function markRedirectAttempted() {
  */
 function autoRedirect() {
     const platform = detectPlatform();
-    // const storeUrl = getStoreUrl(platform);
-    const storeUrl = '';
+    const storeUrl = getStoreUrl(platform);
 
     // Set download button URL for fallback
     const downloadButton = document.getElementById('download-button');
