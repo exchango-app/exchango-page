@@ -29,8 +29,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/app-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/app-icon.png">
 
-    <link rel="stylesheet" href="./css/download-style.css">
-
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G05HY8WE79"></script>
     <script>
@@ -38,6 +36,19 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-G05HY8WE79');
+    </script>
+
+    <!-- Cache Busting: Load CSS and JS with timestamp -->
+    <script>
+        (function() {
+            const timestamp = new Date().getTime();
+
+            // Load CSS with cache busting
+            const cssLink = document.createElement('link');
+            cssLink.rel = 'stylesheet';
+            cssLink.href = './css/download-style.css?v=' + timestamp;
+            document.head.appendChild(cssLink);
+        })();
     </script>
 
     <!-- Lucide Icons -->
@@ -118,10 +129,18 @@
     </div>
 
     <!-- Translation System -->
-    <script src="./js/download-translations.js"></script>
+    <script>
+        (function() {
+            const timestamp = new Date().getTime();
+            const script1 = document.createElement('script');
+            script1.src = './js/download-translations.js?v=' + timestamp;
+            document.body.appendChild(script1);
 
-    <!-- Download Script -->
-    <script src="./js/download-script.js"></script>
+            const script2 = document.createElement('script');
+            script2.src = './js/download-script.js?v=' + timestamp;
+            document.body.appendChild(script2);
+        })();
+    </script>
 
     <!-- Initialize Lucide Icons -->
     <script>
