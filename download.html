@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Exchango FX - 앱 다운로드</title>
+    <meta name="description" content="전 세계 150개 이상의 통화를 지원하는 스마트 환율 계산기 앱을 다운로드하세요">
+    <meta name="keywords" content="환율, 계산기, 환율계산, 여행, 정산, 팁계산, currency, exchange rate, calculator">
+    <meta name="author" content="Exchango FX">
+
+    <!-- Smart App Banner for iOS -->
+    <meta name="apple-itunes-app" content="app-id=6752467916">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Exchango FX - Your Global Currency Companion!">
+    <meta property="og:description" content="150개 이상의 통화를 지원하는 올인원 환율 계산 앱">
+    <meta property="og:image" content="./assets/gp_image.png">
+    <meta property="og:url" content="https://exchango.app">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/app-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/app-icon.png">
+
+    <link rel="stylesheet" href="./css/download-style.css">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- Auto Language Detection and Redirect -->
+    <script>
+        (function() {
+            // URL에 lang 파라미터가 없는 경우에만 실행
+            const urlParams = new URLSearchParams(window.location.search);
+            if (!urlParams.has('lang')) {
+                // 지원하는 언어 목록
+                const supportedLanguages = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'it', 'ja', 'ko', 'pt', 'ru', 'th', 'tr', 'zh'];
+
+                // 브라우저 언어 감지
+                const browserLang = (navigator.language || navigator.userLanguage || 'ko').toLowerCase();
+
+                // 언어 코드 추출 (예: 'en-US' -> 'en', 'zh-CN' -> 'zh')
+                const langCode = browserLang.split('-')[0];
+
+                // 지원하는 언어인지 확인, 아니면 'en'으로 기본 설정
+                const selectedLang = supportedLanguages.includes(langCode) ? langCode : 'en';
+
+                // lang 파라미터 추가하여 리다이렉트
+                const newUrl = `${window.location.pathname}?lang=${selectedLang}${window.location.hash}`;
+                window.location.replace(newUrl);
+            }
+        })();
+    </script>
+</head>
+<body>
+    <!-- Loading State -->
+    <div id="loading-state" class="download-container">
+        <div class="download-content">
+            <!-- App Icon -->
+            <div class="app-icon-wrapper">
+                <img src="./assets/app-icon.png" alt="Exchango FX App Icon" class="app-icon">
+            </div>
+
+            <!-- App Info -->
+            <h1 class="app-title" data-i18n="appTitle">Exchango FX</h1>
+            <p class="app-tagline" data-i18n="appTagline">Your Global Currency Companion</p>
+
+            <!-- Loading Spinner -->
+            <div class="loading-wrapper">
+                <div class="spinner"></div>
+                <p class="loading-text" data-i18n="loadingText">Redirecting to App Store...</p>
+            </div>
+
+            <!-- Features Preview -->
+            <div class="features-preview">
+                <div class="feature-item">
+                    <i data-lucide="coins" class="feature-icon"></i>
+                    <span data-i18n="feature1">150+ Currencies</span>
+                </div>
+                <div class="feature-item">
+                    <i data-lucide="globe" class="feature-icon"></i>
+                    <span data-i18n="feature2">14 Languages</span>
+                </div>
+                <div class="feature-item">
+                    <i data-lucide="zap" class="feature-icon"></i>
+                    <span data-i18n="feature3">Real-time Rates</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fallback State (shown if auto-redirect fails) -->
+    <div id="fallback-state" class="download-container hidden">
+        <div class="download-content">
+            <!-- App Icon -->
+            <div class="app-icon-wrapper">
+                <img src="./assets/app-icon.png" alt="Exchango FX App Icon" class="app-icon">
+            </div>
+
+            <!-- App Info -->
+            <h1 class="app-title" data-i18n="appTitle">Exchango FX</h1>
+            <p class="app-tagline" data-i18n="appTagline">Your Global Currency Companion</p>
+            <p class="app-description" data-i18n="appDescription">Convert, calculate, and split expenses across 150+ currencies</p>
+
+            <!-- Download Buttons -->
+            <div class="download-actions">
+                <a id="download-button-ios" href="https://apps.apple.com/app/id6752467916" class="store-badge-link" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/app_store.svg" alt="Download on the App Store" class="store-badge-img">
+                </a>
+
+                <a id="download-button-android" href="https://play.google.com/store/apps/details?id=com.exchango" class="store-badge-link" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/play_store.svg" alt="Get it on Google Play" class="store-badge-img">
+                </a>
+
+                <p class="help-text" data-i18n="helpText">Not redirecting?<br>Tap your store button</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Translation System -->
+    <script src="./js/download-translations.js"></script>
+
+    <!-- Download Script -->
+    <script src="./js/download-script.js"></script>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+        });
+    </script>
+</body>
+</html>
