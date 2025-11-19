@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <!-- Disable Cache -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
     <title>Exchango FX - Download App</title>
     <meta name="description" content="Download the smart currency converter app supporting 150+ currencies worldwide">
     <meta name="keywords" content="currency, exchange rate, calculator, travel, expense, tip calculator, conversion">
@@ -25,6 +30,15 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/app-icon.png">
 
     <link rel="stylesheet" href="./css/download-style.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G05HY8WE79"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-G05HY8WE79');
+    </script>
 
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
@@ -71,22 +85,6 @@
             <div class="loading-wrapper">
                 <div class="spinner"></div>
                 <p class="loading-text" data-i18n="loadingText">Redirecting to App Store...</p>
-            </div>
-
-            <!-- Features Preview -->
-            <div class="features-preview">
-                <div class="feature-item">
-                    <i data-lucide="coins" class="feature-icon"></i>
-                    <span data-i18n="feature1">150+ Currencies</span>
-                </div>
-                <div class="feature-item">
-                    <i data-lucide="globe" class="feature-icon"></i>
-                    <span data-i18n="feature2">14 Languages</span>
-                </div>
-                <div class="feature-item">
-                    <i data-lucide="zap" class="feature-icon"></i>
-                    <span data-i18n="feature3">Real-time Rates</span>
-                </div>
             </div>
         </div>
     </div>

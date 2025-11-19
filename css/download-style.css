@@ -79,6 +79,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: var(--space-md);
+    padding-bottom: 15vh; /* 컨텐츠를 위쪽으로 이동 */
 }
 
 /* ===== CONTAINER ===== */
@@ -385,6 +386,7 @@ body {
 @media (max-width: 640px) {
     body {
         padding: var(--space-sm);
+        padding-bottom: 12vh; /* 모바일에서도 위쪽으로 */
     }
 
     .download-content {

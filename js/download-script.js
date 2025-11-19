@@ -6,7 +6,7 @@ const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.exchan
 const REDIRECT_DELAY = 3000;
 
 // Fallback UI display delay (milliseconds)
-const FALLBACK_DELAY = 5000;
+const FALLBACK_DELAY = 500000;
 
 // SessionStorage key for tracking redirect
 const REDIRECT_KEY = 'exchango_redirect_attempted';
@@ -125,38 +125,14 @@ function showFallbackUI() {
 }
 
 /**
- * Update UI text based on detected platform
+ * Update UI text based on detected platform and language
+ * Note: This function is now deprecated as we use the translation system
+ * from download-translations.js which handles all i18n automatically
  */
 function updateUIText() {
-    const platform = detectPlatform();
-    const loadingText = document.querySelector('.loading-text');
-    const buttonText = document.querySelector('.button-text');
-
-    if (loadingText) {
-        switch (platform) {
-            case 'ios':
-                loadingText.textContent = 'App Store로 이동 중...';
-                break;
-            case 'android':
-                loadingText.textContent = 'Google Play로 이동 중...';
-                break;
-            default:
-                loadingText.textContent = '앱 스토어로 이동 중...';
-        }
-    }
-
-    if (buttonText) {
-        switch (platform) {
-            case 'ios':
-                buttonText.textContent = 'App Store에서 다운로드';
-                break;
-            case 'android':
-                buttonText.textContent = 'Google Play에서 다운로드';
-                break;
-            default:
-                buttonText.textContent = '앱 다운로드';
-        }
-    }
+    // Translation system from download-translations.js handles all text updates
+    // This function is kept for compatibility but does nothing
+    console.log('UI text is managed by download-translations.js');
 }
 
 /**
