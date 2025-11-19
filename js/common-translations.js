@@ -84,7 +84,25 @@
                 feature8Item1: "기준 통화 설정",
                 feature8Item2: "언어 설정 (14개 언어 지원)",
                 feature8Item3: "테마 설정 (라이트/다크)",
-                
+
+                feature9Title: "직관적인 메뉴",
+                feature9Desc: "깔끔하고 직관적인 메뉴 인터페이스로 모든 기능에 쉽게 접근할 수 있습니다. 필요한 기능을 빠르게 찾아 사용하세요.",
+                feature9Item1: "원터치 빠른 접근",
+                feature9Item2: "체계적인 기능 분류",
+                feature9Item3: "사용자 친화적 디자인",
+
+                feature10Title: "히스토리 관리",
+                feature10Desc: "계산 기록을 체계적으로 관리하고 정리하세요. 중요한 기록은 즐겨찾기로, 불필요한 기록은 간편하게 삭제할 수 있습니다.",
+                feature10Item1: "스와이프로 간편 삭제",
+                feature10Item2: "중요 기록 즐겨찾기",
+                feature10Item3: "일괄 선택 및 관리",
+
+                feature11Title: "홈 화면 위젯",
+                feature11Desc: "홈 화면에서 바로 환율을 확인하세요. 앱을 열지 않고도 주요 통화의 실시간 환율을 한눈에 볼 수 있습니다.",
+                feature11Item1: "실시간 환율 표시",
+                feature11Item2: "다양한 위젯 크기",
+                feature11Item3: "자동 업데이트",
+
                 // Technology
                 techHighPerformance: "고성능 처리",
                 techHighPerformanceDesc: "크로스 플랫폼 네이티브 성능으로 빠른 계산 속도 제공",
@@ -297,7 +315,25 @@
                 feature8Item1: "Base currency settings",
                 feature8Item2: "Language settings (14 languages support)",
                 feature8Item3: "Theme settings (Light/Dark)",
-                
+
+                feature9Title: "Intuitive Menu",
+                feature9Desc: "Access all features easily with a clean and intuitive menu interface. Quickly find and use the features you need.",
+                feature9Item1: "One-touch quick access",
+                feature9Item2: "Organized feature categorization",
+                feature9Item3: "User-friendly design",
+
+                feature10Title: "History Management",
+                feature10Desc: "Systematically manage and organize your calculation history. Bookmark important records and easily delete unnecessary ones.",
+                feature10Item1: "Swipe to delete easily",
+                feature10Item2: "Bookmark important records",
+                feature10Item3: "Bulk selection and management",
+
+                feature11Title: "Home Screen Widget",
+                feature11Desc: "Check exchange rates directly from your home screen. View real-time rates for major currencies at a glance without opening the app.",
+                feature11Item1: "Real-time rate display",
+                feature11Item2: "Various widget sizes",
+                feature11Item3: "Auto-update",
+
                 // Technology
                 techHighPerformance: "High Performance",
                 techHighPerformanceDesc: "Cross-platform native performance for fast calculation speed",
@@ -463,30 +499,30 @@
                 categoryOtherDesc: "中南米、アフリカ、オセアニア通貨",
                 
                 // Feature cards
-                feature1Title: "1. 為替計算機",
+                feature1Title: "為替計算機",
                 feature1Desc: "誰でも簡単に使える直感的なスマート為替計算機です。150以上の通貨をサポートし、為替情報を活用して正確な計算結果を提供します。",
                 feature1Item1: "為替データ自動アップデート",
                 feature1Item2: "双方向計算とスワップ機能",
                 feature1Item3: "為替計算履歴機能提供",
                 
-                feature2Title: "2. 精算機能",
+                feature2Title: "精算機能",
                 feature2Desc: "海外旅行や国際ビジネスで発生する複雑な多通貨精算を一度に解決します。複数の人が異なる通貨で支払った金額を自動計算し、公平な精算結果を提供します。",
                 feature2Item1: "参加者別公正な費用分担計算",
                 feature2Item2: "精算履歴機能提供",
                 
-                feature3Title: "3. チップ計算機",
+                feature3Title: "チップ計算機",
                 feature3Desc: "レストラン、タクシー、サービス業などで必要なチップを簡単かつ正確に計算できます。様々な国のチップ文化と比率を反映して適切なチップを計算し、人数による分割計算もサポートします。",
                 feature3Item1: "地域別チップ文化反映",
                 feature3Item2: "人数別チップ分割計算",
                 feature3Item3: "チップ計算履歴機能提供",
                 
-                feature4Title: "4. 今日の為替レート",
+                feature4Title: "今日の為替レート",
                 feature4Desc: "世界の主要通貨のリアルタイム為替情報と変動状況を一目で把握できます。為替データを視覚的グラフで表現し直感的に確認でき、よく確認する通貨をお気に入りに登録して便利に監視できます。",
                 feature4Item1: "為替状況チャート提供",
                 feature4Item2: "日次変動性とトレンド表示",
                 feature4Item3: "お気に入り機能管理",
                 
-                feature5Title: "5. 多通貨計算機",
+                feature5Title: "多通貨計算機",
                 feature5Desc: "一つの入力で複数の通貨を同時に比較できる強力な機能です。例えば、1000ドルが韓国ウォン、日本円、ユーロでいくらになるかを一つの画面で一度に確認でき、最適な通貨を選択するのに役立ちます。",
                 feature5Item1: "多重通貨同時計算",
                 feature5Item2: "通貨比較分析",
@@ -503,12 +539,30 @@
                 feature7Item2: "カラフルなルーレットゲーム",
                 feature7Item3: "カスタム項目設定",
                 
-                feature8Title: "7. 各種設定",
+                feature8Title: "各種設定",
                 feature8Desc: "個人の使用パターンと環境に合わせてアプリをカスタム設定できます。基準通貨、言語、テーマなど様々なオプションを提供し、最適なユーザー体験を提供します。",
                 feature8Item1: "基準通貨設定",
                 feature8Item2: "言語設定（14言語サポート）",
                 feature8Item3: "テーマ設定（ライト/ダーク）",
-                
+
+                feature9Title: "直感的なメニュー",
+                feature9Desc: "シンプルで直感的なメニューインターフェースで、すべての機能に簡単にアクセスできます。必要な機能を素早く見つけて使用できます。",
+                feature9Item1: "ワンタッチで素早くアクセス",
+                feature9Item2: "体系的な機能分類",
+                feature9Item3: "ユーザーフレンドリーなデザイン",
+
+                feature10Title: "10. 履歴管理",
+                feature10Desc: "計算履歴を体系的に管理・整理できます。重要な記録はブックマークに、不要な記録は簡単に削除できます。",
+                feature10Item1: "スワイプで簡単削除",
+                feature10Item2: "重要な記録をブックマーク",
+                feature10Item3: "一括選択と管理",
+
+                feature11Title: "11. ホーム画面ウィジェット",
+                feature11Desc: "ホーム画面から直接為替レートを確認できます。アプリを開かなくても、主要通貨のリアルタイムレートが一目で確認できます。",
+                feature11Item1: "リアルタイムレート表示",
+                feature11Item2: "様々なウィジェットサイズ",
+                feature11Item3: "自動更新",
+
                 // Technology
                 techHighPerformance: "高性能",
                 techHighPerformanceDesc: "クロスプラットフォームネイティブ性能で高速計算速度",
@@ -674,30 +728,30 @@
                 categoryOtherDesc: "拉丁美洲、非洲和大洋洲货币",
                 
                 // Feature cards
-                feature1Title: "1. 汇率计算器",
+                feature1Title: "汇率计算器",
                 feature1Desc: "任何人都可以轻松使用的直观智能汇率计算器。支持150多种货币，利用汇率信息提供准确的计算结果。",
                 feature1Item1: "汇率数据自动更新",
                 feature1Item2: "双向计算和交换功能",
                 feature1Item3: "汇率计算历史功能",
                 
-                feature2Title: "2. 结算功能",
+                feature2Title: "结算功能",
                 feature2Desc: "一次性解决海外旅行或国际商务中产生的复杂多货币结算。自动计算多人用不同货币支付的金额，提供公平的结算结果。",
                 feature2Item1: "参与者公平成本分担计算",
                 feature2Item2: "结算历史功能",
                 
-                feature3Title: "3. 小费计算器",
+                feature3Title: "小费计算器",
                 feature3Desc: "轻松准确地计算餐厅、出租车、服务业等所需的小费。反映各国小费文化和比例计算合适的小费，还支持按人数分割计算。",
                 feature3Item1: "反映地区小费文化",
                 feature3Item2: "按人数分割小费计算",
                 feature3Item3: "小费计算历史功能",
                 
-                feature4Title: "4. 今日汇率",
+                feature4Title: "今日汇率",
                 feature4Desc: "一目了然地掌握全球主要货币的实时汇率信息和波动状况。通过可视化图表直观显示汇率数据，常查看的货币可添加到收藏夹方便监控。",
                 feature4Item1: "提供汇率状况图表",
                 feature4Item2: "显示日间波动性和趋势",
                 feature4Item3: "收藏夹功能管理",
                 
-                feature5Title: "5. 多货币计算器",
+                feature5Title: "多货币计算器",
                 feature5Desc: "一次输入同时比较多种货币的强大功能。例如，可以在一个屏幕上同时查看1000美元折合韩元、日元、欧元的金额，帮助选择最优货币。",
                 feature5Item1: "多货币同时计算",
                 feature5Item2: "货币比较分析",
@@ -714,12 +768,30 @@
                 feature7Item2: "多彩轮盘游戏",
                 feature7Item3: "自定义项目设置",
                 
-                feature8Title: "7. 各种设置",
+                feature8Title: "各种设置",
                 feature8Desc: "根据个人使用模式和环境自定义应用。提供基准货币、语言、主题等多种选项，提供最佳用户体验。",
                 feature8Item1: "基准货币设置",
                 feature8Item2: "语言设置（支持14种语言）",
                 feature8Item3: "主题设置（浅色/深色）",
-                
+
+                feature9Title: "直观菜单",
+                feature9Desc: "简洁直观的菜单界面，可轻松访问所有功能。快速找到并使用所需功能。",
+                feature9Item1: "一键快速访问",
+                feature9Item2: "系统化功能分类",
+                feature9Item3: "用户友好设计",
+
+                feature10Title: "10. 历史记录管理",
+                feature10Desc: "系统化管理和整理计算历史记录。重要记录可添加书签，不需要的记录可轻松删除。",
+                feature10Item1: "滑动轻松删除",
+                feature10Item2: "收藏重要记录",
+                feature10Item3: "批量选择和管理",
+
+                feature11Title: "11. 主屏幕小部件",
+                feature11Desc: "直接从主屏幕查看汇率。无需打开应用即可一目了然地查看主要货币的实时汇率。",
+                feature11Item1: "实时汇率显示",
+                feature11Item2: "多种小部件尺寸",
+                feature11Item3: "自动更新",
+
                 // Technology
                 techHighPerformance: "高性能",
                 techHighPerformanceDesc: "跨平台原生性能，快速计算速度",
@@ -933,7 +1005,25 @@
                 feature8Item1: "إعدادات العملة الأساسية",
                 feature8Item2: "إعدادات اللغة (دعم 14 لغة)",
                 feature8Item3: "إعدادات الموضوع (فاتح/داكن)",
-                
+
+                feature9Title: "قائمة بديهية",
+                feature9Desc: "واجهة قائمة نظيفة وبديهية للوصول بسهولة إلى جميع الميزات. ابحث بسرعة واستخدم الميزات التي تحتاجها.",
+                feature9Item1: "الوصول السريع بلمسة واحدة",
+                feature9Item2: "تصنيف منظم للميزات",
+                feature9Item3: "تصميم سهل الاستخدام",
+
+                feature10Title: "10. إدارة السجل",
+                feature10Desc: "إدارة وتنظيم سجل الحسابات بشكل منهجي. ضع إشارة مرجعية على السجلات المهمة واحذف السجلات غير الضرورية بسهولة.",
+                feature10Item1: "احذف بسهولة بالتمرير",
+                feature10Item2: "وضع إشارة مرجعية على السجلات المهمة",
+                feature10Item3: "التحديد والإدارة بالجملة",
+
+                feature11Title: "11. أداة الشاشة الرئيسية",
+                feature11Desc: "تحقق من أسعار الصرف مباشرة من شاشتك الرئيسية. عرض أسعار الوقت الفعلي للعملات الرئيسية في لمحة دون فتح التطبيق.",
+                feature11Item1: "عرض الأسعار في الوقت الفعلي",
+                feature11Item2: "أحجام أدوات متنوعة",
+                feature11Item3: "تحديث تلقائي",
+
                 // Technology
                 techHighPerformance: "أداء عالي",
                 techHighPerformanceDesc: "أداء أصلي عبر المنصات لسرعة حساب سريعة",

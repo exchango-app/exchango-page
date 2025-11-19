@@ -78,7 +78,28 @@
             settingsFeature1: "기본 통화 선택",
             settingsFeature2: "14개 언어 지원",
             settingsFeature3: "다크/라이트 테마",
-            
+
+            // Menu Feature
+            menuTitle: "직관적인 메뉴",
+            menuDesc: "모든 기능에 쉽게 접근할 수 있는 깔끔하고 직관적인 메뉴 인터페이스를 제공합니다. 원하는 기능을 빠르게 찾아 사용하세요.",
+            menuFeature1: "원터치 빠른 접근",
+            menuFeature2: "체계적인 기능 분류",
+            menuFeature3: "사용자 친화적 디자인",
+
+            // History Management Feature
+            historyManagementTitle: "히스토리 관리",
+            historyManagementDesc: "계산 기록을 체계적으로 관리하고 정리하세요. 중요한 기록은 즐겨찾기로, 불필요한 기록은 간편하게 삭제할 수 있습니다.",
+            historyManagementFeature1: "스와이프로 간편 삭제",
+            historyManagementFeature2: "중요 기록 즐겨찾기",
+            historyManagementFeature3: "일괄 선택 및 관리",
+
+            // Widget Feature
+            widgetTitle: "홈 화면 위젯",
+            widgetDesc: "홈 화면에서 바로 환율을 확인하세요. 앱을 열지 않고도 주요 통화의 실시간 환율을 한눈에 볼 수 있습니다.",
+            widgetFeature1: "실시간 환율 표시",
+            widgetFeature2: "다양한 위젯 크기",
+            widgetFeature3: "자동 업데이트",
+
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "기술적 우수성",
             techSubtitle: "최신 기술로 구현된 안정적이고 빠른 성능",
@@ -202,7 +223,28 @@
             settingsFeature1: "Default currency selection",
             settingsFeature2: "14 language support",
             settingsFeature3: "Dark/Light theme",
-            
+
+            // Menu Feature
+            menuTitle: "Intuitive Menu",
+            menuDesc: "Access all features easily with a clean and intuitive menu interface. Quickly find and use the features you need.",
+            menuFeature1: "One-touch quick access",
+            menuFeature2: "Organized feature categorization",
+            menuFeature3: "User-friendly design",
+
+            // History Management Feature
+            historyManagementTitle: "History Management",
+            historyManagementDesc: "Systematically manage and organize your calculation history. Bookmark important records and easily delete unnecessary ones.",
+            historyManagementFeature1: "Swipe to delete easily",
+            historyManagementFeature2: "Bookmark important records",
+            historyManagementFeature3: "Bulk selection and management",
+
+            // Widget Feature
+            widgetTitle: "Home Screen Widget",
+            widgetDesc: "Check exchange rates directly from your home screen. View real-time rates for major currencies at a glance without opening the app.",
+            widgetFeature1: "Real-time rate display",
+            widgetFeature2: "Various widget sizes",
+            widgetFeature3: "Auto-update",
+
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "Technical Excellence",
             techSubtitle: "Reliable and fast performance built with cutting-edge technology",
@@ -326,7 +368,28 @@
             settingsFeature1: "基本通貨選択",
             settingsFeature2: "14言語サポート",
             settingsFeature3: "ダーク/ライトテーマ",
-            
+
+            // Menu Feature
+            menuTitle: "直感的なメニュー",
+            menuDesc: "清潔で直感的なメニューインターフェースで全機能に簡単にアクセスできます。必要な機能をすばやく見つけて使用してください。",
+            menuFeature1: "ワンタッチクイックアクセス",
+            menuFeature2: "体系的な機能分類",
+            menuFeature3: "ユーザーフレンドリーなデザイン",
+
+            // History Management Feature
+            historyManagementTitle: "履歴管理",
+            historyManagementDesc: "計算履歴を体系的に管理・整理します。重要な記録はブックマークし、不要な記録は簡単に削除できます。",
+            historyManagementFeature1: "スワイプで簡単削除",
+            historyManagementFeature2: "重要記録のブックマーク",
+            historyManagementFeature3: "一括選択と管理",
+
+            // Widget Feature
+            widgetTitle: "ホーム画面ウィジェット",
+            widgetDesc: "ホーム画面から直接為替レートを確認できます。アプリを開かなくても主要通貨のリアルタイムレートを一目で確認できます。",
+            widgetFeature1: "リアルタイムレート表示",
+            widgetFeature2: "様々なウィジェットサイズ",
+            widgetFeature3: "自動更新",
+
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "技術的優秀性",
             techSubtitle: "最新技術で実装された安定かつ高速なパフォーマンス",
@@ -450,7 +513,28 @@
             settingsFeature1: "默认货币选择",
             settingsFeature2: "14种语言支持",
             settingsFeature3: "深色/浅色主题",
-            
+
+            // Menu Feature
+            menuTitle: "直观菜单",
+            menuDesc: "通过干净直观的菜单界面轻松访问所有功能。快速找到并使用您需要的功能。",
+            menuFeature1: "一键快速访问",
+            menuFeature2: "系统化功能分类",
+            menuFeature3: "用户友好设计",
+
+            // History Management Feature
+            historyManagementTitle: "历史记录管理",
+            historyManagementDesc: "系统地管理和整理计算历史。收藏重要记录，轻松删除不需要的记录。",
+            historyManagementFeature1: "滑动轻松删除",
+            historyManagementFeature2: "收藏重要记录",
+            historyManagementFeature3: "批量选择和管理",
+
+            // Widget Feature
+            widgetTitle: "主屏幕小工具",
+            widgetDesc: "直接从主屏幕查看汇率。无需打开应用即可一眼查看主要货币的实时汇率。",
+            widgetFeature1: "实时汇率显示",
+            widgetFeature2: "多种小工具尺寸",
+            widgetFeature3: "自动更新",
+
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "技术卓越",
             techSubtitle: "使用尖端技术实现的稳定快速性能",
@@ -573,7 +657,28 @@
             settingsFeature1: "السمة الداكنة/الفاتحة",
             settingsFeature2: "دعم 14 لغة",
             settingsFeature3: "تعديل حجم الخط",
-            
+
+            // Menu Feature
+            menuTitle: "قائمة بديهية",
+            menuDesc: "الوصول إلى جميع الميزات بسهولة من خلال واجهة قائمة نظيفة وبديهية. ابحث عن الميزات التي تحتاجها واستخدمها بسرعة.",
+            menuFeature1: "وصول سريع بلمسة واحدة",
+            menuFeature2: "تصنيف منظم للميزات",
+            menuFeature3: "تصميم سهل الاستخدام",
+
+            // History Management Feature
+            historyManagementTitle: "إدارة السجل",
+            historyManagementDesc: "قم بإدارة وتنظيم سجل الحسابات بشكل منهجي. ضع إشارة مرجعية على السجلات المهمة واحذف غير الضرورية بسهولة.",
+            historyManagementFeature1: "اسحب للحذف بسهولة",
+            historyManagementFeature2: "وضع إشارة على السجلات المهمة",
+            historyManagementFeature3: "اختيار وإدارة مجمعة",
+
+            // Widget Feature
+            widgetTitle: "أداة الشاشة الرئيسية",
+            widgetDesc: "تحقق من أسعار الصرف مباشرة من شاشتك الرئيسية. شاهد الأسعار الفورية للعملات الرئيسية بنظرة واحدة دون فتح التطبيق.",
+            widgetFeature1: "عرض الأسعار الفورية",
+            widgetFeature2: "أحجام أدوات متنوعة",
+            widgetFeature3: "تحديث تلقائي",
+
             techTitle: "التميز التقني",
             techSubtitle: "أداء موثوق وسريع مبني بأحدث التقنيات",
             
@@ -692,7 +797,28 @@
             settingsFeature1: "Dunkles/Helles Theme",
             settingsFeature2: "14 Sprachen Unterstützung",
             settingsFeature3: "Schriftgrößenanpassung",
-            
+
+            // Menu Feature
+            menuTitle: "Intuitives Menü",
+            menuDesc: "Greifen Sie einfach auf alle Funktionen mit einer übersichtlichen und intuitiven Menüoberfläche zu. Finden und nutzen Sie schnell die gewünschten Funktionen.",
+            menuFeature1: "Schnellzugriff mit einem Klick",
+            menuFeature2: "Organisierte Funktionskategorisierung",
+            menuFeature3: "Benutzerfreundliches Design",
+
+            // History Management Feature
+            historyManagementTitle: "Verlaufsverwaltung",
+            historyManagementDesc: "Verwalten und organisieren Sie Ihren Berechnungsverlauf systematisch. Markieren Sie wichtige Einträge als Favoriten und löschen Sie unnötige einfach.",
+            historyManagementFeature1: "Einfaches Löschen durch Wischen",
+            historyManagementFeature2: "Wichtige Einträge als Favoriten markieren",
+            historyManagementFeature3: "Massenauswahl und -verwaltung",
+
+            // Widget Feature
+            widgetTitle: "Startbildschirm-Widget",
+            widgetDesc: "Überprüfen Sie Wechselkurse direkt von Ihrem Startbildschirm. Sehen Sie Echtzeitkurse für wichtige Währungen auf einen Blick, ohne die App zu öffnen.",
+            widgetFeature1: "Echtzeit-Kursanzeige",
+            widgetFeature2: "Verschiedene Widget-Größen",
+            widgetFeature3: "Automatische Aktualisierung",
+
             techTitle: "Technische Exzellenz",
             techSubtitle: "Zuverlässige und schnelle Leistung mit modernster Technologie",
             
@@ -811,7 +937,28 @@
             settingsFeature1: "Tema Oscuro/Claro",
             settingsFeature2: "Soporte para 14 idiomas",
             settingsFeature3: "Ajuste del tamaño de fuente",
-            
+
+            // Menu Feature
+            menuTitle: "Menú Intuitivo",
+            menuDesc: "Acceda a todas las funciones fácilmente con una interfaz de menú limpia e intuitiva. Encuentre y use rápidamente las funciones que necesita.",
+            menuFeature1: "Acceso rápido con un toque",
+            menuFeature2: "Categorización organizada de funciones",
+            menuFeature3: "Diseño fácil de usar",
+
+            // History Management Feature
+            historyManagementTitle: "Gestión de Historial",
+            historyManagementDesc: "Gestione y organice sistemáticamente su historial de cálculos. Marque registros importantes como favoritos y elimine fácilmente los innecesarios.",
+            historyManagementFeature1: "Deslice para eliminar fácilmente",
+            historyManagementFeature2: "Marcar registros importantes",
+            historyManagementFeature3: "Selección y gestión masiva",
+
+            // Widget Feature
+            widgetTitle: "Widget de Pantalla de Inicio",
+            widgetDesc: "Consulte los tipos de cambio directamente desde su pantalla de inicio. Vea las tasas en tiempo real de las principales monedas de un vistazo sin abrir la aplicación.",
+            widgetFeature1: "Visualización de tasas en tiempo real",
+            widgetFeature2: "Varios tamaños de widget",
+            widgetFeature3: "Actualización automática",
+
             techTitle: "Excelencia Técnica",
             techSubtitle: "Rendimiento confiable y rápido construido con tecnología de vanguardia",
             
@@ -930,7 +1077,28 @@
             settingsFeature1: "Thème Sombre/Clair",
             settingsFeature2: "Support de 14 langues",
             settingsFeature3: "Ajustement de la taille de police",
-            
+
+            // Menu Feature
+            menuTitle: "Menu Intuitif",
+            menuDesc: "Accédez facilement à toutes les fonctionnalités avec une interface de menu claire et intuitive. Trouvez et utilisez rapidement les fonctions dont vous avez besoin.",
+            menuFeature1: "Accès rapide en un clic",
+            menuFeature2: "Catégorisation organisée des fonctions",
+            menuFeature3: "Design convivial",
+
+            // History Management Feature
+            historyManagementTitle: "Gestion de l'Historique",
+            historyManagementDesc: "Gérez et organisez systématiquement votre historique de calculs. Mettez en favoris les enregistrements importants et supprimez facilement les inutiles.",
+            historyManagementFeature1: "Glissez pour supprimer facilement",
+            historyManagementFeature2: "Mettre en favoris les enregistrements importants",
+            historyManagementFeature3: "Sélection et gestion en masse",
+
+            // Widget Feature
+            widgetTitle: "Widget d'Écran d'Accueil",
+            widgetDesc: "Consultez les taux de change directement depuis votre écran d'accueil. Visualisez les taux en temps réel des principales devises d'un coup d'œil sans ouvrir l'application.",
+            widgetFeature1: "Affichage des taux en temps réel",
+            widgetFeature2: "Différentes tailles de widget",
+            widgetFeature3: "Mise à jour automatique",
+
             techTitle: "Excellence Technique",
             techSubtitle: "Performance fiable et rapide construite avec une technologie de pointe",
             
@@ -1049,6 +1217,27 @@
             settingsFeature1: "डार्क/लाइट थीम",
             settingsFeature2: "14 भाषाओं का समर्थन",
             settingsFeature3: "फॉन्ट साइज़ समायोजन",
+
+            // Menu Feature
+            menuTitle: "सहज मेनू",
+            menuDesc: "स्वच्छ और सहज मेनू इंटरफ़ेस के साथ सभी सुविधाओं तक आसानी से पहुंचें। अपनी आवश्यक सुविधाओं को शीघ्रता से खोजें और उपयोग करें।",
+            menuFeature1: "एक-स्पर्श त्वरित पहुंच",
+            menuFeature2: "व्यवस्थित सुविधा वर्गीकरण",
+            menuFeature3: "उपयोगकर्ता के अनुकूल डिज़ाइन",
+
+            // History Management Feature
+            historyManagementTitle: "इतिहास प्रबंधन",
+            historyManagementDesc: "अपने गणना इतिहास को व्यवस्थित रूप से प्रबंधित और व्यवस्थित करें। महत्वपूर्ण रिकॉर्ड को बुकमार्क करें और अनावश्यक को आसानी से हटाएं।",
+            historyManagementFeature1: "स्वाइप करके आसानी से हटाएं",
+            historyManagementFeature2: "महत्वपूर्ण रिकॉर्ड बुकमार्क करें",
+            historyManagementFeature3: "थोक चयन और प्रबंधन",
+
+            // Widget Feature
+            widgetTitle: "होम स्क्रीन विजेट",
+            widgetDesc: "अपनी होम स्क्रीन से सीधे विनिमय दरें देखें। ऐप खोले बिना एक नज़र में प्रमुख मुद्राओं के लिए वास्तविक समय की दरें देखें।",
+            widgetFeature1: "वास्तविक समय दर प्रदर्शन",
+            widgetFeature2: "विभिन्न विजेट आकार",
+            widgetFeature3: "स्वचालित अपडेट",
 
             techTitle: "तकनीकी उत्कृष्टता",
             techSubtitle: "अत्याधुनिक तकनीक के साथ बना विश्वसनीय और तेज़ प्रदर्शन",
@@ -1175,6 +1364,27 @@
             settingsFeature1: "Selezione valuta predefinita",
             settingsFeature2: "Supporto 14 lingue",
             settingsFeature3: "Tema scuro/chiaro",
+
+            // Menu Feature
+            menuTitle: "Menu Intuitivo",
+            menuDesc: "Accedi a tutte le funzionalità facilmente con un'interfaccia di menu pulita e intuitiva. Trova e usa rapidamente le funzioni di cui hai bisogno.",
+            menuFeature1: "Accesso rapido con un tocco",
+            menuFeature2: "Categorizzazione organizzata delle funzioni",
+            menuFeature3: "Design user-friendly",
+
+            // History Management Feature
+            historyManagementTitle: "Gestione della Cronologia",
+            historyManagementDesc: "Gestisci e organizza sistematicamente la cronologia dei calcoli. Aggiungi ai segnalibri i record importanti ed elimina facilmente quelli non necessari.",
+            historyManagementFeature1: "Scorri per eliminare facilmente",
+            historyManagementFeature2: "Aggiungi ai segnalibri i record importanti",
+            historyManagementFeature3: "Selezione e gestione in blocco",
+
+            // Widget Feature
+            widgetTitle: "Widget Schermata Home",
+            widgetDesc: "Controlla i tassi di cambio direttamente dalla schermata home. Visualizza i tassi in tempo reale delle principali valute a colpo d'occhio senza aprire l'app.",
+            widgetFeature1: "Visualizzazione tassi in tempo reale",
+            widgetFeature2: "Varie dimensioni widget",
+            widgetFeature3: "Aggiornamento automatico",
 
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "Eccellenza Tecnica",
@@ -1305,6 +1515,27 @@
             settingsFeature2: "Suporte a 14 idiomas",
             settingsFeature3: "Tema escuro/claro",
 
+            // Menu Feature
+            menuTitle: "Menu Intuitivo",
+            menuDesc: "Acesse todas as funcionalidades facilmente com uma interface de menu limpa e intuitiva. Encontre e use rapidamente as funções de que precisa.",
+            menuFeature1: "Acesso rápido com um toque",
+            menuFeature2: "Categorização organizada de funções",
+            menuFeature3: "Design amigável ao usuário",
+
+            // History Management Feature
+            historyManagementTitle: "Gerenciamento de Histórico",
+            historyManagementDesc: "Gerencie e organize sistematicamente seu histórico de cálculos. Adicione registros importantes aos favoritos e exclua facilmente os desnecessários.",
+            historyManagementFeature1: "Deslize para excluir facilmente",
+            historyManagementFeature2: "Adicionar registros importantes aos favoritos",
+            historyManagementFeature3: "Seleção e gerenciamento em massa",
+
+            // Widget Feature
+            widgetTitle: "Widget de Tela Inicial",
+            widgetDesc: "Verifique as taxas de câmbio diretamente da sua tela inicial. Visualize taxas em tempo real das principais moedas num relance sem abrir o aplicativo.",
+            widgetFeature1: "Exibição de taxas em tempo real",
+            widgetFeature2: "Vários tamanhos de widget",
+            widgetFeature3: "Atualização automática",
+
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "Excelência Técnica",
             techSubtitle: "Desempenho confiável e rápido construído com tecnologia de ponta",
@@ -1433,6 +1664,27 @@
             settingsFeature1: "Выбор валюты по умолчанию",
             settingsFeature2: "Поддержка 14 языков",
             settingsFeature3: "Темная/светлая тема",
+
+            // Menu Feature
+            menuTitle: "Интуитивное Меню",
+            menuDesc: "Легко получайте доступ ко всем функциям с помощью чистого и интуитивного интерфейса меню. Быстро находите и используйте нужные функции.",
+            menuFeature1: "Быстрый доступ одним касанием",
+            menuFeature2: "Организованная категоризация функций",
+            menuFeature3: "Удобный дизайн",
+
+            // History Management Feature
+            historyManagementTitle: "Управление Историей",
+            historyManagementDesc: "Систематически управляйте и организуйте историю расчетов. Добавляйте важные записи в закладки и легко удаляйте ненужные.",
+            historyManagementFeature1: "Проведите пальцем для удаления",
+            historyManagementFeature2: "Закладки для важных записей",
+            historyManagementFeature3: "Массовый выбор и управление",
+
+            // Widget Feature
+            widgetTitle: "Виджет Домашнего Экрана",
+            widgetDesc: "Проверяйте обменные курсы прямо с домашнего экрана. Просматривайте курсы в реальном времени для основных валют одним взглядом без открытия приложения.",
+            widgetFeature1: "Отображение курсов в реальном времени",
+            widgetFeature2: "Различные размеры виджетов",
+            widgetFeature3: "Автоматическое обновление",
 
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "Техническое Совершенство",
@@ -1563,6 +1815,27 @@
             settingsFeature2: "รองรับ 14 ภาษา",
             settingsFeature3: "ธีมมืด/สว่าง",
 
+            // Menu Feature
+            menuTitle: "เมนูที่ใช้งานง่าย",
+            menuDesc: "เข้าถึงฟีเจอร์ทั้งหมดได้อย่างง่ายดายด้วยอินเทอร์เฟซเมนูที่สะอาดและใช้งานง่าย ค้นหาและใช้ฟีเจอร์ที่คุณต้องการได้อย่างรวดเร็ว",
+            menuFeature1: "เข้าถึงได้อย่างรวดเร็วด้วยการแตะครั้งเดียว",
+            menuFeature2: "การจัดหมวดหมู่ฟีเจอร์อย่างเป็นระบบ",
+            menuFeature3: "ออกแบบให้ใช้งานง่าย",
+
+            // History Management Feature
+            historyManagementTitle: "การจัดการประวัติ",
+            historyManagementDesc: "จัดการและจัดระเบียบประวัติการคำนวณของคุณอย่างเป็นระบบ บุ๊กมาร์กบันทึกที่สำคัญและลบบันทึกที่ไม่จำเป็นได้อย่างง่ายดาย",
+            historyManagementFeature1: "ปัดเพื่อลบได้อย่างง่ายดาย",
+            historyManagementFeature2: "บุ๊กมาร์กบันทึกที่สำคัญ",
+            historyManagementFeature3: "เลือกและจัดการแบบกลุ่ม",
+
+            // Widget Feature
+            widgetTitle: "วิดเจ็ตหน้าจอหลัก",
+            widgetDesc: "ตรวจสอบอัตราแลกเปลี่ยนได้โดยตรงจากหน้าจอหลัก ดูอัตราเรียลไทม์สำหรับสกุลเงินหลักได้อย่างรวดเร็วโดยไม่ต้องเปิดแอป",
+            widgetFeature1: "แสดงอัตราเรียลไทม์",
+            widgetFeature2: "ขนาดวิดเจ็ตหลากหลาย",
+            widgetFeature3: "อัปเดตอัตโนมัติ",
+
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "ความเป็นเลิศทางเทคนิค",
             techSubtitle: "ประสิทธิภาพที่เชื่อถือได้และรวดเร็วที่สร้างด้วยเทคโนโลยีที่ทันสมัย",
@@ -1691,6 +1964,27 @@
             settingsFeature1: "Varsayılan para birimi seçimi",
             settingsFeature2: "14 dil desteği",
             settingsFeature3: "Koyu/açık tema",
+
+            // Menu Feature
+            menuTitle: "Sezgisel Menü",
+            menuDesc: "Temiz ve sezgisel menü arayüzü ile tüm özelliklere kolayca erişin. İhtiyacınız olan özellikleri hızlıca bulun ve kullanın.",
+            menuFeature1: "Tek dokunuşla hızlı erişim",
+            menuFeature2: "Organize edilmiş özellik kategorileri",
+            menuFeature3: "Kullanıcı dostu tasarım",
+
+            // History Management Feature
+            historyManagementTitle: "Geçmiş Yönetimi",
+            historyManagementDesc: "Hesaplama geçmişinizi sistematik olarak yönetin ve düzenleyin. Önemli kayıtları yer imlerine ekleyin ve gereksiz olanları kolayca silin.",
+            historyManagementFeature1: "Kaydırarak kolayca silin",
+            historyManagementFeature2: "Önemli kayıtları yer imlerine ekleyin",
+            historyManagementFeature3: "Toplu seçim ve yönetim",
+
+            // Widget Feature
+            widgetTitle: "Ana Ekran Widget'ı",
+            widgetDesc: "Döviz kurlarını doğrudan ana ekranınızdan kontrol edin. Uygulamayı açmadan ana para birimlerinin gerçek zamanlı kurlarını bir bakışta görüntüleyin.",
+            widgetFeature1: "Gerçek zamanlı kur gösterimi",
+            widgetFeature2: "Çeşitli widget boyutları",
+            widgetFeature3: "Otomatik güncelleme",
 
             // ==== TECHNICAL EXCELLENCE SECTION ====
             techTitle: "Teknik Mükemmellik",
