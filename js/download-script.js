@@ -8,7 +8,7 @@ const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.exchan
 const REDIRECT_DELAY = 3000;
 
 // Fallback UI display delay (milliseconds)
-const FALLBACK_DELAY = 500000;
+const FALLBACK_DELAY = 5000;
 
 // SessionStorage key for tracking redirect
 const REDIRECT_KEY = 'exchango_redirect_attempted';
