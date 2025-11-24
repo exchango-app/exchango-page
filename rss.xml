@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Exchango FX - Global Currency Converter</title>
+        <link>https://exchango.app</link>
+        <description>Exchango FX - Real-time exchange rates and currency converter app supporting 150+ currencies worldwide. 전 세계 150개 이상의 통화를 지원하는 실시간 환율 계산기 앱.</description>
+        <language>en</language>
+        <lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://exchango.app/rss.xml" rel="self" type="application/rss+xml"/>
+        <image>
+            <url>https://exchango.app/assets/app-icon.png</url>
+            <title>Exchango FX</title>
+            <link>https://exchango.app</link>
+        </image>
+
+        <!-- About Page - Multilingual -->
+        <item>
+            <title>About Exchango FX</title>
+            <link>https://exchango.app/about.html?lang=en</link>
+            <description>Discover Exchango FX app features: real-time exchange rates, currency conversion, multi-currency support, tip calculator, and more.</description>
+            <dc:language>en</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+            <guid>https://exchango.app/about.html?lang=en</guid>
+        </item>
+
+        <item>
+            <title>Exchango FX 소개</title>
+            <link>https://exchango.app/about.html?lang=ko</link>
+            <description>Exchango FX 앱의 주요 기능을 소개합니다. 실시간 환율 조회, 환전 계산, 다중 통화 지원, 팁 계산기 등 다양한 기능을 제공합니다.</description>
+            <dc:language>ko</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0900</pubDate>
+            <guid>https://exchango.app/about.html?lang=ko</guid>
+        </item>
+
+        <item>
+            <title>Exchango FXについて</title>
+            <link>https://exchango.app/about.html?lang=ja</link>
+            <description>Exchango FXアプリの主な機能をご紹介します。リアルタイム為替レート、通貨換算、複数通貨対応、チップ計算機など。</description>
+            <dc:language>ja</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0900</pubDate>
+            <guid>https://exchango.app/about.html?lang=ja</guid>
+        </item>
+
+        <item>
+            <title>关于 Exchango FX</title>
+            <link>https://exchango.app/about.html?lang=zh</link>
+            <description>了解Exchango FX应用功能：实时汇率查询、货币兑换、多币种支持、小费计算器等。</description>
+            <dc:language>zh</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0800</pubDate>
+            <guid>https://exchango.app/about.html?lang=zh</guid>
+        </item>
+
+        <item>
+            <title>Über Exchango FX</title>
+            <link>https://exchango.app/about.html?lang=de</link>
+            <description>Entdecken Sie die Funktionen der Exchango FX App: Echtzeit-Wechselkurse, Währungsumrechnung, Multi-Währungs-Unterstützung und mehr.</description>
+            <dc:language>de</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0100</pubDate>
+            <guid>https://exchango.app/about.html?lang=de</guid>
+        </item>
+
+        <item>
+            <title>Acerca de Exchango FX</title>
+            <link>https://exchango.app/about.html?lang=es</link>
+            <description>Descubre las funciones de Exchango FX: tipos de cambio en tiempo real, conversión de divisas, soporte multi-moneda y más.</description>
+            <dc:language>es</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0100</pubDate>
+            <guid>https://exchango.app/about.html?lang=es</guid>
+        </item>
+
+        <item>
+            <title>À propos d'Exchango FX</title>
+            <link>https://exchango.app/about.html?lang=fr</link>
+            <description>Découvrez les fonctionnalités d'Exchango FX: taux de change en temps réel, conversion de devises, support multi-devises et plus.</description>
+            <dc:language>fr</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0100</pubDate>
+            <guid>https://exchango.app/about.html?lang=fr</guid>
+        </item>
+
+        <item>
+            <title>Informazioni su Exchango FX</title>
+            <link>https://exchango.app/about.html?lang=it</link>
+            <description>Scopri le funzionalità dell'app Exchango FX: tassi di cambio in tempo reale, conversione valuta, supporto multi-valuta e altro.</description>
+            <dc:language>it</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0100</pubDate>
+            <guid>https://exchango.app/about.html?lang=it</guid>
+        </item>
+
+        <item>
+            <title>Sobre o Exchango FX</title>
+            <link>https://exchango.app/about.html?lang=pt</link>
+            <description>Conheça os recursos do Exchango FX: taxas de câmbio em tempo real, conversão de moedas, suporte a múltiplas moedas e mais.</description>
+            <dc:language>pt</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 -0300</pubDate>
+            <guid>https://exchango.app/about.html?lang=pt</guid>
+        </item>
+
+        <item>
+            <title>О приложении Exchango FX</title>
+            <link>https://exchango.app/about.html?lang=ru</link>
+            <description>Узнайте о функциях Exchango FX: курсы валют в реальном времени, конвертация валют, поддержка множества валют и многое другое.</description>
+            <dc:language>ru</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0300</pubDate>
+            <guid>https://exchango.app/about.html?lang=ru</guid>
+        </item>
+
+        <item>
+            <title>Exchango FX Hakkında</title>
+            <link>https://exchango.app/about.html?lang=tr</link>
+            <description>Exchango FX uygulama özelliklerini keşfedin: gerçek zamanlı döviz kurları, para birimi dönüştürme, çoklu para birimi desteği ve daha fazlası.</description>
+            <dc:language>tr</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0300</pubDate>
+            <guid>https://exchango.app/about.html?lang=tr</guid>
+        </item>
+
+        <item>
+            <title>เกี่ยวกับ Exchango FX</title>
+            <link>https://exchango.app/about.html?lang=th</link>
+            <description>ค้นพบฟีเจอร์ของแอป Exchango FX: อัตราแลกเปลี่ยนแบบเรียลไทม์ แปลงสกุลเงิน รองรับหลายสกุลเงิน และอื่นๆ</description>
+            <dc:language>th</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0700</pubDate>
+            <guid>https://exchango.app/about.html?lang=th</guid>
+        </item>
+
+        <item>
+            <title>Exchango FX के बारे में</title>
+            <link>https://exchango.app/about.html?lang=hi</link>
+            <description>Exchango FX ऐप की विशेषताएं जानें: रीयल-टाइम विनिमय दरें, मुद्रा रूपांतरण, बहु-मुद्रा समर्थन और बहुत कुछ।</description>
+            <dc:language>hi</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0530</pubDate>
+            <guid>https://exchango.app/about.html?lang=hi</guid>
+        </item>
+
+        <item>
+            <title>حول Exchango FX</title>
+            <link>https://exchango.app/about.html?lang=ar</link>
+            <description>اكتشف ميزات تطبيق Exchango FX: أسعار الصرف في الوقت الفعلي، تحويل العملات، دعم العملات المتعددة والمزيد.</description>
+            <dc:language>ar</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0300</pubDate>
+            <guid>https://exchango.app/about.html?lang=ar</guid>
+        </item>
+
+        <!-- Privacy Policy - Multilingual -->
+        <item>
+            <title>Privacy Policy</title>
+            <link>https://exchango.app/privacy_policy.html?lang=en</link>
+            <description>Exchango FX Privacy Policy. Learn about our data collection, usage, and protection practices.</description>
+            <dc:language>en</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=en</guid>
+        </item>
+
+        <item>
+            <title>개인정보처리방침</title>
+            <link>https://exchango.app/privacy_policy.html?lang=ko</link>
+            <description>Exchango FX 앱의 개인정보처리방침입니다. 사용자 데이터 수집, 이용, 보호에 관한 정책을 안내합니다.</description>
+            <dc:language>ko</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0900</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=ko</guid>
+        </item>
+
+        <item>
+            <title>プライバシーポリシー</title>
+            <link>https://exchango.app/privacy_policy.html?lang=ja</link>
+            <description>Exchango FXアプリのプライバシーポリシーです。データの収集、利用、保護に関するポリシーをご案内します。</description>
+            <dc:language>ja</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0900</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=ja</guid>
+        </item>
+
+        <item>
+            <title>隐私政策</title>
+            <link>https://exchango.app/privacy_policy.html?lang=zh</link>
+            <description>Exchango FX应用隐私政策。了解我们的数据收集、使用和保护措施。</description>
+            <dc:language>zh</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0800</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=zh</guid>
+        </item>
+
+        <item>
+            <title>Datenschutzrichtlinie</title>
+            <link>https://exchango.app/privacy_policy.html?lang=de</link>
+            <description>Datenschutzrichtlinie von Exchango FX. Erfahren Sie mehr über unsere Datenerfassung, -nutzung und -schutzpraktiken.</description>
+            <dc:language>de</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0100</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=de</guid>
+        </item>
+
+        <item>
+            <title>Política de Privacidad</title>
+            <link>https://exchango.app/privacy_policy.html?lang=es</link>
+            <description>Política de privacidad de Exchango FX. Conozca nuestras prácticas de recopilación, uso y protección de datos.</description>
+            <dc:language>es</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0100</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=es</guid>
+        </item>
+
+        <item>
+            <title>Politique de Confidentialité</title>
+            <link>https://exchango.app/privacy_policy.html?lang=fr</link>
+            <description>Politique de confidentialité d'Exchango FX. Découvrez nos pratiques de collecte, d'utilisation et de protection des données.</description>
+            <dc:language>fr</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0100</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=fr</guid>
+        </item>
+
+        <item>
+            <title>Informativa sulla Privacy</title>
+            <link>https://exchango.app/privacy_policy.html?lang=it</link>
+            <description>Informativa sulla privacy di Exchango FX. Scopri le nostre pratiche di raccolta, utilizzo e protezione dei dati.</description>
+            <dc:language>it</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0100</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=it</guid>
+        </item>
+
+        <item>
+            <title>Política de Privacidade</title>
+            <link>https://exchango.app/privacy_policy.html?lang=pt</link>
+            <description>Política de privacidade do Exchango FX. Saiba mais sobre nossas práticas de coleta, uso e proteção de dados.</description>
+            <dc:language>pt</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 -0300</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=pt</guid>
+        </item>
+
+        <item>
+            <title>Политика конфиденциальности</title>
+            <link>https://exchango.app/privacy_policy.html?lang=ru</link>
+            <description>Политика конфиденциальности Exchango FX. Узнайте о наших методах сбора, использования и защиты данных.</description>
+            <dc:language>ru</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0300</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=ru</guid>
+        </item>
+
+        <item>
+            <title>Gizlilik Politikası</title>
+            <link>https://exchango.app/privacy_policy.html?lang=tr</link>
+            <description>Exchango FX Gizlilik Politikası. Veri toplama, kullanım ve koruma uygulamalarımız hakkında bilgi edinin.</description>
+            <dc:language>tr</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0300</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=tr</guid>
+        </item>
+
+        <item>
+            <title>นโยบายความเป็นส่วนตัว</title>
+            <link>https://exchango.app/privacy_policy.html?lang=th</link>
+            <description>นโยบายความเป็นส่วนตัวของ Exchango FX เรียนรู้เกี่ยวกับการเก็บรวบรวม การใช้งาน และการปกป้องข้อมูลของเรา</description>
+            <dc:language>th</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0700</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=th</guid>
+        </item>
+
+        <item>
+            <title>गोपनीयता नीति</title>
+            <link>https://exchango.app/privacy_policy.html?lang=hi</link>
+            <description>Exchango FX गोपनीयता नीति। हमारी डेटा संग्रह, उपयोग और सुरक्षा प्रथाओं के बारे में जानें।</description>
+            <dc:language>hi</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0530</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=hi</guid>
+        </item>
+
+        <item>
+            <title>سياسة الخصوصية</title>
+            <link>https://exchango.app/privacy_policy.html?lang=ar</link>
+            <description>سياسة خصوصية Exchango FX. تعرف على ممارسات جمع البيانات واستخدامها وحمايتها.</description>
+            <dc:language>ar</dc:language>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 +0300</pubDate>
+            <guid>https://exchango.app/privacy_policy.html?lang=ar</guid>
+        </item>
+    </channel>
+</rss>
