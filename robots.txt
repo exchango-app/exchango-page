@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /privacy_policy.html
-Disallow: /about.html
+
+Sitemap: https://exchango.app/sitemap.xml
+Sitemap: https://exchango.app/rss.xml
 
 #DaumWebMasterTool:2aec7186ee937cd9449d6695a1524d85e963ddfeade31c7f610ef518167fc877:rp+QviZtqwRKFpwdNmMavg==
-
