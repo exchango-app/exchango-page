@@ -1,14 +1,14 @@
-// Translation system for Exchango FX download page
+// Translation system for Exchango AI download page
 (function() {
     'use strict';
 
-    console.log('🌐 Exchango FX download page translation system initialized');
+    console.log('🌐 Exchango AI download page translation system initialized');
 
     // Translation data for download.html
     const translations = {
         ko: {
-            pageTitle: "Exchango FX - 앱 다운로드",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - 앱 다운로드",
+            appTitle: "Exchango AI",
             appTagline: "전 세계를 위한 스마트 환율 계산기",
             appDescription: "150개 이상의 통화로 환전, 계산, 경비 분할",
             loadingText: "앱 스토어로 이동 중...",
@@ -18,8 +18,8 @@
             helpText: "자동 이동이 안 되나요?<br>스토어 버튼을 눌러주세요"
         },
         en: {
-            pageTitle: "Exchango FX - Download App",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - Download App",
+            appTitle: "Exchango AI",
             appTagline: "Your Global Currency Companion",
             appDescription: "Convert, calculate, and split expenses across 150+ currencies",
             loadingText: "Redirecting to App Store...",
@@ -29,8 +29,8 @@
             helpText: "Not redirecting?<br>Tap your store button"
         },
         ja: {
-            pageTitle: "Exchango FX - アプリダウンロード",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - アプリダウンロード",
+            appTitle: "Exchango AI",
             appTagline: "グローバル通貨コンパニオン",
             appDescription: "150以上の通貨で両替、計算、経費分割",
             loadingText: "App Storeへ移動中...",
@@ -40,8 +40,8 @@
             helpText: "自動で移動しませんか？<br>ストアボタンを押してください"
         },
         zh: {
-            pageTitle: "Exchango FX - 下载应用",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - 下载应用",
+            appTitle: "Exchango AI",
             appTagline: "全球货币伴侣",
             appDescription: "150多种货币的兑换、计算和费用分摊",
             loadingText: "正在跳转到应用商店...",
@@ -51,8 +51,8 @@
             helpText: "没有自动跳转？<br>点击商店按钮"
         },
         es: {
-            pageTitle: "Exchango FX - Descargar App",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - Descargar App",
+            appTitle: "Exchango AI",
             appTagline: "Tu Compañero de Divisas Global",
             appDescription: "Convierte, calcula y divide gastos en más de 150 monedas",
             loadingText: "Redirigiendo a la App Store...",
@@ -62,8 +62,8 @@
             helpText: "¿No se redirige?<br>Toca el botón de tu tienda"
         },
         fr: {
-            pageTitle: "Exchango FX - Télécharger l'App",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - Télécharger l'App",
+            appTitle: "Exchango AI",
             appTagline: "Votre Compagnon de Devises Mondial",
             appDescription: "Convertissez, calculez et divisez les dépenses dans plus de 150 devises",
             loadingText: "Redirection vers l'App Store...",
@@ -73,8 +73,8 @@
             helpText: "Pas de redirection ?<br>Appuyez sur le bouton de votre magasin"
         },
         de: {
-            pageTitle: "Exchango FX - App herunterladen",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - App herunterladen",
+            appTitle: "Exchango AI",
             appTagline: "Ihr globaler Währungsbegleiter",
             appDescription: "Konvertieren, berechnen und teilen Sie Ausgaben in über 150 Währungen",
             loadingText: "Weiterleitung zum App Store...",
@@ -84,8 +84,8 @@
             helpText: "Keine Weiterleitung?<br>Tippen Sie auf Ihre Store-Schaltfläche"
         },
         pt: {
-            pageTitle: "Exchango FX - Baixar App",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - Baixar App",
+            appTitle: "Exchango AI",
             appTagline: "Seu Companheiro de Moedas Global",
             appDescription: "Converta, calcule e divida despesas em mais de 150 moedas",
             loadingText: "Redirecionando para a App Store...",
@@ -95,8 +95,8 @@
             helpText: "Não está redirecionando?<br>Toque no botão da sua loja"
         },
         it: {
-            pageTitle: "Exchango FX - Scarica App",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - Scarica App",
+            appTitle: "Exchango AI",
             appTagline: "Il Tuo Compagno di Valute Globale",
             appDescription: "Converti, calcola e dividi le spese in oltre 150 valute",
             loadingText: "Reindirizzamento all'App Store...",
@@ -106,8 +106,8 @@
             helpText: "Non si reindirizza?<br>Tocca il pulsante del tuo store"
         },
         ru: {
-            pageTitle: "Exchango FX - Скачать приложение",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - Скачать приложение",
+            appTitle: "Exchango AI",
             appTagline: "Ваш Глобальный Валютный Помощник",
             appDescription: "Конвертируйте, рассчитывайте и делите расходы в более чем 150 валютах",
             loadingText: "Перенаправление в App Store...",
@@ -117,8 +117,8 @@
             helpText: "Не перенаправляет?<br>Нажмите кнопку вашего магазина"
         },
         ar: {
-            pageTitle: "Exchango FX - تحميل التطبيق",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - تحميل التطبيق",
+            appTitle: "Exchango AI",
             appTagline: "رفيقك العالمي للعملات",
             appDescription: "تحويل وحساب وتقسيم النفقات عبر أكثر من 150 عملة",
             loadingText: "إعادة التوجيه إلى App Store...",
@@ -128,8 +128,8 @@
             helpText: "لا يتم إعادة التوجيه؟<br>انقر على زر المتجر الخاص بك"
         },
         hi: {
-            pageTitle: "Exchango FX - ऐप डाउनलोड करें",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - ऐप डाउनलोड करें",
+            appTitle: "Exchango AI",
             appTagline: "आपका वैश्विक मुद्रा साथी",
             appDescription: "150+ मुद्राओं में परिवर्तित करें, गणना करें और खर्च विभाजित करें",
             loadingText: "App Store पर रीडायरेक्ट किया जा रहा है...",
@@ -139,8 +139,8 @@
             helpText: "रीडायरेक्ट नहीं हो रहा?<br>अपने स्टोर बटन पर टैप करें"
         },
         th: {
-            pageTitle: "Exchango FX - ดาวน์โหลดแอป",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - ดาวน์โหลดแอป",
+            appTitle: "Exchango AI",
             appTagline: "ผู้ช่วยสกุลเงินทั่วโลกของคุณ",
             appDescription: "แปลง คำนวณ และแบ่งค่าใช้จ่ายในสกุลเงินกว่า 150 สกุล",
             loadingText: "กำลังเปลี่ยนเส้นทางไปยัง App Store...",
@@ -150,8 +150,8 @@
             helpText: "ไม่เปลี่ยนเส้นทางอัตโนมัติ?<br>แตะปุ่มสต อร์ของคุณ"
         },
         tr: {
-            pageTitle: "Exchango FX - Uygulamayı İndir",
-            appTitle: "Exchango FX",
+            pageTitle: "Exchango AI - Uygulamayı İndir",
+            appTitle: "Exchango AI",
             appTagline: "Küresel Para Birimi Yardımcınız",
             appDescription: "150'den fazla para biriminde dönüştürün, hesaplayın ve harcamaları bölün",
             loadingText: "App Store'a yönlendiriliyor...",

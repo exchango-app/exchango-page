@@ -106,3 +106,4 @@ temp/
 *.sw?
 
 CLAUDE.md
+.gstack/

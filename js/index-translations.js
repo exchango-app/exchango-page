@@ -1,15 +1,15 @@
-// Comprehensive translation system for Exchango FX app introduction page (index.html)
+// Comprehensive translation system for Exchango AI app introduction page (index.html)
 (function() {
     'use strict';
     
-    console.log('🌐 Exchango FX index page translation system initialized');
+    console.log('🌐 Exchango AI index page translation system initialized');
     
     // Complete translation data for index.html
     const translations = {
         ko: {
             // ==== HERO SECTION ====
-            pageTitle: "Exchango FX - 스마트 환율 계산기 앱",
-            heroTitle: "Exchango FX",
+            pageTitle: "Exchango AI - 스마트 환율 계산기 앱",
+            heroTitle: "Exchango AI",
             heroTagline: "전 세계를 위한 스마트 환율 계산기",
             heroSubtitle: "150개 이상의 통화를 지원하는 올인원 환율 계산 및 정산 앱",
             
@@ -117,7 +117,7 @@
             updateDesc: "환율 데이터와 앱 기능이 자동으로 업데이트되어 항상 최신 정보를 유지합니다.",
             
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "왜 Exchango FX를 선택해야 할까요?",
+            benefitsTitle: "왜 Exchango AI를 선택해야 할까요?",
             benefitsSubtitle: "여행자와 비즈니스 전문가들이 선택하는 이유",
             
             travelersTitle: "여행자를 위한 필수 앱",
@@ -132,16 +132,16 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "지금 바로 다운로드하세요",
             downloadSubtitle: "무료로 제공되는 스마트한 환율 계산 솔루션",
-            downloadDesc: "150개 이상의 통화를 지원하는 Exchango FX로 환율 계산을 더 쉽고 정확하게 만들어보세요.",
+            downloadDesc: "150개 이상의 통화를 지원하는 Exchango AI로 환율 계산을 더 쉽고 정확하게 만들어보세요.",
             comingSoon: "출시 예정",
             
             // ==== FOOTER SECTION ====
-            footerAbout: "Exchango FX 소개",
+            footerAbout: "Exchango AI 소개",
             footerSupport: "고객 지원",
             footerPrivacy: "개인정보처리방침",
             footerTerms: "이용약관",
-            footerAboutPage: "Exchango FX 소개",
-            footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
+            footerAboutPage: "Exchango AI 소개",
+            footerCopyright: "Copyright © 2025 Exchango AI All rights reserved.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "메인 콘텐츠로 건너뛰기",
@@ -153,8 +153,8 @@
         
         en: {
             // ==== HERO SECTION ====
-            pageTitle: "Exchango FX - Smart Currency Converter App",
-            heroTitle: "Exchango FX",
+            pageTitle: "Exchango AI - Smart Currency Converter App",
+            heroTitle: "Exchango AI",
             heroTagline: "Smart Currency Converter for the World",
             heroSubtitle: "All-in-one currency conversion and settlement app supporting 150+ currencies",
             
@@ -262,7 +262,7 @@
             updateDesc: "Exchange rate data and app features are automatically updated to maintain the latest information.",
             
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "Why Choose Exchango FX?",
+            benefitsTitle: "Why Choose Exchango AI?",
             benefitsSubtitle: "Reasons why travelers and business professionals choose us",
             
             travelersTitle: "Essential App for Travelers",
@@ -277,16 +277,16 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "Download Now",
             downloadSubtitle: "Smart currency calculation solution provided free of charge",
-            downloadDesc: "Make currency calculations easier and more accurate with Exchango FX supporting 150+ currencies.",
+            downloadDesc: "Make currency calculations easier and more accurate with Exchango AI supporting 150+ currencies.",
             comingSoon: "Coming Soon",
             
             // ==== FOOTER SECTION ====
-            footerAbout: "About Exchango FX",
+            footerAbout: "About Exchango AI",
             footerSupport: "Customer Support",
             footerPrivacy: "Privacy Policy",
             footerTerms: "Terms of Service",
-            footerAboutPage: "About Exchango FX",
-            footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
+            footerAboutPage: "About Exchango AI",
+            footerCopyright: "Copyright © 2025 Exchango AI All rights reserved.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "Skip to main content",
@@ -298,8 +298,8 @@
         
         ja: {
             // ==== HERO SECTION ====
-            pageTitle: "Exchango FX - スマート為替計算機アプリ",
-            heroTitle: "Exchango FX",
+            pageTitle: "Exchango AI - スマート為替計算機アプリ",
+            heroTitle: "Exchango AI",
             heroTagline: "世界のためのスマート為替計算機",
             heroSubtitle: "150以上の通貨をサポートするオールインワン為替計算・精算アプリ",
             
@@ -407,7 +407,7 @@
             updateDesc: "為替データとアプリ機能が自動的に更新され、常に最新情報を維持します。",
             
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "なぜExchango FXを選ぶべきか？",
+            benefitsTitle: "なぜExchango AIを選ぶべきか？",
             benefitsSubtitle: "旅行者とビジネス専門家が選ぶ理由",
             
             travelersTitle: "旅行者のための必須アプリ",
@@ -422,16 +422,16 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "今すぐダウンロード",
             downloadSubtitle: "無料で提供されるスマートな為替計算ソリューション",
-            downloadDesc: "150以上の通貨をサポートするExchango FXで為替計算をより簡単で正確にしましょう。",
+            downloadDesc: "150以上の通貨をサポートするExchango AIで為替計算をより簡単で正確にしましょう。",
             comingSoon: "近日公開",
             
             // ==== FOOTER SECTION ====
-            footerAbout: "Exchango FXについて",
+            footerAbout: "Exchango AIについて",
             footerSupport: "カスタマーサポート",
             footerPrivacy: "プライバシーポリシー",
             footerTerms: "利用規約",
-            footerAboutPage: "Exchango FXについて",
-            footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
+            footerAboutPage: "Exchango AIについて",
+            footerCopyright: "Copyright © 2025 Exchango AI All rights reserved.",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "メインコンテンツにスキップ",
@@ -443,8 +443,8 @@
         
         zh: {
             // ==== HERO SECTION ====
-            pageTitle: "Exchango FX - 智能汇率计算器应用",
-            heroTitle: "Exchango FX",
+            pageTitle: "Exchango AI - 智能汇率计算器应用",
+            heroTitle: "Exchango AI",
             heroTagline: "全球智能汇率计算器",
             heroSubtitle: "支持150多种货币的一站式汇率计算和结算应用",
             
@@ -552,7 +552,7 @@
             updateDesc: "汇率数据和应用功能自动更新，始终保持最新信息。",
             
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "为什么选择Exchango FX？",
+            benefitsTitle: "为什么选择Exchango AI？",
             benefitsSubtitle: "旅行者和商务专业人士选择我们的理由",
             
             travelersTitle: "旅行者的必备应用",
@@ -567,16 +567,16 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "立即下载",
             downloadSubtitle: "免费提供的智能汇率计算解决方案",
-            downloadDesc: "使用支持150多种货币的Exchango FX让汇率计算更简单、更准确。",
+            downloadDesc: "使用支持150多种货币的Exchango AI让汇率计算更简单、更准确。",
             comingSoon: "即将推出",
             
             // ==== FOOTER SECTION ====
-            footerAbout: "关于Exchango FX",
+            footerAbout: "关于Exchango AI",
             footerSupport: "客户支持",
             footerPrivacy: "隐私政策",
             footerTerms: "服务条款",
-            footerAboutPage: "关于Exchango FX",
-            footerCopyright: "© 2024 Exchango FX. 保留所有权利。",
+            footerAboutPage: "关于Exchango AI",
+            footerCopyright: "© 2024 Exchango AI. 保留所有权利。",
             
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "跳转到主要内容",
@@ -588,9 +588,9 @@
         
         // Arabic
         ar: {
-            pageTitle: "Exchango FX - تطبيق محول العملات الذكي",
+            pageTitle: "Exchango AI - تطبيق محول العملات الذكي",
             metaDescription: "تطبيق محول العملات الذكي يدعم أكثر من 150 عملة عالمياً. حل تحويل العملات والحسابات والبقشيش مرة واحدة.",
-            heroTitle: "Exchango FX",
+            heroTitle: "Exchango AI",
             heroTagline: "محول العملات الذكي للعالم",
             heroSubtitle: "تطبيق شامل لتحويل وتسوية العملات يدعم أكثر من 150 عملة",
             
@@ -694,7 +694,7 @@
             updateTitle: "تحديثات تلقائية",
             updateDesc: "بيانات أسعار الصرف وميزات التطبيق تُحدث تلقائياً للحفاظ على أحدث المعلومات.",
             
-            benefitsTitle: "لماذا تختار Exchango FX؟",
+            benefitsTitle: "لماذا تختار Exchango AI؟",
             benefitsSubtitle: "الأسباب التي تجعل المسافرين ومحترفي الأعمال يختاروننا",
             
             travelersTitle: "تطبيق أساسي للمسافرين",
@@ -708,15 +708,15 @@
             
             downloadTitle: "حمل الآن",
             downloadSubtitle: "حل حساب العملات الذكي المقدم مجاناً",
-            downloadDesc: "اجعل حسابات العملات أسهل وأكثر دقة مع Exchango FX الذي يدعم أكثر من 150 عملة.",
+            downloadDesc: "اجعل حسابات العملات أسهل وأكثر دقة مع Exchango AI الذي يدعم أكثر من 150 عملة.",
             comingSoon: "قريباً",
             
-            footerAbout: "حول Exchango FX",
+            footerAbout: "حول Exchango AI",
             footerSupport: "دعم العملاء",
             footerPrivacy: "سياسة الخصوصية",
             footerTerms: "شروط الخدمة",
-            footerAboutPage: "حول Exchango FX",
-            footerCopyright: "© 2025 Exchango FX. جميع الحقوق محفوظة.",
+            footerAboutPage: "حول Exchango AI",
+            footerCopyright: "© 2025 Exchango AI. جميع الحقوق محفوظة.",
 
             // Accessibility & Navigation
             skipToContent: "انتقل إلى المحتوى الرئيسي",
@@ -728,9 +728,9 @@
         
         // German
         de: {
-            pageTitle: "Exchango FX - Intelligente Währungsrechner-App",
+            pageTitle: "Exchango AI - Intelligente Währungsrechner-App",
             metaDescription: "Intelligente Währungsrechner-App mit Unterstützung für über 150 Währungen weltweit. Lösung für Währungsumrechnung, Abrechnung und Trinkgeldberechnung in einem.",
-            heroTitle: "Exchango FX",
+            heroTitle: "Exchango AI",
             heroTagline: "Intelligenter Währungsrechner für die Welt",
             heroSubtitle: "All-in-One Währungsumrechnung und Abrechnungs-App mit Unterstützung für 150+ Währungen",
             
@@ -834,7 +834,7 @@
             updateTitle: "Automatische Updates",
             updateDesc: "Wechselkursdaten und App-Features werden automatisch aktualisiert um die neuesten Informationen zu erhalten.",
             
-            benefitsTitle: "Warum Exchango FX wählen?",
+            benefitsTitle: "Warum Exchango AI wählen?",
             benefitsSubtitle: "Gründe, warum Reisende und Geschäftsprofis uns wählen",
             
             travelersTitle: "Unverzichtbare App für Reisende",
@@ -848,15 +848,15 @@
             
             downloadTitle: "Jetzt herunterladen",
             downloadSubtitle: "Intelligente Währungsberechnungslösung kostenlos bereitgestellt",
-            downloadDesc: "Machen Sie Währungsberechnungen einfacher und genauer mit Exchango FX, das 150+ Währungen unterstützt.",
+            downloadDesc: "Machen Sie Währungsberechnungen einfacher und genauer mit Exchango AI, das 150+ Währungen unterstützt.",
             comingSoon: "Demnächst verfügbar",
             
-            footerAbout: "Über Exchango FX",
+            footerAbout: "Über Exchango AI",
             footerSupport: "Kundensupport",
             footerPrivacy: "Datenschutzrichtlinie",
             footerTerms: "Nutzungsbedingungen",
-            footerAboutPage: "Über Exchango FX",
-            footerCopyright: "© 2025 Exchango FX. Alle Rechte vorbehalten.",
+            footerAboutPage: "Über Exchango AI",
+            footerCopyright: "© 2025 Exchango AI. Alle Rechte vorbehalten.",
 
             // Accessibility & Navigation
             skipToContent: "Zum Hauptinhalt springen",
@@ -868,9 +868,9 @@
         
         // Spanish
         es: {
-            pageTitle: "Exchango FX - Aplicación Inteligente de Conversión de Monedas",
+            pageTitle: "Exchango AI - Aplicación Inteligente de Conversión de Monedas",
             metaDescription: "Aplicación inteligente de conversión de monedas que soporta más de 150 monedas mundialmente. Resuelve conversión de monedas, cálculo de propinas y liquidaciones de una vez.",
-            heroTitle: "Exchango FX",
+            heroTitle: "Exchango AI",
             heroTagline: "Conversor de Monedas Inteligente para el Mundo",
             heroSubtitle: "Aplicación todo en uno de conversión y liquidación de monedas compatible con más de 150 monedas",
             
@@ -974,7 +974,7 @@
             updateTitle: "Actualizaciones Automáticas",
             updateDesc: "Los datos de tipos de cambio y las características de la aplicación se actualizan automáticamente para mantener la información más reciente.",
             
-            benefitsTitle: "¿Por qué elegir Exchango FX?",
+            benefitsTitle: "¿Por qué elegir Exchango AI?",
             benefitsSubtitle: "Razones por las que viajeros y profesionales de negocios nos eligen",
             
             travelersTitle: "Aplicación Esencial para Viajeros",
@@ -988,15 +988,15 @@
             
             downloadTitle: "Descargar Ahora",
             downloadSubtitle: "Solución inteligente de cálculo de monedas proporcionada gratuitamente",
-            downloadDesc: "Haga los cálculos de monedas más fáciles y precisos con Exchango FX que soporta más de 150 monedas.",
+            downloadDesc: "Haga los cálculos de monedas más fáciles y precisos con Exchango AI que soporta más de 150 monedas.",
             comingSoon: "Próximamente",
             
-            footerAbout: "Acerca de Exchango FX",
+            footerAbout: "Acerca de Exchango AI",
             footerSupport: "Soporte al Cliente",
             footerPrivacy: "Política de Privacidad",
             footerTerms: "Términos de Servicio",
-            footerAboutPage: "Acerca de Exchango FX",
-            footerCopyright: "© 2025 Exchango FX. Todos los derechos reservados.",
+            footerAboutPage: "Acerca de Exchango AI",
+            footerCopyright: "© 2025 Exchango AI. Todos los derechos reservados.",
 
             // Accessibility & Navigation
             skipToContent: "Saltar al contenido principal",
@@ -1008,9 +1008,9 @@
         
         // French
         fr: {
-            pageTitle: "Exchango FX - Application Intelligente de Conversion de Devises",
+            pageTitle: "Exchango AI - Application Intelligente de Conversion de Devises",
             metaDescription: "Application intelligente de conversion de devises supportant plus de 150 devises mondiales. Résolvez conversion de devises, calcul de pourboires et règlements en une fois.",
-            heroTitle: "Exchango FX",
+            heroTitle: "Exchango AI",
             heroTagline: "Convertisseur de Devises Intelligent pour le Monde",
             heroSubtitle: "Application tout-en-un de conversion et de règlement de devises prenant en charge plus de 150 devises",
             
@@ -1114,7 +1114,7 @@
             updateTitle: "Mises à Jour Automatiques",
             updateDesc: "Les données de taux de change et les fonctionnalités de l'application sont automatiquement mises à jour pour maintenir les informations les plus récentes.",
             
-            benefitsTitle: "Pourquoi choisir Exchango FX ?",
+            benefitsTitle: "Pourquoi choisir Exchango AI ?",
             benefitsSubtitle: "Raisons pour lesquelles les voyageurs et professionnels d'affaires nous choisissent",
             
             travelersTitle: "Application Essentielle pour les Voyageurs",
@@ -1128,15 +1128,15 @@
             
             downloadTitle: "Télécharger Maintenant",
             downloadSubtitle: "Solution intelligente de calcul de devises fournie gratuitement",
-            downloadDesc: "Rendez les calculs de devises plus faciles et plus précis avec Exchango FX qui prend en charge plus de 150 devises.",
+            downloadDesc: "Rendez les calculs de devises plus faciles et plus précis avec Exchango AI qui prend en charge plus de 150 devises.",
             comingSoon: "Bientôt disponible",
             
-            footerAbout: "À Propos d'Exchango FX",
+            footerAbout: "À Propos d'Exchango AI",
             footerSupport: "Support Client",
             footerPrivacy: "Politique de Confidentialité",
             footerTerms: "Conditions de Service",
-            footerAboutPage: "À Propos d'Exchango FX",
-            footerCopyright: "© 2025 Exchango FX. Tous droits réservés.",
+            footerAboutPage: "À Propos d'Exchango AI",
+            footerCopyright: "© 2025 Exchango AI. Tous droits réservés.",
 
             // Accessibility & Navigation
             skipToContent: "Aller au contenu principal",
@@ -1148,9 +1148,9 @@
         
         // Hindi
         hi: {
-            pageTitle: "Exchango FX - स्मार्ट करेंसी कन्वर्टर ऐप",
+            pageTitle: "Exchango AI - स्मार्ट करेंसी कन्वर्टर ऐप",
             metaDescription: "विश्व में 150+ मुद्राओं का समर्थन करने वाला स्मार्ट करेंसी कन्वर्टर ऐप। मुद्रा परिवर्तन, लेखांकन और टिप गणना एक साथ हल करें।",
-            heroTitle: "Exchango FX",
+            heroTitle: "Exchango AI",
             heroTagline: "दुनिया के लिए स्मार्ट करेंसी कन्वर्टर",
             heroSubtitle: "150+ मुद्राओं का समर्थन करने वाला ऑल-इन-वन करेंसी कन्वर्जन और सेटलमेंट ऐप",
             
@@ -1254,7 +1254,7 @@
             updateTitle: "स्वचालित अपडेट",
             updateDesc: "एक्सचेंज दर डेटा और ऐप सुविधाएं नवीनतम जानकारी बनाए रखने के लिए स्वचालित रूप से अपडेट होती हैं।",
 
-            benefitsTitle: "Exchango FX क्यों चुनें?",
+            benefitsTitle: "Exchango AI क्यों चुनें?",
             benefitsSubtitle: "यात्री और व्यापारिक पेशेवर हमें क्यों चुनते हैं इसके कारण",
 
             travelersTitle: "यात्रियों के लिए आवश्यक ऐप",
@@ -1269,15 +1269,15 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "अभी डाउनलोड करें",
             downloadSubtitle: "मुफ्त में प्रदान किया गया स्मार्ट करेंसी गणना समाधान",
-            downloadDesc: "150+ मुद्राओं का समर्थन करने वाले Exchango FX के साथ मुद्रा गणना को आसान और सटीक बनाएं।",
+            downloadDesc: "150+ मुद्राओं का समर्थन करने वाले Exchango AI के साथ मुद्रा गणना को आसान और सटीक बनाएं।",
             comingSoon: "जल्द आ रहा है",
 
-            footerAbout: "Exchango FX के बारे में",
+            footerAbout: "Exchango AI के बारे में",
             footerSupport: "ग्राहक सहायता",
             footerPrivacy: "गोपनीयता नीति",
             footerTerms: "सेवा की शर्तें",
-            footerAboutPage: "Exchango FX के बारे में",
-            footerCopyright: "© 2025 Exchango FX. सभी अधिकार सुरक्षित।",
+            footerAboutPage: "Exchango AI के बारे में",
+            footerCopyright: "© 2025 Exchango AI. सभी अधिकार सुरक्षित।",
 
             // Accessibility & Navigation
             skipToContent: "मुख्य सामग्री पर जाएं",
@@ -1289,9 +1289,9 @@
         
         // Italian
         it: {
-            pageTitle: "Exchango FX - App Intelligente di Conversione Valute",
+            pageTitle: "Exchango AI - App Intelligente di Conversione Valute",
             metaDescription: "App intelligente di conversione valute che supporta oltre 150 valute mondiali. Risolve conversione valute, calcolo mance e regolamenti in una volta.",
-            heroTitle: "Exchango FX",
+            heroTitle: "Exchango AI",
             heroTagline: "Convertitore di Valute Intelligente per il Mondo",
             heroSubtitle: "App tutto-in-uno di conversione e regolamento valute che supporta oltre 150 valute",
             
@@ -1403,7 +1403,7 @@
             updateDesc: "I dati dei tassi di cambio e le funzionalità dell'app si aggiornano automaticamente per mantenere le informazioni più recenti.",
 
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "Perché Scegliere Exchango FX?",
+            benefitsTitle: "Perché Scegliere Exchango AI?",
             benefitsSubtitle: "Motivi per cui viaggiatori e professionisti del business ci scelgono",
 
             travelersTitle: "App Essenziale per Viaggiatori",
@@ -1418,16 +1418,16 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "Scarica Ora",
             downloadSubtitle: "Soluzione intelligente per il calcolo delle valute fornita gratuitamente",
-            downloadDesc: "Rendi i calcoli valutari più facili e precisi con Exchango FX che supporta oltre 150 valute.",
+            downloadDesc: "Rendi i calcoli valutari più facili e precisi con Exchango AI che supporta oltre 150 valute.",
             comingSoon: "Prossimamente",
 
             // ==== FOOTER SECTION ====
-            footerAbout: "Informazioni su Exchango FX",
+            footerAbout: "Informazioni su Exchango AI",
             footerSupport: "Supporto Clienti",
             footerPrivacy: "Politica Privacy",
             footerTerms: "Termini di Servizio",
-            footerAboutPage: "Informazioni su Exchango FX",
-            footerCopyright: "© 2025 Exchango FX. Tutti i diritti riservati.",
+            footerAboutPage: "Informazioni su Exchango AI",
+            footerCopyright: "© 2025 Exchango AI. Tutti i diritti riservati.",
 
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "Vai al contenuto principale",
@@ -1439,9 +1439,9 @@
         
         // Portuguese
         pt: {
-            pageTitle: "Exchango FX - App Inteligente de Conversão de Moedas",
+            pageTitle: "Exchango AI - App Inteligente de Conversão de Moedas",
             metaDescription: "App inteligente de conversão de moedas que suporta mais de 150 moedas mundiais. Resolva conversão de moedas, cálculo de gorjetas e liquidações de uma vez.",
-            heroTitle: "Exchango FX",
+            heroTitle: "Exchango AI",
             heroTagline: "Conversor de Moedas Inteligente para o Mundo",
             heroSubtitle: "App tudo-em-um de conversão e liquidação de moedas com suporte para mais de 150 moedas",
             
@@ -1553,7 +1553,7 @@
             updateDesc: "Dados de taxas de câmbio e recursos do app são atualizados automaticamente para manter as informações mais recentes.",
 
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "Por Que Escolher o Exchango FX?",
+            benefitsTitle: "Por Que Escolher o Exchango AI?",
             benefitsSubtitle: "Razões pelas quais viajantes e profissionais de negócios nos escolhem",
 
             travelersTitle: "App Essencial para Viajantes",
@@ -1568,16 +1568,16 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "Baixar Agora",
             downloadSubtitle: "Solução inteligente de cálculo de moedas fornecida gratuitamente",
-            downloadDesc: "Torne os cálculos de moeda mais fáceis e precisos com o Exchango FX que suporta mais de 150 moedas.",
+            downloadDesc: "Torne os cálculos de moeda mais fáceis e precisos com o Exchango AI que suporta mais de 150 moedas.",
             comingSoon: "Em Breve",
 
             // ==== FOOTER SECTION ====
-            footerAbout: "Sobre o Exchango FX",
+            footerAbout: "Sobre o Exchango AI",
             footerSupport: "Suporte ao Cliente",
             footerPrivacy: "Política de Privacidade",
             footerTerms: "Termos de Serviço",
-            footerAboutPage: "Sobre o Exchango FX",
-            footerCopyright: "© 2025 Exchango FX. Todos os direitos reservados.",
+            footerAboutPage: "Sobre o Exchango AI",
+            footerCopyright: "© 2025 Exchango AI. Todos os direitos reservados.",
 
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "Pular para o conteúdo principal",
@@ -1589,9 +1589,9 @@
         
         // Russian
         ru: {
-            pageTitle: "Exchango FX - Умное Приложение Конвертера Валют",
+            pageTitle: "Exchango AI - Умное Приложение Конвертера Валют",
             metaDescription: "Умное приложение конвертации валют, поддерживающее более 150 мировых валют. Решите конвертацию валют, расчет чаевых и расчеты одновременно.",
-            heroTitle: "Exchango FX",
+            heroTitle: "Exchango AI",
             heroTagline: "Умный Конвертер Валют для Мира",
             heroSubtitle: "Универсальное приложение конверсии и расчета валют с поддержкой более 150 валют",
             
@@ -1703,7 +1703,7 @@
             updateDesc: "Данные обменных курсов и функции приложения автоматически обновляются для поддержания самой последней информации.",
 
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "Почему Выбрать Exchango FX?",
+            benefitsTitle: "Почему Выбрать Exchango AI?",
             benefitsSubtitle: "Причины, по которым путешественники и бизнес-профессионалы выбирают нас",
 
             travelersTitle: "Незаменимое Приложение для Путешественников",
@@ -1718,16 +1718,16 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "Скачать сейчас",
             downloadSubtitle: "Умное решение для расчета валют, предоставляемое бесплатно",
-            downloadDesc: "Сделайте валютные расчеты проще и точнее с Exchango FX, поддерживающим более 150 валют.",
+            downloadDesc: "Сделайте валютные расчеты проще и точнее с Exchango AI, поддерживающим более 150 валют.",
             comingSoon: "Скоро",
 
             // ==== FOOTER SECTION ====
-            footerAbout: "О Exchango FX",
+            footerAbout: "О Exchango AI",
             footerSupport: "Поддержка Клиентов",
             footerPrivacy: "Политика Конфиденциальности",
             footerTerms: "Условия Обслуживания",
-            footerAboutPage: "О Exchango FX",
-            footerCopyright: "© 2025 Exchango FX. Все права защищены.",
+            footerAboutPage: "О Exchango AI",
+            footerCopyright: "© 2025 Exchango AI. Все права защищены.",
 
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "Перейти к основному содержимому",
@@ -1739,9 +1739,9 @@
         
         // Thai
         th: {
-            pageTitle: "Exchango FX - แอปแปลงสกุลเงินอัจฉริยะ",
+            pageTitle: "Exchango AI - แอปแปลงสกุลเงินอัจฉริยะ",
             metaDescription: "แอปตัวแปลงสกุลเงินอัจฉริยะที่รองรับสกุลเงินมากกว่า 150 สกุลทั่วโลก แก้ไขการแปลงสกุลเงิน คำนวณทิป และการเคลียร์ในครั้งเดียว",
-            heroTitle: "Exchango FX",
+            heroTitle: "Exchango AI",
             heroTagline: "ตัวแปลงสกุลเงินอัจฉริยะสำหรับโลก",
             heroSubtitle: "แอปแปลงและชำระเงินสกุลเงินครบวงจรที่รองรับสกุลเงินกว่า 150 สกุล",
             
@@ -1853,7 +1853,7 @@
             updateDesc: "ข้อมูลอัตราแลกเปลี่ยนและฟีเจอร์ของแอปอัปเดตโดยอัตโนมัติเพื่อรักษาข้อมูลล่าสุด",
 
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "ทำไมถึงเลือก Exchango FX?",
+            benefitsTitle: "ทำไมถึงเลือก Exchango AI?",
             benefitsSubtitle: "เหตุผลที่นักเดินทางและผู้เชี่ยวชาญด้านธุรกิจเลือกเรา",
 
             travelersTitle: "แอปจำเป็นสำหรับนักเดินทาง",
@@ -1868,16 +1868,16 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "ดาวน์โหลดเดี๋ยวนี้",
             downloadSubtitle: "โซลูชันคำนวณสกุลเงินอัจฉริยะที่ให้บริการฟรี",
-            downloadDesc: "ทำให้การคำนวณสกุลเงินง่ายและแม่นยำมากขึ้นด้วย Exchango FX ที่รองรับมากกว่า 150 สกุลเงิน",
+            downloadDesc: "ทำให้การคำนวณสกุลเงินง่ายและแม่นยำมากขึ้นด้วย Exchango AI ที่รองรับมากกว่า 150 สกุลเงิน",
             comingSoon: "เร็ว ๆ นี้",
 
             // ==== FOOTER SECTION ====
-            footerAbout: "เกี่ยวกับ Exchango FX",
+            footerAbout: "เกี่ยวกับ Exchango AI",
             footerSupport: "การสนับสนุนลูกค้า",
             footerPrivacy: "นโยบายความเป็นส่วนตัว",
             footerTerms: "เงื่อนไขการให้บริการ",
-            footerAboutPage: "เกี่ยวกับ Exchango FX",
-            footerCopyright: "© 2025 Exchango FX สงวนลิขสิทธิ์",
+            footerAboutPage: "เกี่ยวกับ Exchango AI",
+            footerCopyright: "© 2025 Exchango AI สงวนลิขสิทธิ์",
 
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "ข้ามไปยังเนื้อหาหลัก",
@@ -1889,9 +1889,9 @@
         
         // Turkish
         tr: {
-            pageTitle: "Exchango FX - Akıllı Döviz Dönüştürücü Uygulaması",
+            pageTitle: "Exchango AI - Akıllı Döviz Dönüştürücü Uygulaması",
             metaDescription: "Dünya çapında 150+ para birimini destekleyen akıllı döviz dönüştürücü uygulaması. Döviz dönüşümü, bahşiş hesaplama ve hesaplaşmaları tek seferde çözün.",
-            heroTitle: "Exchango FX",
+            heroTitle: "Exchango AI",
             heroTagline: "Dünya için Akıllı Döviz Dönüştürücü",
             heroSubtitle: "150+ para birimini destekleyen hepsi-bir-arada döviz dönüştürme ve ödeme uygulaması",
             
@@ -2003,7 +2003,7 @@
             updateDesc: "Döviz kuru verileri ve uygulama özellikleri en son bilgileri korumak için otomatik olarak güncellenir.",
 
             // ==== USER BENEFITS SECTION ====
-            benefitsTitle: "Neden Exchango FX'i Seçmelisiniz?",
+            benefitsTitle: "Neden Exchango AI'i Seçmelisiniz?",
             benefitsSubtitle: "Gezginler ve iş profesyonellerinin bizi seçme nedenleri",
 
             travelersTitle: "Gezginler İçin Vazgeçilmez Uygulama",
@@ -2018,16 +2018,16 @@
             // ==== DOWNLOAD SECTION ====
             downloadTitle: "Şimdi İndir",
             downloadSubtitle: "Ücretsiz olarak sağlanan akıllı döviz hesaplama çözümü",
-            downloadDesc: "150'den fazla para birimini destekleyen Exchango FX ile döviz hesaplamalarını daha kolay ve doğru hale getirin.",
+            downloadDesc: "150'den fazla para birimini destekleyen Exchango AI ile döviz hesaplamalarını daha kolay ve doğru hale getirin.",
             comingSoon: "Yakında",
 
             // ==== FOOTER SECTION ====
-            footerAbout: "Exchango FX Hakkında",
+            footerAbout: "Exchango AI Hakkında",
             footerSupport: "Müşteri Desteği",
             footerPrivacy: "Gizlilik Politikası",
             footerTerms: "Hizmet Koşulları",
-            footerAboutPage: "Exchango FX Hakkında",
-            footerCopyright: "© 2025 Exchango FX. Tüm hakları saklıdır.",
+            footerAboutPage: "Exchango AI Hakkında",
+            footerCopyright: "© 2025 Exchango AI. Tüm hakları saklıdır.",
 
             // ==== ACCESSIBILITY & NAVIGATION ====
             skipToContent: "Ana içeriğe atla",
@@ -2108,6 +2108,6 @@
     // Auto-initialize
     initializeTranslations();
     
-    console.log('🚀 Exchango FX index translations system ready');
+    console.log('🚀 Exchango AI index translations system ready');
     
 })();

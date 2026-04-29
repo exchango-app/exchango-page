@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -10,16 +10,16 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
 
-    <title>Exchango FX - Download App</title>
-    <meta name="description" content="Download the smart currency converter app supporting 150+ currencies worldwide">
+    <title data-i18n="bridgeDocTitle">Exchango AI - Download App</title>
+    <meta name="description" content="Download the smart currency converter app supporting 150+ currencies worldwide" data-i18n-attr="content:bridgeAppDescription">
     <meta name="keywords" content="currency, exchange rate, calculator, travel, expense, tip calculator, conversion">
-    <meta name="author" content="Exchango FX">
+    <meta name="author" content="Exchango AI">
 
     <!-- Smart App Banner for iOS -->
     <meta name="apple-itunes-app" content="app-id=6752467916">
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Exchango FX - Your Global Currency Companion!">
+    <meta property="og:title" content="Exchango AI - Your Global Currency Companion!">
     <meta property="og:description" content="Convert, calculate, and split expenses across 150+ currencies">
     <meta property="og:image" content="./assets/gp_image.png">
     <meta property="og:url" content="https://exchango.app">
@@ -38,41 +38,34 @@
         gtag('config', 'G-G05HY8WE79');
     </script>
 
-    <!-- Cache Busting: Load CSS and JS with timestamp -->
+    <!-- Cache Busting: Load CSS with timestamp -->
     <script>
         (function() {
             const timestamp = new Date().getTime();
-
-            // Load CSS with cache busting
             const cssLink = document.createElement('link');
             cssLink.rel = 'stylesheet';
             cssLink.href = './css/download-style.css?v=' + timestamp;
             document.head.appendChild(cssLink);
+
+            const i18nCss = document.createElement('link');
+            i18nCss.rel = 'stylesheet';
+            i18nCss.href = './css/i18n.css?v=' + timestamp;
+            document.head.appendChild(i18nCss);
         })();
     </script>
 
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 
-    <!-- Auto Language Detection and Redirect -->
+    <!-- Auto Language Detection and Redirect (preserve old behavior) -->
     <script>
         (function() {
-            // URL에 lang 파라미터가 없는 경우에만 실행
             const urlParams = new URLSearchParams(window.location.search);
             if (!urlParams.has('lang')) {
-                // 지원하는 언어 목록
                 const supportedLanguages = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'it', 'ja', 'ko', 'pt', 'ru', 'th', 'tr', 'zh'];
-
-                // 브라우저 언어 감지
                 const browserLang = (navigator.language || navigator.userLanguage || 'ko').toLowerCase();
-
-                // 언어 코드 추출 (예: 'en-US' -> 'en', 'zh-CN' -> 'zh')
                 const langCode = browserLang.split('-')[0];
-
-                // 지원하는 언어인지 확인, 아니면 'en'으로 기본 설정
                 const selectedLang = supportedLanguages.includes(langCode) ? langCode : 'en';
-
-                // lang 파라미터 추가하여 리다이렉트
                 const newUrl = `${window.location.pathname}?lang=${selectedLang}${window.location.hash}`;
                 window.location.replace(newUrl);
             }
@@ -85,17 +78,17 @@
         <div class="download-content">
             <!-- App Icon -->
             <div class="app-icon-wrapper">
-                <img src="./assets/app-icon.png" alt="Exchango FX App Icon" class="app-icon">
+                <img src="./assets/app-icon.png" alt="Exchango AI App Icon" class="app-icon">
             </div>
 
             <!-- App Info -->
-            <h1 class="app-title" data-i18n="appTitle">Exchango FX</h1>
-            <p class="app-tagline" data-i18n="appTagline">Your Global Currency Companion</p>
+            <h1 class="app-title" data-i18n="bridgeAppTitle">Exchango AI</h1>
+            <p class="app-tagline" data-i18n="bridgeAppTagline">Your Global Currency Companion</p>
 
             <!-- Loading Spinner -->
             <div class="loading-wrapper">
                 <div class="spinner"></div>
-                <p class="loading-text" data-i18n="loadingText">Redirecting to App Store...</p>
+                <p class="loading-text" data-i18n="bridgeLoadingText">Redirecting to App Store...</p>
             </div>
         </div>
     </div>
@@ -105,40 +98,46 @@
         <div class="download-content">
             <!-- App Icon -->
             <div class="app-icon-wrapper">
-                <img src="./assets/app-icon.png" alt="Exchango FX App Icon" class="app-icon">
+                <img src="./assets/app-icon.png" alt="Exchango AI App Icon" class="app-icon">
             </div>
 
             <!-- App Info -->
-            <h1 class="app-title" data-i18n="appTitle">Exchango FX</h1>
-            <p class="app-tagline" data-i18n="appTagline">Your Global Currency Companion</p>
-            <p class="app-description" data-i18n="appDescription">Convert, calculate, and split expenses across 150+ currencies</p>
+            <h1 class="app-title" data-i18n="bridgeAppTitle">Exchango AI</h1>
+            <p class="app-tagline" data-i18n="bridgeAppTagline">Your Global Currency Companion</p>
+            <p class="app-description" data-i18n="bridgeAppDescription">Convert, calculate, and split expenses across 150+ currencies</p>
 
             <!-- Download Buttons -->
             <div class="download-actions">
                 <a id="download-button-ios" href="https://apps.apple.com/app/id6752467916" class="store-badge-link" target="_blank" rel="noopener noreferrer">
-                    <img src="./assets/app_store.svg" alt="Download on the App Store" class="store-badge-img">
+                    <img src="./assets/app_store.svg" alt="Download on the App Store" class="store-badge-img" data-i18n-attr="alt:storeAppleAlt">
                 </a>
 
                 <a id="download-button-android" href="https://play.google.com/store/apps/details?id=com.exchango" class="store-badge-link" target="_blank" rel="noopener noreferrer">
-                    <img src="./assets/play_store.svg" alt="Get it on Google Play" class="store-badge-img">
+                    <img src="./assets/play_store.svg" alt="Get it on Google Play" class="store-badge-img" data-i18n-attr="alt:storeGoogleAlt">
                 </a>
 
-                <p class="help-text" data-i18n="helpText">Not redirecting?<br>Tap your store button</p>
+                <p class="help-text" data-i18n="bridgeHelpText">Not redirecting?<br>Tap your store button</p>
+
+                <!-- Language picker -->
+                <div data-lang-picker style="margin-top: 18px;"></div>
             </div>
         </div>
     </div>
 
-    <!-- Translation System -->
+    <!-- i18n + page logic -->
     <script>
         (function() {
             const timestamp = new Date().getTime();
-            const script1 = document.createElement('script');
-            script1.src = './js/download-translations.js?v=' + timestamp;
-            document.body.appendChild(script1);
-
-            const script2 = document.createElement('script');
-            script2.src = './js/download-script.js?v=' + timestamp;
-            document.body.appendChild(script2);
+            function load(src) {
+                const s = document.createElement('script');
+                s.src = src + '?v=' + timestamp;
+                s.async = false; // preserve order
+                document.body.appendChild(s);
+            }
+            load('./js/i18n-core.js');
+            load('./js/translations/common.js');
+            load('./js/translations/bridge.js');
+            load('./js/download-script.js');
         })();
     </script>
 

@@ -2,642 +2,593 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msvalidate.01" content="878FBD444F34D28F9D2FC908D2DE2D12" />
-    <!-- Cache Control -->
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <title data-i18n="pageTitle">Exchango FX - Your Global Currency Companion!</title>
-    <meta name="description" content="전 세계 150개 이상의 통화를 지원하는 스마트 환율 계산기 앱. 환율 계산, 정산, 팁 계산, 미니게임까지 한 번에 해결하세요.">
-    <meta name="keywords" content="환율, 계산기, 환율계산, 여행, 정산, 팁계산, currency, exchange rate, calculator">
-    <meta name="author" content="Exchango FX">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Exchango FX - Your Global Currency Companion!">
-    <meta property="og:description" content="150개 이상의 통화를 지원하는 올인원 환율 계산 앱">
-    <meta property="og:image" content="./assets/gp_image.png?1=1">
+    <title data-i18n="indexDocTitle">Exchango AI — The smartest way to see your money</title>
+    <meta name="description" content="실시간 환율 · AI 비서 Ango · 150+ 통화. 여행자가 만든, 여행자를 위한 환율 앱." data-i18n-attr="content:indexMetaDesc">
+    <meta name="keywords" content="환율, 계산기, 환율계산, 여행, 정산, AI 환율, Ango, currency, exchange rate, calculator">
+    <meta name="author" content="Exchango AI">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Exchango AI — The smartest way to see your money">
+    <meta property="og:description" content="실시간 환율 · AI 비서 Ango · 150+ 통화. 여행자가 만든, 여행자를 위한 환율 앱.">
+    <meta property="og:image" content="./assets/gp_image.png">
     <meta property="og:url" content="https://exchango.app">
     <meta property="og:type" content="website">
-    
-    <!-- Twitter Card Meta Tags -->
+
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Exchango AI — The smartest way to see your money">
+    <meta name="twitter:description" content="실시간 환율 · AI 비서 Ango · 150+ 통화">
+    <meta name="twitter:image" content="./assets/gp_image.png">
 
     <!-- RSS Feed -->
-    <link rel="alternate" type="application/rss+xml" title="Exchango FX RSS" href="./rss.xml">
-    <meta name="twitter:title" content="Exchango FX - Your Global Currency Companion!">
-    <meta name="twitter:description" content="150개 이상의 통화를 지원하는 올인원 환율 계산 앱">
-    <meta name="twitter:image" content="./assets/gp_image.png?1=1">
+    <link rel="alternate" type="application/rss+xml" title="Exchango AI RSS" href="./rss.xml">
 
     <meta name="naver-site-verification" content="c1cca99e024cc5eab5118649e021d2e37e5b0004" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/app-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/app-icon.png">
-    
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/index-style.css?v=1.1">
-    
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="./css/renewal-style.css?v=2.1">
+    <link rel="stylesheet" href="./css/i18n.css?v=1.2">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G05HY8WE79"></script>
-
-    <!-- Auto Language Detection and Redirect -->
-    <script>
-        (function() {
-            // URL에 lang 파라미터가 없는 경우에만 실행
-            const urlParams = new URLSearchParams(window.location.search);
-            if (!urlParams.has('lang')) {
-                // 지원하는 언어 목록
-                const supportedLanguages = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'it', 'ja', 'ko', 'pt', 'ru', 'th', 'tr', 'zh'];
-
-                // 브라우저 언어 감지
-                const browserLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
-
-                // 언어 코드 추출 (예: 'en-US' -> 'en', 'zh-CN' -> 'zh')
-                const langCode = browserLang.split('-')[0];
-
-                // 지원하는 언어인지 확인, 아니면 'en'으로 기본 설정
-                const selectedLang = supportedLanguages.includes(langCode) ? langCode : 'en';
-
-                // lang 파라미터 추가하여 리다이렉트
-                const newUrl = `${window.location.pathname}?lang=${selectedLang}${window.location.hash}`;
-                window.location.replace(newUrl);
-            }
-        })();
-    </script>
 </head>
 <body>
-    <!-- Skip to content for accessibility -->
-    <a href="#main-content" class="skip-link" data-i18n="skipToContent">메인 콘텐츠로 건너뛰기</a>
-    
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-        <!-- Language Selector Dropdown -->
-        <div class="language-selector-dropdown">
-            <button class="language-dropdown-btn" id="languageDropdownBtn" aria-label="Select Language" aria-expanded="false">
-                <span class="current-language">
-                    <i data-lucide="globe" class="language-icon"></i>
-                    <span class="language-text">한국어</span>
+    <a href="#main-content" class="skip-link" data-i18n="skipToMain">메인 콘텐츠로 건너뛰기</a>
+
+    <!-- ========== NAV ========== -->
+    <nav class="nav" aria-label="Primary">
+        <a href="#" class="logo" aria-label="Exchango AI">
+            <img class="logo-mark" src="./assets/app-icon.png" alt="" aria-hidden="true">
+
+            <span class="logo-content">
+                <span class="logo-text">
+                    <span class="name">Exchango</span>
+                    <span class="ai">AI</span>
                 </span>
-                <i data-lucide="chevron-down" class="dropdown-arrow"></i>
-            </button>
-            <div class="language-dropdown-menu" id="languageDropdownMenu" role="menu">
-                <a href="?lang=ar" class="language-option" data-lang="ar" role="menuitem">
-                    <span class="flag">🇸🇦</span>
-                    <span>العربية</span>
-                    <span class="native">Arabic</span>
-                </a>
-                <a href="?lang=de" class="language-option" data-lang="de" role="menuitem">
-                    <span class="flag">🇩🇪</span>
-                    <span>Deutsch</span>
-                    <span class="native">German</span>
-                </a>
-                <a href="?lang=en" class="language-option" data-lang="en" role="menuitem">
-                    <span class="flag">🇺🇸</span>
-                    <span>English</span>
-                    <span class="native">English</span>
-                </a>
-                <a href="?lang=es" class="language-option" data-lang="es" role="menuitem">
-                    <span class="flag">🇪🇸</span>
-                    <span>Español</span>
-                    <span class="native">Spanish</span>
-                </a>
-                <a href="?lang=fr" class="language-option" data-lang="fr" role="menuitem">
-                    <span class="flag">🇫🇷</span>
-                    <span>Français</span>
-                    <span class="native">French</span>
-                </a>
-                <a href="?lang=hi" class="language-option" data-lang="hi" role="menuitem">
-                    <span class="flag">🇮🇳</span>
-                    <span>हिन्दी</span>
-                    <span class="native">Hindi</span>
-                </a>
-                <a href="?lang=it" class="language-option" data-lang="it" role="menuitem">
-                    <span class="flag">🇮🇹</span>
-                    <span>Italiano</span>
-                    <span class="native">Italian</span>
-                </a>
-                <a href="?lang=ja" class="language-option" data-lang="ja" role="menuitem">
-                    <span class="flag">🇯🇵</span>
-                    <span>日本語</span>
-                    <span class="native">Japanese</span>
-                </a>
-                <a href="?lang=ko" class="language-option active" data-lang="ko" role="menuitem">
-                    <span class="flag">🇰🇷</span>
-                    <span>한국어</span>
-                    <span class="native">Korean</span>
-                </a>
-                <a href="?lang=pt" class="language-option" data-lang="pt" role="menuitem">
-                    <span class="flag">🇧🇷</span>
-                    <span>Português</span>
-                    <span class="native">Portuguese</span>
-                </a>
-                <a href="?lang=ru" class="language-option" data-lang="ru" role="menuitem">
-                    <span class="flag">🇷🇺</span>
-                    <span>Русский</span>
-                    <span class="native">Russian</span>
-                </a>
-                <a href="?lang=th" class="language-option" data-lang="th" role="menuitem">
-                    <span class="flag">🇹🇭</span>
-                    <span>ไทย</span>
-                    <span class="native">Thai</span>
-                </a>
-                <a href="?lang=tr" class="language-option" data-lang="tr" role="menuitem">
-                    <span class="flag">🇹🇷</span>
-                    <span>Türkçe</span>
-                    <span class="native">Turkish</span>
-                </a>
-                <a href="?lang=zh" class="language-option" data-lang="zh" role="menuitem">
-                    <span class="flag">🇨🇳</span>
-                    <span>中文</span>
-                    <span class="native">Chinese</span>
-                </a>
-            </div>
+                <span class="logo-tagline" data-i18n="logoTagline">Travel smarter!</span>
+            </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-i18n-attr="aria-label:ariaOpenMenu" aria-expanded="false" aria-controls="navMenu">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <line class="line line1" x1="4" y1="6"  x2="20" y2="6"/>
+                <line class="line line2" x1="4" y1="12" x2="20" y2="12"/>
+                <line class="line line3" x1="4" y1="18" x2="20" y2="18"/>
+            </svg>
+        </button>
+
+        <div class="nav-links" id="navMenu">
+            <a href="#ango" class="nav-link" data-i18n="navAngo">Ango AI</a>
+            <a href="#features" class="nav-link" data-i18n="navFeatures">Features</a>
+            <a href="#download" class="nav-link" data-i18n="navDownload">Download</a>
+            <div data-lang-picker></div>
         </div>
-        
-        <div class="hero-content">
-            <!-- App Icon -->
-            <div class="app-icon">
-                <img src="./assets/app-icon.png" alt="Exchango FX App Icon" class="app-icon-image">
-            </div>
-            
-            <!-- Hero Text -->
-            <h1 data-i18n="heroTitle">Exchango FX</h1>
-            <p class="hero-tagline" data-i18n="heroTagline">전 세계를 위한 스마트 환율 계산기</p>
-            <p class="hero-subtitle" data-i18n="heroSubtitle">150개 이상의 통화를 지원하는 올인원 환율 계산 및 정산 앱</p>
-            
-            <!-- Hero Stats -->
-            <div class="hero-stats">
-                <div class="stat-card">
-                    <div class="stat-icon">
-                        <i data-lucide="coins"></i>
-                    </div>
-                    <div class="stat-number" data-i18n="statCurrenciesValue">150+</div>
-                    <div class="stat-label" data-i18n="statCurrencies">지원 통화</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon">
-                        <i data-lucide="globe"></i>
-                    </div>
-                    <div class="stat-number" data-i18n="statLanguagesValue">14</div>
-                    <div class="stat-label" data-i18n="statLanguages">지원 언어</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon">
-                        <i data-lucide="heart"></i>
-                    </div>
-                    <div class="stat-number" id="priceDisplay" data-i18n="statPriceValue">
-                        <span class="price-loading">
-                            <i data-lucide="loader-2" class="spin-icon"></i>
-                        </span>
-                    </div>
-                    <div class="stat-label" data-i18n="statPrice">가격</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Main Content -->
+    </nav>
+
     <main id="main-content">
-        
-        <!-- Feature Showcase Section -->
+        <!-- ========== HERO ========== -->
+        <section class="hero" id="hero">
+            <div class="hero-inner">
+                <div class="eyebrow">
+                    <img class="fox" src="./assets/app-icon.png" alt="" aria-hidden="true">
+                    <span data-i18n="heroBadge">Now with Ango AI · 자연어 환율 비서</span>
+                </div>
+
+                <h1 class="hero-title">
+                    <span data-i18n="heroTitle1">환율을 보는</span><br>
+                    <span class="amber-grad" data-i18n="heroTitle2">가장 영리한 방법.</span>
+                </h1>
+
+                <p class="hero-sub" data-i18n="heroSub">실시간 환율 · AI 비서 Ango · 150+ 통화. 여행자가 만든, 여행자를 위한 환율 앱.</p>
+
+                <div class="store-row">
+                    <a href="https://apps.apple.com/app/id6752467916" class="store-badge" target="_blank" rel="noopener noreferrer">
+                        <svg width="22" height="26" viewBox="0 0 24 28" fill="currentColor" aria-hidden="true">
+                            <path d="M17.4 14.8c0-3 2.5-4.4 2.6-4.5-1.4-2-3.6-2.3-4.4-2.4-1.9-.2-3.6 1.1-4.6 1.1-1 0-2.4-1.1-3.9-1-2 0-3.9 1.2-4.9 3-2.1 3.6-.5 9 1.5 12 1 1.4 2.2 3 3.7 2.9 1.5-.1 2.1-1 3.9-1s2.3 1 3.9 1c1.6 0 2.6-1.4 3.6-2.9 1.1-1.6 1.6-3.2 1.6-3.3-.1 0-3.1-1.1-3.1-4.4zm-3.1-8.2c.8-1 1.4-2.5 1.2-3.9-1.2.1-2.7.8-3.6 1.8-.8.9-1.5 2.3-1.3 3.7 1.4.1 2.8-.7 3.7-1.6z"/>
+                        </svg>
+                        <div>
+                            <div class="small" data-i18n="storeAppleSmall">Download on the</div>
+                            <div class="big">App Store</div>
+                        </div>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.exchango" class="store-badge" target="_blank" rel="noopener noreferrer">
+                        <svg width="22" height="24" viewBox="0 0 22 24" fill="none" aria-hidden="true">
+                            <path d="M1.5 1.2C1.2 1.5 1 2 1 2.6V21.4C1 22 1.2 22.5 1.5 22.8L1.6 22.9L12.3 12.2V12L1.6 1.2H1.5Z" fill="#3D7BFF"/>
+                            <path d="M16.1 15.8L12.3 12V11.9L16.1 8.1L16.2 8.2L20.7 10.7C22 11.4 22 12.5 20.7 13.3L16.2 15.8H16.1Z" fill="#FFCD3C"/>
+                            <path d="M16.2 15.8L12.3 12L1.5 22.8C1.9 23.3 2.7 23.3 3.5 22.9L16.2 15.8Z" fill="#E94335"/>
+                            <path d="M16.2 8.2L3.5 1.1C2.7 0.7 1.9 0.8 1.5 1.2L12.3 12L16.2 8.2Z" fill="#34A853"/>
+                        </svg>
+                        <div>
+                            <div class="small" data-i18n="storeGoogleSmall">GET IT ON</div>
+                            <div class="big">Google Play</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="phone-stage" aria-hidden="true">
+                <div class="iphone iphone--side-l">
+                    <div class="iphone-screen"><img src="./assets/screenshots/06_ango_chat.png" alt=""></div>
+                </div>
+                <div class="iphone iphone--xl iphone--center">
+                    <div class="iphone-screen"><img src="./assets/screenshots/02_calculator.png" alt=""></div>
+                </div>
+                <div class="iphone iphone--side-r">
+                    <div class="iphone-screen"><img src="./assets/screenshots/09_rate_chart.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== TICKER ========== -->
+        <div class="ticker-band" aria-hidden="true">
+            <div class="ticker-track">
+                <!-- Items duplicated to make seamless loop -->
+                <div class="ticker-item"><span class="pair">USD/KRW</span><span class="val">1,474.04</span><span class="chg up">+0.18%</span></div>
+                <div class="ticker-item"><span class="pair">USD/JPY</span><span class="val">152.30</span><span class="chg down">-0.42%</span></div>
+                <div class="ticker-item"><span class="pair">EUR/USD</span><span class="val">1.0823</span><span class="chg up">+0.05%</span></div>
+                <div class="ticker-item"><span class="pair">GBP/USD</span><span class="val">1.2645</span><span class="chg up">+0.21%</span></div>
+                <div class="ticker-item"><span class="pair">USD/THB</span><span class="val">32.44</span><span class="chg down">-0.11%</span></div>
+                <div class="ticker-item"><span class="pair">USD/CNY</span><span class="val">7.182</span><span class="chg up">+0.08%</span></div>
+                <div class="ticker-item"><span class="pair">USD/SGD</span><span class="val">1.342</span><span class="chg down">-0.05%</span></div>
+                <div class="ticker-item"><span class="pair">AUD/USD</span><span class="val">0.658</span><span class="chg up">+0.13%</span></div>
+
+                <div class="ticker-item"><span class="pair">USD/KRW</span><span class="val">1,474.04</span><span class="chg up">+0.18%</span></div>
+                <div class="ticker-item"><span class="pair">USD/JPY</span><span class="val">152.30</span><span class="chg down">-0.42%</span></div>
+                <div class="ticker-item"><span class="pair">EUR/USD</span><span class="val">1.0823</span><span class="chg up">+0.05%</span></div>
+                <div class="ticker-item"><span class="pair">GBP/USD</span><span class="val">1.2645</span><span class="chg up">+0.21%</span></div>
+                <div class="ticker-item"><span class="pair">USD/THB</span><span class="val">32.44</span><span class="chg down">-0.11%</span></div>
+                <div class="ticker-item"><span class="pair">USD/CNY</span><span class="val">7.182</span><span class="chg up">+0.08%</span></div>
+                <div class="ticker-item"><span class="pair">USD/SGD</span><span class="val">1.342</span><span class="chg down">-0.05%</span></div>
+                <div class="ticker-item"><span class="pair">AUD/USD</span><span class="val">0.658</span><span class="chg up">+0.13%</span></div>
+            </div>
+        </div>
+
+        <!-- ========== STATS ========== -->
+        <section class="stats-section" aria-label="Key stats">
+            <div class="stats-grid">
+                <div class="stat">
+                    <div class="num">150+</div>
+                    <div class="label" data-i18n="statCurrencies">Currencies</div>
+                </div>
+                <div class="stat">
+                    <div class="num">14</div>
+                    <div class="label" data-i18n="statLanguages">Languages</div>
+                </div>
+                <div class="stat">
+                    <div class="num">4.9★</div>
+                    <div class="label" data-i18n="statRating">App rating</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== FEATURES ========== -->
         <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 data-i18n="featuresTitle">스마트한 환율 도구</h2>
-                    <p class="section-subtitle" data-i18n="featuresSubtitle">여행과 비즈니스를 위한 완벽한 환율 계산 솔루션</p>
+            <div class="section-head">
+                <div class="section-eyebrow">FEATURES</div>
+                <h2 class="section-title" data-i18n="featuresTitle">모든 환율 도구가<br>한 앱 안에.</h2>
+            </div>
+
+            <div class="feature-rows">
+                <article class="feature-row">
+                    <div class="feature-text">
+                        <div class="feature-tag">01 · CALCULATOR &amp; CURRENCIES</div>
+                        <h3 class="feature-title" data-i18n="f1Title">똑똑한 환율 계산기</h3>
+                        <p class="feature-desc" data-i18n="f1Desc">사칙연산과 환율 변환이 하나로. 150+ 통화에서 원하는 통화를 자유롭게 선택하고, 양방향 스왑까지 한 번에.</p>
+                        <ul class="bullets">
+                            <li data-i18n="f1B1">사칙연산 + 환율 변환 통합</li>
+                            <li data-i18n="f1B2">150+ 통화 자유롭게 선택</li>
+                            <li data-i18n="f1B3">양방향 변환 · 즉시 스왑</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="carousel" data-carousel>
+                            <div class="iphone iphone--xl">
+                                <div class="iphone-screen carousel-track">
+                                    <img class="carousel-img active" src="./assets/screenshots/02_calculator.png" alt="Calculator screen">
+                                    <img class="carousel-img" src="./assets/screenshots/13_currency_picker.png" alt="Currency picker">
+                                </div>
+                            </div>
+                            <button class="carousel-btn carousel-prev" type="button" aria-label="Previous screen">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                            </button>
+                            <button class="carousel-btn carousel-next" type="button" aria-label="Next screen">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </button>
+                            <div class="carousel-dots" aria-hidden="true">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-row reverse">
+                    <div class="feature-text">
+                        <div class="feature-tag">02 · SPLIT &amp; TIP</div>
+                        <h3 class="feature-title" data-i18n="f2Title">정산도, 팁도</h3>
+                        <p class="feature-desc" data-i18n="f2Desc">다통화 정산은 공정하게 분할하고, 팁은 국가별 권장 비율로 빠르게. 여행 중 발생하는 셈을 한 곳에서 깔끔하게 정리하세요.</p>
+                        <ul class="bullets">
+                            <li data-i18n="f2B1">다통화 인원별 자동 분할</li>
+                            <li data-i18n="f2B2">국가별 권장 팁 비율</li>
+                            <li data-i18n="f2B3">자국 통화로 즉시 환산</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="carousel" data-carousel>
+                            <div class="iphone iphone--xl">
+                                <div class="iphone-screen carousel-track">
+                                    <img class="carousel-img active" src="./assets/screenshots/03_split_bill.png" alt="Split bill screen">
+                                    <img class="carousel-img" src="./assets/screenshots/04_tip_calculator.png" alt="Tip calculator screen">
+                                </div>
+                            </div>
+                            <button class="carousel-btn carousel-prev" type="button" aria-label="Previous screen">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                            </button>
+                            <button class="carousel-btn carousel-next" type="button" aria-label="Next screen">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </button>
+                            <div class="carousel-dots" aria-hidden="true">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-row">
+                    <div class="feature-text">
+                        <div class="feature-tag">03 · RATES &amp; CHART</div>
+                        <h3 class="feature-title" data-i18n="f3Title">여러 통화 비교, 추이까지</h3>
+                        <p class="feature-desc" data-i18n="f3Desc">즐겨찾는 통화를 한 화면에 모아 동시 비교하고, 7 / 30 / 90일 추이 차트로 환율의 흐름까지 한눈에.</p>
+                        <ul class="bullets">
+                            <li data-i18n="f3B1">즐겨찾기 통화 동시 비교</li>
+                            <li data-i18n="f3B2">7 / 30 / 90일 추이 차트</li>
+                            <li data-i18n="f3B3">평균 · 변동폭 지표</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="carousel" data-carousel>
+                            <div class="iphone iphone--xl">
+                                <div class="iphone-screen carousel-track">
+                                    <img class="carousel-img active" src="./assets/screenshots/08_rates_list.png" alt="Multi-currency calculator">
+                                    <img class="carousel-img" src="./assets/screenshots/09_rate_chart.png" alt="Rate chart screen">
+                                </div>
+                            </div>
+                            <button class="carousel-btn carousel-prev" type="button" aria-label="Previous screen">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                            </button>
+                            <button class="carousel-btn carousel-next" type="button" aria-label="Next screen">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </button>
+                            <div class="carousel-dots" aria-hidden="true">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-row reverse">
+                    <div class="feature-text">
+                        <div class="feature-tag">04 · HISTORY</div>
+                        <h3 class="feature-title" data-i18n="f4Title">히스토리 + 캘린더</h3>
+                        <p class="feature-desc" data-i18n="f4Desc">모든 계산이 자동으로 기록됩니다. 캘린더 뷰로 언제 어떤 환율로 계산했는지 한눈에 확인하고, 중요한 기록은 즐겨찾기로.</p>
+                        <ul class="bullets">
+                            <li data-i18n="f4B1">자동 저장 · 캘린더 뷰</li>
+                            <li data-i18n="f4B2">즐겨찾기 · 검색</li>
+                            <li data-i18n="f4B3">날짜별 환율 다시 보기</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="iphone iphone--xl">
+                            <div class="iphone-screen"><img src="./assets/screenshots/10_history.png" alt="History screen"></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-row">
+                    <div class="feature-text">
+                        <div class="feature-tag">05 · SETTINGS &amp; LANGUAGES</div>
+                        <h3 class="feature-title" data-i18n="f5Title">내 손에 맞게</h3>
+                        <p class="feature-desc" data-i18n="f5Desc">기본 통화부터 글꼴 크기까지 — 내 취향대로. 한국어부터 아랍어까지 14개 언어로, 어디서든 내 언어로 만나세요.</p>
+                        <ul class="bullets">
+                            <li data-i18n="f5B1">14개 언어 지원 (한국어 → 아랍어)</li>
+                            <li data-i18n="f5B2">기본 통화 · 글꼴 크기</li>
+                            <li data-i18n="f5B3">내 취향대로 커스터마이즈</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="carousel" data-carousel>
+                            <div class="iphone iphone--xl">
+                                <div class="iphone-screen carousel-track">
+                                    <img class="carousel-img active" src="./assets/screenshots/12_settings.png" alt="Settings screen">
+                                    <img class="carousel-img" src="./assets/screenshots/13_language_picker.png" alt="Language picker">
+                                </div>
+                            </div>
+                            <button class="carousel-btn carousel-prev" type="button" aria-label="Previous screen">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                            </button>
+                            <button class="carousel-btn carousel-next" type="button" aria-label="Next screen">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </button>
+                            <div class="carousel-dots" aria-hidden="true">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ========== ANGO ========== -->
+        <section class="ango" id="ango">
+            <div class="ango-inner">
+                <div>
+                    <div class="ango-eyebrow">
+                        <img class="fox" src="./assets/app-icon.png" alt="" aria-hidden="true">
+                        <span data-i18n="angoBadge">MEET ANGO · 환율 비서</span>
+                    </div>
+                    <h2><span class="hi">Hi,</span><br>I'm Ango.</h2>
+                    <p class="lede" data-i18n="angoLede">여행, 환전, 예산, 환율 비교 — 자연어로 물어보세요. 여우 비서 Ango가 즉시 답해드립니다.</p>
+                    <div class="ango-prompts">
+                        <div class="ango-prompt">
+                            <span class="ico">✈️</span>
+                            <span data-i18n="angoQ1">Plan a 3-night Japan travel budget</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </div>
+                        <div class="ango-prompt">
+                            <span class="ico">💱</span>
+                            <span data-i18n="angoQ2">Compare USD, JPY, and EUR rates</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </div>
+                        <div class="ango-prompt">
+                            <span class="ico">🏧</span>
+                            <span data-i18n="angoQ3">Airport exchange or local ATM?</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </div>
+                        <div class="ango-prompt">
+                            <span class="ico">📊</span>
+                            <span data-i18n="angoQ4">Summarize today's calculations</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="features-grid">
-                    <!-- 1. Smart Currency Calculator -->
-                    <div class="feature-card">
-                        <div class="feature-image">
-                            <img src="./assets/device/Device_계산기.png" alt="Smart Currency Calculator" class="device-screenshot">
-                        </div>
-                        <div class="feature-content">
-                            <div class="feature-icon">
-                                <i data-lucide="calculator"></i>
-                            </div>
-                            <h3 data-i18n="calculatorTitle">스마트 환율 계산기</h3>
-                            <p data-i18n="calculatorDesc">직관적인 계산기로 150개 이상의 통화 간 환율을 실시간으로 계산합니다. 수학 연산과 환율 변환이 하나로 통합되어 있어 복잡한 계산도 쉽게 해결할 수 있습니다.</p>
-                            <ul class="feature-list">
-                                <li data-i18n="calculatorFeature1">실시간 환율 데이터</li>
-                                <li data-i18n="calculatorFeature2">양방향 계산 및 스왑</li>
-                                <li data-i18n="calculatorFeature3">계산 히스토리 저장</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <!-- 2. Calculation History with Gallery -->
-                    <div class="feature-card">
-                        <div class="feature-gallery">
-                            <div class="gallery-container">
-                                <div class="gallery-track">
-                                    <div class="gallery-item">
-                                        <img src="./assets/device/Device_계산기_히스토리.png" alt="Calculation History" class="device-screenshot">
-                                    </div>
-                                    <div class="gallery-item">
-                                        <img src="./assets/device/Device_계산기_히스토리_캘린더.png" alt="History Calendar" class="device-screenshot">
-                                    </div>
-                                    <div class="gallery-item">
-                                        <img src="./assets/device/Device_계산기_히스토리_캘린더_상세.png" alt="History Calendar Detail" class="device-screenshot">
-                                    </div>
-                                </div>
-                                <div class="gallery-controls">
-                                    <button class="gallery-btn prev" aria-label="Previous image">
-                                        <i data-lucide="chevron-left"></i>
-                                    </button>
-                                    <button class="gallery-btn next" aria-label="Next image">
-                                        <i data-lucide="chevron-right"></i>
-                                    </button>
-                                </div>
-                                <div class="gallery-indicators">
-                                    <span class="indicator active"></span>
-                                    <span class="indicator"></span>
-                                    <span class="indicator"></span>
-                                </div>
+                <div class="ango-phone-wrap">
+                    <div class="carousel" data-carousel>
+                        <div class="iphone iphone--xl">
+                            <div class="iphone-screen carousel-track">
+                                <img class="carousel-img active" src="./assets/screenshots/06_ango_chat.png" alt="Ango AI chat screen">
+                                <img class="carousel-img" src="./assets/screenshots/05_ango_intro.png" alt="Ango AI intro screen">
                             </div>
                         </div>
-                        <div class="feature-content">
-                            <div class="feature-icon">
-                                <i data-lucide="calendar"></i>
-                            </div>
-                            <h3 data-i18n="historyTitle">계산 히스토리</h3>
-                            <p data-i18n="historyDesc">모든 계산 기록을 체계적으로 관리하세요. 캘린더 뷰와 상세 검색 기능으로 과거 계산 내역을 쉽게 찾아볼 수 있습니다.</p>
-                            <ul class="feature-list">
-                                <li data-i18n="historyFeature1">캘린더 뷰 지원</li>
-                                <li data-i18n="historyFeature2">상세 검색 및 필터</li>
-                                <li data-i18n="historyFeature3">데이터 내보내기</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- 3. Menu -->
-                    <div class="feature-card">
-                        <div class="feature-image">
-                            <img src="./assets/device/Device_메뉴.png" alt="Navigation Menu" class="device-screenshot">
-                        </div>
-                        <div class="feature-content">
-                            <div class="feature-icon">
-                                <i data-lucide="menu"></i>
-                            </div>
-                            <h3 data-i18n="menuTitle">직관적인 메뉴</h3>
-                            <p data-i18n="menuDesc">모든 기능에 쉽게 접근할 수 있는 깔끔하고 직관적인 메뉴 인터페이스를 제공합니다. 원하는 기능을 빠르게 찾아 사용하세요.</p>
-                            <ul class="feature-list">
-                                <li data-i18n="menuFeature1">원터치 빠른 접근</li>
-                                <li data-i18n="menuFeature2">체계적인 기능 분류</li>
-                                <li data-i18n="menuFeature3">사용자 친화적 디자인</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- 4. Settlement Calculator -->
-                    <div class="feature-card">
-                        <div class="feature-image">
-                            <img src="./assets/device/Device_정산.png" alt="Settlement Calculator" class="device-screenshot">
-                        </div>
-                        <div class="feature-content">
-                            <div class="feature-icon">
-                                <i data-lucide="users"></i>
-                            </div>
-                            <h3 data-i18n="settlementTitle">정산 계산기</h3>
-                            <p data-i18n="settlementDesc">해외여행이나 국제 비즈니스에서 발생하는 다통화 정산을 간단하게 해결하세요. 여러 사람이 각각 다른 통화로 지불한 금액을 공정하게 분할합니다.</p>
-                            <ul class="feature-list">
-                                <li data-i18n="settlementFeature1">다통화 동시 계산</li>
-                                <li data-i18n="settlementFeature2">공정한 비용 분담</li>
-                                <li data-i18n="settlementFeature3">참가자 유연 관리</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <!-- 5. Tip Calculator -->
-                    <div class="feature-card">
-                        <div class="feature-image">
-                            <img src="./assets/device/Device_팁.png" alt="Tip Calculator" class="device-screenshot">
-                        </div>
-                        <div class="feature-content">
-                            <div class="feature-icon">
-                                <i data-lucide="percent"></i>
-                            </div>
-                            <h3 data-i18n="tipTitle">팁 계산기</h3>
-                            <p data-i18n="tipDesc">적절한 팁 비율을 계산하고 인원수별로 분할하세요. 다양한 국가의 팁 문화를 고려한 스마트한 계산 기능을 제공합니다.</p>
-                            <ul class="feature-list">
-                                <li data-i18n="tipFeature1">국가별 팁 비율 가이드</li>
-                                <li data-i18n="tipFeature2">인원별 분할 계산</li>
-                                <li data-i18n="tipFeature3">팁 계산 히스토리</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <!-- 6. Today's Rates with Gallery -->
-                    <div class="feature-card">
-                        <div class="feature-gallery">
-                            <div class="gallery-container">
-                                <div class="gallery-track">
-                                    <div class="gallery-item">
-                                        <img src="./assets/device/Device_오늘의환율.png" alt="Today's Exchange Rates" class="device-screenshot">
-                                    </div>
-                                    <div class="gallery-item">
-                                        <img src="./assets/device/Device_오늘의환율_차트.png" alt="Exchange Rate Chart" class="device-screenshot">
-                                    </div>
-                                </div>
-                                <div class="gallery-controls">
-                                    <button class="gallery-btn prev" aria-label="Previous image">
-                                        <i data-lucide="chevron-left"></i>
-                                    </button>
-                                    <button class="gallery-btn next" aria-label="Next image">
-                                        <i data-lucide="chevron-right"></i>
-                                    </button>
-                                </div>
-                                <div class="gallery-indicators">
-                                    <span class="indicator active"></span>
-                                    <span class="indicator"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="feature-content">
-                            <div class="feature-icon">
-                                <i data-lucide="trending-up"></i>
-                            </div>
-                            <h3 data-i18n="ratesTitle">오늘의 환율</h3>
-                            <p data-i18n="ratesDesc">전 세계 통화의 실시간 환율 정보를 한눈에 확인하세요. 즐겨찾기 기능으로 자주 사용하는 통화를 빠르게 접근할 수 있습니다.</p>
-                            <ul class="feature-list">
-                                <li data-i18n="ratesFeature1">실시간 환율 업데이트</li>
-                                <li data-i18n="ratesFeature2">즐겨찾기 통화 관리</li>
-                                <li data-i18n="ratesFeature3">환율 변동 추이 표시</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <!-- 7. Multi-Currency Calculator -->
-                    <div class="feature-card">
-                        <div class="feature-image">
-                            <img src="./assets/device/Device_다중환율.png" alt="Multi-Currency Calculator" class="device-screenshot">
-                        </div>
-                        <div class="feature-content">
-                            <div class="feature-icon">
-                                <i data-lucide="layers"></i>
-                            </div>
-                            <h3 data-i18n="multiCurrencyTitle">다중 환율 계산기</h3>
-                            <p data-i18n="multiCurrencyDesc">한 번에 여러 통화의 환율을 동시에 확인하고 비교할 수 있습니다. 복잡한 다국가 거래나 여행 계획에 유용한 기능입니다.</p>
-                            <ul class="feature-list">
-                                <li data-i18n="multiCurrencyFeature1">동시 다중 통화 변환</li>
-                                <li data-i18n="multiCurrencyFeature2">통화별 비교 분석</li>
-                                <li data-i18n="multiCurrencyFeature3">즐겨찾기 통화 그룹</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- 8. History Management -->
-                    <div class="feature-card">
-                        <div class="feature-image">
-                            <img src="./assets/device/Device_히스토리_관리.png" alt="History Management" class="device-screenshot">
-                        </div>
-                        <div class="feature-content">
-                            <div class="feature-icon">
-                                <i data-lucide="archive"></i>
-                            </div>
-                            <h3 data-i18n="historyManagementTitle">히스토리 관리</h3>
-                            <p data-i18n="historyManagementDesc">계산 기록을 체계적으로 관리하고 정리하세요. 중요한 기록은 즐겨찾기로, 불필요한 기록은 간편하게 삭제할 수 있습니다.</p>
-                            <ul class="feature-list">
-                                <li data-i18n="historyManagementFeature1">스와이프로 간편 삭제</li>
-                                <li data-i18n="historyManagementFeature2">중요 기록 즐겨찾기</li>
-                                <li data-i18n="historyManagementFeature3">일괄 선택 및 관리</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- 9. Settings -->
-                    <div class="feature-card">
-                        <div class="feature-image">
-                            <img src="./assets/device/Device_설정.png" alt="App Settings" class="device-screenshot">
-                        </div>
-                        <div class="feature-content">
-                            <div class="feature-icon">
-                                <i data-lucide="settings"></i>
-                            </div>
-                            <h3 data-i18n="settingsTitle">설정</h3>
-                            <p data-i18n="settingsDesc">개인 취향에 맞게 앱을 설정하세요. 다크/라이트 테마, 언어 설정, 글꼴 크기 조절 등 다양한 커스터마이징 옵션을 제공합니다.</p>
-                            <ul class="feature-list">
-                                <li data-i18n="settingsFeature1">기본 통화 선택</li>
-                                <li data-i18n="settingsFeature2">14개 언어 지원</li>
-                                <li data-i18n="settingsFeature3">다크/라이트 테마</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- 10. Widget -->
-                    <div class="feature-card">
-                        <div class="feature-image">
-                            <img src="./assets/device/Device_위젯.png" alt="Home Screen Widget" class="device-screenshot">
-                        </div>
-                        <div class="feature-content">
-                            <div class="feature-icon">
-                                <i data-lucide="layout-dashboard"></i>
-                            </div>
-                            <h3 data-i18n="widgetTitle">홈 화면 위젯</h3>
-                            <p data-i18n="widgetDesc">홈 화면에서 바로 환율을 확인하세요. 앱을 열지 않고도 주요 통화의 실시간 환율을 한눈에 볼 수 있습니다.</p>
-                            <ul class="feature-list">
-                                <li data-i18n="widgetFeature1">실시간 환율 표시</li>
-                                <li data-i18n="widgetFeature2">다양한 위젯 크기</li>
-                                <li data-i18n="widgetFeature3">자동 업데이트</li>
-                            </ul>
+                        <button class="carousel-btn carousel-prev" type="button" aria-label="Previous screen">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        </button>
+                        <button class="carousel-btn carousel-next" type="button" aria-label="Next screen">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                        <div class="carousel-dots" aria-hidden="true">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Technical Excellence Section -->
-        <section class="tech-excellence" id="tech">
-            <div class="container">
-                <div class="section-header">
-                    <h2 data-i18n="techTitle">기술적 우수성</h2>
-                    <p class="section-subtitle" data-i18n="techSubtitle">최신 기술로 구현된 안정적이고 빠른 성능</p>
-                </div>
-                
-                <div class="tech-grid">
-                    <div class="tech-card">
-                        <div class="tech-icon">
-                            <i data-lucide="zap"></i>
+        <!-- ========== FINAL CTA ========== -->
+        <section class="cta-final" id="download">
+            <div class="cta-inner">
+                <img class="fox" src="./assets/app-icon.png" alt="" aria-hidden="true">
+                <h2>
+                    <span data-i18n="ctaTitle1">Download.</span><br>
+                    <span class="amber-grad" data-i18n="ctaTitle2">Travel smarter.</span>
+                </h2>
+                <p data-i18n="ctaSub">무료로. 언제나. 어디서나.</p>
+                <div class="store-row">
+                    <a href="https://apps.apple.com/app/id6752467916" class="store-badge" target="_blank" rel="noopener noreferrer">
+                        <svg width="22" height="26" viewBox="0 0 24 28" fill="currentColor" aria-hidden="true">
+                            <path d="M17.4 14.8c0-3 2.5-4.4 2.6-4.5-1.4-2-3.6-2.3-4.4-2.4-1.9-.2-3.6 1.1-4.6 1.1-1 0-2.4-1.1-3.9-1-2 0-3.9 1.2-4.9 3-2.1 3.6-.5 9 1.5 12 1 1.4 2.2 3 3.7 2.9 1.5-.1 2.1-1 3.9-1s2.3 1 3.9 1c1.6 0 2.6-1.4 3.6-2.9 1.1-1.6 1.6-3.2 1.6-3.3-.1 0-3.1-1.1-3.1-4.4zm-3.1-8.2c.8-1 1.4-2.5 1.2-3.9-1.2.1-2.7.8-3.6 1.8-.8.9-1.5 2.3-1.3 3.7 1.4.1 2.8-.7 3.7-1.6z"/>
+                        </svg>
+                        <div>
+                            <div class="small" data-i18n="storeAppleSmall">Download on the</div>
+                            <div class="big">App Store</div>
                         </div>
-                        <h3 data-i18n="performanceTitle">고성능</h3>
-                        <p data-i18n="performanceDesc">최신 모바일 기술로 구축되어 iOS와 Android에서 네이티브 수준의 빠른 성능을 제공합니다.</p>
-                    </div>
-                    
-                    <div class="tech-card">
-                        <div class="tech-icon">
-                            <i data-lucide="wifi-off"></i>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.exchango" class="store-badge" target="_blank" rel="noopener noreferrer">
+                        <svg width="22" height="24" viewBox="0 0 22 24" fill="none" aria-hidden="true">
+                            <path d="M1.5 1.2C1.2 1.5 1 2 1 2.6V21.4C1 22 1.2 22.5 1.5 22.8L1.6 22.9L12.3 12.2V12L1.6 1.2H1.5Z" fill="#3D7BFF"/>
+                            <path d="M16.1 15.8L12.3 12V11.9L16.1 8.1L16.2 8.2L20.7 10.7C22 11.4 22 12.5 20.7 13.3L16.2 15.8H16.1Z" fill="#FFCD3C"/>
+                            <path d="M16.2 15.8L12.3 12L1.5 22.8C1.9 23.3 2.7 23.3 3.5 22.9L16.2 15.8Z" fill="#E94335"/>
+                            <path d="M16.2 8.2L3.5 1.1C2.7 0.7 1.9 0.8 1.5 1.2L12.3 12L16.2 8.2Z" fill="#34A853"/>
+                        </svg>
+                        <div>
+                            <div class="small" data-i18n="storeGoogleSmall">GET IT ON</div>
+                            <div class="big">Google Play</div>
                         </div>
-                        <h3 data-i18n="offlineTitle">오프라인 지원</h3>
-                        <p data-i18n="offlineDesc">인터넷 연결 없이도 기본 계산 기능을 사용할 수 있어 언제 어디서나 신뢰할 수 있습니다.</p>
-                    </div>
-                    
-                    <div class="tech-card">
-                        <div class="tech-icon">
-                            <i data-lucide="shield"></i>
-                        </div>
-                        <h3 data-i18n="securityTitle">안전한 데이터</h3>
-                        <p data-i18n="securityDesc">모든 데이터는 디바이스에 안전하게 저장되며, 개인정보 보호를 최우선으로 합니다.</p>
-                    </div>
-                    
-                    <div class="tech-card">
-                        <div class="tech-icon">
-                            <i data-lucide="refresh-cw"></i>
-                        </div>
-                        <h3 data-i18n="updateTitle">자동 업데이트</h3>
-                        <p data-i18n="updateDesc">환율 데이터와 앱 기능이 자동으로 업데이트되어 항상 최신 정보를 유지합니다.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- User Benefits Section -->
-        <section class="benefits" id="benefits">
-            <div class="container">
-                <div class="section-header">
-                    <h2 data-i18n="benefitsTitle">왜 Exchango를 선택해야 할까요?</h2>
-                    <p class="section-subtitle" data-i18n="benefitsSubtitle">여행자와 비즈니스 전문가들이 선택하는 이유</p>
-                </div>
-                
-                <div class="benefits-grid">
-                    <div class="benefit-card">
-                        <div class="benefit-icon">
-                            <i data-lucide="plane"></i>
-                        </div>
-                        <h3 data-i18n="travelersTitle">여행자를 위한 필수 앱</h3>
-                        <p data-i18n="travelersDesc">해외여행 중 환율 계산, 팁 계산, 그룹 정산까지 한 번에 해결하세요.</p>
-                    </div>
-                    
-                    <div class="benefit-card">
-                        <div class="benefit-icon">
-                            <i data-lucide="briefcase"></i>
-                        </div>
-                        <h3 data-i18n="businessTitle">비즈니스 전문가의 도구</h3>
-                        <p data-i18n="businessDesc">국제 거래와 다통화 회계 업무를 효율적으로 처리할 수 있습니다.</p>
-                    </div>
-                    
-                    <div class="benefit-card">
-                        <div class="benefit-icon">
-                            <i data-lucide="check-circle"></i>
-                        </div>
-                        <h3 data-i18n="reliableTitle">신뢰할 수 있는 정확성</h3>
-                        <p data-i18n="reliableDesc">실시간 환율 데이터와 정확한 계산 알고리즘으로 신뢰할 수 있는 결과를 제공합니다.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Download Section -->
-        <section class="download-section" id="download">
-            <div class="container">
-                <div class="download-content">
-                    <div class="download-text">
-                        <h2 data-i18n="downloadTitle">지금 바로 다운로드하세요</h2>
-                        <p class="download-subtitle" data-i18n="downloadSubtitle">무료로 제공되는 스마트한 환율 계산 솔루션</p>
-                        <p class="download-desc" data-i18n="downloadDesc">150개 이상의 통화를 지원하는 Exchango로 환율 계산을 더 쉽고 정확하게 만들어보세요.</p>
-                        
-                        <div class="download-buttons">
-                            <!-- App Store Badge -->
-                            <a href="https://apps.apple.com/app/id6752467916" class="store-badge app-store-badge" target="_blank" rel="noopener noreferrer">
-                                <img src="./assets/app_store.svg" 
-                                     alt="Download on the App Store" 
-                                     class="store-badge-img">
-                            </a>
-                            
-                            <!-- Google Play Badge -->
-                            <a href="https://play.google.com/store/apps/details?id=com.exchango" class="store-badge google-play-badge" target="_blank" rel="noopener noreferrer">
-                                <img src="./assets/play_store.svg"
-                                     alt="Get it on Google Play"
-                                     class="store-badge-img">
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="download-visual">
-                        <div class="phone-mockup">
-                            <div class="phone-carousel">
-                                <div class="phone-carousel-track">
-                                    <img src="./assets/device/Device_스프린트.png" alt="Exchango FX App - 스프린트" class="phone-screenshot active">
-                                    <img src="./assets/device/Device_온보딩1.png" alt="Exchango FX App - 온보딩 1" class="phone-screenshot">
-                                    <img src="./assets/device/Device_온보딩2.png" alt="Exchango FX App - 온보딩 2" class="phone-screenshot">
-                                    <img src="./assets/device/Device_온보딩3.png" alt="Exchango FX App - 온보딩 3" class="phone-screenshot">
-                                    <img src="./assets/device/Device_온보딩4.png" alt="Exchango FX App - 온보딩 4" class="phone-screenshot">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
     </main>
-    
-    <!-- Footer -->
-    <footer class="footer" id="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="footer-logo">
-                        <img src="./assets/app-icon.png" alt="Exchango FX" class="footer-logo-image">
-                        <span class="footer-brand-name">Exchango FX</span>
-                    </div>
-                    <p class="footer-tagline" data-i18n="heroTagline">전 세계를 위한 스마트 환율 계산기</p>
-                </div>
-                
-                <div class="footer-links">
-                    <div class="footer-section">
-                        <h4 data-i18n="footerAbout">Exchango FX 소개</h4>
-                        <ul>
-                            <li><a href="index.html" data-i18n="footerAbout">Exchango FX 소개</a></li>
-                            <li><a href="#features" data-i18n="featuresTitle">주요 기능</a></li>
-                            <li><a href="#download" data-i18n="downloadTitle">다운로드</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer-section">
-                        <h4 data-i18n="footerSupport">고객 지원</h4>
-                        <ul>
-                            <li><a href="about.html" data-i18n="footerAboutPage">Exchango FX 소개</a></li>
-                            <li><a href="privacy_policy.html" data-i18n="footerPrivacy">개인정보처리방침</a></li>
-                        </ul>
-                    </div>
-                </div>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <a href="#" class="logo" style="--logo-size: 28px;" aria-label="Exchango AI">
+                <img class="logo-mark" src="./assets/app-icon.png" alt="" aria-hidden="true">
+                <span class="logo-content">
+                    <span class="logo-text">
+                        <span class="name">Exchango</span>
+                        <span class="ai">AI</span>
+                    </span>
+                    <span class="logo-tagline" data-i18n="logoTagline">Travel smarter!</span>
+                </span>
+            </a>
+            <div class="footer-links">
+                <a href="about.html" data-i18n="footerAbout">About</a>
+                <a href="privacy_policy.html" data-i18n="footerPrivacy">Privacy</a>
             </div>
-            
-            <div class="footer-bottom">
-                <p class="copyright" data-i18n="footerCopyright">Copyright © 2025 Exchango FX All rights reserved.</p>
-            </div>
+            <div class="footer-copy" data-i18n="footerCopyIndex">© 2026 Exchango AI · Made for travelers, built for everyone.</div>
         </div>
     </footer>
-    
-    <!-- Back to Top Button -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top" title="맨 위로 돌아가기">
-        <i data-lucide="arrow-up"></i>
-    </button>
-    
-    <!-- Scripts -->
-    <script src="./js/index-translations.js?v=1.1"></script>
-    <script src="./js/index-script.js?v=1.1"></script>
+
+    <!-- ========== Inline JS: Mobile nav toggle ========== -->
+    <script>
+    (function() {
+        var toggle = document.querySelector('.nav-toggle');
+        var menu   = document.getElementById('navMenu');
+        if (!toggle || !menu) return;
+        function close() { menu.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); }
+        function open()  { menu.classList.add('open');    toggle.setAttribute('aria-expanded','true');  }
+        toggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            menu.classList.contains('open') ? close() : open();
+        });
+        document.addEventListener('click', function(e) {
+            if (menu.classList.contains('open') && !menu.contains(e.target) && !toggle.contains(e.target)) close();
+        });
+        menu.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', close); });
+        window.addEventListener('resize', function() { if (window.innerWidth > 768) close(); });
+        window.addEventListener('keydown', function(e) { if (e.key === 'Escape') close(); });
+    })();
+    </script>
+
+    <!-- ========== Inline JS: Feature carousels ========== -->
+    <script>
+    (function() {
+        document.querySelectorAll('[data-carousel]').forEach(function(c) {
+            var imgs = c.querySelectorAll('.carousel-img');
+            var dots = c.querySelectorAll('.carousel-dots .dot');
+            var prev = c.querySelector('.carousel-prev');
+            var next = c.querySelector('.carousel-next');
+            if (!imgs.length) return;
+            var idx = 0;
+            function go(n) {
+                idx = (n + imgs.length) % imgs.length;
+                imgs.forEach(function(img, i) { img.classList.toggle('active', i === idx); });
+                dots.forEach(function(d, i) { d.classList.toggle('active', i === idx); });
+            }
+            if (prev) prev.addEventListener('click', function() { go(idx - 1); });
+            if (next) next.addEventListener('click', function() { go(idx + 1); });
+            dots.forEach(function(d, i) { d.addEventListener('click', function() { go(i); }); });
+        });
+    })();
+    </script>
+
+    <!-- ========== i18n: 14-language unified system ========== -->
+    <script src="./js/i18n-core.js?v=1.3"></script>
+    <script src="./js/translations/common.js?v=1.0"></script>
+    <script src="./js/translations/index.js?v=1.0"></script>
+
+    <!-- ========== Live ticker rates (fawazahmed0/exchange-api via jsdelivr) ========== -->
+    <script>
+    (function() {
+        const PAIRS = [
+            { display: 'USD/KRW', code: 'krw', invert: false, decimals: 2 },
+            { display: 'USD/JPY', code: 'jpy', invert: false, decimals: 2 },
+            { display: 'EUR/USD', code: 'eur', invert: true,  decimals: 4 },
+            { display: 'GBP/USD', code: 'gbp', invert: true,  decimals: 4 },
+            { display: 'USD/THB', code: 'thb', invert: false, decimals: 2 },
+            { display: 'USD/CNY', code: 'cny', invert: false, decimals: 3 },
+            { display: 'USD/SGD', code: 'sgd', invert: false, decimals: 3 },
+            { display: 'AUD/USD', code: 'aud', invert: true,  decimals: 3 }
+        ];
+
+        const ENDPOINTS = [
+            (d) => `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@${d}/v1/currencies/usd.json`,
+            (d) => `https://${d}.currency-api.pages.dev/v1/currencies/usd.json`
+        ];
+
+        async function fetchRates(date) {
+            for (const ep of ENDPOINTS) {
+                try {
+                    const res = await fetch(ep(date), { cache: 'no-cache' });
+                    if (res.ok) return await res.json();
+                } catch (_) { /* try next */ }
+            }
+            return null;
+        }
+
+        function ymd(d) {
+            return d.toISOString().slice(0, 10);
+        }
+
+        function formatVal(rate, decimals) {
+            return rate.toLocaleString('en-US', {
+                minimumFractionDigits: decimals,
+                maximumFractionDigits: decimals
+            });
+        }
+
+        function formatChg(pct) {
+            const sign = pct >= 0 ? '+' : '';
+            return `${sign}${pct.toFixed(2)}%`;
+        }
+
+        async function updateTicker() {
+            const yesterday = new Date();
+            yesterday.setDate(yesterday.getDate() - 1);
+
+            const [todayData, yesterdayData] = await Promise.all([
+                fetchRates('latest'),
+                fetchRates(ymd(yesterday))
+            ]);
+
+            if (!todayData || !todayData.usd) return;
+
+            document.querySelectorAll('.ticker-item').forEach(item => {
+                const pairText = item.querySelector('.pair')?.textContent?.trim();
+                const pair = PAIRS.find(p => p.display === pairText);
+                if (!pair) return;
+
+                const todayRaw = todayData.usd[pair.code];
+                if (todayRaw == null) return;
+                const todayRate = pair.invert ? 1 / todayRaw : todayRaw;
+
+                const valEl = item.querySelector('.val');
+                if (valEl) valEl.textContent = formatVal(todayRate, pair.decimals);
+
+                const yesterdayRaw = yesterdayData?.usd?.[pair.code];
+                if (yesterdayRaw == null) return;
+                const yesterdayRate = pair.invert ? 1 / yesterdayRaw : yesterdayRaw;
+                const pct = ((todayRate - yesterdayRate) / yesterdayRate) * 100;
+
+                const chgEl = item.querySelector('.chg');
+                if (chgEl) {
+                    chgEl.textContent = formatChg(pct);
+                    chgEl.classList.remove('up', 'down');
+                    chgEl.classList.add(pct >= 0 ? 'up' : 'down');
+                }
+            });
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', updateTicker);
+        } else {
+            updateTicker();
+        }
+    })();
+    </script>
 
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-G05HY8WE79');
-    </script>
-
-    <!-- Initialize Lucide Icons -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            if (typeof lucide !== 'undefined') {
-                lucide.createIcons();
-                console.log('✅ Lucide icons initialized');
-            }
-        });
     </script>
 </body>
 </html>

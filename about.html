@@ -2,554 +2,378 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="msvalidate.01" content="878FBD444F34D28F9D2FC908D2DE2D12" />
-    <title>Exchango FX - About</title>
-    <script src="./lib/lucide.js"></script>
+    <title data-i18n="aboutDocTitle">About — Exchango AI</title>
+    <meta name="description" content="환율 계산을 가장 단순하게 — 170+개 통화, 14개 언어, 무료. Exchango AI를 소개합니다." data-i18n-attr="content:aboutMetaDesc">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/app-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/app-icon.png">
 
-    <link rel="stylesheet" href="./css/common-style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/renewal-style.css?v=2.1">
+    <link rel="stylesheet" href="./css/pages-style.css?v=2.1">
+    <link rel="stylesheet" href="./css/i18n.css?v=1.2">
 
     <!-- RSS Feed -->
-    <link rel="alternate" type="application/rss+xml" title="Exchango FX RSS" href="./rss.xml">
+    <link rel="alternate" type="application/rss+xml" title="Exchango AI RSS" href="./rss.xml">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G05HY8WE79"></script>
-
 </head>
 <body>
-    <div class="container">
-        <!-- Hero Section -->
-        <div class="hero">
-            <div class="language-selector">
-                <a href="?lang=en" class="lang-btn" data-lang="en">English</a>
-                <a href="?lang=ko" class="lang-btn" data-lang="ko">한국어</a>
-                <a href="?lang=ja" class="lang-btn" data-lang="ja">日本語</a>
-                <a href="?lang=zh" class="lang-btn" data-lang="zh">中文</a>
-            </div>
-            
-            <div class="app-icon">
-                <img src="./assets/app-icon.png" alt="Exchango FX App Icon" class="app-icon-image">
-            </div>
-            
-            <h1 data-i18n="heroTitle">Exchango FX</h1>
-            <p class="tagline" data-i18n="heroTagline">Smart Currency Conversion Starts Here</p>
-            
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-number">150+</span>
-                    <span class="stat-label" data-i18n="statCurrencies">Supported Currencies</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">14</span>
-                    <span class="stat-label" data-i18n="statLanguages">Supported Languages</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label" data-i18n="statFree">Free</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- What is Exchango FX Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">1</span>
-                <h2 data-i18n="sectionTitle1">What is Exchango?</h2>
-                <p class="section-subtitle" data-i18n="sectionSubtitle1">
-                    A smart currency calculator that makes complex currency calculations simple and intuitive
-                </p>
-            </div>
-            
-            <div class="highlight-box">
-                <div class="icon"><i data-lucide="brain"></i></div>
-                <h3 data-i18n="smartCalculatorTitle">Smart & Intuitive</h3>
-                <p data-i18n="smartCalculatorDesc">
-                    Exchango FX transforms complex currency calculations into simple, intuitive operations.
-                    Designed for travelers, business professionals, and anyone dealing with multiple currencies.
-                </p>
-            </div>
-
-        </div>
-
-        <!-- Currency Support Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">2</span>
-                <h2 data-i18n="sectionTitle2">Supported Currencies</h2>
-                <p class="section-subtitle" data-i18n="sectionSubtitle2">
-                    Support for over 150 different currencies worldwide
-                </p>
-            </div>
-
-                <div class="currency-showcase">
-                    <div class="currency-categories">
-                        <div class="currency-category">
-                            <div class="category-icon"><i data-lucide="dollar-sign"></i></div>
-                            <h4 class="category-title" data-i18n="categoryMajor">Major Currencies</h4>
-                            <p class="category-description" data-i18n="categoryMajorDesc">
-                                Leading currencies that drive the global economy
-                            </p>
-                            <div class="currency-examples">
-                                <span class="currency-chip">🇺🇸 USD</span>
-                                <span class="currency-chip">🇪🇺 EUR</span>
-                                <span class="currency-chip">🇯🇵 JPY</span>
-                                <span class="currency-chip">🇬🇧 GBP</span>
-                                <span class="currency-chip">🇨🇭 CHF</span>
-                            </div>
-                        </div>
-
-                        <div class="currency-category">
-                            <div class="category-icon"><i data-lucide="map"></i></div>
-                            <h4 class="category-title" data-i18n="categoryAsia">Asian Currencies</h4>
-                            <p class="category-description" data-i18n="categoryAsiaDesc">
-                                Various currencies from Asian countries
-                            </p>
-                            <div class="currency-examples">
-                                <span class="currency-chip">🇰🇷 KRW</span>
-                                <span class="currency-chip">🇨🇳 CNY</span>
-                                <span class="currency-chip">🇸🇬 SGD</span>
-                                <span class="currency-chip">🇭🇰 HKD</span>
-                                <span class="currency-chip">🇮🇳 INR</span>
-                            </div>
-                        </div>
-
-                        <div class="currency-category">
-                            <div class="category-icon"><i data-lucide="earth"></i></div>
-                            <h4 class="category-title" data-i18n="categoryOther">Other Regional Currencies</h4>
-                            <p class="category-description" data-i18n="categoryOtherDesc">
-                                Latin America, Africa, and Oceania currencies
-                            </p>
-                            <div class="currency-examples">
-                                <span class="currency-chip">🇧🇷 BRL</span>
-                                <span class="currency-chip">🇷🇺 RUB</span>
-                                <span class="currency-chip">🇲🇽 MXN</span>
-                                <span class="currency-chip">🇦🇺 AUD</span>
-                                <span class="currency-chip">🇿🇦 ZAR</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div>
-
-        <!-- Main Features Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">3</span>
-                <h2 data-i18n="sectionTitle3">Main Features</h2>
-                <p class="section-subtitle" data-i18n="sectionSubtitle3">
-                    Provides various currency calculations and convenience features
-                </p>
-            </div>
-
-
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon"><i data-lucide="wifi-off"></i></div>
-                    <h3 data-i18n="feature1Title">Offline Mode</h3>
-                    <p class="feature-description" data-i18n="feature1Desc">
-                        Use basic currency calculation features even without internet connection.
-                        Last updated exchange rate data is stored on the device to provide reliable calculation results anytime.
-                    </p>
-                    <div class="feature-details">
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature1Item1">Basic calculations available without internet connection</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature1Item2">Automatic storage of latest exchange rate data</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature1Item3">Offline status display and guidance</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon"><i data-lucide="calculator"></i></div>
-                    <h3 data-i18n="feature2Title">Currency Calculator</h3>
-                    <p class="feature-description" data-i18n="feature2Desc">
-                        An intuitive smart currency calculator that anyone can easily use.
-                        Supports over 150 currencies and provides accurate calculation results using exchange rate information.
-                    </p>
-                    <div class="feature-details">
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature2Item1">Automatic exchange rate data updates</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature2Item2">Bidirectional calculation and swap functionality</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature2Item3">Currency calculation history feature</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon"><i data-lucide="menu"></i></div>
-                    <h3 data-i18n="feature9Title">Intuitive Menu</h3>
-                    <p class="feature-description" data-i18n="feature9Desc">
-                        Access all features easily with a clean and intuitive menu interface. Quickly find and use the features you need.
-                    </p>
-                    <div class="feature-details">
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature9Item1">One-touch quick access</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature9Item2">Organized feature categorization</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature9Item3">User-friendly design</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon"><i data-lucide="receipt"></i></div>
-                    <h3 data-i18n="feature3Title">Settlement Function</h3>
-                    <p class="feature-description" data-i18n="feature3Desc">
-                        Resolve complex multi-currency settlements from overseas travel or international business at once.
-                        Automatically calculates amounts paid by multiple people in different currencies to provide fair settlement results.
-                    </p>
-                    <div class="feature-details">
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature3Item1">Fair cost sharing calculation per participant</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature3Item2">Multi-currency mixed settlement support</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature3Item3">Settlement history feature</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon"><i data-lucide="percent"></i></div>
-                    <h3 data-i18n="feature4Title">Tip Calculator</h3>
-                    <p class="feature-description" data-i18n="feature4Desc">
-                        Calculate tips easily and accurately for restaurants, taxis, and service industries.
-                        Reflects various countries' tip cultures and ratios to calculate appropriate tips,
-                        and also supports split calculations according to the number of people.
-                    </p>
-                    <div class="feature-details">
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature4Item1">Regional tip culture reflection</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature4Item2">Tip split calculation per person</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature4Item3">Tip calculation history feature</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon"><i data-lucide="trending-up"></i></div>
-                    <h3 data-i18n="feature5Title">Today's Exchange Rates</h3>
-                    <p class="feature-description" data-i18n="feature5Desc">
-                        Get real-time exchange rate information and fluctuation status of major currencies worldwide at a glance.
-                        Exchange rate data is presented through visual charts for intuitive checking,
-                        and frequently checked currencies can be registered as favorites for convenient monitoring.
-                    </p>
-                    <div class="feature-details">
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature5Item1">Exchange rate status chart provided</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature5Item2">Daily volatility and trend display</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature5Item3">Favorites function management</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon"><i data-lucide="layers"></i></div>
-                    <h3 data-i18n="feature6Title">Multi-Currency Calculator</h3>
-                    <p class="feature-description" data-i18n="feature6Desc">
-                        A powerful feature that allows you to compare multiple currencies simultaneously with a single input.
-                        For example, you can see at once how much 1000 USD is in Korean Won, Japanese Yen, and Euro
-                        on one screen, helping you choose the optimal currency.
-                    </p>
-                    <div class="feature-details">
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature6Item1">Multiple currency simultaneous calculation</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature6Item2">Currency comparison analysis</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature6Item3">Favorites function management</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon"><i data-lucide="archive"></i></div>
-                    <h3 data-i18n="feature10Title">History Management</h3>
-                    <p class="feature-description" data-i18n="feature10Desc">
-                        Systematically manage and organize your calculation history. Bookmark important records and easily delete unnecessary ones.
-                    </p>
-                    <div class="feature-details">
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature10Item1">Swipe to delete easily</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature10Item2">Bookmark important records</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature10Item3">Bulk selection and management</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon"><i data-lucide="gamepad-2"></i></div>
-                    <h3 data-i18n="feature7Title">Games (Ladder & Roulette)</h3>
-                    <p class="feature-description" data-i18n="feature7Desc">
-                        Fun game features that let you make various decisions with friends.
-                        Solve everyday choice dilemmas like choosing travel destinations, deciding lunch menus, or team divisions
-                        through exciting games. Provides both ladder games and roulette games.
-                    </p>
-                    <div class="feature-details">
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature7Item1">Classic ladder game</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature7Item2">Colorful roulette game</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature7Item3">Custom item settings</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon"><i data-lucide="settings"></i></div>
-                    <h3 data-i18n="feature8Title">Various Settings</h3>
-                    <p class="feature-description" data-i18n="feature8Desc">
-                        Customize the app according to your personal usage patterns and environment.
-                        Various options including base currency, language, and theme
-                        provide an optimal user experience.
-                    </p>
-                    <div class="feature-details">
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature8Item1">Base currency settings</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature8Item2">Language settings (14 languages support)</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature8Item3">Theme settings (Light/Dark)</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon"><i data-lucide="layout-dashboard"></i></div>
-                    <h3 data-i18n="feature11Title">Home Screen Widget</h3>
-                    <p class="feature-description" data-i18n="feature11Desc">
-                        Check exchange rates directly from your home screen. View real-time rates for major currencies at a glance without opening the app.
-                    </p>
-                    <div class="feature-details">
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature11Item1">Real-time rate display</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature11Item2">Various widget sizes</span>
-                        </div>
-                        <div class="feature-detail-item">
-                            <span class="detail-check">✓</span>
-                            <span data-i18n="feature11Item3">Auto-update</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-
-        <!-- Technology Section -->
-        <div class="section">
-            <div class="section-header">
-                <span class="section-number">4</span>
-                <h2 data-i18n="sectionTitle4">Technical Features</h2>
-                <p class="section-subtitle" data-i18n="sectionSubtitle4">
-                    Stable and fast performance implemented with latest technology
-                </p>
-            </div>
-            
-            <div class="highlight-box">
-                <div class="icon"><i data-lucide="cpu"></i></div>
-                <h3 data-i18n="performanceTitle">High Performance</h3>
-                <p data-i18n="performanceDesc">
-                    Built with modern mobile technologies to provide stable and fast performance on iOS and Android platforms.
-                    Smart caching and offline support ensure reliable operation in any network condition.
-                </p>
-            </div>
-            
-            <div class="tech-stack">
-                <div class="tech-item">
-                    <div class="tech-icon"><i data-lucide="zap"></i></div>
-                    <div class="tech-name" data-i18n="techHighPerformance">High Performance</div>
-                    <div class="tech-description" data-i18n="techHighPerformanceDesc">Cross-platform native performance for fast calculation speed</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon"><i data-lucide="shield"></i></div>
-                    <div class="tech-name" data-i18n="techSecureStorage">Secure Data Storage</div>
-                    <div class="tech-description" data-i18n="techSecureStorageDesc">Local data permanent storage for privacy protection</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon"><i data-lucide="globe"></i></div>
-                    <div class="tech-name" data-i18n="techMultilingual">Multilingual Support</div>
-                    <div class="tech-description" data-i18n="techMultilingualDesc">Global user interface supporting 7 languages</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon"><i data-lucide="database"></i></div>
-                    <div class="tech-name" data-i18n="techSmartCaching">Smart Caching</div>
-                    <div class="tech-description" data-i18n="techSmartCachingDesc">Intelligent exchange rate data caching for quick access</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon"><i data-lucide="wifi-off"></i></div>
-                    <div class="tech-name" data-i18n="techOfflineSupport">Offline Support</div>
-                    <div class="tech-description" data-i18n="techOfflineSupportDesc">Basic functions available without network connection</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon"><i data-lucide="refresh-cw"></i></div>
-                    <div class="tech-name" data-i18n="techAutoUpdate">Auto Update</div>
-                    <div class="tech-description" data-i18n="techAutoUpdateDesc">Automatic updates for exchange rate data and app features</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <footer class="footer" id="footer">
-            <div class="container">
-                <div class="footer-content">
-                    <div class="footer-brand">
-                        <div class="footer-logo">
-                            <img src="./assets/app-icon.png" alt="Exchango FX" class="footer-logo-image">
-                            <span class="footer-brand-name">Exchango FX</span>
-                        </div>
-                        <p class="footer-tagline" data-i18n="heroTagline">전 세계를 위한 스마트 환율 계산기</p>
-                    </div>
-                    
-                    <div class="footer-links">
-                        <div class="footer-section">
-                            <h4 data-i18n="footerSupport">고객 지원</h4>
-                            <ul>
-                                <li><a href="privacy_policy.html" data-i18n="footerPrivacy">개인정보처리방침</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="footer-bottom">
-                    <p class="copyright" data-i18n="footerCopyright">Copyright © 2025 Exchango FX All rights reserved.</p>
-                    
-                    <!-- Language Selector (Footer) -->
-                    <div class="footer-language">
-                        <a href="?lang=en" class="footer-lang-btn">English</a>
-                        <a href="?lang=ko" class="footer-lang-btn">한국어</a>
-                        <a href="?lang=ja" class="footer-lang-btn">日본語</a>
-                        <a href="?lang=zh" class="footer-lang-btn">中文</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        
-        <!-- Back to Top Button -->
-        <button class="back-to-top" id="backToTop" aria-label="Back to top" title="맨 위로 돌아가기">
-            <i data-lucide="arrow-up"></i>
+    <!-- ========== NAV ========== -->
+    <nav class="doc-nav" aria-label="Primary">
+        <a href="index.html" class="logo" aria-label="Exchango AI">
+            <img class="logo-mark" src="./assets/app-icon.png" alt="" aria-hidden="true">
+            <span class="logo-content">
+                <span class="logo-text">
+                    <span class="name">Exchango</span>
+                    <span class="ai">AI</span>
+                </span>
+                <span class="logo-tagline" data-i18n="logoTagline">Travel smarter!</span>
+            </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-i18n-attr="aria-label:ariaOpenMenu" aria-expanded="false" aria-controls="navMenu">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <line class="line line1" x1="4" y1="6"  x2="20" y2="6"/>
+                <line class="line line2" x1="4" y1="12" x2="20" y2="12"/>
+                <line class="line line3" x1="4" y1="18" x2="20" y2="18"/>
+            </svg>
         </button>
-    </div>
 
-    <script src="./js/common-translations.js"></script>
+        <div class="doc-nav-links" id="navMenu">
+            <a href="index.html" data-i18n="navHome">홈</a>
+            <a href="about.html" style="color:#fff;" data-i18n="navAbout">소개</a>
+            <a href="privacy_policy.html" class="nav-only-desktop" data-i18n="navPrivacy">개인정보처리방침</a>
+            <div data-lang-picker></div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <header class="doc-hero">
+        <div class="doc-hero-inner">
+            <div class="doc-eyebrow" data-i18n="aboutEyebrow">ABOUT EXCHANGO AI</div>
+            <h1 class="doc-title">
+                <span data-i18n="aboutHeroT1">환율 계산을</span><br>
+                <span class="amber-grad" data-i18n="aboutHeroT2">가장 단순하게.</span>
+            </h1>
+        </div>
+    </header>
+
+    <!-- ========== CONTENT ========== -->
+    <article class="doc-content">
+        <p data-i18n="aboutIntro">
+            <strong>Exchango AI</strong>는 여행자와 비즈니스 전문가를 위한 모바일 환율 계산기입니다. 사칙연산과 실시간 환율 변환을 하나로 묶고, 정산·팁·차트·히스토리까지 — 환율과 관련된 모든 일을 한 앱 안에서 끝냅니다.
+        </p>
+
+        <!-- Stats -->
+        <div class="stats-row">
+            <div class="stat-card">
+                <div class="num">170+</div>
+                <div class="label" data-i18n="aboutStatCurrencies">CURRENCIES</div>
+            </div>
+            <div class="stat-card">
+                <div class="num">14</div>
+                <div class="label" data-i18n="aboutStatLanguages">LANGUAGES</div>
+            </div>
+            <div class="stat-card">
+                <div class="num">FREE</div>
+                <div class="label" data-i18n="aboutStatFreeLabel">무료</div>
+            </div>
+        </div>
+
+        <h2 data-i18n="aboutWhatHeading">무엇을 만드는가</h2>
+        <p data-i18n="aboutWhatPara">
+            우리는 "정직한 환율"이라는 단순한 원칙을 따릅니다. 카드사 환율이나 마진이 추가되지 않은, 중앙은행과 글로벌 데이터 소스의 실시간 시세 그대로를 보여줍니다. 가입은 필요 없고, 사용 데이터는 여러분의 기기 안에 머무릅니다.
+        </p>
+
+        <div class="tldr-card">
+            <div class="tldr-head">
+                <img src="./assets/app-icon.png" alt="" aria-hidden="true">
+                <div class="label" data-i18n="aboutTldrLabel">우리가 지키는 원칙</div>
+            </div>
+            <p data-i18n="aboutTldrText">
+                <strong>가입 없음</strong> · 계산 내역과 설정은 기기 안에만 저장되고 서버로 전송되지 않습니다. 여행 중 어디서든 부담 없이 꺼내 쓸 수 있는 환율 도구를 지향합니다.
+            </p>
+        </div>
+
+        <h2 data-i18n="aboutFeaturesHeading">핵심 기능</h2>
+        <p data-i18n="aboutFeaturesIntro">170+개 통화, 양방향 변환, 실시간 차트 — 여행과 비즈니스에 필요한 환율 도구를 한 곳에 담았습니다.</p>
+        <div class="feature-list">
+            <div class="feature-item">
+                <div class="ftag">01 · CALCULATOR</div>
+                <h3 data-i18n="aboutF1Title">환율 계산기</h3>
+                <p class="fdesc" data-i18n="aboutF1Desc">사칙연산과 환율 변환이 통합된 계산기. 170+개 통화에서 자유롭게 선택하고, 양방향 스왑으로 즉시 전환할 수 있습니다.</p>
+                <ul class="fbullets">
+                    <li data-i18n="aboutF1B1">실시간 환율 자동 업데이트</li>
+                    <li data-i18n="aboutF1B2">양방향 변환 · 즉시 스왑</li>
+                    <li data-i18n="aboutF1B3">계산 히스토리 자동 저장</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <div class="ftag">02 · MULTI-CURRENCY</div>
+                <h3 data-i18n="aboutF2Title">다중 환율</h3>
+                <p class="fdesc" data-i18n="aboutF2Desc">한 금액을 여러 통화로 동시에 비교. 즐겨찾기 통화 묶음을 만들어 한 화면에서 환율 추이까지 함께 확인합니다.</p>
+                <ul class="fbullets">
+                    <li data-i18n="aboutF2B1">여러 통화 동시 비교</li>
+                    <li data-i18n="aboutF2B2">즐겨찾기 통화 그룹</li>
+                    <li data-i18n="aboutF2B3">실시간 환율 동기화</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <div class="ftag">03 · CHART</div>
+                <h3 data-i18n="aboutF3Title">환율 차트</h3>
+                <p class="fdesc" data-i18n="aboutF3Desc">7일 · 30일 · 90일 추이 차트로 환율의 흐름을 한눈에. 평균과 변동폭 지표로 환전 타이밍을 가늠하세요.</p>
+                <ul class="fbullets">
+                    <li data-i18n="aboutF3B1">7 / 30 / 90일 추이</li>
+                    <li data-i18n="aboutF3B2">평균 · 변동폭 지표</li>
+                    <li data-i18n="aboutF3B3">즐겨찾기 통화별 차트</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <div class="ftag">04 · SPLIT BILL</div>
+                <h3 data-i18n="aboutF4Title">정산 계산기</h3>
+                <p class="fdesc" data-i18n="aboutF4Desc">해외 여행이나 국제 출장에서 발생하는 다통화 정산을 공정하게 분할. 인원수, 통화, 소수점 처리까지 유연하게.</p>
+                <ul class="fbullets">
+                    <li data-i18n="aboutF4B1">다통화 인원별 자동 분할</li>
+                    <li data-i18n="aboutF4B2">통화별 환율 동시 적용</li>
+                    <li data-i18n="aboutF4B3">정산 이력 자동 저장</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <div class="ftag">05 · TIP</div>
+                <h3 data-i18n="aboutF5Title">팁 계산기</h3>
+                <p class="fdesc" data-i18n="aboutF5Desc">국가별 팁 문화에 맞는 권장 비율을 자동으로 추천. 인원수 분할과 자국 통화 환산을 한 번에 처리합니다.</p>
+                <ul class="fbullets">
+                    <li data-i18n="aboutF5B1">국가별 권장 팁 비율</li>
+                    <li data-i18n="aboutF5B2">인원별 자동 분할</li>
+                    <li data-i18n="aboutF5B3">자국 통화 즉시 환산</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <div class="ftag">06 · DCC SIMULATOR</div>
+                <h3 data-i18n="aboutF6Title">DCC 시뮬레이터</h3>
+                <p class="fdesc" data-i18n="aboutF6Desc">해외 카드 결제 시 "자국 통화로 결제하시겠어요?" 제안을 받았을 때, 진짜 환율과 비교해 어느 쪽이 유리한지 시뮬레이션합니다.</p>
+                <ul class="fbullets">
+                    <li data-i18n="aboutF6B1">현지 통화 vs 자국 통화 비교</li>
+                    <li data-i18n="aboutF6B2">DCC 수수료 자동 계산</li>
+                    <li data-i18n="aboutF6B3">유리한 결제 방식 추천</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <div class="ftag">07 · CARD FEE</div>
+                <h3 data-i18n="aboutF7Title">카드 수수료 설정</h3>
+                <p class="fdesc" data-i18n="aboutF7Desc">자주 쓰는 해외 카드의 수수료율을 등록해두면, 환율 계산에 자동으로 반영. 진짜 결제 금액을 미리 확인할 수 있습니다.</p>
+                <ul class="fbullets">
+                    <li data-i18n="aboutF7B1">카드별 수수료율 등록</li>
+                    <li data-i18n="aboutF7B2">실제 결제 금액 시뮬레이션</li>
+                    <li data-i18n="aboutF7B3">여러 카드 비교</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <div class="ftag">08 · HISTORY</div>
+                <h3 data-i18n="aboutF8Title">히스토리 + 즐겨찾기</h3>
+                <p class="fdesc" data-i18n="aboutF8Desc">계산기·정산·팁의 모든 내역이 자동으로 기록됩니다. 캘린더 뷰로 언제 어떤 환율로 계산했는지 한눈에, 중요한 기록은 즐겨찾기로.</p>
+                <ul class="fbullets">
+                    <li data-i18n="aboutF8B1">3종 히스토리 통합 관리</li>
+                    <li data-i18n="aboutF8B2">캘린더 뷰 · 검색</li>
+                    <li data-i18n="aboutF8B3">날짜별 환율 다시 보기</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <div class="ftag">09 · ANGO AI</div>
+                <h3 data-i18n="aboutF9Title">Ango AI · 자연어 비서</h3>
+                <p class="fdesc" data-i18n="aboutF9Desc">여행 예산, 환전 비교, 환율 질문 등을 자연어로 물어보세요. 모든 처리는 <strong>여러분의 기기 안에서 직접</strong> 이루어지며, 외부 서버로 데이터가 전송되지 않습니다.</p>
+                <ul class="fbullets">
+                    <li data-i18n="aboutF9B1">온디바이스(on-device) AI</li>
+                    <li data-i18n="aboutF9B2">대화 기록 외부 전송 없음</li>
+                    <li data-i18n="aboutF9B3">여행·환율·계산 특화 응답</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <div class="ftag">10 · SETTINGS</div>
+                <h3 data-i18n="aboutF10Title">맞춤 설정</h3>
+                <p class="fdesc" data-i18n="aboutF10Desc">기준 통화, 다크/라이트 테마, 글꼴 크기, 언어까지 — 내 취향대로. 시스템 설정에 맞춰 자동으로 모드를 전환할 수도 있습니다.</p>
+                <ul class="fbullets">
+                    <li data-i18n="aboutF10B1">14개 언어 지원</li>
+                    <li data-i18n="aboutF10B2">다크 · 라이트 · 시스템 자동</li>
+                    <li data-i18n="aboutF10B3">기준 통화 · 글꼴 크기 조정</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 data-i18n="aboutCurrenciesHeading">지원 통화</h2>
+        <p data-i18n="aboutCurrenciesIntro">
+            전 세계 <strong>170+개 통화</strong>를 지원합니다 — 주요 법정통화부터 신흥국 통화, IMF SDR까지. 검색이나 즐겨찾기로 어떤 통화든 빠르게 추가할 수 있습니다.
+        </p>
+        <div class="currency-grid">
+            <div class="currency-card">
+                <h3 data-i18n="aboutC1Title">주요 통화</h3>
+                <div class="cdesc" data-i18n="aboutC1Desc">세계 경제를 이끄는 핵심 통화</div>
+                <div class="currency-chips">
+                    <span class="currency-chip">🇺🇸 USD</span>
+                    <span class="currency-chip">🇪🇺 EUR</span>
+                    <span class="currency-chip">🇯🇵 JPY</span>
+                    <span class="currency-chip">🇬🇧 GBP</span>
+                    <span class="currency-chip">🇨🇭 CHF</span>
+                </div>
+            </div>
+            <div class="currency-card">
+                <h3 data-i18n="aboutC2Title">아시아 통화</h3>
+                <div class="cdesc" data-i18n="aboutC2Desc">아시아 각국의 다양한 통화</div>
+                <div class="currency-chips">
+                    <span class="currency-chip">🇰🇷 KRW</span>
+                    <span class="currency-chip">🇨🇳 CNY</span>
+                    <span class="currency-chip">🇸🇬 SGD</span>
+                    <span class="currency-chip">🇭🇰 HKD</span>
+                    <span class="currency-chip">🇮🇳 INR</span>
+                </div>
+            </div>
+            <div class="currency-card">
+                <h3 data-i18n="aboutC3Title">기타 지역</h3>
+                <div class="cdesc" data-i18n="aboutC3Desc">중남미 · 아프리카 · 오세아니아</div>
+                <div class="currency-chips">
+                    <span class="currency-chip">🇧🇷 BRL</span>
+                    <span class="currency-chip">🇲🇽 MXN</span>
+                    <span class="currency-chip">🇦🇺 AUD</span>
+                    <span class="currency-chip">🇿🇦 ZAR</span>
+                    <span class="currency-chip">XDR</span>
+                </div>
+            </div>
+        </div>
+
+        <h2 data-i18n="aboutTechHeading">기술적 특징</h2>
+        <p data-i18n="aboutTechIntro">
+            iOS와 Android 모두에서 네이티브 수준의 빠른 성능을 제공합니다. 환율 데이터는 효율적으로 캐싱되어 네트워크 사용을 최소화하고, 오프라인에서도 마지막 환율로 계산을 이어갈 수 있습니다.
+        </p>
+        <div class="tech-grid">
+            <div class="tech-card">
+                <div class="tname" data-i18n="aboutT1Name">크로스 플랫폼</div>
+                <div class="tdesc" data-i18n="aboutT1Desc">iOS · Android 동시 지원, 네이티브 수준 성능</div>
+            </div>
+            <div class="tech-card">
+                <div class="tname" data-i18n="aboutT2Name">로컬 우선 저장</div>
+                <div class="tdesc" data-i18n="aboutT2Desc">계산 내역과 설정은 기기 안에만 저장</div>
+            </div>
+            <div class="tech-card">
+                <div class="tname" data-i18n="aboutT3Name">14개 언어</div>
+                <div class="tdesc" data-i18n="aboutT3Desc">한국어 · 영어 · 일본어 · 중국어 · 아랍어 등</div>
+            </div>
+            <div class="tech-card">
+                <div class="tname" data-i18n="aboutT4Name">스마트 캐싱</div>
+                <div class="tdesc" data-i18n="aboutT4Desc">효율적인 환율 캐싱으로 빠른 응답</div>
+            </div>
+            <div class="tech-card">
+                <div class="tname" data-i18n="aboutT5Name">오프라인 지원</div>
+                <div class="tdesc" data-i18n="aboutT5Desc">네트워크 없이도 마지막 환율로 계산 가능</div>
+            </div>
+            <div class="tech-card">
+                <div class="tname" data-i18n="aboutT6Name">온디바이스 AI</div>
+                <div class="tdesc" data-i18n="aboutT6Desc">Ango AI는 기기 내부에서 직접 실행</div>
+            </div>
+        </div>
+
+        <h2 data-i18n="aboutContactHeading">연락처</h2>
+        <p data-i18n="aboutContactPara">제품 관련 문의나 의견이 있으시면 언제든 보내주세요.</p>
+        <div class="contact-card">
+            <div><strong data-i18n="aboutContactEmailLabel">이메일</strong> · contact@schroe.kr</div>
+            <div><strong data-i18n="aboutContactSiteLabel">웹사이트</strong> · https://exchango.app</div>
+        </div>
+    </article>
+
+    <!-- ========== CTA ========== -->
+    <section class="doc-cta">
+        <div class="doc-cta-inner">
+            <img class="doc-cta-icon" src="./assets/app-icon.png" alt="" aria-hidden="true">
+            <h2 data-i18n="aboutCtaTitle">지금 바로 시작하세요</h2>
+            <p data-i18n="aboutCtaSub">지금 다운로드하고 더 똑똑하게 여행하세요.</p>
+            <div class="store-row">
+                <a href="https://apps.apple.com/app/id6752467916" class="store-badge" target="_blank" rel="noopener noreferrer">
+                    <svg width="22" height="26" viewBox="0 0 24 28" fill="currentColor" aria-hidden="true"><path d="M17.4 14.8c0-3 2.5-4.4 2.6-4.5-1.4-2-3.6-2.3-4.4-2.4-1.9-.2-3.6 1.1-4.6 1.1-1 0-2.4-1.1-3.9-1-2 0-3.9 1.2-4.9 3-2.1 3.6-.5 9 1.5 12 1 1.4 2.2 3 3.7 2.9 1.5-.1 2.1-1 3.9-1s2.3 1 3.9 1c1.6 0 2.6-1.4 3.6-2.9 1.1-1.6 1.6-3.2 1.6-3.3-.1 0-3.1-1.1-3.1-4.4zm-3.1-8.2c.8-1 1.4-2.5 1.2-3.9-1.2.1-2.7.8-3.6 1.8-.8.9-1.5 2.3-1.3 3.7 1.4.1 2.8-.7 3.7-1.6z"/></svg>
+                    <div><div class="small" data-i18n="storeAppleSmall">Download on the</div><div class="big">App Store</div></div>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.exchango" class="store-badge" target="_blank" rel="noopener noreferrer">
+                    <svg width="22" height="24" viewBox="0 0 22 24" fill="none" aria-hidden="true">
+                        <path d="M1.5 1.2C1.2 1.5 1 2 1 2.6V21.4C1 22 1.2 22.5 1.5 22.8L1.6 22.9L12.3 12.2V12L1.6 1.2H1.5Z" fill="#3D7BFF"/>
+                        <path d="M16.1 15.8L12.3 12V11.9L16.1 8.1L16.2 8.2L20.7 10.7C22 11.4 22 12.5 20.7 13.3L16.2 15.8H16.1Z" fill="#FFCD3C"/>
+                        <path d="M16.2 15.8L12.3 12L1.5 22.8C1.9 23.3 2.7 23.3 3.5 22.9L16.2 15.8Z" fill="#E94335"/>
+                        <path d="M16.2 8.2L3.5 1.1C2.7 0.7 1.9 0.8 1.5 1.2L12.3 12L16.2 8.2Z" fill="#34A853"/>
+                    </svg>
+                    <div><div class="small" data-i18n="storeGoogleSmall">GET IT ON</div><div class="big">Google Play</div></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="doc-footer">
+        <div class="doc-footer-inner">
+            <a href="index.html" class="logo" style="--logo-size: 28px;" aria-label="Exchango AI">
+                <img class="logo-mark" src="./assets/app-icon.png" alt="" aria-hidden="true">
+                <span class="logo-content">
+                    <span class="logo-text">
+                        <span class="name">Exchango</span>
+                        <span class="ai">AI</span>
+                    </span>
+                    <span class="logo-tagline" data-i18n="logoTagline">Travel smarter!</span>
+                </span>
+            </a>
+            <div class="doc-footer-links">
+                <a href="about.html" data-i18n="footerAbout">소개</a>
+                <a href="privacy_policy.html" data-i18n="footerPrivacy">개인정보처리방침</a>
+                <a href="mailto:contact@schroe.kr" data-i18n="footerContact">문의</a>
+            </div>
+            <div data-i18n="footerCopy">© 2025 Exchango AI</div>
+        </div>
+    </footer>
+
+    <!-- i18n: load core + dictionaries -->
+    <script src="./js/i18n-core.js?v=1.3"></script>
+    <script src="./js/translations/common.js?v=1.0"></script>
+    <script src="./js/translations/about.js?v=1.1"></script>
+
+    <!-- Mobile nav toggle -->
+    <script>
+    (function() {
+        var toggle = document.querySelector('.nav-toggle');
+        var menu   = document.getElementById('navMenu');
+        if (!toggle || !menu) return;
+        function close() { menu.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); }
+        function open()  { menu.classList.add('open');    toggle.setAttribute('aria-expanded','true');  }
+        toggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            menu.classList.contains('open') ? close() : open();
+        });
+        document.addEventListener('click', function(e) {
+            if (menu.classList.contains('open') && !menu.contains(e.target) && !toggle.contains(e.target)) close();
+        });
+        menu.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', close); });
+        window.addEventListener('resize', function() { if (window.innerWidth > 768) close(); });
+        window.addEventListener('keydown', function(e) { if (e.key === 'Escape') close(); });
+    })();
+    </script>
 
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-G05HY8WE79');
-    </script>
-
-    <script>
-        // Initialize Lucide icons
-        lucide.createIcons();
-        
-        // Setup language change handlers
-        function setupLanguageHandlers() {
-            // Handle language selector clicks
-            const langButtons = document.querySelectorAll('.lang-btn, .footer-lang-btn');
-            langButtons.forEach(btn => {
-                btn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const href = this.getAttribute('href');
-                    const lang = href.split('lang=')[1];
-                    if (lang) {
-                        // Change the URL and reload to apply language
-                        window.location.href = window.location.pathname + '?lang=' + lang;
-                    }
-                });
-            });
-        }
-        
-        // Get current language from URL or default to Korean
-        function getCurrentLanguage() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const langFromUrl = urlParams.get('lang');
-            const langFromStorage = localStorage.getItem('exchango-language');
-            const detectedLang = langFromUrl || langFromStorage || 'ko';
-            const supportedLanguages = ['ko', 'en', 'ja', 'zh'];
-            return supportedLanguages.includes(detectedLang) ? detectedLang : 'ko';
-        }
-        
-        // Setup everything when page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            setupLanguageHandlers();
-        });
     </script>
 </body>
 </html>

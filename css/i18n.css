@@ -1,0 +1,208 @@
+/* ============================================================
+   Exchango AI — Language picker (used on all pages)
+   The trigger button lives at the picker's host element. The dropdown
+   menu is appended to <body> by the script so its `position: fixed`
+   anchors to the viewport (mobile nav containers use `transform`,
+   which would otherwise break fixed positioning).
+   ============================================================ */
+
+.lang-picker {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 1;
+}
+
+.lang-picker-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 10px 7px 9px;
+    background: rgba(255, 255, 255, 0.08);
+    color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+    font: inherit;
+    line-height: 1;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease;
+    white-space: nowrap;
+}
+
+.lang-picker-btn:hover {
+    background: rgba(255, 255, 255, 0.14);
+    border-color: rgba(255, 255, 255, 0.28);
+}
+
+.lang-picker-btn:focus-visible {
+    outline: 2px solid #ffb347;
+    outline-offset: 2px;
+}
+
+.lang-picker-globe {
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    opacity: 0.85;
+}
+
+.lang-picker-globe svg {
+    width: 100%;
+    height: 100%;
+}
+
+.lang-picker-current {
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.lang-picker-caret {
+    font-size: 10px;
+    margin-left: 1px;
+    opacity: 0.7;
+    transform: translateY(-1px);
+    transition: transform 0.15s ease;
+}
+
+.lang-picker.open .lang-picker-caret {
+    transform: translateY(-1px) rotate(180deg);
+}
+
+/* ----- Menu (lives in <body>, not inside the host) ----- */
+
+.lang-picker-menu {
+    /* Desktop default: positioned by JS (top/left set inline) */
+    position: fixed;
+    min-width: 160px;
+    margin: 0;
+    padding: 6px;
+    list-style: none;
+    background: #1a1a1f;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px);
+    transition: opacity 0.12s ease, transform 0.12s ease, visibility 0s linear 0.12s;
+    z-index: 9999;
+    max-height: 60vh;
+    overflow-y: auto;
+    pointer-events: none;
+}
+
+.lang-picker-menu.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: opacity 0.12s ease, transform 0.12s ease, visibility 0s;
+    pointer-events: auto;
+}
+
+.lang-picker-menu li {
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.85);
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.1s ease, color 0.1s ease;
+}
+
+.lang-picker-menu li:hover,
+.lang-picker-menu li:focus {
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff;
+    outline: none;
+}
+
+.lang-picker-menu li.active {
+    background: rgba(255, 179, 71, 0.16);
+    color: #ffb347;
+    font-weight: 600;
+}
+
+/* ============================================================
+   Mobile: bottom sheet
+   ============================================================ */
+
+.lang-picker-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 9998;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+    pointer-events: none;
+}
+
+.lang-picker-backdrop.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+@media (max-width: 640px) {
+    .lang-picker-btn {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    /* Closed bottom sheet: hidden + off-screen + non-interactive */
+    .lang-picker-menu {
+        position: fixed !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        top: auto !important;
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+        max-height: 70vh;
+        margin: 0;
+        padding: 28px 16px max(24px, env(safe-area-inset-bottom, 16px));
+        border-radius: 20px 20px 0 0;
+        border: 0;
+        background: #1a1a1f;
+        box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.5);
+        transform: translateY(100%);
+        opacity: 1;          /* dim handled by backdrop, not the sheet */
+        visibility: hidden;
+        pointer-events: none;
+        transition: transform 0.25s cubic-bezier(0.32, 0.72, 0, 1),
+                    visibility 0s linear 0.25s;
+        z-index: 9999;
+    }
+
+    .lang-picker-menu.open {
+        transform: translateY(0);
+        visibility: visible;
+        pointer-events: auto;
+        transition: transform 0.28s cubic-bezier(0.32, 0.72, 0, 1),
+                    visibility 0s;
+    }
+
+    /* Drag handle bar at top of sheet */
+    .lang-picker-menu::before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 4px;
+        border-radius: 2px;
+        background: rgba(255, 255, 255, 0.22);
+    }
+
+    .lang-picker-menu li {
+        font-size: 16px;
+        padding: 14px 16px;
+    }
+
+    /* Caret stays still on mobile (sheet has its own affordance) */
+    .lang-picker.open .lang-picker-caret {
+        transform: translateY(-1px);
+    }
+}

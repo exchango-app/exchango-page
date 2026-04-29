@@ -1,24 +1,24 @@
-// Enhanced universal translation system for Exchango FX website
+// Enhanced universal translation system for Exchango AI website
 (function() {
     'use strict';
     
-    console.log('🚀 Universal Exchango FX translation system started');
+    console.log('🚀 Universal Exchango AI translation system started');
     
     // Complete translation data for all pages
     const translations = {
         ko: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "About Exchango FX - Smart Currency Converter",
-                heroTitle: "Exchango FX",
+                title: "About Exchango AI - Smart Currency Converter",
+                heroTitle: "Exchango AI",
                 heroTagline: "당신의 스마트 환율 파트너!",
                 statCurrencies: "지원 통화",
                 statLanguages: "지원 언어",
                 statFree: "무료",
-                sectionTitle1: "Exchango FX란?",
+                sectionTitle1: "Exchango AI란?",
                 sectionSubtitle1: "복잡한 환율 계산을 간단하고 직관적으로 만들어주는 스마트 환율 계산기입니다",
                 smartCalculatorTitle: "스마트하고 직관적",
-                smartCalculatorDesc: "Exchango FX는 복잡한 환율 계산을 간단하고 직관적인 작업으로 변환합니다. 여행자, 비즈니스 전문가, 다양한 통화를 다루는 모든 사람들을 위해 설계되었습니다.",
+                smartCalculatorDesc: "Exchango AI는 복잡한 환율 계산을 간단하고 직관적인 작업으로 변환합니다. 여행자, 비즈니스 전문가, 다양한 통화를 다루는 모든 사람들을 위해 설계되었습니다.",
                 sectionTitle2: "지원 통화",
                 sectionSubtitle2: "전 세계 150개 이상의 다양한 통화를 지원합니다",
                 sectionTitle3: "주요 기능",
@@ -117,8 +117,8 @@
                 techAutoUpdate: "자동 업데이트",
                 techAutoUpdateDesc: "환율 데이터와 앱 기능 자동 업데이트",
                 
-                footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
-                footerAbout: "Exchango FX 소개",
+                footerCopyright: "Copyright © 2025 Exchango AI All rights reserved.",
+                footerAbout: "Exchango AI 소개",
                 footerSupport: "고객 지원",
                 footerContact: "문의하기",
                 footerPrivacy: "개인정보처리방침"
@@ -133,18 +133,18 @@
             
             // Section 1: Introduction
             privacySection1Title: "소개",
-            privacySection1Subtitle: "Exchango FX 서비스 이용을 위한 개인정보 처리 정책",
+            privacySection1Subtitle: "Exchango AI 서비스 이용을 위한 개인정보 처리 정책",
             privacyIntroTitle: "개인정보처리방침 안내",
-            privacyIntroDesc: "Exchango FX는 이용자의 개인정보를 중요시하며, 개인정보보호법 및 관련 법령을 준수합니다. 본 개인정보처리방침은 Exchango FX가 제공하는 환율 계산기 앱 서비스(이하 \"서비스\")와 관련하여 이용자의 개인정보가 어떻게 수집, 이용, 보호되는지를 설명합니다.",
+            privacyIntroDesc: "Exchango AI는 이용자의 개인정보를 중요시하며, 개인정보보호법 및 관련 법령을 준수합니다. 본 개인정보처리방침은 Exchango AI가 제공하는 환율 계산기 앱 서비스(이하 \"서비스\")와 관련하여 이용자의 개인정보가 어떻게 수집, 이용, 보호되는지를 설명합니다.",
             privacyIntroItem1: "시행일: 2024년 1월 1일",
             privacyIntroItem2: "최종 수정일: 2024년 12월 1일",
-            privacyIntroItem3: "문의: exchango.app@gmail.com",
+            privacyIntroItem3: "문의: contact@schroe.kr",
             
             // Section 2: Information We Collect
             privacySection2Title: "수집하는 정보",
             privacySection2Subtitle: "서비스 제공을 위해 최소한의 정보만을 수집합니다",
             privacyCollect1Title: "기기 정보 (버그 제보 시)",
-            privacyCollect1Desc: "Exchango FX는 일상적인 사용 중에는 기기 정보를 수집하지 않습니다. 단, 사용자가 버그를 제보할 때 문제 해결을 위해 기기 유형, 운영체제 버전, 앱 버전 등의 기술적 정보가 포함될 수 있습니다.",
+            privacyCollect1Desc: "Exchango AI는 일상적인 사용 중에는 기기 정보를 수집하지 않습니다. 단, 사용자가 버그를 제보할 때 문제 해결을 위해 기기 유형, 운영체제 버전, 앱 버전 등의 기술적 정보가 포함될 수 있습니다.",
             privacyCollect1Item1: "버그 제보 시에만 기기 정보 제공",
             privacyCollect1Item2: "자동 수집이 아닌 사용자 제공 방식",
             privacyCollect1Item3: "문제 해결 목적으로만 사용",
@@ -163,7 +163,7 @@
             privacySection3Title: "정보 사용 방법",
             privacySection3Subtitle: "수집된 정보는 서비스 제공과 개선에만 사용됩니다",
             privacyUseTitle: "정보 활용 목적",
-            privacyUseDesc: "Exchango FX는 수집한 정보를 다음과 같은 목적으로만 사용합니다:",
+            privacyUseDesc: "Exchango AI는 수집한 정보를 다음과 같은 목적으로만 사용합니다:",
             privacyUseItem1: "실시간 환율 정보 제공 및 정확한 환율 계산",
             privacyUseItem2: "오프라인 모드에서의 서비스 제공",
             privacyUseItem3: "사용자 맞춤형 인터페이스 제공",
@@ -188,7 +188,7 @@
             privacySection5Title: "제3자 서비스",
             privacySection5Subtitle: "환율 데이터 제공을 위한 최소한의 외부 서비스만 사용합니다",
             privacyThirdPartyTitle: "외부 서비스 사용",
-            privacyThirdPartyDesc: "Exchango FX는 정확한 환율 정보 제공을 위해 신뢰할 수 있는 외부 서비스를 통해 환율 데이터를 제공받습니다:",
+            privacyThirdPartyDesc: "Exchango AI는 정확한 환율 정보 제공을 위해 신뢰할 수 있는 외부 서비스를 통해 환율 데이터를 제공받습니다:",
             privacyThirdPartyItem1: "실시간 환율 데이터 API 활용",
             privacyThirdPartyItem2: "보안 프로토콜을 통한 안전한 데이터 전송",
             privacyThirdPartyItem3: "개인정보는 제3자와 공유되지 않습니다",
@@ -204,13 +204,13 @@
             privacyRights3Title: "서비스 중단권",
             privacyRights3Desc: "언제든지 앱 사용을 중단할 수 있으며, 앱 삭제 시 모든 로컬 데이터가 자동으로 삭제됩니다. 별도의 탈퇴 절차가 필요하지 않습니다.",
             privacyRights4Title: "문의 및 신고",
-            privacyRights4Desc: "개인정보 관련 문의사항이나 우려사항이 있으시면 언제든지 exchango.app@gmail.com으로 연락주시기 바랍니다.",
+            privacyRights4Desc: "개인정보 관련 문의사항이나 우려사항이 있으시면 언제든지 contact@schroe.kr으로 연락주시기 바랍니다.",
             
             // Section 7: Children's Privacy
             privacySection7Title: "아동의 개인정보 보호",
             privacySection7Subtitle: "만 14세 미만 아동의 개인정보를 수집하지 않습니다",
             privacyChildrenTitle: "아동 보호 정책",
-            privacyChildrenDesc: "Exchango FX는 모든 연령의 사용자가 안전하게 사용할 수 있도록 설계되었습니다. 앱에서 생성되는 모든 데이터(계산 기록, 설정 등)는 사용자의 기기에만 저장되며, 외부 서버로 전송되지 않습니다. 만 14세 미만 아동이 사용하더라도 개인식별정보는 수집되지 않으며, 모든 데이터는 로컬에만 보관됩니다. 부모님께서는 안심하고 자녀가 앱을 사용하도록 허용하실 수 있습니다.",
+            privacyChildrenDesc: "Exchango AI는 모든 연령의 사용자가 안전하게 사용할 수 있도록 설계되었습니다. 앱에서 생성되는 모든 데이터(계산 기록, 설정 등)는 사용자의 기기에만 저장되며, 외부 서버로 전송되지 않습니다. 만 14세 미만 아동이 사용하더라도 개인식별정보는 수집되지 않으며, 모든 데이터는 로컬에만 보관됩니다. 부모님께서는 안심하고 자녀가 앱을 사용하도록 허용하실 수 있습니다.",
             
             // Section 8: Policy Updates
             privacySection8Title: "개인정보처리방침 변경",
@@ -226,7 +226,7 @@
             privacySection9Subtitle: "개인정보 관련 문의사항이 있으시면 연락주세요",
             privacyContactTitle: "문의하기",
             privacyContactDesc: "개인정보처리방침에 대한 문의사항, 개인정보 관련 불만사항, 또는 기타 의견이 있으시면 아래 연락처로 문의해 주시기 바랍니다. 신속하고 성실하게 답변드리겠습니다.",
-            privacyContactEmail: "이메일: exchango.app@gmail.com",
+            privacyContactEmail: "이메일: contact@schroe.kr",
             privacyContactWebsite: "웹사이트: https://exchango.app",
             privacyContactResponse: "응답 시간: 영업일 기준 48시간 이내",
             
@@ -234,22 +234,22 @@
             heroTagline: "전 세계를 위한 스마트 환율 계산기",
             footerSupport: "고객 지원",
             footerAbout: "서비스 소개",
-            footerCopyright: "Copyright © 2025 Exchango FX All rights reserved."
+            footerCopyright: "Copyright © 2025 Exchango AI All rights reserved."
         },
         
         en: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "About Exchango FX - Smart Currency Converter",
-                heroTitle: "Exchango FX",
+                title: "About Exchango AI - Smart Currency Converter",
+                heroTitle: "Exchango AI",
                 heroTagline: "Your Global Currency Companion!",
                 statCurrencies: "Supported Currencies",
                 statLanguages: "Supported Languages",
                 statFree: "Free",
-                sectionTitle1: "What is Exchango FX?",
+                sectionTitle1: "What is Exchango AI?",
                 sectionSubtitle1: "A smart currency calculator that makes complex currency calculations simple and intuitive",
                 smartCalculatorTitle: "Smart & Intuitive",
-                smartCalculatorDesc: "Exchango FX transforms complex currency calculations into simple, intuitive operations. Designed for travelers, business professionals, and anyone dealing with multiple currencies.",
+                smartCalculatorDesc: "Exchango AI transforms complex currency calculations into simple, intuitive operations. Designed for travelers, business professionals, and anyone dealing with multiple currencies.",
                 sectionTitle2: "Supported Currencies",
                 sectionSubtitle2: "Support for over 150 different currencies worldwide",
                 sectionTitle3: "Main Features",
@@ -348,8 +348,8 @@
                 techAutoUpdate: "Auto Update",
                 techAutoUpdateDesc: "Automatic updates for exchange rate data and app features",
                 
-                footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
-                footerAbout: "About Exchango FX",
+                footerCopyright: "Copyright © 2025 Exchango AI All rights reserved.",
+                footerAbout: "About Exchango AI",
                 footerSupport: "Support",
                 footerContact: "Contact Us",
                 footerPrivacy: "Privacy Policy"
@@ -364,18 +364,18 @@
             
             // Section 1: Introduction
             privacySection1Title: "Introduction",
-            privacySection1Subtitle: "Privacy Policy for Exchango FX Service",
+            privacySection1Subtitle: "Privacy Policy for Exchango AI Service",
             privacyIntroTitle: "Privacy Policy Notice",
-            privacyIntroDesc: "Exchango FX values user privacy and complies with privacy laws and regulations. This privacy policy explains how user information is collected, used, and protected in connection with the Exchango FX currency calculator app service (the 'Service').",
+            privacyIntroDesc: "Exchango AI values user privacy and complies with privacy laws and regulations. This privacy policy explains how user information is collected, used, and protected in connection with the Exchango AI currency calculator app service (the 'Service').",
             privacyIntroItem1: "Effective Date: January 1, 2024",
             privacyIntroItem2: "Last Updated: December 1, 2024",
-            privacyIntroItem3: "Contact: exchango.app@gmail.com",
+            privacyIntroItem3: "Contact: contact@schroe.kr",
             
             // Section 2: Information We Collect
             privacySection2Title: "Information We Collect",
             privacySection2Subtitle: "We collect only minimal information necessary for service provision",
             privacyCollect1Title: "Device Information (When Reporting Bugs)",
-            privacyCollect1Desc: "Exchango FX does not collect device information during normal use. However, when users report bugs, technical information such as device type, OS version, and app version may be included to help resolve issues.",
+            privacyCollect1Desc: "Exchango AI does not collect device information during normal use. However, when users report bugs, technical information such as device type, OS version, and app version may be included to help resolve issues.",
             privacyCollect1Item1: "Device information provided only when reporting bugs",
             privacyCollect1Item2: "User-provided, not automatically collected",
             privacyCollect1Item3: "Used only for troubleshooting purposes",
@@ -394,7 +394,7 @@
             privacySection3Title: "How We Use Information",
             privacySection3Subtitle: "Collected information is used only for service provision and improvement",
             privacyUseTitle: "Purpose of Information Use",
-            privacyUseDesc: "Exchango FX uses collected information only for the following purposes:",
+            privacyUseDesc: "Exchango AI uses collected information only for the following purposes:",
             privacyUseItem1: "Providing real-time exchange rate information and accurate currency calculations",
             privacyUseItem2: "Providing service in offline mode",
             privacyUseItem3: "Providing customized user interface",
@@ -419,7 +419,7 @@
             privacySection5Title: "Third-Party Services",
             privacySection5Subtitle: "We use only minimal external services for exchange rate data provision",
             privacyThirdPartyTitle: "Use of External Services",
-            privacyThirdPartyDesc: "Exchango FX receives exchange rate data through reliable external services to provide accurate exchange rate information:",
+            privacyThirdPartyDesc: "Exchango AI receives exchange rate data through reliable external services to provide accurate exchange rate information:",
             privacyThirdPartyItem1: "Real-time exchange rate data API utilization",
             privacyThirdPartyItem2: "Secure data transmission through security protocols",
             privacyThirdPartyItem3: "Personal information is not shared with third parties",
@@ -435,13 +435,13 @@
             privacyRights3Title: "Right to Stop Service",
             privacyRights3Desc: "You can stop using the app at any time, and all local data is automatically deleted when the app is deleted. No separate withdrawal process is required.",
             privacyRights4Title: "Inquiries and Reports",
-            privacyRights4Desc: "If you have any questions or concerns about privacy, please contact us at exchango.app@gmail.com.",
+            privacyRights4Desc: "If you have any questions or concerns about privacy, please contact us at contact@schroe.kr.",
             
             // Section 7: Children's Privacy
             privacySection7Title: "Children's Privacy Protection",
             privacySection7Subtitle: "We do not collect personal information from children under 14",
             privacyChildrenTitle: "Child Protection Policy",
-            privacyChildrenDesc: "Exchango FX is designed to be safely used by users of all ages. All data generated in the app (calculation records, settings, etc.) is stored only on the user's device and is not transmitted to external servers. Even if children under 14 use the app, no personally identifiable information is collected, and all data is stored locally only. Parents can safely allow their children to use the app.",
+            privacyChildrenDesc: "Exchango AI is designed to be safely used by users of all ages. All data generated in the app (calculation records, settings, etc.) is stored only on the user's device and is not transmitted to external servers. Even if children under 14 use the app, no personally identifiable information is collected, and all data is stored locally only. Parents can safely allow their children to use the app.",
             
             // Section 8: Policy Updates
             privacySection8Title: "Privacy Policy Changes",
@@ -457,7 +457,7 @@
             privacySection9Subtitle: "Please contact us if you have any privacy-related questions",
             privacyContactTitle: "Contact Us",
             privacyContactDesc: "If you have any questions about this privacy policy, privacy-related complaints, or other feedback, please contact us at the address below. We will respond promptly and sincerely.",
-            privacyContactEmail: "Email: exchango.app@gmail.com",
+            privacyContactEmail: "Email: contact@schroe.kr",
             privacyContactWebsite: "Website: https://exchango.app",
             privacyContactResponse: "Response time: Within 48 business hours",
             
@@ -465,22 +465,22 @@
             heroTagline: "Your Global Currency Companion!",
             footerSupport: "Support",
             footerAbout: "About Service",
-            footerCopyright: "Copyright © 2025 Exchango FX All rights reserved."
+            footerCopyright: "Copyright © 2025 Exchango AI All rights reserved."
         },
         
         ja: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "Exchango FXについて - スマート通貨変換",
-                heroTitle: "Exchango FX",
+                title: "Exchango AIについて - スマート通貨変換",
+                heroTitle: "Exchango AI",
                 heroTagline: "あなたの為替パートナー！",
                 statCurrencies: "サポート通貨",
                 statLanguages: "サポート言語",
                 statFree: "無料",
-                sectionTitle1: "Exchango FXとは？",
+                sectionTitle1: "Exchango AIとは？",
                 sectionSubtitle1: "複雑な通貨計算をシンプルで直感的にするスマート通貨計算機",
                 smartCalculatorTitle: "スマート＆直感的",
-                smartCalculatorDesc: "Exchango FXは複雑な通貨計算をシンプルで直感的な操作に変換します。旅行者、ビジネス専門家、複数通貨を扱う全ての人のために設計されています。",
+                smartCalculatorDesc: "Exchango AIは複雑な通貨計算をシンプルで直感的な操作に変換します。旅行者、ビジネス専門家、複数通貨を扱う全ての人のために設計されています。",
                 sectionTitle2: "サポート通貨",
                 sectionSubtitle2: "世界150以上の様々な通貨をサポート",
                 sectionTitle3: "主な機能",
@@ -577,8 +577,8 @@
                 techAutoUpdate: "自動更新",
                 techAutoUpdateDesc: "為替データとアプリ機能の自動更新",
                 
-                footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
-                footerAbout: "Exchango FXについて",
+                footerCopyright: "Copyright © 2025 Exchango AI All rights reserved.",
+                footerAbout: "Exchango AIについて",
                 footerSupport: "サポート",
                 footerContact: "お問い合わせ",
                 footerPrivacy: "プライバシーポリシー"
@@ -593,18 +593,18 @@
             
             // Section 1: Introduction
             privacySection1Title: "はじめに",
-            privacySection1Subtitle: "Exchango FXサービス利用のためのプライバシーポリシー",
+            privacySection1Subtitle: "Exchango AIサービス利用のためのプライバシーポリシー",
             privacyIntroTitle: "プライバシーポリシーのご案内",
-            privacyIntroDesc: "Exchango FXはユーザーのプライバシーを重視し、プライバシー法および関連法令を遵守します。本プライバシーポリシーは、Exchango FX為替計算アプリサービス（以下「サービス」）に関連して、ユーザーのプライバシーがどのように収集、使用、保護されるかを説明します。",
+            privacyIntroDesc: "Exchango AIはユーザーのプライバシーを重視し、プライバシー法および関連法令を遵守します。本プライバシーポリシーは、Exchango AI為替計算アプリサービス（以下「サービス」）に関連して、ユーザーのプライバシーがどのように収集、使用、保護されるかを説明します。",
             privacyIntroItem1: "施行日：2024年1月1日",
             privacyIntroItem2: "最終更新日：2024年12月1日",
-            privacyIntroItem3: "お問い合わせ：exchango.app@gmail.com",
+            privacyIntroItem3: "お問い合わせ：contact@schroe.kr",
             
             // Section 2: Information We Collect
             privacySection2Title: "収集する情報",
             privacySection2Subtitle: "サービス提供のため最小限の情報のみを収集します",
             privacyCollect1Title: "デバイス情報（バグ報告時）",
-            privacyCollect1Desc: "Exchango FXは通常使用中にデバイス情報を収集しません。ただし、ユーザーがバグを報告する際、問題解決のためにデバイスタイプ、OSバージョン、アプリバージョンなどの技術的情報が含まれることがあります。",
+            privacyCollect1Desc: "Exchango AIは通常使用中にデバイス情報を収集しません。ただし、ユーザーがバグを報告する際、問題解決のためにデバイスタイプ、OSバージョン、アプリバージョンなどの技術的情報が含まれることがあります。",
             privacyCollect1Item1: "バグ報告時のみデバイス情報提供",
             privacyCollect1Item2: "自動収集ではなくユーザー提供方式",
             privacyCollect1Item3: "問題解決目的でのみ使用",
@@ -623,7 +623,7 @@
             privacySection3Title: "情報の使用方法",
             privacySection3Subtitle: "収集された情報はサービス提供と改善のみに使用されます",
             privacyUseTitle: "情報活用目的",
-            privacyUseDesc: "Exchango FXは収集した情報を次の目的でのみ使用します：",
+            privacyUseDesc: "Exchango AIは収集した情報を次の目的でのみ使用します：",
             privacyUseItem1: "リアルタイム為替情報提供と正確な為替計算",
             privacyUseItem2: "オフラインモードでのサービス提供",
             privacyUseItem3: "ユーザーカスタマイズインターフェース提供",
@@ -648,7 +648,7 @@
             privacySection5Title: "第三者サービス",
             privacySection5Subtitle: "為替データ提供のための最小限の外部サービスのみ使用します",
             privacyThirdPartyTitle: "外部サービス使用",
-            privacyThirdPartyDesc: "Exchango FXは正確な為替情報提供のため、信頼できる外部サービスを通じて為替データの提供を受けています：",
+            privacyThirdPartyDesc: "Exchango AIは正確な為替情報提供のため、信頼できる外部サービスを通じて為替データの提供を受けています：",
             privacyThirdPartyItem1: "リアルタイム為替データAPI活用",
             privacyThirdPartyItem2: "セキュリティプロトコルを通じた安全なデータ送信",
             privacyThirdPartyItem3: "個人情報は第三者と共有されません",
@@ -664,13 +664,13 @@
             privacyRights3Title: "サービス中断権",
             privacyRights3Desc: "いつでもアプリの使用を中断でき、アプリ削除時にすべてのローカルデータが自動的に削除されます。別途の退会手続きは必要ありません。",
             privacyRights4Title: "お問い合わせと報告",
-            privacyRights4Desc: "プライバシー関連のお問い合わせや懸念事項がございましたら、いつでもexchango.app@gmail.comまでご連絡ください。",
+            privacyRights4Desc: "プライバシー関連のお問い合わせや懸念事項がございましたら、いつでもcontact@schroe.krまでご連絡ください。",
             
             // Section 7: Children's Privacy
             privacySection7Title: "児童のプライバシー保護",
             privacySection7Subtitle: "14歳未満の児童の個人情報は収集しません",
             privacyChildrenTitle: "児童保護ポリシー",
-            privacyChildrenDesc: "Exchango FXはすべての年齢のユーザーが安全に使用できるよう設計されています。アプリで生成されるすべてのデータ（計算記録、設定など）はユーザーのデバイスにのみ保存され、外部サーバーに送信されません。14歳未満の児童が使用しても個人識別情報は収集されず、すべてのデータはローカルにのみ保管されます。保護者の方は安心してお子様がアプリを使用することを許可できます。",
+            privacyChildrenDesc: "Exchango AIはすべての年齢のユーザーが安全に使用できるよう設計されています。アプリで生成されるすべてのデータ（計算記録、設定など）はユーザーのデバイスにのみ保存され、外部サーバーに送信されません。14歳未満の児童が使用しても個人識別情報は収集されず、すべてのデータはローカルにのみ保管されます。保護者の方は安心してお子様がアプリを使用することを許可できます。",
             
             // Section 8: Policy Updates
             privacySection8Title: "プライバシーポリシーの変更",
@@ -686,7 +686,7 @@
             privacySection9Subtitle: "プライバシー関連のお問い合わせはご連絡ください",
             privacyContactTitle: "お問い合わせ",
             privacyContactDesc: "プライバシーポリシーに関するお問い合わせ、プライバシー関連の苦情、その他のご意見がございましたら、下記連絡先までお問い合わせください。迅速かつ誠実にお答えいたします。",
-            privacyContactEmail: "メール：exchango.app@gmail.com",
+            privacyContactEmail: "メール：contact@schroe.kr",
             privacyContactWebsite: "ウェブサイト：https://exchango.app",
             privacyContactResponse: "応答時間：営業日基準48時間以内",
             
@@ -700,16 +700,16 @@
         zh: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "关于Exchango FX - 智能货币转换器",
-                heroTitle: "Exchango FX",
+                title: "关于Exchango AI - 智能货币转换器",
+                heroTitle: "Exchango AI",
                 heroTagline: "您的汇率伙伴！",
                 statCurrencies: "支持货币",
                 statLanguages: "支持语言",
                 statFree: "免费",
-                sectionTitle1: "什么是Exchango FX？",
+                sectionTitle1: "什么是Exchango AI？",
                 sectionSubtitle1: "让复杂货币计算变得简单直观的智能货币计算器",
                 smartCalculatorTitle: "智能直观",
-                smartCalculatorDesc: "Exchango FX将复杂的货币计算转换为简单直观的操作。专为旅行者、商业专家和处理多种货币的任何人设计。",
+                smartCalculatorDesc: "Exchango AI将复杂的货币计算转换为简单直观的操作。专为旅行者、商业专家和处理多种货币的任何人设计。",
                 sectionTitle2: "支持货币",
                 sectionSubtitle2: "支持全球150多种不同货币",
                 sectionTitle3: "主要功能",
@@ -806,8 +806,8 @@
                 techAutoUpdate: "自动更新",
                 techAutoUpdateDesc: "汇率数据和应用功能自动更新",
                 
-                footerCopyright: "Copyright © 2025 Exchango FX All rights reserved.",
-                footerAbout: "关于Exchango FX",
+                footerCopyright: "Copyright © 2025 Exchango AI All rights reserved.",
+                footerAbout: "关于Exchango AI",
                 footerSupport: "客户支持",
                 footerContact: "联系我们",
                 footerPrivacy: "隐私政策"
@@ -822,18 +822,18 @@
             
             // Section 1: Introduction
             privacySection1Title: "简介",
-            privacySection1Subtitle: "Exchango FX服务使用的隐私政策",
+            privacySection1Subtitle: "Exchango AI服务使用的隐私政策",
             privacyIntroTitle: "隐私政策说明",
-            privacyIntroDesc: "Exchango FX重视用户隐私，遵守隐私法及相关法规。本隐私政策说明了与Exchango FX汇率计算器应用服务（以下简称\"服务\"）相关的用户隐私如何被收集、使用和保护。",
+            privacyIntroDesc: "Exchango AI重视用户隐私，遵守隐私法及相关法规。本隐私政策说明了与Exchango AI汇率计算器应用服务（以下简称\"服务\"）相关的用户隐私如何被收集、使用和保护。",
             privacyIntroItem1: "生效日期：2024年1月1日",
             privacyIntroItem2: "最后更新：2024年12月1日",
-            privacyIntroItem3: "联系方式：exchango.app@gmail.com",
+            privacyIntroItem3: "联系方式：contact@schroe.kr",
             
             // Section 2: Information We Collect
             privacySection2Title: "收集的信息",
             privacySection2Subtitle: "仅收集提供服务所需的最少信息",
             privacyCollect1Title: "设备信息（报告错误时）",
-            privacyCollect1Desc: "Exchango FX在正常使用期间不收集设备信息。但是，当用户报告错误时，可能包含设备类型、操作系统版本、应用版本等技术信息以帮助解决问题。",
+            privacyCollect1Desc: "Exchango AI在正常使用期间不收集设备信息。但是，当用户报告错误时，可能包含设备类型、操作系统版本、应用版本等技术信息以帮助解决问题。",
             privacyCollect1Item1: "仅在报告错误时提供设备信息",
             privacyCollect1Item2: "用户提供方式，非自动收集",
             privacyCollect1Item3: "仅用于问题解决目的",
@@ -852,7 +852,7 @@
             privacySection3Title: "信息使用方式",
             privacySection3Subtitle: "收集的信息仅用于服务提供和改进",
             privacyUseTitle: "信息使用目的",
-            privacyUseDesc: "Exchango FX仅将收集的信息用于以下目的：",
+            privacyUseDesc: "Exchango AI仅将收集的信息用于以下目的：",
             privacyUseItem1: "提供实时汇率信息和准确的汇率计算",
             privacyUseItem2: "在离线模式下提供服务",
             privacyUseItem3: "提供用户定制界面",
@@ -877,7 +877,7 @@
             privacySection5Title: "第三方服务",
             privacySection5Subtitle: "仅使用提供汇率数据所需的最少外部服务",
             privacyThirdPartyTitle: "外部服务使用",
-            privacyThirdPartyDesc: "Exchango FX通过可靠的外部服务获取汇率数据，以提供准确的汇率信息：",
+            privacyThirdPartyDesc: "Exchango AI通过可靠的外部服务获取汇率数据，以提供准确的汇率信息：",
             privacyThirdPartyItem1: "实时汇率数据API利用",
             privacyThirdPartyItem2: "通过安全协议安全传输数据",
             privacyThirdPartyItem3: "个人信息不与第三方共享",
@@ -893,13 +893,13 @@
             privacyRights3Title: "服务中止权",
             privacyRights3Desc: "您可以随时停止使用应用，删除应用时所有本地数据将自动删除。无需单独的退出程序。",
             privacyRights4Title: "咨询和举报",
-            privacyRights4Desc: "如有隐私相关问题或疑虑，请随时联系exchango.app@gmail.com。",
+            privacyRights4Desc: "如有隐私相关问题或疑虑，请随时联系contact@schroe.kr。",
             
             // Section 7: Children's Privacy
             privacySection7Title: "儿童隐私保护",
             privacySection7Subtitle: "不收集14岁以下儿童的个人信息",
             privacyChildrenTitle: "儿童保护政策",
-            privacyChildrenDesc: "Exchango FX设计为所有年龄用户都能安全使用。应用中生成的所有数据（计算记录、设置等）仅存储在用户设备上，不会传输到外部服务器。即使14岁以下儿童使用，也不会收集个人识别信息，所有数据仅保存在本地。家长可以放心让孩子使用应用。",
+            privacyChildrenDesc: "Exchango AI设计为所有年龄用户都能安全使用。应用中生成的所有数据（计算记录、设置等）仅存储在用户设备上，不会传输到外部服务器。即使14岁以下儿童使用，也不会收集个人识别信息，所有数据仅保存在本地。家长可以放心让孩子使用应用。",
             
             // Section 8: Policy Updates
             privacySection8Title: "隐私政策变更",
@@ -915,7 +915,7 @@
             privacySection9Subtitle: "如有隐私相关问题请联系我们",
             privacyContactTitle: "联系我们",
             privacyContactDesc: "如对隐私政策有疑问、隐私相关投诉或其他意见，请通过以下联系方式与我们联系。我们将迅速、诚恳地回复。",
-            privacyContactEmail: "邮箱：exchango.app@gmail.com",
+            privacyContactEmail: "邮箱：contact@schroe.kr",
             privacyContactWebsite: "网站：https://exchango.app",
             privacyContactResponse: "响应时间：工作日48小时内",
             
@@ -930,16 +930,16 @@
         ar: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "حول Exchango FX - محول العملة الذكي",
-                heroTitle: "Exchango FX",
+                title: "حول Exchango AI - محول العملة الذكي",
+                heroTitle: "Exchango AI",
                 heroTagline: "شريكك الذكي في أسعار الصرف!",
                 statCurrencies: "العملات المدعومة",
                 statLanguages: "اللغات المدعومة",
                 statFree: "مجاني",
-                sectionTitle1: "ما هو Exchango FX؟",
+                sectionTitle1: "ما هو Exchango AI؟",
                 sectionSubtitle1: "حاسبة عملة ذكية تجعل حسابات العملة المعقدة بسيطة وبديهية",
                 smartCalculatorTitle: "ذكي وبديهي",
-                smartCalculatorDesc: "يحول Exchango FX حسابات العملة المعقدة إلى عمليات بسيطة وبديهية. مصمم للمسافرين ومحترفي الأعمال وأي شخص يتعامل مع عملات متعددة.",
+                smartCalculatorDesc: "يحول Exchango AI حسابات العملة المعقدة إلى عمليات بسيطة وبديهية. مصمم للمسافرين ومحترفي الأعمال وأي شخص يتعامل مع عملات متعددة.",
                 sectionTitle2: "العملات المدعومة",
                 sectionSubtitle2: "دعم أكثر من 150 عملة مختلفة حول العالم",
                 sectionTitle3: "الميزات الرئيسية",
@@ -1038,8 +1038,8 @@
                 techAutoUpdate: "التحديث التلقائي",
                 techAutoUpdateDesc: "تحديثات تلقائية لبيانات أسعار الصرف وميزات التطبيق",
                 
-                footerCopyright: "حقوق الطبع والنشر © 2025 Exchango FX. جميع الحقوق محفوظة.",
-                footerAbout: "حول Exchango FX",
+                footerCopyright: "حقوق الطبع والنشر © 2025 Exchango AI. جميع الحقوق محفوظة.",
+                footerAbout: "حول Exchango AI",
                 footerSupport: "الدعم",
                 footerContact: "اتصل بنا",
                 footerPrivacy: "سياسة الخصوصية"
@@ -1054,34 +1054,34 @@
             
             // Section 1: Introduction
             privacySection1Title: "مقدمة",
-            privacySection1Subtitle: "سياسة الخصوصية لخدمة Exchango FX",
+            privacySection1Subtitle: "سياسة الخصوصية لخدمة Exchango AI",
             privacyIntroTitle: "إشعار سياسة الخصوصية",
-            privacyIntroDesc: "تقدر Exchango FX خصوصية المستخدم وتمتثل لقوانين ولوائح الخصوصية. تشرح سياسة الخصوصية هذه كيفية جمع واستخدام وحماية معلومات المستخدم فيما يتعلق بخدمة تطبيق حاسبة العملة Exchango FX (\"الخدمة\").",
+            privacyIntroDesc: "تقدر Exchango AI خصوصية المستخدم وتمتثل لقوانين ولوائح الخصوصية. تشرح سياسة الخصوصية هذه كيفية جمع واستخدام وحماية معلومات المستخدم فيما يتعلق بخدمة تطبيق حاسبة العملة Exchango AI (\"الخدمة\").",
             privacyIntroItem1: "تاريخ السريان: 1 يناير 2024",
             privacyIntroItem2: "آخر تحديث: 1 ديسمبر 2024",
-            privacyIntroItem3: "الاتصال: exchango.app@gmail.com",
+            privacyIntroItem3: "الاتصال: contact@schroe.kr",
             
             // Footer translations for privacy page
             heroTagline: "رفيقك العالمي للعملة!",
             footerSupport: "الدعم",
             footerAbout: "حول الخدمة",
-            footerCopyright: "حقوق الطبع والنشر © 2025 Exchango FX. جميع الحقوق محفوظة."
+            footerCopyright: "حقوق الطبع والنشر © 2025 Exchango AI. جميع الحقوق محفوظة."
         },
         
         // German
         de: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "Über Exchango FX - Intelligenter Währungskonverter",
-                heroTitle: "Exchango FX",
+                title: "Über Exchango AI - Intelligenter Währungskonverter",
+                heroTitle: "Exchango AI",
                 heroTagline: "Ihr intelligenter Wechselkurs-Partner!",
                 statCurrencies: "Unterstützte Währungen",
                 statLanguages: "Unterstützte Sprachen",
                 statFree: "Kostenlos",
-                sectionTitle1: "Was ist Exchango FX?",
+                sectionTitle1: "Was ist Exchango AI?",
                 sectionSubtitle1: "Ein intelligenter Währungsrechner, der komplexe Währungsberechnungen einfach und intuitiv macht",
                 smartCalculatorTitle: "Intelligent und intuitiv",
-                smartCalculatorDesc: "Exchango FX verwandelt komplexe Währungsberechnungen in einfache, intuitive Operationen. Entwickelt für Reisende, Geschäftsprofis und alle, die mit mehreren Währungen arbeiten.",
+                smartCalculatorDesc: "Exchango AI verwandelt komplexe Währungsberechnungen in einfache, intuitive Operationen. Entwickelt für Reisende, Geschäftsprofis und alle, die mit mehreren Währungen arbeiten.",
                 sectionTitle2: "Unterstützte Währungen",
                 sectionSubtitle2: "Unterstützung für über 150 verschiedene Währungen weltweit",
                 sectionTitle3: "Hauptfunktionen",
@@ -1091,8 +1091,8 @@
                 performanceTitle: "Hohe Leistung",
                 performanceDesc: "Mit modernen Mobiltechnologien entwickelt, um stabile und schnelle Leistung auf iOS- und Android-Plattformen zu bieten. Intelligentes Caching und Offline-Unterstützung gewährleisten zuverlässigen Betrieb unter allen Netzwerkbedingungen.",
                 
-                footerCopyright: "Copyright © 2025 Exchango FX. Alle Rechte vorbehalten.",
-                footerAbout: "Über Exchango FX",
+                footerCopyright: "Copyright © 2025 Exchango AI. Alle Rechte vorbehalten.",
+                footerAbout: "Über Exchango AI",
                 footerSupport: "Support",
                 footerContact: "Kontakt",
                 footerPrivacy: "Datenschutzrichtlinie"
@@ -1106,26 +1106,26 @@
             heroTagline: "Ihr globaler Währungsbegleiter!",
             footerSupport: "Support",
             footerAbout: "Über den Service",
-            footerCopyright: "Copyright © 2025 Exchango FX. Alle Rechte vorbehalten."
+            footerCopyright: "Copyright © 2025 Exchango AI. Alle Rechte vorbehalten."
         },
         
         // Spanish
         es: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "Acerca de Exchango FX - Conversor de Moneda Inteligente",
-                heroTitle: "Exchango FX",
+                title: "Acerca de Exchango AI - Conversor de Moneda Inteligente",
+                heroTitle: "Exchango AI",
                 heroTagline: "¡Tu compañero inteligente de tipos de cambio!",
                 statCurrencies: "Monedas Soportadas",
                 statLanguages: "Idiomas Soportados",
                 statFree: "Gratis",
-                sectionTitle1: "¿Qué es Exchango FX?",
+                sectionTitle1: "¿Qué es Exchango AI?",
                 sectionSubtitle1: "Una calculadora de moneda inteligente que hace que los cálculos de moneda complejos sean simples e intuitivos",
                 smartCalculatorTitle: "Inteligente e intuitivo",
-                smartCalculatorDesc: "Exchango FX transforma cálculos de moneda complejos en operaciones simples e intuitivas. Diseñado para viajeros, profesionales de negocios y cualquiera que maneje múltiples monedas.",
+                smartCalculatorDesc: "Exchango AI transforma cálculos de moneda complejos en operaciones simples e intuitivas. Diseñado para viajeros, profesionales de negocios y cualquiera que maneje múltiples monedas.",
                 
-                footerCopyright: "Copyright © 2025 Exchango FX. Todos los derechos reservados.",
-                footerAbout: "Acerca de Exchango FX",
+                footerCopyright: "Copyright © 2025 Exchango AI. Todos los derechos reservados.",
+                footerAbout: "Acerca de Exchango AI",
                 footerSupport: "Soporte",
                 footerContact: "Contáctanos",
                 footerPrivacy: "Política de Privacidad"
@@ -1139,26 +1139,26 @@
             heroTagline: "¡Tu Compañero Global de Moneda!",
             footerSupport: "Soporte",
             footerAbout: "Acerca del Servicio",
-            footerCopyright: "Copyright © 2025 Exchango FX. Todos los derechos reservados."
+            footerCopyright: "Copyright © 2025 Exchango AI. Todos los derechos reservados."
         },
         
         // French
         fr: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "À propos d'Exchango FX - Convertisseur de Devise Intelligent",
-                heroTitle: "Exchango FX",
+                title: "À propos d'Exchango AI - Convertisseur de Devise Intelligent",
+                heroTitle: "Exchango AI",
                 heroTagline: "Votre partenaire intelligent des taux de change !",
                 statCurrencies: "Devises Supportées",
                 statLanguages: "Langues Supportées",
                 statFree: "Gratuit",
-                sectionTitle1: "Qu'est-ce qu'Exchango FX ?",
+                sectionTitle1: "Qu'est-ce qu'Exchango AI ?",
                 sectionSubtitle1: "Une calculatrice de devise intelligente qui rend les calculs de devise complexes simples et intuitifs",
                 smartCalculatorTitle: "Intelligent et intuitif",
-                smartCalculatorDesc: "Exchango FX transforme les calculs de devise complexes en opérations simples et intuitives. Conçu pour les voyageurs, les professionnels et toute personne traitant plusieurs devises.",
+                smartCalculatorDesc: "Exchango AI transforme les calculs de devise complexes en opérations simples et intuitives. Conçu pour les voyageurs, les professionnels et toute personne traitant plusieurs devises.",
                 
-                footerCopyright: "Copyright © 2025 Exchango FX. Tous droits réservés.",
-                footerAbout: "À propos d'Exchango FX",
+                footerCopyright: "Copyright © 2025 Exchango AI. Tous droits réservés.",
+                footerAbout: "À propos d'Exchango AI",
                 footerSupport: "Support",
                 footerContact: "Nous contacter",
                 footerPrivacy: "Politique de confidentialité"
@@ -1172,26 +1172,26 @@
             heroTagline: "Votre Compagnon Mondial de Devise !",
             footerSupport: "Support",
             footerAbout: "À propos du Service",
-            footerCopyright: "Copyright © 2025 Exchango FX. Tous droits réservés."
+            footerCopyright: "Copyright © 2025 Exchango AI. Tous droits réservés."
         },
         
         // Hindi
         hi: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "Exchango FX के बारे में - स्मार्ट करेंसी कन्वर्टर",
-                heroTitle: "Exchango FX",
+                title: "Exchango AI के बारे में - स्मार्ट करेंसी कन्वर्टर",
+                heroTitle: "Exchango AI",
                 heroTagline: "आपका स्मार्ट एक्सचेंज रेट पार्टनर!",
                 statCurrencies: "समर्थित मुद्राएं",
                 statLanguages: "समर्थित भाषाएं",
                 statFree: "मुफ्त",
-                sectionTitle1: "Exchango FX क्या है?",
+                sectionTitle1: "Exchango AI क्या है?",
                 sectionSubtitle1: "एक स्मार्ट करेंसी कैलकुलेटर जो जटिल करेंसी गणना को सरल और सहज बनाता है",
                 smartCalculatorTitle: "स्मार्ट और सहज",
-                smartCalculatorDesc: "Exchango FX जटिल करेंसी गणना को सरल, सहज संचालन में बदल देता है। यात्रियों, व्यावसायिक पेशेवरों और कई मुद्राओं से निपटने वाले किसी भी व्यक्ति के लिए डिज़ाइन किया गया।",
+                smartCalculatorDesc: "Exchango AI जटिल करेंसी गणना को सरल, सहज संचालन में बदल देता है। यात्रियों, व्यावसायिक पेशेवरों और कई मुद्राओं से निपटने वाले किसी भी व्यक्ति के लिए डिज़ाइन किया गया।",
                 
-                footerCopyright: "कॉपीराइट © 2025 Exchango FX। सभी अधिकार सुरक्षित।",
-                footerAbout: "Exchango FX के बारे में",
+                footerCopyright: "कॉपीराइट © 2025 Exchango AI। सभी अधिकार सुरक्षित।",
+                footerAbout: "Exchango AI के बारे में",
                 footerSupport: "सहायता",
                 footerContact: "संपर्क करें",
                 footerPrivacy: "गोपनीयता नीति"
@@ -1205,26 +1205,26 @@
             heroTagline: "आपका वैश्विक करेंसी साथी!",
             footerSupport: "सहायता",
             footerAbout: "सेवा के बारे में",
-            footerCopyright: "कॉपीराइट © 2025 Exchango FX। सभी अधिकार सुरक्षित।"
+            footerCopyright: "कॉपीराइट © 2025 Exchango AI। सभी अधिकार सुरक्षित।"
         },
         
         // Italian
         it: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "Informazioni su Exchango FX - Convertitore di Valuta Intelligente",
-                heroTitle: "Exchango FX",
+                title: "Informazioni su Exchango AI - Convertitore di Valuta Intelligente",
+                heroTitle: "Exchango AI",
                 heroTagline: "Il tuo partner intelligente per i tassi di cambio!",
                 statCurrencies: "Valute Supportate",
                 statLanguages: "Lingue Supportate",
                 statFree: "Gratuito",
-                sectionTitle1: "Cos'è Exchango FX?",
+                sectionTitle1: "Cos'è Exchango AI?",
                 sectionSubtitle1: "Una calcolatrice di valuta intelligente che rende i calcoli di valuta complessi semplici e intuitivi",
                 smartCalculatorTitle: "Intelligente e intuitivo",
-                smartCalculatorDesc: "Exchango FX trasforma i calcoli di valuta complessi in operazioni semplici e intuitive. Progettato per viaggiatori, professionisti aziendali e chiunque abbia a che fare con valute multiple.",
+                smartCalculatorDesc: "Exchango AI trasforma i calcoli di valuta complessi in operazioni semplici e intuitive. Progettato per viaggiatori, professionisti aziendali e chiunque abbia a che fare con valute multiple.",
                 
-                footerCopyright: "Copyright © 2025 Exchango FX. Tutti i diritti riservati.",
-                footerAbout: "Informazioni su Exchango FX",
+                footerCopyright: "Copyright © 2025 Exchango AI. Tutti i diritti riservati.",
+                footerAbout: "Informazioni su Exchango AI",
                 footerSupport: "Supporto",
                 footerContact: "Contattaci",
                 footerPrivacy: "Informativa sulla privacy"
@@ -1238,26 +1238,26 @@
             heroTagline: "Il Tuo Compagno Globale di Valuta!",
             footerSupport: "Supporto",
             footerAbout: "Informazioni sul Servizio",
-            footerCopyright: "Copyright © 2025 Exchango FX. Tutti i diritti riservati."
+            footerCopyright: "Copyright © 2025 Exchango AI. Tutti i diritti riservati."
         },
         
         // Portuguese
         pt: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "Sobre Exchango FX - Conversor de Moeda Inteligente",
-                heroTitle: "Exchango FX",
+                title: "Sobre Exchango AI - Conversor de Moeda Inteligente",
+                heroTitle: "Exchango AI",
                 heroTagline: "Seu parceiro inteligente de taxas de câmbio!",
                 statCurrencies: "Moedas Suportadas",
                 statLanguages: "Idiomas Suportados",
                 statFree: "Grátis",
-                sectionTitle1: "O que é Exchango FX?",
+                sectionTitle1: "O que é Exchango AI?",
                 sectionSubtitle1: "Uma calculadora de moeda inteligente que torna cálculos de moeda complexos simples e intuitivos",
                 smartCalculatorTitle: "Inteligente e intuitivo",
-                smartCalculatorDesc: "Exchango FX transforma cálculos de moeda complexos em operações simples e intuitivas. Projetado para viajantes, profissionais de negócios e qualquer pessoa que lide com múltiplas moedas.",
+                smartCalculatorDesc: "Exchango AI transforma cálculos de moeda complexos em operações simples e intuitivas. Projetado para viajantes, profissionais de negócios e qualquer pessoa que lide com múltiplas moedas.",
                 
-                footerCopyright: "Copyright © 2025 Exchango FX. Todos os direitos reservados.",
-                footerAbout: "Sobre Exchango FX",
+                footerCopyright: "Copyright © 2025 Exchango AI. Todos os direitos reservados.",
+                footerAbout: "Sobre Exchango AI",
                 footerSupport: "Suporte",
                 footerContact: "Entre em contato",
                 footerPrivacy: "Política de Privacidade"
@@ -1271,26 +1271,26 @@
             heroTagline: "Seu Companheiro Global de Moeda!",
             footerSupport: "Suporte",
             footerAbout: "Sobre o Serviço",
-            footerCopyright: "Copyright © 2025 Exchango FX. Todos os direitos reservados."
+            footerCopyright: "Copyright © 2025 Exchango AI. Todos os direitos reservados."
         },
         
         // Russian
         ru: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "О Exchango FX - Умный Конвертер Валют",
-                heroTitle: "Exchango FX",
+                title: "О Exchango AI - Умный Конвертер Валют",
+                heroTitle: "Exchango AI",
                 heroTagline: "Ваш умный партнер по обменным курсам!",
                 statCurrencies: "Поддерживаемые Валюты",
                 statLanguages: "Поддерживаемые Языки",
                 statFree: "Бесплатно",
-                sectionTitle1: "Что такое Exchango FX?",
+                sectionTitle1: "Что такое Exchango AI?",
                 sectionSubtitle1: "Умный калькулятор валют, который делает сложные расчеты валют простыми и интуитивными",
                 smartCalculatorTitle: "Умный и интуитивный",
-                smartCalculatorDesc: "Exchango FX превращает сложные расчеты валют в простые, интуитивные операции. Разработан для путешественников, бизнес-профессионалов и всех, кто имеет дело с несколькими валютами.",
+                smartCalculatorDesc: "Exchango AI превращает сложные расчеты валют в простые, интуитивные операции. Разработан для путешественников, бизнес-профессионалов и всех, кто имеет дело с несколькими валютами.",
                 
-                footerCopyright: "Авторские права © 2025 Exchango FX. Все права защищены.",
-                footerAbout: "О Exchango FX",
+                footerCopyright: "Авторские права © 2025 Exchango AI. Все права защищены.",
+                footerAbout: "О Exchango AI",
                 footerSupport: "Поддержка",
                 footerContact: "Связаться с нами",
                 footerPrivacy: "Политика конфиденциальности"
@@ -1304,26 +1304,26 @@
             heroTagline: "Ваш Глобальный Валютный Компаньон!",
             footerSupport: "Поддержка",
             footerAbout: "О Сервисе",
-            footerCopyright: "Авторские права © 2025 Exchango FX. Все права защищены."
+            footerCopyright: "Авторские права © 2025 Exchango AI. Все права защищены."
         },
         
         // Thai
         th: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "เกี่ยวกับ Exchango FX - ตัวแปลงสกุลเงินอัจฉริยะ",
-                heroTitle: "Exchango FX",
+                title: "เกี่ยวกับ Exchango AI - ตัวแปลงสกุลเงินอัจฉริยะ",
+                heroTitle: "Exchango AI",
                 heroTagline: "พาร์ทเนอร์อัตราแลกเปลี่ยนอัจฉริยะของคุณ!",
                 statCurrencies: "สกุลเงินที่รองรับ",
                 statLanguages: "ภาษาที่รองรับ",
                 statFree: "ฟรี",
-                sectionTitle1: "Exchango FX คืออะไร?",
+                sectionTitle1: "Exchango AI คืออะไร?",
                 sectionSubtitle1: "เครื่องคิดเลขสกุลเงินอัจฉริยะที่ทำให้การคำนวณสกุลเงินที่ซับซ้อนเป็นเรื่องง่ายและใช้งานง่าย",
                 smartCalculatorTitle: "อัจฉริยะและใช้งานง่าย",
-                smartCalculatorDesc: "Exchango FX เปลี่ยนการคำนวณสกุลเงินที่ซับซ้อนให้เป็นการดำเนินการที่ง่ายและใช้งานง่าย ออกแบบมาสำหรับนักเดินทาง ผู้เชี่ยวชาญทางธุรกิจ และทุกคนที่ต้องจัดการกับสกุลเงินหลายสกุล",
+                smartCalculatorDesc: "Exchango AI เปลี่ยนการคำนวณสกุลเงินที่ซับซ้อนให้เป็นการดำเนินการที่ง่ายและใช้งานง่าย ออกแบบมาสำหรับนักเดินทาง ผู้เชี่ยวชาญทางธุรกิจ และทุกคนที่ต้องจัดการกับสกุลเงินหลายสกุล",
                 
-                footerCopyright: "ลิขสิทธิ์ © 2025 Exchango FX สงวนลิขสิทธิ์",
-                footerAbout: "เกี่ยวกับ Exchango FX",
+                footerCopyright: "ลิขสิทธิ์ © 2025 Exchango AI สงวนลิขสิทธิ์",
+                footerAbout: "เกี่ยวกับ Exchango AI",
                 footerSupport: "การสนับสนุน",
                 footerContact: "ติดต่อเรา",
                 footerPrivacy: "นโยบายความเป็นส่วนตัว"
@@ -1337,26 +1337,26 @@
             heroTagline: "เพื่อนร่วมทางสกุลเงินโลกของคุณ!",
             footerSupport: "การสนับสนุน",
             footerAbout: "เกี่ยวกับบริการ",
-            footerCopyright: "ลิขสิทธิ์ © 2025 Exchango FX สงวนลิขสิทธิ์"
+            footerCopyright: "ลิขสิทธิ์ © 2025 Exchango AI สงวนลิขสิทธิ์"
         },
         
         // Turkish
         tr: {
             // ==== ABOUT PAGE ====
             about: {
-                title: "Exchango FX Hakkında - Akıllı Döviz Dönüştürücü",
-                heroTitle: "Exchango FX",
+                title: "Exchango AI Hakkında - Akıllı Döviz Dönüştürücü",
+                heroTitle: "Exchango AI",
                 heroTagline: "Akıllı döviz kuru ortağınız!",
                 statCurrencies: "Desteklenen Para Birimleri",
                 statLanguages: "Desteklenen Diller",
                 statFree: "Ücretsiz",
-                sectionTitle1: "Exchango FX Nedir?",
+                sectionTitle1: "Exchango AI Nedir?",
                 sectionSubtitle1: "Karmaşık döviz hesaplamalarını basit ve sezgisel hale getiren akıllı bir döviz hesaplayıcısı",
                 smartCalculatorTitle: "Akıllı ve sezgisel",
-                smartCalculatorDesc: "Exchango FX karmaşık döviz hesaplamalarını basit, sezgisel işlemlere dönüştürür. Gezginler, iş profesyonelleri ve birden fazla para birimiyle uğraşan herkes için tasarlanmıştır.",
+                smartCalculatorDesc: "Exchango AI karmaşık döviz hesaplamalarını basit, sezgisel işlemlere dönüştürür. Gezginler, iş profesyonelleri ve birden fazla para birimiyle uğraşan herkes için tasarlanmıştır.",
                 
-                footerCopyright: "Telif Hakkı © 2025 Exchango FX. Tüm hakları saklıdır.",
-                footerAbout: "Exchango FX Hakkında",
+                footerCopyright: "Telif Hakkı © 2025 Exchango AI. Tüm hakları saklıdır.",
+                footerAbout: "Exchango AI Hakkında",
                 footerSupport: "Destek",
                 footerContact: "Bize Ulaşın",
                 footerPrivacy: "Gizlilik Politikası"
@@ -1370,7 +1370,7 @@
             heroTagline: "Küresel Para Birimi Arkadaşınız!",
             footerSupport: "Destek",
             footerAbout: "Hizmet Hakkında",
-            footerCopyright: "Telif Hakkı © 2025 Exchango FX. Tüm hakları saklıdır."
+            footerCopyright: "Telif Hakkı © 2025 Exchango AI. Tüm hakları saklıdır."
         }
     };
 
@@ -1667,7 +1667,7 @@
     function init() {
         const currentLang = setCurrentLanguage();
         const pageType = getPageType();
-        console.log(`🚀 Universal Exchango FX translation system initialized with language: ${currentLang} for ${pageType} page`);
+        console.log(`🚀 Universal Exchango AI translation system initialized with language: ${currentLang} for ${pageType} page`);
         applyTranslations();
     }
 
