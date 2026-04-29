@@ -9,7 +9,7 @@
 
     window.ExchangoI18N.register('about', {
         ko: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'Exchango AI 소개 — 환율 계산기 앱',
             aboutMetaDesc: '환율 계산을 가장 단순하게 — 170+개 통화, 14개 언어, 무료. Exchango AI를 소개합니다.',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: '환율 계산을',
@@ -104,7 +104,7 @@
             aboutCtaSub: '지금 다운로드하고 더 똑똑하게 여행하세요.'
         },
         en: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'About Exchango AI — Currency Converter App',
             aboutMetaDesc: 'Currency made simple — 170+ currencies, 14 languages, free. Meet Exchango AI.',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: 'Currency,',
@@ -199,7 +199,7 @@
             aboutCtaSub: 'Download now and travel smarter.'
         },
         ja: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'Exchango AIについて — 為替計算アプリ',
             aboutMetaDesc: '為替計算をいちばんシンプルに — 170+通貨、14言語、無料。Exchango AIを紹介します。',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: '為替計算を',
@@ -294,7 +294,7 @@
             aboutCtaSub: '今ダウンロードして、もっとスマートに旅しましょう。'
         },
         zh: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: '关于 Exchango AI — 汇率计算器应用',
             aboutMetaDesc: '让汇率计算更简单 — 170+ 种货币、14 种语言、免费。这就是 Exchango AI。',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: '让汇率计算',
@@ -389,7 +389,7 @@
             aboutCtaSub: '立即下载,旅行更聪明。'
         },
         es: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'Acerca de Exchango AI — App de conversión de divisas',
             aboutMetaDesc: 'Las divisas, simples — 170+ monedas, 14 idiomas, gratis. Te presentamos Exchango AI.',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: 'Las divisas,',
@@ -484,7 +484,7 @@
             aboutCtaSub: 'Descárgala ahora y viaja más inteligente.'
         },
         fr: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: "À propos d'Exchango AI — App de conversion de devises",
             aboutMetaDesc: "Les devises, simplement — 170+ devises, 14 langues, gratuit. Découvrez Exchango AI.",
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: 'Les devises,',
@@ -579,7 +579,7 @@
             aboutCtaSub: 'Téléchargez maintenant et voyagez plus malin.'
         },
         de: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'Über Exchango AI — Währungsrechner-App',
             aboutMetaDesc: 'Währungen einfach gemacht — 170+ Währungen, 14 Sprachen, kostenlos. Lerne Exchango AI kennen.',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: 'Währungen,',
@@ -674,7 +674,7 @@
             aboutCtaSub: 'Jetzt herunterladen und schlauer reisen.'
         },
         it: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'Informazioni su Exchango AI — App convertitore di valute',
             aboutMetaDesc: 'Le valute, semplici — 170+ valute, 14 lingue, gratis. Scopri Exchango AI.',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: 'Le valute,',
@@ -769,7 +769,7 @@
             aboutCtaSub: 'Scaricala ora e viaggia in modo più smart.'
         },
         pt: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'Sobre o Exchango AI — App conversor de moedas',
             aboutMetaDesc: 'Câmbio simples — 170+ moedas, 14 idiomas, grátis. Conheça o Exchango AI.',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: 'Câmbio,',
@@ -864,7 +864,7 @@
             aboutCtaSub: 'Baixe agora e viaje mais inteligente.'
         },
         ru: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'О Exchango AI — приложение-конвертер валют',
             aboutMetaDesc: 'Валюты — это просто. 170+ валют, 14 языков, бесплатно. Знакомьтесь с Exchango AI.',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: 'Валюты —',
@@ -959,7 +959,7 @@
             aboutCtaSub: 'Скачайте сейчас и путешествуйте умнее.'
         },
         ar: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'حول Exchango AI — تطبيق تحويل العملات',
             aboutMetaDesc: 'العملات بأبسط شكل — 170+ عملة، 14 لغة، مجاناً. تعرّف على Exchango AI.',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: 'العملات',
@@ -1054,7 +1054,7 @@
             aboutCtaSub: 'حمّل الآن وسافر بذكاء أكثر.'
         },
         hi: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'Exchango AI के बारे में — मुद्रा परिवर्तक ऐप',
             aboutMetaDesc: 'मुद्रा को आसान बनाएं — 170+ मुद्राएँ, 14 भाषाएँ, मुफ़्त। मिलिए Exchango AI से।',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: 'मुद्रा,',
@@ -1149,7 +1149,7 @@
             aboutCtaSub: 'अभी डाउनलोड करें और स्मार्ट यात्रा करें।'
         },
         th: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'เกี่ยวกับ Exchango AI — แอปแปลงสกุลเงิน',
             aboutMetaDesc: 'สกุลเงินที่ง่ายที่สุด — 170+ สกุล, 14 ภาษา, ฟรี. ทำความรู้จัก Exchango AI',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: 'สกุลเงิน',
@@ -1244,7 +1244,7 @@
             aboutCtaSub: 'ดาวน์โหลดเลยและเดินทางอย่างชาญฉลาด',
         },
         tr: {
-            aboutDocTitle: 'About — Exchango AI',
+            aboutDocTitle: 'Exchango AI Hakkında — Para Birimi Dönüştürücü',
             aboutMetaDesc: 'Para birimleri kolayca — 170+ para birimi, 14 dil, ücretsiz. Exchango AI ile tanışın.',
             aboutEyebrow: 'ABOUT EXCHANGO AI',
             aboutHeroT1: 'Para birimleri,',

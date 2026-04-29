@@ -20,6 +20,23 @@
     var FALLBACK_LANG = 'en';
     var STORAGE_KEY = 'exchango_lang';
     var RTL_LANGS = ['ar'];
+    var SITE_ORIGIN = 'https://exchango.app';
+    var OG_LOCALES = {
+        ko: 'ko_KR',
+        en: 'en_US',
+        ja: 'ja_JP',
+        zh: 'zh_CN',
+        es: 'es_ES',
+        fr: 'fr_FR',
+        de: 'de_DE',
+        it: 'it_IT',
+        pt: 'pt_BR',
+        ru: 'ru_RU',
+        ar: 'ar_AR',
+        hi: 'hi_IN',
+        th: 'th_TH',
+        tr: 'tr_TR'
+    };
 
     // Native names shown in the language picker
     var LANG_LABELS = {
@@ -127,6 +144,60 @@
         document.documentElement.setAttribute('dir', RTL_LANGS.indexOf(currentLang) !== -1 ? 'rtl' : 'ltr');
     }
 
+    function getCanonicalPath() {
+        var filename = (window.location.pathname || '/').split('/').pop();
+        if (!filename || filename === 'index.html') return '/';
+        return '/' + filename;
+    }
+
+    function getCanonicalUrl(lang) {
+        var url = SITE_ORIGIN + getCanonicalPath();
+        if (lang && SUPPORTED.indexOf(lang) !== -1) url += '?lang=' + lang;
+        return url;
+    }
+
+    function upsertLink(rel, attrs) {
+        var selector = 'link[rel="' + rel + '"]';
+        if (attrs.hreflang) selector += '[hreflang="' + attrs.hreflang + '"]';
+        var el = document.querySelector(selector);
+        if (!el) {
+            el = document.createElement('link');
+            el.setAttribute('rel', rel);
+            document.head.appendChild(el);
+        }
+        Object.keys(attrs).forEach(function (name) {
+            el.setAttribute(name, attrs[name]);
+        });
+    }
+
+    function upsertMeta(attrName, attrValue, content) {
+        var el = document.querySelector('meta[' + attrName + '="' + attrValue + '"]');
+        if (!el) {
+            el = document.createElement('meta');
+            el.setAttribute(attrName, attrValue);
+            document.head.appendChild(el);
+        }
+        el.setAttribute('content', content);
+    }
+
+    function syncSeoMeta() {
+        var urlLang = new URLSearchParams(window.location.search).get('lang');
+        var canonicalLang = SUPPORTED.indexOf(urlLang) !== -1 ? urlLang : null;
+        var canonicalUrl = getCanonicalUrl(canonicalLang);
+
+        upsertLink('canonical', { href: canonicalUrl });
+        upsertMeta('property', 'og:url', canonicalUrl);
+        upsertMeta('property', 'og:locale', OG_LOCALES[currentLang] || OG_LOCALES[FALLBACK_LANG]);
+
+        var robots = document.querySelector('meta[name="robots"]');
+        if (robots && /noindex/i.test(robots.getAttribute('content') || '')) return;
+
+        upsertLink('alternate', { hreflang: 'x-default', href: getCanonicalUrl(null) });
+        SUPPORTED.forEach(function (lang) {
+            upsertLink('alternate', { hreflang: lang, href: getCanonicalUrl(lang) });
+        });
+    }
+
     function switchLang(lang) {
         if (SUPPORTED.indexOf(lang) === -1) return;
         currentLang = lang;
@@ -143,6 +214,7 @@
         applyAll();
         preserveLangOnLinks();
         updatePickerUI();
+        syncSeoMeta();
 
         // Notify listeners
         document.dispatchEvent(new CustomEvent('i18n:changed', { detail: { lang: lang } }));
@@ -329,6 +401,7 @@
         applyAll();
         preserveLangOnLinks();
         updatePickerUI();
+        syncSeoMeta();
     }
 
     if (document.readyState === 'loading') {
