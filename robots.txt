@@ -4,4 +4,4 @@ Allow: /
 Sitemap: https://exchango.app/sitemap.xml
 Sitemap: https://exchango.app/rss.xml
 
-#DaumWebMasterTool:2aec7186ee937cd9449d6695a1524d85e963ddfeade31c7f610ef518167fc877:rp+QviZtqwRKFpwdNmMavg==
+#DaumWebMasterTool:ea27167e7227bd88de981cf7eff7d63ca173294f40a8b2762dc6e07cceb50f68:krAfvsEJbH4dof6+UYGOfA==
